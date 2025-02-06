@@ -5,6 +5,7 @@ HERB Scraper는 한약재 데이터를 자동으로 크롤링하여 **SwissADME*
 최종적으로 하나의 데이터셋(`final_dataset.csv`)을 생성하는 파이프라인 프로젝트입니다.
 
 ## 📂 디렉토리 구조
+```
 herb-scraper
 ├── README.md
 ├── __pycache__
@@ -32,6 +33,7 @@ herb-scraper
 │   └── swissadme_query.py
 ├── setup.py
 └── venv
+```
 
 ---
 
@@ -56,11 +58,6 @@ HERB 크롤링 → 한약재별 활성 성분 데이터 수집
 SwissADME 크롤링 → 각 성분의 분자적 특성 정보 수집
 BATMAN-TCM API 호출 → 각 성분의 표적 단백질(Target Name) 조회
 데이터 통합 → 최종 데이터셋(final_dataset.csv) 생성
-
----
-
-### **📌 `README.md` 데이터 흐름부터 다시 정리 (Markdown 문법 적용)**
-📌 **이 문서는 프로젝트의 데이터 흐름과 상세 과정을 설명합니다.**  
 
 ---
 
