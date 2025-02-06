@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/hyeonseokim_macbookpro/Desktop/서강대학교/2024/상지대학교/2025_상지학술제_논문/herb_scraper/venv"
+set -gx VIRTUAL_ENV "/Users/hyeonseokim_macbookpro/Desktop/서강대학교/2024/상지대학교/2025_상지학술제_논문/herb-scraper/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

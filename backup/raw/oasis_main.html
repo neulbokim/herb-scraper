@@ -1,0 +1,5377 @@
+<!-- 한약재 표본검색 jsp  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>한약재 &gt; 약재백과 &gt; 기본검색 &gt; 전통의학정보포털시스템</title>
+
+<!-- ### 페이지 공통 메타, 플랜아이 사용 css, script Start ### -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta name="viewport" content="width=device-width, user-scalable=yes">
+<meta name="title" content="OASIS 홈페이지" />
+<meta name="keywords" content="전통의학, 한의학, 오아시스" />
+<meta name="description" content="전통의학정보포털" />
+<meta name="copyright" content="한의학연구원" />
+<meta name="author" content="㈜플랜아이" />
+
+<!-- <meta http-equiv="Content-Security-Policy" content="default-src https:"> -->
+
+<link rel="stylesheet" href="/cms/css/common/basic.css" />
+<link rel="stylesheet" href="/cms/css/kps/sub.css" />
+<link rel="stylesheet" href="/cms/css/kps/response/sub.css" />
+
+<link rel="stylesheet" href="/cms/utils/datepicker/css/datepicker.css" />
+<link rel="stylesheet" href="/cms/css/template/metsys/button.css" />
+
+<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"> -->
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" integrity="sha256-8NOioA6lBuB2He/Jwn4F/wh8D5MuFfvF5dYcM6eMK5k= sha384-OX60W5no62t3a7IWb/778scS02RmUVFiMWgxiaEMwIlqYjLONUVz9xqTGVWlyiFH sha512-ojSOwzSBnCwKndeqogu0jdByv7M1XakuXn8qhsxKlcrkYGbGQuDn3nvxGmOdU19RRkFBMle0heGwjGymleukCQ==" crossorigin="anonymous" /> -->
+
+<script src="/cms/js/jquery/core/html5.js"></script>
+<script src="/cms/js/jquery/core/jquery.js"></script>
+<script src="/cms/js/jquery/core/jquery-migrate-1.2.1.js"></script>
+<script src="/cms/js/jquery/core/jquery-ui.min.js"></script>
+<script src="/cms/js/plani/jquery.plani.util.js"></script>
+<script src="/cms/js/jquery/plugin/jquery-plani.menu.js"></script>
+<script src="/cms/js/jquery/plugin/jquery-plani.site_link.js"></script>
+<script src="/cms/js/jquery/plugin/jquery-plani.popupzone.js"></script>
+<script src="/cms/js/jquery/plugin/jquery.alphanumeric.js"></script>
+<script src="/cms/js/plani/jquery.bxslider.js"></script>
+<script src="/cms/js/kps/common.js"></script>
+<script src="/cms/js/kps/sub.js"></script>
+<script src="/cms/js/ips/login.js"></script>
+
+<script src="/cms/js/plani/_cmmn/plani_common.js"></script>
+<script src="/cms/js/plani/_cmmn/plani_gen.js"></script>
+<script src="/cms/js/plani/_cmmn/plani_auth.js"></script>
+<script src="/cms/utils/datepicker/js/datepicker.js"></script>
+<script src="/cms/js/kps/jquery.scrollbar.concat.min.js" ></script>
+
+
+
+
+
+<!-- LOGGER(TM) TRACKING SCRIPT V.40 FOR logger.co.kr / 54156 : COMBINE TYPE / DO NOT ALTER THIS SCRIPT. -->
+<script type="text/javascript">var _TRK_LID="54156";var _L_TD="ssl.logger.co.kr";var _TRK_CDMN=".kiom.re.kr";</script>
+<script type="text/javascript">var _CDN_DOMAIN = location.protocol == "https:" ? "https://fs.bizspring.net" : "http://fs.bizspring.net";
+(function(b,s){var f=b.getElementsByTagName(s)[0],j=b.createElement(s);j.async=true;j.src='//fs.bizspring.net/fs4/bstrk.1.js';f.parentNode.insertBefore(j,f);})(document,'script');</script>
+<noscript><img alt="Logger Script" width="1" height="1" src="http://ssl.logger.co.kr/tracker.tsp?u=54156&amp;js=N" /></noscript>
+<!-- END OF LOGGER TRACKING SCRIPT -->
+
+<!-- LOGGER(TM) SCRIPT FOR SETTING ENVIRONMENT V.27 :  / FILL THE VALUE TO SET. -->
+<script type="text/javascript">
+_TRK_CP = "";
+</script>
+<!-- END OF ENVIRONMENT SCRIPT -->
+
+
+
+
+<!-- 파비콘 -->
+<!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+
+<!--
+	페이지별로 들어가는 공통적인 명령에 대한 스크립트만 여기에 추가한다.
+	ex) 메뉴 페이지 이동 스크립트 등..
+	2013.04.16 bhhan
+-->	
+<script type="text/javascript">
+
+var is_allmenu_open = false;
+var lastMenuIDLv1 = "";
+var lastMenuIDLv2 = "";
+var lg_srch_menu_nix = "87Z2RM16"; 
+var lg_menu_nm = "";
+var lg_pg_ret_type = "";
+var lg_brd_id = "";
+var lg_brd_nm = "";
+var lg_lv = "N";
+
+var lg_mu_site = ""; 
+var lg_mu_lang = ""; 
+lg_mu_site = (lg_mu_site == null || lg_mu_site == "") ? "CDIDX00002" : lg_mu_site;
+lg_mu_lang = (lg_mu_lang == null || lg_mu_lang == "") ? "CDIDX00022" : lg_mu_lang;
+
+var rcvact = "";
+
+var lg_scrap_newwnd = "";
+jQuery(document).ready(function(){
+	
+	g_context = "";
+	jQuery(":text").focus(function(){$(this).select();});
+	
+	// 사이트 초기화
+	initSiteTools();
+
+	// 인증 초기화
+	if(typeof initSiteAuth == "function")
+		initSiteAuth();
+	
+
+	jQuery("span[class*='sbjt_width_x']").each(function(){
+		
+		var class_ = $(this).attr("class");
+		var x = parseInt(class_.replace(/sbjt_width_x/g, ""));
+		x = x-1;
+		
+		$(this)
+			.css("padding", "0 " + (x * 5) + "px 0 " + (x * 5) + "px");
+		
+	});
+	
+	//console.log("페이지 기본설정 로드");
+	if(lg_srch_menu_nix != "")
+		sitePagestatWrite();
+	
+	
+/* 	if(lg_lv == 'Y')
+	{
+		jQuery("#gnavigation li a").each(function(){
+			
+			if($(this).is("a"))
+			{
+				// 로그인한 상태면 좌측 로그인 메뉴 숨기기
+				var login_menunix = "05I2d7YX";
+				if( $(this).attr("href").indexOf(login_menunix) >= 0)
+					$(this).parent().hide();
+
+				// 로그인한 상태면 회원가입 메뉴 숨기기
+				var join_menunix = "67rO8E9h";
+				if( $(this).attr("href").indexOf(join_menunix) >= 0)
+					$(this).parent().hide();
+
+				// 로그인한 상태면 아이디패스워드찾기 메뉴 숨기기
+				var recover_menunix = "KfgV39Q9";
+				if( $(this).attr("href").indexOf(recover_menunix) >= 0)
+					$(this).parent().hide();
+			}
+				
+			
+		});
+	}
+			
+	 */
+	 
+	 jQuery("#totalOrginSearch, #searchKeyword, #orginSearch, #searchData, #sourceInput, #organInput").css("ime-mode","active");
+	 
+
+	jQuery("#topTotalKeyword").unbind("keypress");
+	jQuery("#topTotalKeyword").keydown(function(event){
+		if(event.keyCode == 13)
+		{
+			topTotalSearchAction();
+			return false;
+		}
+	});
+	
+	
+	if(lg_scrap_newwnd  =="Y")
+	{
+		jQuery("#header, #footer").hide();
+		jQuery("#body").css("margin-left", "0px");
+	}
+
+	// 접근성 처리
+	// 2017.05.08 bhhan
+	if(jQuery("input[id^='orginSearch']").length > 1)
+	{
+		jQuery("#orginSearch", jQuery("#header")).remove();
+	}
+	if(jQuery("input[id^='search_word']").length > 1)
+	{
+		jQuery("#search_word", jQuery("#header")).remove();
+	}
+});
+
+
+
+
+
+function sitePagestatWrite(){
+	$.ajax({
+		url: g_context + '/contents/sitePagestatWrite.do',
+		data :{
+			srch_menu_nix : lg_srch_menu_nix,
+			referer : encodeURIComponent("")
+		},
+		dataType: 'html',
+		cache : false,
+		async : true,
+		success: function(data) {
+		},
+		error : function(xhr, err){
+       }
+   });
+}
+
+function fn_egov_auth_move(form, pg_ret_type)
+{
+	fn_egov_move_action(form, "/svcmem/sysmemPagemove.do?tgtact=chkUsrcertForm&srch_menu_nix=87Z2RM16&pg_ret_type="+pg_ret_type);
+};
+
+function fn_egov_loginauth_move(pg_ret_type)
+{
+	
+		alert("로그인 또는 본인확인 후 작성할 수 있습니다.");
+	
+	location.href = g_context + "/svcmem/sysmemPagemove.do?tgtact=loginAuth&srch_menu_nix=87Z2RM16&pg_ret_type="+pg_ret_type;
+};
+
+
+/* 통합검색 */
+function totalSearchAction() 
+{
+	var frm  = document.reqForm;
+	var data = frm.totalOrginSearch.value; 
+    var cnt1 = 0, cnt2 = 0;
+    for (var i=0; i<data.length; i++)
+    {
+	if ( '(' == data.charAt(i) ) cnt1++;  
+	if ( ')' == data.charAt(i) ) cnt2++;  
+    }
+    
+    if (cnt1 != cnt2)
+	{
+		alert('괄호의 갯수가 맞지 않습니다. 확인바랍니다.');
+		flag = 'false';
+		return false;		    	
+	}
+	if (data == "" )
+	{
+		alert('검색어를 넣으세요.');
+		flag = 'false';
+		return false;
+	}
+	
+	frm.search_word.value	= frm.totalOrginSearch.value;
+	frm.action 				= "../oasis/oasisInst/totalSearch.jsp?srch_menu_nix=lXoQU1oG";
+	frm.submit();
+}
+
+
+function topCheckForm()
+{
+	var flag = 'true';
+	var data = jQuery("#topTotalKeyword").val(); 
+    var cnt1 = 0, cnt2 = 0;
+    for (var i=0; i<data.length; i++)
+    {
+    	if ( '(' == data.charAt(i) ) cnt1++;  
+    	if ( ')' == data.charAt(i) ) cnt2++;  
+    }
+    
+    if (cnt1 != cnt2)
+	{
+		alert('괄호의 갯수가 맞지 않습니다. 확인바랍니다.');
+		flag = 'false';
+	} 
+ 	if (data == "" )
+	{
+		alert('검색어를 넣으세요.');
+		flag = 'false';
+	}
+
+	return flag;
+}
+
+function topTotalSearchAction(keyword) 
+{
+	
+	// 모바일에서 검색창이 닫혀있는 상태인 경우는
+	// 검색을 실행하지 않는다.
+	if($(window).width() <= 830 && $('.tsidemenu .search').hasClass('active') == false)	
+		return;
+
+	if ((flag = topCheckForm()) == "false") 
+		return;
+
+	var strTotalSearchGubun = $("#totalSearchGubun").val();
+
+	var $form = $('<form></form>');
+    $form.attr('method', 'post');
+	
+	var val = jQuery("#topTotalKeyword").val(); 
+	var collection = '';
+	var srch_menu_nix = '';
+
+	if(keyword != null && keyword != '')
+	{
+		val = keyword;
+	}
+	
+	if(strTotalSearchGubun == '0')
+	{
+		collection = 'ALL';
+		srch_menu_nix = 'lXoQU1oG';
+	}
+	else if(strTotalSearchGubun == '1')
+	{
+		collection = 'article';
+		srch_menu_nix = 'JI3a9m1H';
+	}
+	else if(strTotalSearchGubun == '2')
+	{
+		collection = 'report';
+		srch_menu_nix = '1P28ZGv3';
+	}
+	else if(strTotalSearchGubun == '3')
+	{
+		collection = 'herb_herbarium';
+		srch_menu_nix = 'MLQvBPgt';
+	}
+	else if(strTotalSearchGubun == '4')
+	{
+		collection = 'herb_m01_name';
+		srch_menu_nix = '8Z6f1gc6';
+	}
+	else if(strTotalSearchGubun == '5')
+	{
+		collection = 'pres_prescription';
+		srch_menu_nix = '1GydHbs0';
+	}
+	else if(strTotalSearchGubun == '6')
+	{
+		collection = 'statistics';
+		srch_menu_nix = '2iA24OSW';
+	}
+	
+	$form.attr('action', g_context + '/oasis/search/search_total.jsp?srch_menu_nix=' + srch_menu_nix + '&collection=' + collection + '&query=' + val);
+	$form.append("<input type=\"hidden\" id=\"totalSearchGubun\" name=\"totalSearchGubun\" value=\"" + strTotalSearchGubun + "\"/>");
+
+    $form.appendTo('body');
+    $form.submit();
+	
+}
+
+//텍스트 입력 시 특수 문자 처리
+function topInputCheckSpecial(obj)
+{
+	re = /[~!@#$%^\&*\-=+_']/gi;
+	if(re.test(obj.value))
+	{
+		alert("특수문자는 입력하실수 없습니다.");
+		obj.value=obj.value.replace(re,"");
+	}
+}
+
+</script>
+
+
+
+<!-- ### 페이지 공통 메타, 플랜아이 사용 css, script End ### -->
+
+<!-- ### 기존 페이지에서 사용하고 있는 스크립트 Start ### -->
+<script type="text/javascript" src="/oasis/js/data.js"></script>
+
+<!-- ### 기존 페이지에서 사용하고 있는 스크립트 Start ### -->
+
+<script type="text/javascript">
+	$(function(){
+		// ㄱ조회 결과 open
+		doShowHide('1', 'init');
+	});
+	//툴팁
+	var bTooltip = {
+		tip_id : "btooltip",
+		makeLayer : function(str) {
+			var tip_obj = document.getElementById(this.tip_id);
+			if (tip_obj == undefined) {
+				var tip = document.createElement("div");
+				tip.id = this.tip_id;
+				tip.style.backgroundColor = "#FFFFE1";
+				tip.style.fontFamily = "돋움";
+				tip.style.fontSize = "12px";
+				tip.style.padding = "2px";
+				tip.style.color = "#000";
+				tip.style.border = "1px solid #000";
+				tip.style.position = "absolute";
+				tip.style.zIndex = "99999";
+				tip.style.display = "none";
+	
+				document.body.appendChild(tip);
+				tip.appendChild(document.createTextNode(str));
+			}
+		},
+		moveLayer : function(e) {
+			var xp = 0, yp = 0, left = 0, top = 0;
+			var doc = document.documentElement, body = document.body;
+			left = (doc && doc.scrollLeft || body && body.scrollLeft || 0);
+			top = (doc && doc.scrollTop || body && body.scrollTop || 0);
+			xp = window.event.x + left;
+			yp = window.event.y + top;
+			xp += 20;
+			yp += 20;
+			var tip_obj = document.getElementById(this.tip_id);
+			if (tip_obj != undefined) {
+				tip_obj.style.top = yp + "px";
+				tip_obj.style.left = xp + "px";
+				tip_obj.style.display = "block";
+			}
+		},
+		hiddenLyaer : function(e) {
+			var to = e ? e.relatedTarget : event.toElement;
+			var to_id = null;
+			try {
+				to_id = to.id;
+			} catch (e) {
+				to_id = null;
+			}
+			if (this.tip_id == to_id)
+				return;
+			if (document.all) {
+				try {
+					document.getElementById(this.tip_id).removeNode(true);
+				} catch (e) {
+				}
+			} else {
+				try {
+					document.body.removeChild(document.getElementById(this.tip_id));
+				} catch (e) {
+				}
+			}
+		},
+		on : function(tg) {
+			var str = tg.title;
+			tg.title = "";
+			bTooltip.makeLayer(str);
+			tg.onmouseover = new Function("bTooltip.makeLayer('" + str + "')");
+			tg.onmousemove = new Function("bTooltip.moveLayer(arguments[0])");
+			tg.onmouseout = new Function("bTooltip.hiddenLyaer(arguments[0])");
+		}
+	};
+
+	// 상세보기 액션
+	function checkForm2(actionForm) {
+		var data = document.actionForm.orginSearch.value;
+		var cnt1 = 0, cnt2 = 0;
+		for (var i = 0; i < data.length; i++) {
+			if ('(' == data.charAt(i))
+				cnt1++;
+			if (')' == data.charAt(i))
+				cnt2++;
+		}
+
+		if (cnt1 != cnt2) {
+			alert('괄호의 갯수가 맞지 않습니다. 확인바랍니다.');
+			return false;
+		}
+		if (data == "" || data == "검색대상 : 약재명, 효능") {
+			alert('검색어를 넣으세요.');
+			return false;
+		} else {
+			var actionF = document.actionForm;
+			actionF.action = "./monoAction.jsp?srch_menu_nix=87Z2RM16";
+		}
+	}
+
+	// 검색 도움말
+	function view() {
+		if (document.getElementById("qq1").val == "none") {
+			document.getElementById("qq").style.display = "block";
+			document.getElementById("qq1").val = "block";
+
+		} else {
+			document.getElementById("qq").style.display = "none";
+			document.getElementById("qq1").value = "none";
+		}
+
+	}
+
+	function helpMessage() {
+		if (document.getElementById("orginSearch").value == "") {
+			//document.getElementById("orginSearch").value = "검색대상 : 약재명, 효능";
+			document.getElementById("orginSearch").value = "검색대상 : 약재명";
+			document.getElementById("orginSearch").style.color = "blue";
+			//document.getElementById("orginSearch").style.fontSize = "11px";
+		}
+	}
+
+	function helpMessageClear() {
+		//if (document.getElementById("orginSearch").value == "검색대상 : 약재명, 효능") {
+		if (document.getElementById("orginSearch").value == "검색대상 : 약재명") {			
+			document.getElementById("orginSearch").value = "";
+			document.getElementById("orginSearch").style.color = "black";
+		}
+	}
+	
+	// 기본검색 시 통합검색엔진 이용
+	function topTotalSearchAction2() 
+	{
+		var $form = $('<form></form>');
+		var val = jQuery("#orginSearch").val(); 
+		$form.attr('method', 'post');
+		$form.attr('action', g_context + '/oasis/search/search_total.jsp?srch_menu_nix=8Z6f1gc6&collection=herb_m01_name&query=' + val);
+		$form.append('<input type="hidden" id="totalSearchGubun" name="totalSearchGubun" value="4" />');
+		$form.appendTo('body');
+		$form.submit();
+	}
+	
+	$(function()
+	{
+		$('#orginSearch').keydown(function(event)
+		{
+			if(event.keyCode == 13)
+			{
+				topTotalSearchAction2();
+				return false;
+			}
+		});
+		
+		$('#actionButton').on('click', topTotalSearchAction2);
+	});
+	
+	// 상세보기 액션
+	function monoDetailView(idx, tab, keyword) {
+		
+		var v = keyword.replaceAll(" ", "");
+		$.ajax({
+			url : '../search/pSearchInsert.jsp?trg=모노그래프&query='+v,
+			type : "get",
+			cache : false,
+			success : function(data) {
+				
+			}
+		});
+	
+		actionForm.action = "monoDetailView_M01.jsp?idx=" + idx + "&tab=" + tab + "&keyword=" + keyword;
+		document.actionForm.submit();
+	}
+	
+	$.fn.showLayer = function(){
+
+		 var win = $(window);
+
+		 var winH = win.scrollTop() + ((win.height() - $(this).height()) / 2);
+
+		 var winW = win.scrollLeft() + ((win.width() - $(this).width()) / 2);
+
+		 $(this).css('top', winH);
+
+		 $(this).css('left', winW);
+
+		 $(this).show();
+
+		 $(this).focus();
+
+	}
+	
+	function doShowHide(i, init){
+		var $index = $(".index"+i);
+		var $word = $(".word"+i);
+		var $wordDiv = $(".wordDiv"+i);
+		
+		if($index.css("display")=="none"){
+			$index.css("display", "");
+			$word.css("font-weight", "bold").css("font-size", "1.2em").css("color", "white");
+			$wordDiv.css("background-color", "#EA5B00").css("border-radius", "50%");
+			if(init != 'init') {
+// 				var idx = Number(i)+1;
+// 				$(".d_title"+i).focus();
+// 				$(".go_"+i).focus();
+				$(".d_title"+i).focus();
+			}
+		}else{
+			$index.css("display", "none");
+			$word.css("font-weight", "").css("font-size", "1.0em").css("color", "black");
+			$wordDiv.css("background-color", "").css("border-radius", "");
+		}
+	}
+</script>
+</head>
+<body onload="helpMessage();">
+
+	<dl id="accessibility">
+		<dt>바로가기 및 건너띄기 링크</dt>
+		<dd><a href="#body">본문 바로가기</a></dd>
+		<dd><a href="#gnavigation">주메뉴 바로가기</a></dd>
+	</dl>
+	<hr/>
+	<div id="wrap">
+	<header id="header">
+		
+
+
+<meta name="referrer" content="strict-origin-when-cross-origin" />    
+
+<h1 class="logo">
+	<a href="/">
+		<strong>OASIS</strong> 전통의학<br />정보포털
+	</a>
+</h1>
+<ul class="tsidemenu">
+	<!-- 2018-06-27 사이트맵 통합검색 삭제 -->
+	
+	<li class="search">
+		<a href="javascript:void(0);" class="btn"><span class="hiddenTxt">SEARCH</span></a>
+		<div class="form">
+<!-- 			<input type="hidden" name="search_word" id="search_word" title="통합검색" /> -->
+<!-- 			<input type="hidden" name="orginSearch" id="orginSearch" title="기타검색" /> -->
+			<select id="totalSearchGubun" name="totalSearchGubun" title="검색구분">
+				<option value="0" >통합검색</option>
+				<option value="1" >논문</option>
+				<option value="2" >보고서</option>
+
+				<option value="4" >한약재-약재백과</option>
+				<option value="5" >한약처방</option>
+				<option value="6" >통계</option>
+			</select>
+			<!-- 자동 입력 방지 input 시작 -->
+			<input type="text" style="display: none;" title=" " />
+			<input type="password" style="display: none;" title=" "/>
+			<!-- 자동 입력 방지 input 끝 -->
+			<input type="text" name="topTotalKeyword" id="topTotalKeyword" onfocus="this.value='';" onkeyup="topInputCheckSpecial(this);" value="" title="검색어" />
+			
+			<button class="btn" onclick="javascript:topTotalSearchAction();"><span class="hiddenTxt">SEARCH</span></button>
+			<div class="wordlist">
+				<ul>
+					<li><a href="javascript:topTotalSearchAction('감기');">감기</a></li>
+					<li><a href="javascript:topTotalSearchAction('계지가부자탕');">계지가부자탕</a></li>
+					<li><a href="javascript:topTotalSearchAction('한방재활');">한방재활</a></li>
+					<li><a href="javascript:topTotalSearchAction('갈근탕');">갈근탕</a></li>
+					<li><a href="javascript:topTotalSearchAction('팔미지황탕');">팔미지황탕</a></li>
+					<li><a href="javascript:topTotalSearchAction('귀비탕');">귀비탕</a></li>
+					<li><a href="javascript:topTotalSearchAction('소시호탕');">소시호탕</a></li>
+					<li><a href="javascript:topTotalSearchAction('십전대보탕');">십전대보탕</a></li>
+					<li><a href="javascript:topTotalSearchAction('보중익기탕');">보중익기탕</a></li>
+					<li><a href="javascript:topTotalSearchAction('위령탕');">위령탕</a></li>
+				</ul>
+				<a href="" class="close">닫기</a>
+			</div>
+		</div>
+		<div id="ark_hd"></div>
+	</li>
+	
+	
+		
+		
+			<li><a href="javascript:fn_site_loginmove()">login</a></li>
+			<li><a href="javascript:fn_join_move()">join</a></li>
+		
+	
+	<li><a href="/contents/siteMapView.do?srch_menu_nix=Q5Xev363">sitemap</a></li>
+	<!-- <li><a href="javascript:fn_oasis_eng()">eng</a></li> -->
+</ul>
+<nav id="gnavigation" class="nav nav_area">
+	<div class="mCustomScrollbar gnb_scroll">
+		<h2 class="hiddenTxt">주 메뉴</h2>
+		<ul class="depth01">
+		</ul>
+	</div>
+	<p class="control" style="padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
+		<a href="javascript:void();" class="open"><span class="hiddenTxt">전체메뉴 열기</span></a>
+		<a href="javascript:void();" class="close"><span class="hiddenTxt">전체메뉴 닫기</span></a>
+	</p> 
+	
+</nav>
+	</header>
+
+	<hr/>
+	<!-- ### top include 교체 End -->
+
+		<!--contents start-->
+		
+	<!-- #### 컨텐츠 감쌈(<div id="search"> 위아래로 추가) Start-->
+	<div id="body">
+		<section id="content">
+			
+<form method="post" name="actionForm" onsubmit="return checkForm2(document.actionForm);">
+			
+<div id="search">
+
+	<div class="title_wrap">
+		<h1 class="stitle"></h1>
+		<p class="path" id="pLinemenu"><span class="home">홈</span><span class="arrow">&gt;</span> 센터소개 <span class="arrow">&gt;</span> 인사말</p>
+	</div>
+	
+	<div class="group_slide result theme">
+		
+		<div class="box_gray">
+			<p class="control">
+				<a href="" class="open">약재백과 펼치기</a>
+				<a href="" class="close">약재백과 접기</a>
+			</p>
+
+			<ul class="contents list">
+				<li>
+					<label for="orginSearch" style="display: none;">검색어</label>
+					<input type="text" name="orginSearch" id="orginSearch"  onkeyup="inputCheckSpecial(this);" onclick="helpMessageClear();" placeholder="검색어" title="검색어" />
+					<button type="button" id="actionButton" name="actionButton" class="btn_colorType01">검색</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="group_slide result theme">
+		<div style="text-align: center;">
+			<ul class="contents list">
+				<li>
+					
+					<div class="wordDiv1" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('1')" class="word1" title="ㄱ으로 검색">&nbsp;ㄱ&nbsp;</a>
+					</div>
+					
+						|
+					
+					<div class="wordDiv2" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('2')" class="word2" title="ㄴ으로 검색">&nbsp;ㄴ&nbsp;</a>
+					</div>
+					
+						|
+					
+					<div class="wordDiv3" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('3')" class="word3" title="ㄷ으로 검색">&nbsp;ㄷ&nbsp;</a>
+					</div>
+					
+						|
+					
+					<div class="wordDiv4" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('4')" class="word4" title="ㅁ으로 검색">&nbsp;ㅁ&nbsp;</a>
+					</div>
+					
+						|
+					
+					<div class="wordDiv5" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('5')" class="word5" title="ㅂ으로 검색">&nbsp;ㅂ&nbsp;</a>
+					</div>
+					
+						|
+					
+					<div class="wordDiv6" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('6')" class="word6" title="ㅅ으로 검색">&nbsp;ㅅ&nbsp;</a>
+					</div>
+					
+						|
+					
+					<div class="wordDiv7" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('7')" class="word7" title="ㅇ으로 검색">&nbsp;ㅇ&nbsp;</a>
+					</div>
+					
+						|
+					
+					<div class="wordDiv8" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('8')" class="word8" title="ㅈ으로 검색">&nbsp;ㅈ&nbsp;</a>
+					</div>
+					
+						|
+					
+					<div class="wordDiv9" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('9')" class="word9" title="ㅊ으로 검색">&nbsp;ㅊ&nbsp;</a>
+					</div>
+					
+						|
+					
+					<div class="wordDiv10" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('10')" class="word10" title="ㅌ으로 검색">&nbsp;ㅌ&nbsp;</a>
+					</div>
+					
+						|
+					
+					<div class="wordDiv11" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('11')" class="word11" title="ㅍ으로 검색">&nbsp;ㅍ&nbsp;</a>
+					</div>
+					
+						|
+					
+					<div class="wordDiv12" style="display: inline-block; zoom:1; *display:inline;">
+						<a href="javascript:doShowHide('12')" class="word12" title="ㅎ으로 검색">&nbsp;ㅎ&nbsp;</a>
+					</div>
+					
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</div>		
+
+
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('1')" class="word d_title1" title="ㄱ">ㄱ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('1', '1', '가자');"  title="가자 상세보기" >가자</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('2', '1', '갈근');"  title="갈근 상세보기" >갈근</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('3', '1', '갈화');"  title="갈화 상세보기" >갈화</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('4', '1', '감국');"  title="감국 상세보기" >감국</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('5', '1', '감송향');"  title="감송향 상세보기" >감송향</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('6', '1', '감수');"  title="감수 상세보기" >감수</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('7', '1', '감초');"  title="감초 상세보기" >감초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('8', '1', '강향(강진향)');"  title="강향(강진향) 상세보기" >강향(강진향)</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('9', '1', '강활');"  title="강활 상세보기" >강활</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('10', '1', '강황');"  title="강황 상세보기" >강황</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('11', '1', '개자');"  title="개자 상세보기" >개자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('12', '1', '갱미');"  title="갱미 상세보기" >갱미</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('13', '1', '건강');"  title="건강 상세보기" >건강</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('14', '1', '건율');"  title="건율 상세보기" >건율</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('15', '1', '건칠');"  title="건칠 상세보기" >건칠</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('16', '1', '검인');"  title="검인 상세보기" >검인</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('17', '1', '견우자');"  title="견우자 상세보기" >견우자</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('18', '1', '결명자');"  title="결명자 상세보기" >결명자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('19', '1', '경천');"  title="경천 상세보기" >경천</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('20', '1', '계내금');"  title="계내금 상세보기" >계내금</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('21', '1', '계심');"  title="계심 상세보기" >계심</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('22', '1', '계지');"  title="계지 상세보기" >계지</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('23', '1', '계혈등');"  title="계혈등 상세보기" >계혈등</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('24', '1', '고량강');"  title="고량강 상세보기" >고량강</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('25', '1', '고련피');"  title="고련피 상세보기" >고련피</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('26', '1', '고목');"  title="고목 상세보기" >고목</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('27', '1', '고본');"  title="고본 상세보기" >고본</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('28', '1', '고삼');"  title="고삼 상세보기" >고삼</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('29', '1', '고추');"  title="고추 상세보기" >고추</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('30', '1', '곡기생');"  title="곡기생 상세보기" >곡기생</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('31', '1', '곡아');"  title="곡아 상세보기" >곡아</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('32', '1', '곡정초');"  title="곡정초 상세보기" >곡정초</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('33', '1', '곤포');"  title="곤포 상세보기" >곤포</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('34', '1', '골담초근');"  title="골담초근 상세보기" >골담초근</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('35', '1', '골쇄보');"  title="골쇄보 상세보기" >골쇄보</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('36', '1', '과체');"  title="과체 상세보기" >과체</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('37', '1', '곽향');"  title="곽향 상세보기" >곽향</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('38', '1', '관동화');"  title="관동화 상세보기" >관동화</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('39', '1', '관중');"  title="관중 상세보기" >관중</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('40', '1', '괄루근');"  title="괄루근 상세보기" >괄루근</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('41', '1', '괄루인');"  title="괄루인 상세보기" >괄루인</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('42', '1', '광곽향');"  title="광곽향 상세보기" >광곽향</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('43', '1', '괴각');"  title="괴각 상세보기" >괴각</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('44', '1', '괴화');"  title="괴화 상세보기" >괴화</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('45', '1', '교이');"  title="교이 상세보기" >교이</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('46', '1', '구기자');"  title="구기자 상세보기" >구기자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('47', '1', '구맥');"  title="구맥 상세보기" >구맥</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('48', '1', '구자');"  title="구자 상세보기" >구자</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('49', '1', '구절초');"  title="구절초 상세보기" >구절초</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('50', '1', '구척');"  title="구척 상세보기" >구척</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('51', '1', '국화');"  title="국화 상세보기" >국화</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('52', '1', '권백');"  title="권백 상세보기" >권백</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('53', '1', '권삼');"  title="권삼 상세보기" >권삼</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('54', '1', '귀전우');"  title="귀전우 상세보기" >귀전우</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('55', '1', '귀판');"  title="귀판 상세보기" >귀판</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('56', '1', '귤핵');"  title="귤핵 상세보기" >귤핵</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('57', '1', '금박');"  title="금박 상세보기" >금박</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('58', '1', '금앵자');"  title="금앵자 상세보기" >금앵자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('59', '1', '금은화');"  title="금은화 상세보기" >금은화</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('60', '1', '금전초');"  title="금전초 상세보기" >금전초</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index1" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('61', '1', '급성자');"  title="급성자 상세보기" >급성자</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('62', '1', '길경');"  title="길경 상세보기" >길경</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('63', '1', '길초근');"  title="길초근 상세보기" >길초근</a>
+									</li>
+   						
+									</ul>
+
+   						
+								
+						
+						
+						
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('2')" class="word d_title2" title="ㄴ">ㄴ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index2" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('64', '1', '나도근');"  title="나도근 상세보기" >나도근</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('65', '1', '낙석등');"  title="낙석등 상세보기" >낙석등</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('66', '1', '낭독');"  title="낭독 상세보기" >낭독</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('67', '1', '내복자');"  title="내복자 상세보기" >내복자</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index2" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('68', '1', '노감석');"  title="노감석 상세보기" >노감석</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('69', '1', '노근');"  title="노근 상세보기" >노근</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('70', '1', '노로통');"  title="노로통 상세보기" >노로통</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('71', '1', '노봉방');"  title="노봉방 상세보기" >노봉방</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index2" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('72', '1', '노회');"  title="노회 상세보기" >노회</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('73', '1', '녹각');"  title="녹각 상세보기" >녹각</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('74', '1', '녹두');"  title="녹두 상세보기" >녹두</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('75', '1', '녹반');"  title="녹반 상세보기" >녹반</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index2" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('76', '1', '녹용');"  title="녹용 상세보기" >녹용</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('77', '1', '녹제초');"  title="녹제초 상세보기" >녹제초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('78', '1', '뇌환');"  title="뇌환 상세보기" >뇌환</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('79', '1', '누고');"  title="누고 상세보기" >누고</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index2" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('80', '1', '누로');"  title="누로 상세보기" >누로</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('81', '1', '능소화');"  title="능소화 상세보기" >능소화</a>
+									</li>
+   						
+									</ul>
+
+   						
+								
+						
+						
+						
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('3')" class="word d_title3" title="ㄷ">ㄷ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index3" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('82', '1', '단삼');"  title="단삼 상세보기" >단삼</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('83', '1', '담죽엽');"  title="담죽엽 상세보기" >담죽엽</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('84', '1', '당귀');"  title="당귀 상세보기" >당귀</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('85', '1', '당삼');"  title="당삼 상세보기" >당삼</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index3" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('86', '1', '당약');"  title="당약 상세보기" >당약</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('87', '1', '대계');"  title="대계 상세보기" >대계</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('88', '1', '대극');"  title="대극 상세보기" >대극</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('89', '1', '대두황권');"  title="대두황권 상세보기" >대두황권</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index3" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('90', '1', '대복피');"  title="대복피 상세보기" >대복피</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('91', '1', '대산');"  title="대산 상세보기" >대산</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('92', '1', '대자석');"  title="대자석 상세보기" >대자석</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('93', '1', '대청엽');"  title="대청엽 상세보기" >대청엽</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index3" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('94', '1', '대추');"  title="대추 상세보기" >대추</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('95', '1', '대풍자');"  title="대풍자 상세보기" >대풍자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('96', '1', '대황');"  title="대황 상세보기" >대황</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('97', '1', '도인');"  title="도인 상세보기" >도인</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index3" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('98', '1', '독활');"  title="독활 상세보기" >독활</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('99', '1', '동과자');"  title="동과자 상세보기" >동과자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('100', '1', '동과피');"  title="동과피 상세보기" >동과피</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('101', '1', '동규자');"  title="동규자 상세보기" >동규자</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index3" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('102', '1', '동청');"  title="동청 상세보기" >동청</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('103', '1', '동충하초');"  title="동충하초 상세보기" >동충하초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('104', '1', '두시');"  title="두시 상세보기" >두시</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('105', '1', '두충');"  title="두충 상세보기" >두충</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index3" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('106', '1', '두충엽');"  title="두충엽 상세보기" >두충엽</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('107', '1', '등심초');"  title="등심초 상세보기" >등심초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('108', '1', '등피');"  title="등피 상세보기" >등피</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('109', '1', '등황');"  title="등황 상세보기" >등황</a>
+									</li>
+								</ul>
+								
+   						
+									</ul>
+
+   						
+								
+						
+						
+						
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('4')" class="word d_title4" title="ㅁ">ㅁ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index4" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('110', '1', '마발');"  title="마발 상세보기" >마발</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('111', '1', '마인');"  title="마인 상세보기" >마인</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('456', '1', '마전자');"  title="마전자 상세보기" >마전자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('112', '1', '마치현');"  title="마치현 상세보기" >마치현</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index4" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('113', '1', '마편초');"  title="마편초 상세보기" >마편초</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('114', '1', '마황');"  title="마황 상세보기" >마황</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('115', '1', '마황근');"  title="마황근 상세보기" >마황근</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('116', '1', '만형자');"  title="만형자 상세보기" >만형자</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index4" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('117', '1', '망초');"  title="망초 상세보기" >망초</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('118', '1', '매괴화');"  title="매괴화 상세보기" >매괴화</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('119', '1', '맥문동');"  title="맥문동 상세보기" >맥문동</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('120', '1', '맥아');"  title="맥아 상세보기" >맥아</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index4" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('121', '1', '맹충');"  title="맹충 상세보기" >맹충</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('122', '1', '면실자');"  title="면실자 상세보기" >면실자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('123', '1', '모근');"  title="모근 상세보기" >모근</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('124', '1', '모려');"  title="모려 상세보기" >모려</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index4" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('125', '1', '목과');"  title="목과 상세보기" >목과</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('126', '1', '목근피');"  title="목근피 상세보기" >목근피</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('127', '1', '목단피');"  title="목단피 상세보기" >목단피</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('128', '1', '목방기');"  title="목방기 상세보기" >목방기</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index4" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('129', '1', '목별자');"  title="목별자 상세보기" >목별자</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('130', '1', '목적');"  title="목적 상세보기" >목적</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('131', '1', '목천료');"  title="목천료 상세보기" >목천료</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('132', '1', '목통');"  title="목통 상세보기" >목통</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index4" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('133', '1', '목향');"  title="목향 상세보기" >목향</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('134', '1', '몰약');"  title="몰약 상세보기" >몰약</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('135', '1', '무이');"  title="무이 상세보기" >무이</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('136', '1', '문합');"  title="문합 상세보기" >문합</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index4" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('137', '1', '밀몽화');"  title="밀몽화 상세보기" >밀몽화</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('138', '1', '밀타승');"  title="밀타승 상세보기" >밀타승</a>
+									</li>
+   						
+									</ul>
+
+   						
+								
+						
+						
+						
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('5')" class="word d_title5" title="ㅂ">ㅂ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index5" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('139', '1', '박하');"  title="박하 상세보기" >박하</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('140', '1', '반대해');"  title="반대해 상세보기" >반대해</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('141', '1', '반묘');"  title="반묘 상세보기" >반묘</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('142', '1', '반변련');"  title="반변련 상세보기" >반변련</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index5" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('143', '1', '반지련');"  title="반지련 상세보기" >반지련</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('144', '1', '반하');"  title="반하 상세보기" >반하</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('145', '1', '방기');"  title="방기 상세보기" >방기</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('146', '1', '방풍');"  title="방풍 상세보기" >방풍</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index5" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('147', '1', '백강잠');"  title="백강잠 상세보기" >백강잠</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('148', '1', '백과');"  title="백과 상세보기" >백과</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('149', '1', '백굴채');"  title="백굴채 상세보기" >백굴채</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('150', '1', '백급');"  title="백급 상세보기" >백급</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index5" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('151', '1', '백단향');"  title="백단향 상세보기" >백단향</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('152', '1', '백두구');"  title="백두구 상세보기" >백두구</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('153', '1', '백두옹');"  title="백두옹 상세보기" >백두옹</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('154', '1', '백렴');"  title="백렴 상세보기" >백렴</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index5" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('155', '1', '백미');"  title="백미 상세보기" >백미</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('156', '1', '백반');"  title="백반 상세보기" >백반</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('157', '1', '백부근');"  title="백부근 상세보기" >백부근</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('158', '1', '백부자');"  title="백부자 상세보기" >백부자</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index5" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('159', '1', '백선피');"  title="백선피 상세보기" >백선피</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('160', '1', '백수오');"  title="백수오 상세보기" >백수오</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('161', '1', '백자인');"  title="백자인 상세보기" >백자인</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('162', '1', '백전');"  title="백전 상세보기" >백전</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index5" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('163', '1', '백지');"  title="백지 상세보기" >백지</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('164', '1', '백출');"  title="백출 상세보기" >백출</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('165', '1', '백편두');"  title="백편두 상세보기" >백편두</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('166', '1', '백합');"  title="백합 상세보기" >백합</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index5" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('167', '1', '백화사');"  title="백화사 상세보기" >백화사</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('168', '1', '백화사설초');"  title="백화사설초 상세보기" >백화사설초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('169', '1', '별갑');"  title="별갑 상세보기" >별갑</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('170', '1', '보골지');"  title="보골지 상세보기" >보골지</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index5" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('171', '1', '복령');"  title="복령 상세보기" >복령</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('172', '1', '복분자');"  title="복분자 상세보기" >복분자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('173', '1', '복신');"  title="복신 상세보기" >복신</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('174', '1', '부소맥');"  title="부소맥 상세보기" >부소맥</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index5" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('175', '1', '부자');"  title="부자 상세보기" >부자</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('176', '1', '부평');"  title="부평 상세보기" >부평</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('177', '1', '비자');"  title="비자 상세보기" >비자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('178', '1', '비파엽');"  title="비파엽 상세보기" >비파엽</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index5" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('179', '1', '비해');"  title="비해 상세보기" >비해</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('180', '1', '빈랑자');"  title="빈랑자 상세보기" >빈랑자</a>
+									</li>
+   						
+									</ul>
+
+   						
+								
+						
+						
+						
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('6')" class="word d_title6" title="ㅅ">ㅅ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('181', '1', '사간');"  title="사간 상세보기" >사간</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('182', '1', '사과락');"  title="사과락 상세보기" >사과락</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('183', '1', '사군자');"  title="사군자 상세보기" >사군자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('184', '1', '사담');"  title="사담 상세보기" >사담</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('185', '1', '사삼');"  title="사삼 상세보기" >사삼</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('186', '1', '사상자');"  title="사상자 상세보기" >사상자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('187', '1', '사세');"  title="사세 상세보기" >사세</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('188', '1', '사원자');"  title="사원자 상세보기" >사원자</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('189', '1', '사인');"  title="사인 상세보기" >사인</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('190', '1', '사향');"  title="사향 상세보기" >사향</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('191', '1', '사향초');"  title="사향초 상세보기" >사향초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('192', '1', '산두근');"  title="산두근 상세보기" >산두근</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('193', '1', '산사');"  title="산사 상세보기" >산사</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('194', '1', '산수유');"  title="산수유 상세보기" >산수유</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('195', '1', '산약');"  title="산약 상세보기" >산약</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('196', '1', '산자고');"  title="산자고 상세보기" >산자고</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('197', '1', '산조인');"  title="산조인 상세보기" >산조인</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('198', '1', '산초');"  title="산초 상세보기" >산초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('199', '1', '삼릉');"  title="삼릉 상세보기" >삼릉</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('200', '1', '삼칠');"  title="삼칠 상세보기" >삼칠</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('201', '1', '상기생');"  title="상기생 상세보기" >상기생</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('202', '1', '상륙');"  title="상륙 상세보기" >상륙</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('203', '1', '상백피');"  title="상백피 상세보기" >상백피</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('204', '1', '상산');"  title="상산 상세보기" >상산</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('205', '1', '상심자');"  title="상심자 상세보기" >상심자</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('206', '1', '상엽');"  title="상엽 상세보기" >상엽</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('207', '1', '상지');"  title="상지 상세보기" >상지</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('208', '1', '상표초');"  title="상표초 상세보기" >상표초</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('209', '1', '생강');"  title="생강 상세보기" >생강</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('210', '1', '생지황');"  title="생지황 상세보기" >생지황</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('211', '1', '서장경');"  title="서장경 상세보기" >서장경</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('212', '1', '석결명');"  title="석결명 상세보기" >석결명</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('213', '1', '석고');"  title="석고 상세보기" >석고</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('214', '1', '석곡');"  title="석곡 상세보기" >석곡</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('215', '1', '석룡자');"  title="석룡자 상세보기" >석룡자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('216', '1', '석류');"  title="석류 상세보기" >석류</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('217', '1', '석류피');"  title="석류피 상세보기" >석류피</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('218', '1', '석송자');"  title="석송자 상세보기" >석송자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('219', '1', '석예초');"  title="석예초 상세보기" >석예초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('220', '1', '석위');"  title="석위 상세보기" >석위</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('221', '1', '석유황');"  title="석유황 상세보기" >석유황</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('222', '1', '석종유');"  title="석종유 상세보기" >석종유</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('223', '1', '석창포');"  title="석창포 상세보기" >석창포</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('224', '1', '선모');"  title="선모 상세보기" >선모</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('225', '1', '선복화');"  title="선복화 상세보기" >선복화</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('226', '1', '선퇴');"  title="선퇴 상세보기" >선퇴</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('227', '1', '섬서');"  title="섬서 상세보기" >섬서</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('228', '1', '섬수');"  title="섬수 상세보기" >섬수</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('229', '1', '세신');"  title="세신 상세보기" >세신</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('230', '1', '소계');"  title="소계 상세보기" >소계</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('231', '1', '소목');"  title="소목 상세보기" >소목</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('232', '1', '소합향');"  title="소합향 상세보기" >소합향</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('233', '1', '속단');"  title="속단 상세보기" >속단</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('234', '1', '속수자');"  title="속수자 상세보기" >속수자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('235', '1', '송화분');"  title="송화분 상세보기" >송화분</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('236', '1', '쇄양');"  title="쇄양 상세보기" >쇄양</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('237', '1', '수질');"  title="수질 상세보기" >수질</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('238', '1', '숙지황');"  title="숙지황 상세보기" >숙지황</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('239', '1', '승마');"  title="승마 상세보기" >승마</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('240', '1', '시체');"  title="시체 상세보기" >시체</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('241', '1', '시호');"  title="시호 상세보기" >시호</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('242', '1', '식방풍');"  title="식방풍 상세보기" >식방풍</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('243', '1', '신곡');"  title="신곡 상세보기" >신곡</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('244', '1', '신근초');"  title="신근초 상세보기" >신근초</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index6" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('245', '1', '신이');"  title="신이 상세보기" >신이</a>
+									</li>
+						
+									</ul>
+
+   						
+								
+						
+						
+						
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('7')" class="word d_title7" title="ㅇ">ㅇ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('246', '1', '아교');"  title="아교 상세보기" >아교</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('247', '1', '아마인');"  title="아마인 상세보기" >아마인</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('248', '1', '아위');"  title="아위 상세보기" >아위</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('249', '1', '아출');"  title="아출 상세보기" >아출</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('250', '1', '안식향');"  title="안식향 상세보기" >안식향</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('251', '1', '애엽');"  title="애엽 상세보기" >애엽</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('252', '1', '앵피');"  title="앵피 상세보기" >앵피</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('253', '1', '야명사');"  title="야명사 상세보기" >야명사</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('254', '1', '양제근');"  title="양제근 상세보기" >양제근</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('255', '1', '어교');"  title="어교 상세보기" >어교</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('256', '1', '어성초');"  title="어성초 상세보기" >어성초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('257', '1', '여로');"  title="여로 상세보기" >여로</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('258', '1', '여정실');"  title="여정실 상세보기" >여정실</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('259', '1', '여지핵');"  title="여지핵 상세보기" >여지핵</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('260', '1', '연교');"  title="연교 상세보기" >연교</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('261', '1', '연자육');"  title="연자육 상세보기" >연자육</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('262', '1', '연전초');"  title="연전초 상세보기" >연전초</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('263', '1', '열당');"  title="열당 상세보기" >열당</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('264', '1', '영릉향');"  title="영릉향 상세보기" >영릉향</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('265', '1', '영실');"  title="영실 상세보기" >영실</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('266', '1', '영양각');"  title="영양각 상세보기" >영양각</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('267', '1', '영와');"  title="영와 상세보기" >영와</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('268', '1', '영지');"  title="영지 상세보기" >영지</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('269', '1', '예지자');"  title="예지자 상세보기" >예지자</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('270', '1', '오가피');"  title="오가피 상세보기" >오가피</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('271', '1', '오공');"  title="오공 상세보기" >오공</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('272', '1', '오령지');"  title="오령지 상세보기" >오령지</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('273', '1', '오매');"  title="오매 상세보기" >오매</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('274', '1', '오미자');"  title="오미자 상세보기" >오미자</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('275', '1', '오배자');"  title="오배자 상세보기" >오배자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('276', '1', '오수유');"  title="오수유 상세보기" >오수유</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('277', '1', '오약');"  title="오약 상세보기" >오약</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('278', '1', '옥죽');"  title="옥죽 상세보기" >옥죽</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('279', '1', '옥촉서예');"  title="옥촉서예 상세보기" >옥촉서예</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('280', '1', '와릉자');"  title="와릉자 상세보기" >와릉자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('282', '1', '왕불류행');"  title="왕불류행 상세보기" >왕불류행</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('283', '1', '요사');"  title="요사 상세보기" >요사</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('284', '1', '용골');"  title="용골 상세보기" >용골</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('285', '1', '용규');"  title="용규 상세보기" >용규</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('286', '1', '용뇌');"  title="용뇌 상세보기" >용뇌</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('287', '1', '용담');"  title="용담 상세보기" >용담</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('288', '1', '용아초');"  title="용아초 상세보기" >용아초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('289', '1', '용안육');"  title="용안육 상세보기" >용안육</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('290', '1', '우담');"  title="우담 상세보기" >우담</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('291', '1', '우방근');"  title="우방근 상세보기" >우방근</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('292', '1', '우방자');"  title="우방자 상세보기" >우방자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('293', '1', '우슬');"  title="우슬 상세보기" >우슬</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('294', '1', '우절');"  title="우절 상세보기" >우절</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('295', '1', '우황');"  title="우황 상세보기" >우황</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('296', '1', '욱리인');"  title="욱리인 상세보기" >욱리인</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('297', '1', '운대자');"  title="운대자 상세보기" >운대자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('298', '1', '운모');"  title="운모 상세보기" >운모</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('299', '1', '울금');"  title="울금 상세보기" >울금</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('300', '1', '웅담');"  title="웅담 상세보기" >웅담</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('301', '1', '원지');"  title="원지 상세보기" >원지</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('302', '1', '원화');"  title="원화 상세보기" >원화</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('303', '1', '위령선');"  title="위령선 상세보기" >위령선</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('304', '1', '위릉채');"  title="위릉채 상세보기" >위릉채</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('305', '1', '유기노');"  title="유기노 상세보기" >유기노</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('306', '1', '유백피');"  title="유백피 상세보기" >유백피</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('307', '1', '유향');"  title="유향 상세보기" >유향</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('308', '1', '육계');"  title="육계 상세보기" >육계</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('309', '1', '육두구');"  title="육두구 상세보기" >육두구</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('310', '1', '육종용');"  title="육종용 상세보기" >육종용</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('311', '1', '율초');"  title="율초 상세보기" >율초</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('312', '1', '은박');"  title="은박 상세보기" >은박</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('313', '1', '은시호');"  title="은시호 상세보기" >은시호</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('314', '1', '음양곽');"  title="음양곽 상세보기" >음양곽</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('315', '1', '의이인');"  title="의이인 상세보기" >의이인</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('316', '1', '익모초');"  title="익모초 상세보기" >익모초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('317', '1', '익지');"  title="익지 상세보기" >익지</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('318', '1', '인동');"  title="인동 상세보기" >인동</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index7" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('319', '1', '인삼');"  title="인삼 상세보기" >인삼</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('320', '1', '인진호');"  title="인진호 상세보기" >인진호</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('321', '1', '임자');"  title="임자 상세보기" >임자</a>
+									</li>
+   						
+									</ul>
+
+   						
+								
+						
+						
+						
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('8')" class="word d_title8" title="ㅈ">ㅈ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('322', '1', '자근(자초)');"  title="자근(자초) 상세보기" >자근(자초)</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('323', '1', '자단향');"  title="자단향 상세보기" >자단향</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('324', '1', '자석');"  title="자석 상세보기" >자석</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('325', '1', '자석영');"  title="자석영 상세보기" >자석영</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('326', '1', '자소엽');"  title="자소엽 상세보기" >자소엽</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('327', '1', '자소자');"  title="자소자 상세보기" >자소자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('328', '1', '자연동');"  title="자연동 상세보기" >자연동</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('329', '1', '자오가');"  title="자오가 상세보기" >자오가</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('330', '1', '자완');"  title="자완 상세보기" >자완</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('331', '1', '자충');"  title="자충 상세보기" >자충</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('332', '1', '자화지정');"  title="자화지정 상세보기" >자화지정</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('333', '1', '작약');"  title="작약 상세보기" >작약</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('334', '1', '잠사');"  title="잠사 상세보기" >잠사</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('335', '1', '장뇌');"  title="장뇌 상세보기" >장뇌</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('336', '1', '저담');"  title="저담 상세보기" >저담</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('337', '1', '저령');"  title="저령 상세보기" >저령</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('338', '1', '저마근');"  title="저마근 상세보기" >저마근</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('339', '1', '저백피');"  title="저백피 상세보기" >저백피</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('340', '1', '저실자');"  title="저실자 상세보기" >저실자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('341', '1', '적석지');"  title="적석지 상세보기" >적석지</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('342', '1', '적소두');"  title="적소두 상세보기" >적소두</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('343', '1', '적전');"  title="적전 상세보기" >적전</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('344', '1', '전갈');"  title="전갈 상세보기" >전갈</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('345', '1', '전호');"  title="전호 상세보기" >전호</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('346', '1', '절패모');"  title="절패모 상세보기" >절패모</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('347', '1', '접골목');"  title="접골목 상세보기" >접골목</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('348', '1', '정공등');"  title="정공등 상세보기" >정공등</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('349', '1', '정력자');"  title="정력자 상세보기" >정력자</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('350', '1', '정류');"  title="정류 상세보기" >정류</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('351', '1', '정향');"  title="정향 상세보기" >정향</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('352', '1', '제니');"  title="제니 상세보기" >제니</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('353', '1', '제조');"  title="제조 상세보기" >제조</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('354', '1', '조각자');"  title="조각자 상세보기" >조각자</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('355', '1', '조구등');"  title="조구등 상세보기" >조구등</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('356', '1', '조협');"  title="조협 상세보기" >조협</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('357', '1', '종대황');"  title="종대황 상세보기" >종대황</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('358', '1', '종려피');"  title="종려피 상세보기" >종려피</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('359', '1', '주사');"  title="주사 상세보기" >주사</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('360', '1', '죽력');"  title="죽력 상세보기" >죽력</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('361', '1', '죽여');"  title="죽여 상세보기" >죽여</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('362', '1', '지각');"  title="지각 상세보기" >지각</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('363', '1', '지골피');"  title="지골피 상세보기" >지골피</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('364', '1', '지구자');"  title="지구자 상세보기" >지구자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('365', '1', '지룡');"  title="지룡 상세보기" >지룡</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('366', '1', '지모');"  title="지모 상세보기" >지모</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('367', '1', '지부자');"  title="지부자 상세보기" >지부자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('368', '1', '지실');"  title="지실 상세보기" >지실</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('369', '1', '지유');"  title="지유 상세보기" >지유</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('370', '1', '지황');"  title="지황 상세보기" >지황</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('371', '1', '진교');"  title="진교 상세보기" >진교</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('372', '1', '진주');"  title="진주 상세보기" >진주</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('373', '1', '진피');"  title="진피 상세보기" >진피</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index8" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('374', '1', '진피');"  title="진피 상세보기" >진피</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('375', '1', '질려자');"  title="질려자 상세보기" >질려자</a>
+									</li>
+   						
+									</ul>
+
+   						
+								
+						
+						
+						
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('9')" class="word d_title9" title="ㅊ">ㅊ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index9" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('376', '1', '차전자');"  title="차전자 상세보기" >차전자</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('377', '1', '창이자');"  title="창이자 상세보기" >창이자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('378', '1', '창출');"  title="창출 상세보기" >창출</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('379', '1', '천골');"  title="천골 상세보기" >천골</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index9" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('380', '1', '천궁');"  title="천궁 상세보기" >천궁</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('381', '1', '천남성');"  title="천남성 상세보기" >천남성</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('382', '1', '천련자');"  title="천련자 상세보기" >천련자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('383', '1', '천마');"  title="천마 상세보기" >천마</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index9" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('384', '1', '천문동');"  title="천문동 상세보기" >천문동</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('385', '1', '천산갑');"  title="천산갑 상세보기" >천산갑</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('386', '1', '천오');"  title="천오 상세보기" >천오</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('387', '1', '천초근');"  title="천초근 상세보기" >천초근</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index9" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('388', '1', '천축황');"  title="천축황 상세보기" >천축황</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('389', '1', '천패모');"  title="천패모 상세보기" >천패모</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('390', '1', '청대');"  title="청대 상세보기" >청대</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('391', '1', '청상자');"  title="청상자 상세보기" >청상자</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index9" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('392', '1', '청피');"  title="청피 상세보기" >청피</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('393', '1', '청호');"  title="청호 상세보기" >청호</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('394', '1', '초과');"  title="초과 상세보기" >초과</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('395', '1', '초두구');"  title="초두구 상세보기" >초두구</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index9" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('396', '1', '초오');"  title="초오 상세보기" >초오</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('397', '1', '촉규화');"  title="촉규화 상세보기" >촉규화</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('398', '1', '총백');"  title="총백 상세보기" >총백</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('399', '1', '충위자');"  title="충위자 상세보기" >충위자</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index9" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('400', '1', '측백엽');"  title="측백엽 상세보기" >측백엽</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('401', '1', '치자');"  title="치자 상세보기" >치자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('402', '1', '칠피');"  title="칠피 상세보기" >칠피</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('403', '1', '침향');"  title="침향 상세보기" >침향</a>
+									</li>
+								</ul>
+								
+   						
+									</ul>
+
+   						
+								
+						
+						
+						
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('10')" class="word d_title10" title="ㅌ">ㅌ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index10" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('404', '1', '택란');"  title="택란 상세보기" >택란</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('405', '1', '택사');"  title="택사 상세보기" >택사</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('406', '1', '토근');"  title="토근 상세보기" >토근</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('407', '1', '토목향');"  title="토목향 상세보기" >토목향</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index10" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('408', '1', '토복령');"  title="토복령 상세보기" >토복령</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('409', '1', '토사자');"  title="토사자 상세보기" >토사자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('410', '1', '통초');"  title="통초 상세보기" >통초</a>
+									</li>
+   						
+									</ul>
+
+   						
+								
+						
+						
+						
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('11')" class="word d_title11" title="ㅍ">ㅍ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index11" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('411', '1', '파극천');"  title="파극천 상세보기" >파극천</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('412', '1', '파두');"  title="파두 상세보기" >파두</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('413', '1', '판람근');"  title="판람근 상세보기" >판람근</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('414', '1', '팔각회향');"  title="팔각회향 상세보기" >팔각회향</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index11" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('415', '1', '패란');"  title="패란 상세보기" >패란</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('416', '1', '패장');"  title="패장 상세보기" >패장</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('417', '1', '편축');"  title="편축 상세보기" >편축</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('418', '1', '포공영');"  title="포공영 상세보기" >포공영</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index11" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('419', '1', '포황');"  title="포황 상세보기" >포황</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('420', '1', '피마자');"  title="피마자 상세보기" >피마자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('421', '1', '필발');"  title="필발 상세보기" >필발</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('422', '1', '필징가');"  title="필징가 상세보기" >필징가</a>
+									</li>
+								</ul>
+								
+   						
+									</ul>
+
+   						
+								
+						
+						
+						
+									
+										<h2 class="depth1_title" >
+											<a href="javascript:doShowHide('12')" class="word d_title12" title="ㅎ">ㅎ</a>
+										</h2>
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('423', '1', '하고초');"  title="하고초 상세보기" >하고초</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('424', '1', '하수오');"  title="하수오 상세보기" >하수오</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('425', '1', '하엽');"  title="하엽 상세보기" >하엽</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('426', '1', '학슬');"  title="학슬 상세보기" >학슬</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('427', '1', '한련초');"  title="한련초 상세보기" >한련초</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('428', '1', '한속단');"  title="한속단 상세보기" >한속단</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('429', '1', '한수석');"  title="한수석 상세보기" >한수석</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('430', '1', '한인진');"  title="한인진 상세보기" >한인진</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('431', '1', '합개');"  title="합개 상세보기" >합개</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('432', '1', '합환피');"  title="합환피 상세보기" >합환피</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('433', '1', '해구신');"  title="해구신 상세보기" >해구신</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('434', '1', '해금사');"  title="해금사 상세보기" >해금사</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('435', '1', '해대');"  title="해대 상세보기" >해대</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('436', '1', '해동피');"  title="해동피 상세보기" >해동피</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('437', '1', '해마');"  title="해마 상세보기" >해마</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('438', '1', '해방풍');"  title="해방풍 상세보기" >해방풍</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('439', '1', '해백');"  title="해백 상세보기" >해백</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('440', '1', '해부석');"  title="해부석 상세보기" >해부석</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('441', '1', '해분');"  title="해분 상세보기" >해분</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('442', '1', '해삼');"  title="해삼 상세보기" >해삼</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('443', '1', '해송자');"  title="해송자 상세보기" >해송자</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('444', '1', '해조');"  title="해조 상세보기" >해조</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('445', '1', '해표초');"  title="해표초 상세보기" >해표초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('446', '1', '행인');"  title="행인 상세보기" >행인</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('447', '1', '향부자');"  title="향부자 상세보기" >향부자</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('448', '1', '향유');"  title="향유 상세보기" >향유</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('449', '1', '현삼');"  title="현삼 상세보기" >현삼</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('450', '1', '현초');"  title="현초 상세보기" >현초</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('451', '1', '현호색');"  title="현호색 상세보기" >현호색</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('452', '1', '혈갈');"  title="혈갈 상세보기" >혈갈</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('453', '1', '형개');"  title="형개 상세보기" >형개</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('454', '1', '호도');"  title="호도 상세보기" >호도</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('455', '1', '호로파');"  title="호로파 상세보기" >호로파</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('457', '1', '호박');"  title="호박 상세보기" >호박</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('458', '1', '호이초');"  title="호이초 상세보기" >호이초</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('459', '1', '호장근');"  title="호장근 상세보기" >호장근</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('460', '1', '호황련');"  title="호황련 상세보기" >호황련</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('461', '1', '홍화');"  title="홍화 상세보기" >홍화</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('462', '1', '홍화자');"  title="홍화자 상세보기" >홍화자</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('463', '1', '화피');"  title="화피 상세보기" >화피</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('464', '1', '활석');"  title="활석 상세보기" >활석</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('465', '1', '황금');"  title="황금 상세보기" >황금</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('466', '1', '황기');"  title="황기 상세보기" >황기</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('467', '1', '황련');"  title="황련 상세보기" >황련</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('468', '1', '황매목');"  title="황매목 상세보기" >황매목</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('469', '1', '황백');"  title="황백 상세보기" >황백</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('470', '1', '황정');"  title="황정 상세보기" >황정</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('471', '1', '회향');"  title="회향 상세보기" >회향</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('472', '1', '후박');"  title="후박 상세보기" >후박</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('473', '1', '후추');"  title="후추 상세보기" >후추</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('474', '1', '훤초근');"  title="훤초근 상세보기" >훤초근</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('475', '1', '흑두');"  title="흑두 상세보기" >흑두</a>
+									</li>
+								</ul>
+								
+   						
+								
+						
+						
+						
+										
+								<ul class="bul_bar theme_list index12" style="display: none;">
+									<li>
+										<a href="javascript:monoDetailView('476', '1', '흑사당');"  title="흑사당 상세보기" >흑사당</a>
+									</li>
+						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('477', '1', '흑지마');"  title="흑지마 상세보기" >흑지마</a>
+									</li>
+   						
+								
+						
+						
+						
+									<li>
+											<a href="javascript:monoDetailView('478', '1', '희렴');"  title="희렴 상세보기" >희렴</a>
+									</li>
+   						
+									</ul>
+
+									
+						
+								
+						
+						
+						
+						
+
+</form>		
+		<!--content end-->
+
+	</section>
+</div>
+
+
+<hr/>
+<footer id="footer">
+	
+
+
+
+
+
+<script type="text/javascript">
+	function alt() {
+		alert("페이지가 존재하지 않습니다.");	
+	}
+</script>
+
+<a href="#accessibility" id="btn_top"><span>TOP</span></a>
+
+
+
+<div id="etc_footer">
+
+	<div class="select_link">
+
+		<article class="group">
+
+			<h2><a href="javascript:;">관련대학</a></h2>
+
+			<ul>
+
+				<li><a href="https://www.gachon.ac.kr/prekoreanmedicine/index.do" target="_blank" rel="noopener noreferrer" title="가천대학교 한의과대학-새창열림">가천대학교 한의과대학</a></li>
+
+				<li><a href="http://kmc.khu.ac.kr/" target="_blank" rel="noopener noreferrer" title="경희대학교 한의과대학-새창열림">경희대학교 한의과대학</a></li>
+
+				<li><a href="http://kmc.khu.ac.kr/html_2016/03/02.php" target="_blank" rel="noopener noreferrer" title="경희대학교 한의연구소-새창열림">경희대학교 한의연구소</a></li>
+
+				<li><a href="http://kmc.dhu.ac.kr/" target="_blank" rel="noopener noreferrer" title="대구한의대학교 한의과대학-새창열림">대구한의대학교 한의과대학</a></li>
+
+				<li><a href="https://www.dju.ac.kr/medicine/main.do" target="_blank" rel="noopener noreferrer" title="대전대학교 한의과대학-새창열림">대전대학교 한의과대학</a></li>
+
+				<li><a href="http://www.dumc.or.kr/medicalcenter/university/university_04.jsp" target="_blank" rel="noopener noreferrer" title="동국대학교 한의과대학-새창열림">동국대학교 한의과대학</a></li>
+
+				<li><a href="https://dshani.dsu.ac.kr/dshani/" target="_blank" rel="noopener noreferrer" title="동신대학교 한의예ㆍ학과-새창열림">동신대학교 한의예ㆍ학과</a></li>
+
+				<li><a href="https://www.deu.ac.kr/www/col/40" target="_blank" rel="noopener noreferrer" title="동의대학교 한의과대학-새창열림">동의대학교 한의과대학</a></li>
+
+				<li><a href="javascript:alt();" title="동의대학교 한의학연구소-새창열림">동의대학교 한의학연구소</a></li>
+
+				<li><a href="http://kmed.pusan.ac.kr" target="_blank" rel="noopener noreferrer" title="부산대학교 한의학전문대학원-새창열림">부산대학교 한의학전문대학원</a></li>
+
+				<li><a href="https://www.sangji.ac.kr/hani/index.do" target="_blank" rel="noopener noreferrer" title="상지대학교 한의예과/한의학과-새창열림">상지대학교 한의예과/한의학과</a></li>
+
+				<li><a href="http://smhani.semyung.ac.kr/" target="_blank" rel="noopener noreferrer" title="세명대학교 한의과대학-새창열림">세명대학교 한의과대학</a></li>
+
+				<li><a href="http://www.semyung.ac.kr/kor/sub07_04_04_01.do" target="_blank" rel="noopener noreferrer" title="세명대학교 한의학연구소-새창열림">세명대학교 한의학연구소</a></li>
+
+				<li><a href="https://hani.woosuk.ac.kr/2015/inner.php?sMenu=main" target="_blank" rel="noopener noreferrer" title="우석대학교 한의과대학-새창열림">우석대학교 한의과대학</a></li>
+
+				<li><a href="https://kmed.wku.ac.kr/" target="_blank" rel="noopener noreferrer" title="원광대학교 한의과대학-새창열림">원광대학교 한의과대학</a></li>
+
+
+			</ul>
+
+		</article>
+
+
+
+		<article class="group">
+
+			<h2><a href="">관련학회</a></h2>
+
+			<ul>
+				<li><a href="http://pharmacopuncture.co.kr" target="_blank" rel="noopener noreferrer" title="KPI 대한약침학회-새창열림">KPI 대한약침학회</a></li>
+				
+				<li><a href="https://spkom.jams.or.kr/co/main/jmMain.kci" target="_blank" rel="noopener noreferrer" title="SPKOM 대한예방한의학회-새창열림">SPKOM 대한예방한의학회</a></li>
+				
+				<li><a href="http://acupoint.org/" target="_blank" rel="noopener noreferrer" title="경락경혈학회-새창열림">경락경혈학회</a></li>
+				
+				<li><a href="https://www.ginsengsociety.org/" target="_blank" rel="noopener noreferrer" title="고려인삼학회-새창열림">고려인삼학회</a></li>
+				
+				<li><a href="http://www.dhu.ac.kr/pages/sub.htm?nav_code=dhu1571814979&view_cate=1058" target="_blank" rel="noopener noreferrer" title="대구한의대학교 제한동의학술원-새창열림">대구한의대학교 제한동의학술원</a></li>
+				
+				<li><a href="https://kmpath.jams.or.kr/co/main/jmMain.kci" target="_blank" rel="noopener noreferrer" title="대한동의생리학회-새창열림">대한동의생리학회</a></li>
+
+				<li><a href="http://www.herbology.or.kr" target="_blank" rel="noopener noreferrer" title="대한본초학회-새창열림">대한본초학회</a></li>
+				
+				<li><a href="https://kmediacs.com/" target="_blank" rel="noopener noreferrer" title="대한상한금궤의학회-새창열림">대한상한금궤의학회</a></li>
+
+				<li><a href="http://sskm.or.kr/" target="_blank" rel="noopener noreferrer" title="대한스포츠한의학회-새창열림">대한스포츠한의학회</a></li>
+
+				<li><a href="https://www.koreanoncology.or.kr/" target="_blank" rel="noopener noreferrer" title="대한암한의학회-새창열림">대한암한의학회</a></li>
+				
+				<li><a href="http://www.softtissue.kr/" target="_blank" rel="noopener noreferrer" title="대한침도의학회-새창열림">대한침도의학회</a></li>
+
+				<li><a href="http://gigong.or.kr" target="_blank" rel="noopener noreferrer" title="대한의료기공학회-새창열림">대한의료기공학회</a></li>
+
+				<li><a href="http://kmstroke.or.kr" target="_blank" rel="noopener noreferrer" title="대한중풍·순환신경학회-새창열림">대한중풍·순환신경학회</a></li>
+
+				<li><a href="http://www.kamms.org" target="_blank" rel="noopener noreferrer" title="대한침구의학회-새창열림">대한침구의학회</a></li>
+
+				<li><a href="http://www.ikm.or.kr/" target="_blank" rel="noopener noreferrer" title="대한한방내과학회-새창열림">대한한방내과학회</a></li>
+
+				<li><a href="http://www.oobgy.or.kr/" target="_blank" rel="noopener noreferrer" title="대한한방부인과학회-새창열림">대한한방부인과학회</a></li>
+
+				<li><a href="http://www.akop.or.kr" target="_blank" rel="noopener noreferrer" title="대한한방소아과학회-새창열림">대한한방소아과학회</a></li>
+
+				<li><a href="http://www.onp.or.kr" target="_blank" rel="noopener noreferrer" title="대한한방신경정신과학회-새창열림">대한한방신경정신과학회</a></li>
+
+				<li><a href="http://www.ood.or.kr" target="_blank" rel="noopener noreferrer" title="대한한방안이비인후피부과학회-새창열림">대한한방안이비인후피부과학회</a></li>
+
+				<li><a href="javascript:alt();" title="대한한방피부미용학회-새창열림">대한한방피부미용학회</a></li>
+
+				<li><a href="javascript:alt();" title="대한한의정보학회-새창열림">대한한의정보학회</a></li>
+
+				<li><a href="https://diagnostics.jams.or.kr/co/main/jmMain.kci" target="_blank" rel="noopener noreferrer" title="대한한의진단학회-새창열림">대한한의진단학회</a></li>
+
+				<li><a href="http://www.ompak.okdanche.com/" target="_blank" rel="noopener noreferrer" title="대한한의학방제학회-새창열림">대한한의학방제학회</a></li>
+
+				<li><a href="http://www.wonjeon.org/" target="_blank" rel="noopener noreferrer" title="대한한의학원전학회-새창열림">대한한의학원전학회</a></li>
+
+				<li><a href="http://www.skoms.or.kr/" target="_blank" rel="noopener noreferrer" title="대한한의학회-새창열림">대한한의학회</a></li>
+
+				<li><a href="http://www.hyungsang.or.kr" target="_blank" rel="noopener noreferrer" title="대한형상의학회-새창열림">대한형상의학회</a></li>
+
+				<li><a href="http://www.esasang.or.kr/" target="_blank" rel="noopener noreferrer" title="사상체질의학회-새창열림">사상체질의학회</a></li>
+
+				<li><a href="http://www.somun.or.kr" target="_blank" rel="noopener noreferrer" title="소문학회-새창열림">소문학회</a></li>
+
+				<li><a href="http://www.chuna.or.kr/" target="_blank" rel="noopener noreferrer" title="척추신경추나의학회-새창열림">척추신경추나의학회</a></li>
+
+				<li><a href="http://www.tmjbalancing.or.kr/gr5/" target="_blank" rel="noopener noreferrer" title="턱관절균형의학회-새창열림">턱관절균형의학회</a></li>
+
+				<li><a href="https://medicalhistory.jams.or.kr/co/main/jmMain.kci" target="_blank" rel="noopener noreferrer" title="한국의사학회-새창열림">한국의사학회</a></li>
+
+				<li><a href="http://www.obesity.or.kr" target="_blank" rel="noopener noreferrer" title="한방비만학회-새창열림">한방비만학회</a></li>
+
+				<li><a href="http://www.ormkorea.org/" target="_blank" rel="noopener noreferrer" title="한방재활의학과학회-새창열림">한방재활의학과학회</a></li>
+
+				<li><a href="http://www.ikoni.co.kr" target="_blank" rel="noopener noreferrer" title="한의자연요법학회-새창열림">한의자연요법학회</a></li>
+
+			</ul>
+
+		</article>
+
+	</div>
+
+</div>
+
+
+
+<div id="last_footer">
+
+
+
+	<!-- 20170524 인증마크 추가 -->
+
+	<a href="http://webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110" class="mark_wa" target="_blank" rel="noopener noreferrer"><img style="width: 90px; height: 60px;" src="/cms/images/kps/common/wa.png" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" title="국가 공인 인증기관 : 웹와치" border="0"/></a>
+
+	<!-- //20170524 인증마크 추가 -->
+
+
+
+	<ul class="fsidemenu">
+
+		<li><a href="/modedg/contentsView.do?ucont_id=CTX000008&srch_menu_nix=34Us6B7z" style="color: #3791e9;">개인정보처리방침</a></li>
+
+		<li><a href="/modedg/contentsView.do?ucont_id=CTX000012&srch_menu_nix=3P3nEV1f">찾아오시는길</a></li>
+
+		<li><a href="mailto:oasis@kiom.re.kr">관리자메일</a></li>
+
+		<li class="last"><a href="/brdartcl/boardarticleList.do?brd_id=BDIDX_91g45YkN321fm8It6WoQ3g&srch_menu_nix=ryC6lD6H">정보오류신고</a></li>
+
+	</ul>
+
+
+
+	<address>(우) 34054 대전광역시 유성구 유성대로 1672</address>
+
+	<span>/</span>
+
+	<p class="copyright">COPYRIGHT&copy; 2016 BY KOREA INSTITUTE OF ORIENTAL MEDICINE. ALL RIGHTS RESERVED. </p>
+
+</div>
+
+
+</footer>
+
+	</div>
+	<!-- subwrap end -->
+	
+</body>
+</html>
