@@ -1,0 +1,578 @@
+[
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN014630&label=Ingredient",
+        "ingredient_name": "acteoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)O)CO)OCCC4=CC(=C(C=C4)O)O)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OCCc2ccc(c(c2)O)O)C(C(C1OC(=O)C=Cc1ccc(c(c1)O)O)OC1OC(C)C(C(C1O)O)O)O",
+            "Formula": "C29H36O15",
+            "TPSA": "245.29 Å²",
+            "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+            "Ghose": "No; 4 violations: MW>480, WLOGP<-0.4, MR>130, #atoms>70",
+            "Veber": "No; 2 violations: Rotors>10, TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 4 violations: MW>600, TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.17"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN041323&label=Ingredient",
+        "ingredient_name": "Purpureaside C",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)O)COC4C(C(C(C(O4)CO)O)O)O)OCCC5=CC(=C(C=C5)O)O)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "",
+            "Formula": "",
+            "TPSA": "Å²",
+            "Lipinski": "; violation",
+            "Ghose": "",
+            "Veber": "",
+            "Egan": "",
+            "Muegge": "",
+            "Bioavailability Score": ""
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN029675&label=Ingredient",
+        "ingredient_name": "hydroferulic acid",
+        "molecule_smile": "COC1=C(C=CC(=C1)CCC(=O)O)O",
+        "swissadme_results": {
+            "SMILES": "COc1cc(CCC(=O)O)ccc1O",
+            "Formula": "C10H12O4",
+            "TPSA": "66.76 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "Yes",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "No; 1 violation: MW<200",
+            "Bioavailability Score": "0.85"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN042029&label=Ingredient",
+        "ingredient_name": "rehmapicrogenin",
+        "molecule_smile": "CC1=C(C(CCC1O)(C)C)C(=O)O",
+        "swissadme_results": {
+            "SMILES": "OC1CCC(C(=C1C)C(=O)O)(C)C",
+            "Formula": "C10H16O3",
+            "TPSA": "57.53 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "Yes",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "No; 1 violation: MW<200",
+            "Bioavailability Score": "0.85"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN022700&label=Ingredient",
+        "ingredient_name": "darendoside B",
+        "molecule_smile": "CCOC1C(C(C(C(O1)CO)O)OC2C(C(C(C(O2)C)O)O)O)(C3=CC(=C(C=C3)OC)O)O",
+        "swissadme_results": {
+            "SMILES": "CCOC1OC(CO)C(C(C1(O)c1ccc(c(c1)O)OC)OC1OC(C)C(C(C1O)O)O)O",
+            "Formula": "C21H32O12",
+            "TPSA": "187.76 Å²",
+            "Lipinski": "No; 2 violations: NorO>10, NHorOH>5",
+            "Ghose": "No; 1 violation: WLOGP<-0.4",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 3 violations: TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.17"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN022871&label=Ingredient",
+        "ingredient_name": "deacyl-martynoside",
+        "molecule_smile": "CCOC1C(C(C(C(O1)CO)O)OC2C(C(C(C(O2)C)O)O)O)(C3=CC(=C(C=C3)OC)O)O",
+        "swissadme_results": {
+            "SMILES": "CCOC1OC(CO)C(C(C1(O)c1ccc(c(c1)O)OC)OC1OC(C)C(C(C1O)O)O)O",
+            "Formula": "C21H32O12",
+            "TPSA": "187.76 Å²",
+            "Lipinski": "No; 2 violations: NorO>10, NHorOH>5",
+            "Ghose": "No; 1 violation: WLOGP<-0.4",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 3 violations: TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.17"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN030927&label=Ingredient",
+        "ingredient_name": "Isomartynoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2O)OCCC3=CC(=C(C=C3)OC)O)COC(=O)C=CC4=CC(=C(C=C4)O)OC)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "COc1ccc(cc1O)CCOC1OC(COC(=O)C=Cc2ccc(c(c2)OC)O)C(C(C1O)OC1OC(C)C(C(C1O)O)O)O",
+            "Formula": "C31H40O15",
+            "TPSA": "223.29 Å²",
+            "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+            "Ghose": "No; 4 violations: MW>480, WLOGP<-0.4, MR>130, #atoms>70",
+            "Veber": "No; 2 violations: Rotors>10, TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 4 violations: MW>600, TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.17"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN026747&label=Ingredient",
+        "ingredient_name": "frehmaglutin D",
+        "molecule_smile": "C1COC2C3C1C(C(C3(CO2)O)Cl)O",
+        "swissadme_results": {
+            "SMILES": "OC1C2CCOC3C2C(C1Cl)(O)CO3",
+            "Formula": "C9H13ClO4",
+            "TPSA": "58.92 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "Yes",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "Yes",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN019909&label=Ingredient",
+        "ingredient_name": "catalpol",
+        "molecule_smile": "C1=COC(C2C1C(C3C2(O3)CO)O)OC4C(C(C(C(O4)CO)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OC2OC=CC3C2C2(CO)OC2C3O)C(C(C1O)O)O",
+            "Formula": "C15H22O10",
+            "TPSA": "161.60 Å²",
+            "Lipinski": "Yes; 1 violation: NHorOH>5",
+            "Ghose": "No; 1 violation: WLOGP<-0.4",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 3 violations: XLOGP3<-2, TPSA>150, H-don>5",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN012667&label=Ingredient",
+        "ingredient_name": "6-O-E-Feruloylajugol",
+        "molecule_smile": "CC1(CC(C2C1C(OC=C2)OC3C(C(C(C(O3)CO)O)O)O)OC(=O)C=CC4=CC(=C(C=C4)O)OC)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OC2OC=CC3C2C(C)(O)CC3OC(=O)C=Cc2ccc(c(c2)OC)O)C(C(C1O)O)O",
+            "Formula": "C25H32O12",
+            "TPSA": "184.60 Å²",
+            "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+            "Ghose": "No; 2 violations: MW>480, WLOGP<-0.4",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 3 violations: TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.17"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN036057&label=Ingredient",
+        "ingredient_name": "myobontioside A",
+        "molecule_smile": "C1C(C2C=COC(C2C1(CCl)O)OC3C(C(C(C(O3)CO)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OC2OC=CC3C2C(O)(CCl)CC3O)C(C(C1O)O)O",
+            "Formula": "C15H23ClO9",
+            "TPSA": "149.07 Å²",
+            "Lipinski": "Yes; 1 violation: NHorOH>5",
+            "Ghose": "No; 1 violation: WLOGP<-0.4",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 1 violation: H-don>5",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN002718&label=Ingredient",
+        "ingredient_name": "1-methyl-1, 2, 3, 4-tetrahydro-β-carboline-3-carboxylic acid",
+        "molecule_smile": "CC1C2=C(CC(N1)C(=O)O)C3=CC=CC=C3N2",
+        "swissadme_results": {
+            "SMILES": "OC(=O)C1NC(C)c2c(C1)c1ccccc1[nH]2",
+            "Formula": "C13H14N2O2",
+            "TPSA": "65.12 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "Yes",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "Yes",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN027103&label=Ingredient",
+        "ingredient_name": "gamma-aminobutyric acid",
+        "molecule_smile": "C(CC(=O)O)CN.Cl",
+        "swissadme_results": {
+            "SMILES": "NCCCC(=O)O.Cl",
+            "Formula": "C4H10ClNO2",
+            "TPSA": "63.32 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "No; 3 violations: MW<160, MR<40, #atoms<20",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "No; 3 violations: MW<200, XLOGP3<-2, #C<5",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN043557&label=Ingredient",
+        "ingredient_name": "sec-hydroxyaegineticacid",
+        "molecule_smile": "CC(=CC(=O)O)C=CC1(C(C(CCC1(C)O)O)(C)C)O",
+        "swissadme_results": {
+            "SMILES": "OC(=O)C=C(C=CC1(O)C(C)(O)CCC(C1(C)C)O)C",
+            "Formula": "C15H24O5",
+            "TPSA": "97.99 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "Yes",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "Yes",
+            "Bioavailability Score": "0.56"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN014748&label=Ingredient",
+        "ingredient_name": "aeginetic acid",
+        "molecule_smile": "CC(=CC(=O)O)C=CC1(C(CCCC1(C)O)(C)C)O",
+        "swissadme_results": {
+            "SMILES": "OC(=O)C=C(C=CC1(O)C(C)(C)CCCC1(C)O)C",
+            "Formula": "C15H24O4",
+            "TPSA": "77.76 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "Yes",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "Yes",
+            "Bioavailability Score": "0.56"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN022888&label=Ingredient",
+        "ingredient_name": "decaffeoylacteoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2O)OCCC3=CC(=C(C=C3)O)O)CO)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OCCc2ccc(c(c2)O)O)C(C(C1O)OC1OC(C)C(C(C1O)O)O)O",
+            "Formula": "C20H30O12",
+            "TPSA": "198.76 Å²",
+            "Lipinski": "No; 2 violations: NorO>10, NHorOH>5",
+            "Ghose": "No; 1 violation: WLOGP<-0.4",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 3 violations: TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.17"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN001520&label=Ingredient",
+        "ingredient_name": "1-(4-methy-2-furanyl)-2-(5-methyl-5-ethenyl-2-tetrahydrofuranyl)-propan-1-one",
+        "molecule_smile": "C15H20O3",
+        "swissadme_results": {
+            "SMILES": "",
+            "Formula": "",
+            "TPSA": "0.00 Å²",
+            "Lipinski": "; violation",
+            "Ghose": "",
+            "Veber": "",
+            "Egan": "",
+            "Muegge": "",
+            "Bioavailability Score": ""
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN033015&label=Ingredient",
+        "ingredient_name": "leucosceptoside A",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)OC)CO)OCCC4=CC(=C(C=C4)O)O)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OCCc2ccc(c(c2)O)O)C(C(C1OC(=O)C=Cc1ccc(c(c1)OC)O)OC1OC(C)C(C(C1O)O)O)O",
+            "Formula": "C30H38O15",
+            "TPSA": "234.29 Å²",
+            "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+            "Ghose": "No; 4 violations: MW>480, WLOGP<-0.4, MR>130, #atoms>70",
+            "Veber": "No; 2 violations: Rotors>10, TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 4 violations: MW>600, TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.17"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN038512&label=Ingredient",
+        "ingredient_name": "oxyrehmaionoside B",
+        "molecule_smile": "CC(C=CC1(C(C(CCC1(C)OC2C(C(C(C(O2)CO)O)O)O)O)(C)C)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OC2(C)CCC(C(C2(O)C=CC(O)C)(C)C)O)C(C(C1O)O)O",
+            "Formula": "C19H34O9",
+            "TPSA": "160.07 Å²",
+            "Lipinski": "Yes; 1 violation: NHorOH>5",
+            "Ghose": "No; 1 violation: WLOGP<-0.4",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 2 violations: TPSA>150, H-don>5",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN035681&label=Ingredient",
+        "ingredient_name": "monomellittoside",
+        "molecule_smile": "C1=COC(C2C1(C(C=C2CO)O)O)OC3C(C(C(C(O3)CO)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1=CC(C2(C1C(OC=C2)OC1OC(CO)C(C(C1O)O)O)O)O",
+            "Formula": "C15H22O10",
+            "TPSA": "169.30 Å²",
+            "Lipinski": "Yes; 1 violation: NHorOH>5",
+            "Ghose": "No; 1 violation: WLOGP<-0.4",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 3 violations: XLOGP3<-2, TPSA>150, H-don>5",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN042030&label=Ingredient",
+        "ingredient_name": "rehmapicrogenin A",
+        "molecule_smile": "CC1=C(C(CCC1O)(C)C)C(=O)O",
+        "swissadme_results": {
+            "SMILES": "OC1CCC(C(=C1C)C(=O)O)(C)C",
+            "Formula": "C10H16O3",
+            "TPSA": "57.53 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "Yes",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "No; 1 violation: MW<200",
+            "Bioavailability Score": "0.85"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN042854&label=Ingredient",
+        "ingredient_name": "salidroside",
+        "molecule_smile": "C1=CC(=CC=C1CCOC2C(C(C(C(O2)CO)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OCCc2ccc(cc2)O)C(C(C1O)O)O",
+            "Formula": "C14H20O7",
+            "TPSA": "119.61 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "No; 1 violation: WLOGP<-0.4",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "Yes",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN024009&label=Ingredient",
+        "ingredient_name": "dihydroxy-β-ionone",
+        "molecule_smile": "CC(=O)C=CC1(C(CCCC1(C)O)(C)C)O",
+        "swissadme_results": {
+            "SMILES": "CC(=O)C=CC1(O)C(C)(C)CCCC1(C)O",
+            "Formula": "C13H22O3",
+            "TPSA": "57.53 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "Yes",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "Yes",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN042020&label=Ingredient",
+        "ingredient_name": "Rehmaionoside C",
+        "molecule_smile": "CC(=O)C=CC1(C(CCCC1(C)OC2C(C(C(C(O2)CO)O)O)O)(C)C)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OC2(C)CCCC(C2(O)C=CC(=O)C)(C)C)C(C(C1O)O)O",
+            "Formula": "C19H32O8",
+            "TPSA": "136.68 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "Yes",
+            "Veber": "Yes",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "Yes",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN034521&label=Ingredient",
+        "ingredient_name": "Martynoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)OC)CO)OCCC4=CC(=C(C=C4)OC)O)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OCCc2ccc(c(c2)O)OC)C(C(C1OC(=O)C=Cc1ccc(c(c1)OC)O)OC1OC(C)C(C(C1O)O)O)O",
+            "Formula": "C31H40O15",
+            "TPSA": "223.29 Å²",
+            "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+            "Ghose": "No; 4 violations: MW>480, WLOGP<-0.4, MR>130, #atoms>70",
+            "Veber": "No; 2 violations: Rotors>10, TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 4 violations: MW>600, TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.17"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN014750&label=Ingredient",
+        "ingredient_name": "aeginetic acid 5-O-β-D-quinovoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2(CCCC(C2(C=CC(=CC(=O)O)C)O)(C)C)C)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OC(=O)C=C(C=CC1(O)C(C)(CCCC1(C)C)OC1OC(C)C(C(C1O)O)O)C",
+            "Formula": "C21H34O8",
+            "TPSA": "136.68 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "Yes",
+            "Veber": "Yes",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "Yes",
+            "Bioavailability Score": "0.56"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN047079&label=Ingredient",
+        "ingredient_name": "trihydroxy-bionone",
+        "molecule_smile": "CC(=O)C=CC1(C(C(CCC1(C)O)O)(C)C)O",
+        "swissadme_results": {
+            "SMILES": "CC(=O)C=CC1(O)C(C)(O)CCC(C1(C)C)O",
+            "Formula": "C13H22O4",
+            "TPSA": "77.76 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "Yes",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "Yes",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN039706&label=Ingredient",
+        "ingredient_name": "p-hydroxyphenylethyl alcohol",
+        "molecule_smile": "C1=CC(=CC=C1CCO)O",
+        "swissadme_results": {
+            "SMILES": "OCCc1ccc(cc1)O",
+            "Formula": "C8H10O2",
+            "TPSA": "40.46 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "No; 2 violations: MW<160, MR<40",
+            "Veber": "Yes",
+            "Egan": "Yes",
+            "Muegge": "No; 1 violation: MW<200",
+            "Bioavailability Score": "0.55"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN042016&label=Ingredient",
+        "ingredient_name": "rehmaglutosides",
+        "molecule_smile": "CC(=CC(=O)OC1CC(C2C1C=COC2OC3C(C(C(C(O3)CO)O)O)O)(C)O)C=CC4(C(CCCC4(C)O)(C)C)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OC2OC=CC3C2C(C)(O)CC3OC(=O)C=C(C=CC2(O)C(C)(C)CCCC2(C)O)C)C(C(C1O)O)O",
+            "Formula": "C30H46O12",
+            "TPSA": "195.60 Å²",
+            "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+            "Ghose": "No; 3 violations: MW>480, MR>130, #atoms>70",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 3 violations: TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.17"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN036032&label=Ingredient",
+        "ingredient_name": "mussaenosidicacid",
+        "molecule_smile": "CC1(CCC2C1C(OC=C2C(=O)O)OC3C(C(C(C(O3)CO)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OC2OC=C(C3C2C(C)(O)CC3)C(=O)O)C(C(C1O)O)O",
+            "Formula": "C16H24O10",
+            "TPSA": "166.14 Å²",
+            "Lipinski": "Yes; 1 violation: NHorOH>5",
+            "Ghose": "No; 1 violation: WLOGP<-0.4",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 2 violations: TPSA>150, H-don>5",
+            "Bioavailability Score": "0.11"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN031548&label=Ingredient",
+        "ingredient_name": "jionoside b1",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)OC)COC4C(C(C(C(O4)CO)O)O)O)OCCC5=CC(=C(C=C5)OC)O)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OCC2OC(OCCc3ccc(c(c3)O)OC)C(C(C2OC(=O)C=Cc2ccc(c(c2)OC)O)OC2OC(C)C(C(C2O)O)O)O)C(C(C1O)O)O",
+            "Formula": "C37H50O20",
+            "TPSA": "302.44 Å²",
+            "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+            "Ghose": "No; 4 violations: MW>480, WLOGP<-0.4, MR>130, #atoms>70",
+            "Veber": "No; 2 violations: Rotors>10, TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 5 violations: MW>600, TPSA>150, Rotors>15, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.17"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN013456&label=Ingredient",
+        "ingredient_name": "(7R, 8S, 7′R, 8′S)-4, 9, 4′, 9′-tetrahydroxy-3, 3′-dimethoxy-7, 7′-epoxylignan 9-O-β-D-glucopyranoside",
+        "molecule_smile": "COC1=C(C=CC(=C1)C2C(C(C(O2)C3=CC(=C(C=C3)O)OC)COC4C(C(C(C(O4)CO)O)O)O)CO)O",
+        "swissadme_results": {
+            "SMILES": "OCC1C(OC(C1COC1OC(CO)C(C(C1O)O)O)c1ccc(c(c1)OC)O)c1ccc(c(c1)OC)O",
+            "Formula": "C26H34O12",
+            "TPSA": "187.76 Å²",
+            "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+            "Ghose": "No; 4 violations: MW>480, WLOGP<-0.4, MR>130, #atoms>70",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 3 violations: TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.17"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN027448&label=Ingredient",
+        "ingredient_name": "genipingentiobioside",
+        "molecule_smile": "COC(=O)C1=COC(C2C1CC=C2CO)OC3C(C(C(C(O3)COC4C(C(C(C(O4)CO)O)O)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1=CCC2C1C(OC=C2C(=O)OC)OC1OC(COC2OC(CO)C(C(C2O)O)O)C(C(C1O)O)O",
+            "Formula": "C23H34O15",
+            "TPSA": "234.29 Å²",
+            "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+            "Ghose": "No; 3 violations: MW>480, WLOGP<-0.4, #atoms>70",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 4 violations: XLOGP3<-2, TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.11"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN031542&label=Ingredient",
+        "ingredient_name": "jioglutoside b",
+        "molecule_smile": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3C4C(CCC4=C)C(=CO3)C(=O)OC)O)O)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "COC(=O)C1=COC(C2C1CCC2=C)OC1OC(COC2OC(C)C(C(C2O)O)O)C(C(C1O)O)O",
+            "Formula": "C23H34O13",
+            "TPSA": "193.83 Å²",
+            "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+            "Ghose": "No; 2 violations: MW>480, WLOGP<-0.4",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 4 violations: XLOGP3<-2, TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.11"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN027437&label=Ingredient",
+        "ingredient_name": "genameside c",
+        "molecule_smile": "COC(=O)C1=COC(C2C1CC=C2CO)OC3C(C(C(C(O3)CO)OC4C(C(C(C(O4)CO)O)O)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OC2OC=C(C3C2C(=CC3)CO)C(=O)OC)C(C(C1OC1OC(CO)C(C(C1O)O)O)O)O",
+            "Formula": "C23H34O15",
+            "TPSA": "234.29 Å²",
+            "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+            "Ghose": "No; 3 violations: MW>480, WLOGP<-0.4, #atoms>70",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 4 violations: XLOGP3<-2, TPSA>150, H-acc>10, H-don>5",
+            "Bioavailability Score": "0.11"
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN027377&label=Ingredient",
+        "ingredient_name": "gardoside methyl ester",
+        "molecule_smile": "COC(=O)C1=COC(C2C1CC(C2=C)O)OC3C(C(C(C(O3)CO)O)O)O",
+        "swissadme_results": {
+            "SMILES": "OCC1OC(OC2OC=C(C3C2C(=C)C(C3)O)C(=O)OC)C(C(C1O)O)O",
+            "Formula": "C17H24O10",
+            "TPSA": "155.14 Å²",
+            "Lipinski": "Yes; 0 violation",
+            "Ghose": "No; 1 violation: WLOGP<-0.4",
+            "Veber": "No; 1 violation: TPSA>140",
+            "Egan": "No; 1 violation: TPSA>131.6",
+            "Muegge": "No; 2 violations: XLOGP3<-2, TPSA>150",
+            "Bioavailability Score": "0.11"
+        }
+    }
+]

@@ -1,0 +1,1177 @@
+{
+    "http://herb.ac.cn/Detail/?v=HBIN046430&label=Ingredient": {
+        "ingredient_name": "Timosaponin A-1_qt",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT06426"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043198&label=Ingredient": {
+        "ingredient_name": "Sarsasapogenin 3-O-4G-rhamnosylsophoroside",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)C)O)O)O)O)OC9C(C(C(C(O9)CO)O)O)O)C)C)C)OC1",
+        "OB score": "84633-34-1",
+        "SymMap id": "SMIT06418",
+        "PubChem id": "441896"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036630&label=Ingredient": {
+        "ingredient_name": "neogitogein",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CC(C(C6)O)O)C)C)C)OC1",
+        "TCMID id": "40109"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017354&label=Ingredient": {
+        "ingredient_name": "aurantiamide",
+        "molecule_smile": "C1=CC=C(C=C1)CC(CO)NC(=O)C(CC2=CC=CC=C2)NC(=O)C3=CC=CC=C3",
+        "Molecule weight": "26323",
+        "PubChem id": "185904"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046432&label=Ingredient": {
+        "ingredient_name": "Timosaponin A I",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)O)O)C)C)C)OC1",
+        "Molecule weight": "32726",
+        "PubChem id": "134715248"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037247&label=Ingredient": {
+        "ingredient_name": "Nonadienal",
+        "molecule_smile": "CCCCC=CC=CC=O",
+        "OB score": "6750/3/4",
+        "SymMap id": "SMIT03260",
+        "PubChem id": "5283339"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN019826&label=Ingredient": {
+        "ingredient_name": "(-)-Caryophyllene oxide",
+        "molecule_smile": "CC1(CC2C1CCC3(C(O3)CCC2=C)C)C",
+        "OB score": "1139-30-6",
+        "SymMap id": "SMIT04327",
+        "TCMSP id": "MOL002003"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024164&label=Ingredient": {
+        "ingredient_name": "diosgenin",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC=C6C5(CCC(C6)O)C)C)C)OC1",
+        "OB score": "512-04-9",
+        "SymMap id": "SMIT00060",
+        "TCMSP id": "MOL000546",
+        "PubChem id": "137704703"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN009935&label=Ingredient": {
+        "ingredient_name": "4,4'-dihydroxychalcone",
+        "molecule_smile": "C1=CC(=CC=C1C=CC(=O)C2=CC=C(C=C2)O)O",
+        "Molecule weight": "32472",
+        "PubChem id": "5467477"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN023461&label=Ingredient": {
+        "ingredient_name": "Desglucolanatigonin II",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)OC1",
+        "OB score": "SMIT06412",
+        "TCMID id": "5249",
+        "PubChem id": "44584313"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN020479&label=Ingredient": {
+        "ingredient_name": "chrysophanol",
+        "molecule_smile": "CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=CC=C3O",
+        "CAS id": "481-74-3",
+        "TCMID id": "3615",
+        "PubChem id": "10208"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038478&label=Ingredient": {
+        "ingredient_name": "oxy-cis-hinokiresinol",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40117"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN020406&label=Ingredient": {
+        "ingredient_name": "choline",
+        "molecule_smile": "C[N+](C)(C)CCO",
+        "OB score": "62-49-7",
+        "SymMap id": "SMIT00038",
+        "TCMSP id": "MOL000394",
+        "PubChem id": "305"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029313&label=Ingredient": {
+        "ingredient_name": "hexanal",
+        "molecule_smile": "CCCCCC=O",
+        "OB score": "66-25-1",
+        "SymMap id": "SMIT00418",
+        "TCMSP id": "MOL000666",
+        "PubChem id": "6184"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017786&label=Ingredient": {
+        "ingredient_name": "benzoic acid",
+        "molecule_smile": "C1=CC(=C(C=C1Cl)NCC(=O)O)C(=O)O",
+        "CAS id": "65-85-0",
+        "TCMID id": "24166",
+        "PubChem id": "11107141"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044214&label=Ingredient": {
+        "ingredient_name": "smilagenin-3-o-[β-d-glucopyranosyl-(1→2)]-β-d-mannopyranoside",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)O)OC8C(C(C(C(O8)CO)O)O)O)C)C)C)OC1",
+        "Molecule smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5...",
+        "TCMID id": "20011"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043201&label=Ingredient": {
+        "ingredient_name": "sarsasapogenin-3-o-beta-d-glucopyranosyl(1->2)-beta-galactopyranoside",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT02392",
+        "TCMID id": "25043"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036905&label=Ingredient": {
+        "ingredient_name": "nicotine",
+        "molecule_smile": "CN1CCCC1C2=CN=CC=C2",
+        "OB score": "1954/11/5",
+        "SymMap id": "SMIT00177",
+        "TCMSP id": "MOL003403",
+        "PubChem id": "89594"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN013230&label=Ingredient": {
+        "ingredient_name": "7-hydroxy-3一(4-hydroxybenzyl)chroman",
+        "molecule_smile": "C1C(COC2=C1C=CC(=C2)O)CC3=CC=C(C=C3)O",
+        "TCMID id": "40162"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046454&label=Ingredient": {
+        "ingredient_name": "timosaponin E1",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "40113"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN022384&label=Ingredient": {
+        "ingredient_name": "cyclo(Tyr-Leu)",
+        "molecule_smile": "CC(C)CC1C(=O)NC(C(=O)N1)CC2=CC=C(C=C2)O",
+        "Molecule weight": "40167",
+        "PubChem id": "572422"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035683&label=Ingredient": {
+        "ingredient_name": "monomethyl-cis-hinokiresinol",
+        "molecule_smile": "COC1=CC=C(C=C1)C=CC(C=C)C2=CC=C(C=C2)O",
+        "SymMap id": "SMIT16754",
+        "PubChem id": "5319736"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043195&label=Ingredient": {
+        "ingredient_name": "Sarsapogenine",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)O)C)C)C)OC1",
+        "OB score": "126-19-2",
+        "SymMap id": "SMIT05897",
+        "PubChem id": "92095"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046428&label=Ingredient": {
+        "ingredient_name": "timosaponin a1",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)O)O)C)C)C)OC1",
+        "Molecule weight": "11032-26-1",
+        "SymMap id": "SMIT01647",
+        "TCM-ID id": "477"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046458&label=Ingredient": {
+        "ingredient_name": "Timosaponin G(C39)",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40125"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN018884&label=Ingredient": {
+        "ingredient_name": "broussonin b",
+        "molecule_smile": "COC1=C(C=CC(=C1)O)CCCC2=CC=C(C=C2)O",
+        "Molecule weight": "2648",
+        "TCM-ID id": "6112"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN004807&label=Ingredient": {
+        "ingredient_name": "(25 S)一Officinalisnin-I",
+        "molecule_smile": "CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC1(CCC(C)COC8C(C(C(C(O8)CO)O)O)O)O",
+        "TCMID id": "40140"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038965&label=Ingredient": {
+        "ingredient_name": "PAU",
+        "molecule_smile": "CC(C)(CO)C(C(=O)NCCC(=O)O)O",
+        "OB score": "3563-85-7",
+        "SymMap id": "SMIT06411",
+        "PubChem id": "6613"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN018278&label=Ingredient": {
+        "ingredient_name": "beta-sitosterol",
+        "molecule_smile": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C",
+        "OB score": "83-46-5",
+        "SymMap id": "SMIT02553",
+        "TCMSP id": "MOL000358",
+        "PubChem id": "222284"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034502&label=Ingredient": {
+        "ingredient_name": "Markogenin-3-O-beta-D-glucopyranosyl-(1-2)-beta-D-galactopyranoside_qt",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT06416"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044638&label=Ingredient": {
+        "ingredient_name": "Spongesterol",
+        "molecule_smile": "CC(C)C(C)C=CC(C)C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C",
+        "OB score": "SMIT06422",
+        "TCMID id": "20209",
+        "TCM-ID id": "23952"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046435&label=Ingredient": {
+        "ingredient_name": "Timosaponin A III",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)O)OC8C(C(C(C(O8)CO)O)O)O)C)C)C)OC1",
+        "OB score": "SMIT06423",
+        "TCMID id": "32725",
+        "PubChem id": "53486208"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027680&label=Ingredient": {
+        "ingredient_name": "ginkgolic acid",
+        "molecule_smile": "CCCCCCC=CCCCCCCCC1=C(C(=CC=C1)O)C(=O)O",
+        "SymMap id": "SMIT02439",
+        "TCM-ID id": "4059"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036907&label=Ingredient": {
+        "ingredient_name": "nicotinic acid",
+        "molecule_smile": "C1=CC(=CN=C1)C(=O)O",
+        "OB score": "123574-58-3",
+        "SymMap id": "SMIT00040",
+        "TCMSP id": "MOL000421",
+        "PubChem id": "938"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046445&label=Ingredient": {
+        "ingredient_name": "Timosaponin B IV(C57)",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40150"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046431&label=Ingredient": {
+        "ingredient_name": "timosaponin a3",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)O)OC8C(C(C(C(O8)CO)O)O)O)C)C)C)OC1",
+        "Molecule weight": "SMIT17947",
+        "TCMID id": "21379",
+        "PubChem id": "138114240"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027676&label=Ingredient": {
+        "ingredient_name": "Ginkgetin",
+        "molecule_smile": "COC1=C(C=C(C=C1)C2=CC(=O)C3=C(C=C(C=C3O2)OC)O)C4=C(C=C(C5=C4OC(=CC5=O)C6=CC=C(C=C6)O)O)O",
+        "OB score": "481-46-9",
+        "SymMap id": "SMIT04730",
+        "TCMSP id": "MOL002509",
+        "PubChem id": "5271805"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034504&label=Ingredient": {
+        "ingredient_name": "marmesin",
+        "molecule_smile": "CC(C)(C1CC2=C(O1)C=C3C(=C2)C=CC(=O)O3)O",
+        "CAS id": "13849-08-6",
+        "TCMID id": "13564",
+        "TCM-ID id": "2803"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN018391&label=Ingredient": {
+        "ingredient_name": "BI",
+        "molecule_smile": "[Bi]",
+        "Molecule weight": "32546",
+        "PubChem id": "5359367"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046429&label=Ingredient": {
+        "ingredient_name": "Timosaponin A-1",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)O)O)C)C)C)OC1",
+        "OB score": "SMIT06425",
+        "TCMID id": "32071",
+        "PubChem id": "71767755"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017356&label=Ingredient": {
+        "ingredient_name": "aurantiamide acetate",
+        "molecule_smile": "CC(=O)OCC(CC1=CC=CC=C1)NC(=O)C(CC2=CC=CC=C2)NC(=O)C3=CC=CC=C3",
+        "OB score": "56121-42-7",
+        "SymMap id": "SMIT00492",
+        "TCMSP id": "MOL002224"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN011452&label=Ingredient": {
+        "ingredient_name": "(5β,25s)-spirostan-3β,15α,23α-triol-3-o-d-glu-copyranosyl-(1→2)-β-d-galactopyranoside",
+        "molecule_smile": "CC1CC(C2(C(C3C(O2)C(C4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)O)OC8C(C(C(C(O8)CO)O)O)O)C)C)O)C)OC1)O",
+        "Molecule smile": "CC1CC(C2(C(C3C(O2)C(C4C3(CCC5C4CCC6...",
+        "TCMID id": "20201"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016048&label=Ingredient": {
+        "ingredient_name": "AnemarrhenasapininIII",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)C(C4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)O)OC8C(C(C(C(O8)CO)O)O)O)C)C)O)C)OC1",
+        "TCMID id": "40126"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN004806&label=Ingredient": {
+        "ingredient_name": "(25 S)一Karatavioside C",
+        "molecule_smile": "CC1C2C(CC3C2(CCC4C3CC=C5C4(CC(C(C5)OC6C(C(C(C(O6)CO)OC7C(C(C(C(O7)CO)O)OC8C(C(C(CO8)O)O)O)OC9C(C(C(C(O9)CO)O)O)O)O)O)O)C)C)OC1(CCC(C)COC1C(C(C(C(O1)CO)O)O)O)O",
+        "TCMID id": "40138"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024716&label=Ingredient": {
+        "ingredient_name": "(E)-5,7-dihydroxy-3一(4'-hydroxybenzylidene)chroman-4-one",
+        "molecule_smile": "",
+        "TCMID id": "40157"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046448&label=Ingredient": {
+        "ingredient_name": "TimosaponinC",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40148"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044918&label=Ingredient": {
+        "ingredient_name": "stigmasterol",
+        "molecule_smile": "CCC(C=CC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C",
+        "SymMap id": "SMIT01630",
+        "TCMSP id": "MOL000449",
+        "PubChem id": "5280794"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034500&label=Ingredient": {
+        "ingredient_name": "Markogenin-3-O-beta-D-glucopyranosyl-(1-2)-beta-D-galactopyranoside",
+        "molecule_smile": "Not Available",
+        "SymMap id": "SMIT06415",
+        "TCMSP id": "MOL004500"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037549&label=Ingredient": {
+        "ingredient_name": "n-trans-feruloyltyramine",
+        "molecule_smile": "COC1=C(C=CC(=C1)C=CC(=O)NCCC2=CC=C(C=C2)O)O",
+        "SymMap id": "SMIT15398",
+        "TCM-ID id": "20398"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016047&label=Ingredient": {
+        "ingredient_name": "Anemarnoside B",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40155"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN011450&label=Ingredient": {
+        "ingredient_name": "(5β,25s)-spirostan-3β,15α,23α-diol-3-o-d-glu-copyranosyl-(1→2)-β-d-galactopyranoside",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT17778",
+        "TCMID id": "20193"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN022956&label=Ingredient": {
+        "ingredient_name": "degalactotigonin",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)OC1",
+        "Molecule weight": "4869",
+        "PubChem id": "138115302"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046455&label=Ingredient": {
+        "ingredient_name": "TimosaponinE2",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40142"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046425&label=Ingredient": {
+        "ingredient_name": "timobiose",
+        "molecule_smile": "C(C1C(C(C(C(O1)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)O",
+        "SymMap id": "SMIT01646",
+        "TCM-ID id": "478"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016043&label=Ingredient": {
+        "ingredient_name": "anemarans d",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT19583"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016064&label=Ingredient": {
+        "ingredient_name": "Anemarsaponin F",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CC(C(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)C)C)C)OC1",
+        "OB score": "SMIT06406",
+        "TCMID id": "1176",
+        "TCM-ID id": "6797"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016062&label=Ingredient": {
+        "ingredient_name": "Anemarsaponin E",
+        "molecule_smile": "CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC1(CCC(C)COC8C(C(C(C(O8)CO)O)O)O)OC",
+        "OB score": "SMIT06448",
+        "TCMID id": "1175",
+        "TCM-ID id": "6798"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034395&label=Ingredient": {
+        "ingredient_name": "Mangiferolic acid",
+        "molecule_smile": "CC(CCC=C(C)C(=O)O)C1CCC2(C1(CCC34C2CCC5C3(C4)CCC(C5(C)C)O)C)C",
+        "OB score": "4184-34-3",
+        "SymMap id": "SMIT05794",
+        "TCMSP id": "MOL003773"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046436&label=Ingredient": {
+        "ingredient_name": "Timosaponin A-III_qt",
+        "molecule_smile": "not found",
+        "CAS id": "41059-79-4",
+        "TCMSP id": "MOL004530"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016053&label=Ingredient": {
+        "ingredient_name": "Anemarrhenasaponin-Ia_qt",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT06445"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016046&label=Ingredient": {
+        "ingredient_name": "Anemarnoside A",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40154"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN018071&label=Ingredient": {
+        "ingredient_name": "beta-D-Glucopyranose, 1-thio-, 1-(1-methoxy-N-(sulfooxy)-1H-indole-3-ethanimidate)",
+        "molecule_smile": "",
+        "OB score": "5187-84-8",
+        "SymMap id": "SMIT02706",
+        "PubChem id": "9576416"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024439&label=Ingredient": {
+        "ingredient_name": "dosgenin",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40110"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046443&label=Ingredient": {
+        "ingredient_name": "Timosaponin BII_qt",
+        "molecule_smile": "not found",
+        "OB score": "136656-07-0",
+        "SymMap id": "SMIT06430"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN020427&label=Ingredient": {
+        "ingredient_name": "Chrysanthemaxanthin",
+        "molecule_smile": "CC1=CC(CC(C1C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C2C=C3C(CC(CC3(O2)C)O)(C)C)C)C)(C)C)O",
+        "OB score": "26989-20-8",
+        "SymMap id": "SMIT06410",
+        "TCMSP id": "MOL004492",
+        "PubChem id": "5376313"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046438&label=Ingredient": {
+        "ingredient_name": "timosaponin BI / anemarsaponin E",
+        "molecule_smile": "CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC1(CCC(C)COC8C(C(C(C(O8)CO)O)O)O)OC",
+        "TCMID id": "40111"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030446&label=Ingredient": {
+        "ingredient_name": "Isoarsasapogenin",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40119"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046412&label=Ingredient": {
+        "ingredient_name": "tigogenin",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)O)C)C)C)OC1",
+        "OB score": "77-60-1",
+        "SymMap id": "SMIT00205",
+        "TCMSP id": "MOL004495",
+        "PubChem id": "99516"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046440&label=Ingredient": {
+        "ingredient_name": "Timosaponin B III",
+        "molecule_smile": "CC1=C(OC2C1C3(CCC4C(C3C2)CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)CCC(C)COC8C(C(C(C(O8)CO)O)O)O",
+        "CAS id": "142759-74-8",
+        "TCMID id": "40147",
+        "PubChem id": "44575944"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021616&label=Ingredient": {
+        "ingredient_name": "coumaroyltyramine",
+        "molecule_smile": "C1=CC(=CC=C1CCNC(=O)C=CC2=CC=C(C=C2)O)O",
+        "OB score": "20375-37-5",
+        "SymMap id": "SMIT03186",
+        "TCMSP id": "MOL000631"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046426&label=Ingredient": {
+        "ingredient_name": "Timosaponin",
+        "molecule_smile": "CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC1(CCC(C)COC8C(C(C(C(O8)CO)O)O)O)O",
+        "TCMID id": "33084"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046462&label=Ingredient": {
+        "ingredient_name": "Timosaponin K",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40153"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN004776&label=Ingredient": {
+        "ingredient_name": "CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC1(CCC(C)COC8C(C(C(C(O8)CO)O)O)O)O",
+        "molecule_smile": "CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC1(CCC(C)COC8C(C(C(C(O8)CO)O)O)O)O",
+        "SymMap id": "SMIT15624"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046451&label=Ingredient": {
+        "ingredient_name": "TimosaponinD",
+        "molecule_smile": "CC1=C(OC2C1C3(CCC4C(C3C2)CCC5C4(CC(C(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)O)C)C)CCC(C)COC8C(C(C(C(O8)CO)O)O)O",
+        "Molecule weight": "40149",
+        "PubChem id": "132545772"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN048917&label=Ingredient": {
+        "ingredient_name": "zimoside A",
+        "molecule_smile": "C1=CN(C=C(C1=O)OC2C(C(C(C(O2)CO)O)O)O)CC(C(=O)O)N",
+        "TCMID id": "40169"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN018950&label=Ingredient": {
+        "ingredient_name": "B TT",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40132"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034499&label=Ingredient": {
+        "ingredient_name": "markogenin",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CC(C(C6)O)O)C)C)C)OC1",
+        "CAS id": "562-35-6",
+        "TCMID id": "13562",
+        "TCM-ID id": "2804"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039704&label=Ingredient": {
+        "ingredient_name": "p-hydroxyphenyl crotonicacid",
+        "molecule_smile": "CC=C(C1=CC=C(C=C1)O)C(=O)O",
+        "Molecule weight": "SMIT15898",
+        "TCMID id": "10614"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046453&label=Ingredient": {
+        "ingredient_name": "Timosaponin D2",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40131"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN048496&label=Ingredient": {
+        "ingredient_name": "xilingsaponin A",
+        "molecule_smile": "not found",
+        "OB score": "41059-79-4",
+        "SymMap id": "SMIT06433"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016044&label=Ingredient": {
+        "ingredient_name": "anemarchalconyn",
+        "molecule_smile": "C1=CC(=CC=C1C#CC(=O)C2=CC=C(C=C2)O)O",
+        "Molecule weight": "28678",
+        "PubChem id": "44557158"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN032583&label=Ingredient": {
+        "ingredient_name": "(L)-alpha-Terpineol",
+        "molecule_smile": "CC1=CCC(CC1)C(C)(C)O",
+        "OB score": "10482-56-1",
+        "SymMap id": "SMIT02787",
+        "PubChem id": "443162"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035682&label=Ingredient": {
+        "ingredient_name": "monomethy-cis-hinokiresinol",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40116"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016058&label=Ingredient": {
+        "ingredient_name": "Anemarsaponin B",
+        "molecule_smile": "CC1=C(OC2C1C3(CCC4C(C3C2)CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)CCC(C)COC8C(C(C(C(O8)CO)O)O)O",
+        "OB score": "139051-27-7",
+        "SymMap id": "SMIT06442",
+        "TCMSP id": "MOL004531"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043197&label=Ingredient": {
+        "ingredient_name": "sarsasapogenin",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)O)C)C)C)OC1",
+        "Molecule weight": "19375",
+        "TCM-ID id": "1225"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN010747&label=Ingredient": {
+        "ingredient_name": "4-O-beta-D-Glucopyranosyl methyl gallate",
+        "molecule_smile": "COC(=O)C1=CC(=C(C(=C1)O)OC2C(C(C(C(O2)CO)O)O)O)O",
+        "OB score": "SMIT06432",
+        "TCMID id": "25680",
+        "PubChem id": "5317705"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016065&label=Ingredient": {
+        "ingredient_name": "Anemarsaponin F_qt",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT06407"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037603&label=Ingredient": {
+        "ingredient_name": "Nyasol",
+        "molecule_smile": "C=CC(C=CC1=CC=C(C=C1)O)C2=CC=C(C=C2)O",
+        "OB score": "96895-25-9",
+        "SymMap id": "SMIT05889",
+        "PubChem id": "12310493"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016051&label=Ingredient": {
+        "ingredient_name": "anemarrhenasaponin ia",
+        "molecule_smile": "Not Available",
+        "SymMap id": "SMIT14288"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016045&label=Ingredient": {
+        "ingredient_name": "anemarcoumarinA",
+        "molecule_smile": "C1=CC(=CC=C1CC2=CC3=C(C=C(C=C3)O)OC2=O)O",
+        "Molecule weight": "40165",
+        "PubChem id": "44557157"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030924&label=Ingredient": {
+        "ingredient_name": "isomangiferin",
+        "molecule_smile": "C1=C2C(=CC(=C1O)O)OC3=C(C2=O)C(=CC(=C3C4C(C(C(C(O4)CO)O)O)O)O)O",
+        "CAS id": "24699-16-9",
+        "TCMID id": "11521",
+        "TCM-ID id": "3396"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN026881&label=Ingredient": {
+        "ingredient_name": "Furol",
+        "molecule_smile": "C1=COC(=C1)C=O",
+        "OB score": "1998/1/1",
+        "SymMap id": "SMIT02827",
+        "PubChem id": "7362"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035684&label=Ingredient": {
+        "ingredient_name": "Monomethyl lithospermate",
+        "molecule_smile": "COC(=O)C1C(OC2=C(C=CC(=C12)C=CC(=O)OC(CC3=CC(=C(C=C3)O)O)C(=O)O)O)C4=CC(=C(C=C4)O)O",
+        "OB score": "SMIT01123",
+        "TCMID id": "14919",
+        "PubChem id": "95224420"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029963&label=Ingredient": {
+        "ingredient_name": "icariside II",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2=C(OC3=C(C(=CC(=C3C2=O)O)O)CC=C(C)C)C4=CC=C(C=C4)OC)O)O)O",
+        "OB score": "SMIT06355",
+        "TCMID id": "27446",
+        "PubChem id": "5488822"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046450&label=Ingredient": {
+        "ingredient_name": "TimosaponinC2",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40145"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046437&label=Ingredient": {
+        "ingredient_name": "Timosaponin AIV",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40122"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024710&label=Ingredient": {
+        "ingredient_name": "(E)-4'-demethyl-6-methyleucomin",
+        "molecule_smile": "CC1=C(C2=C(C=C1O)OCC(=CC3=CC=C(C=C3)O)C2=O)O",
+        "Molecule weight": "40156",
+        "PubChem id": "44557156"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046460&label=Ingredient": {
+        "ingredient_name": "timosaponin H1",
+        "molecule_smile": "CC(C)[Si](C(C)C)(C(C)C)OC1C2=CC3C4C2(CC1(C)C)C5C(C4)C5C(C3O)O",
+        "Molecule smile": "CC(C)[Si](C(C)C)(C(C)C)OC1C2=CC3C4C..."
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030369&label=Ingredient": {
+        "ingredient_name": "ismangiferin",
+        "molecule_smile": "C1=C2C(=CC(=C1O)O)OC3=C(C2=O)C(=CC(=C3C4C(C(C(C(O4)CO)O)O)O)O)O",
+        "TCMID id": "40114"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN007584&label=Ingredient": {
+        "ingredient_name": "3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2=C(OC3=C(C(=CC(=C3C2=O)O)O)CC=C(C)C)C4=CC=C(C=C4)OC)O)O)O",
+        "OB score": "113558-15-9",
+        "SymMap id": "SMIT06325",
+        "PubChem id": "5488822"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016038&label=Ingredient": {
+        "ingredient_name": "anemaran",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40118"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046456&label=Ingredient": {
+        "ingredient_name": "Timosaponin F(C39)",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40124"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN020330&label=Ingredient": {
+        "ingredient_name": "Chinoinin",
+        "molecule_smile": "C1=C2C(=CC(=C1O)O)OC3=C(C2=O)C(=C(C(=C3)O)C4C(C(C(C(O4)CO)O)O)O)O",
+        "OB score": "4773-96-0",
+        "SymMap id": "SMIT06436",
+        "PubChem id": "5281647"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN019187&label=Ingredient": {
+        "ingredient_name": "B V(C57)",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40133"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN008093&label=Ingredient": {
+        "ingredient_name": "(3 β, 5 β, 25 s)一Spirostan-3-of",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40127"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034302&label=Ingredient": {
+        "ingredient_name": "makrkogenin-3-o-beta-d-glucopyranosyl-(1->2)-beta-d-galactopyranoside",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT18469",
+        "TCMID id": "23926"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038482&label=Ingredient": {
+        "ingredient_name": "oxy- hinokiresinol",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40163"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046441&label=Ingredient": {
+        "ingredient_name": "timosaponin BIII / anemarsaponin B",
+        "molecule_smile": "CC1=C(OC2C1C3(CCC4C(C3C2)CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)CCC(C)COC8C(C(C(C(O8)CO)O)O)O",
+        "TCMID id": "40112"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016063&label=Ingredient": {
+        "ingredient_name": "Anemarsaponin E_qt",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT06449"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046459&label=Ingredient": {
+        "ingredient_name": "Timosaponin G(C50)",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40128"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN048782&label=Ingredient": {
+        "ingredient_name": "(Z)-4',4一(3-nethenyl-1-propene-l,3-diyl)bisphenol",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40164"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016050&label=Ingredient": {
+        "ingredient_name": "Anemarrhenasaponin-I",
+        "molecule_smile": "CC1C2C(C(C3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)O)OC1(CCC(C)C)O",
+        "OB score": "SMIT06434",
+        "TCMID id": "30602",
+        "PubChem id": "101672279"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029400&label=Ingredient": {
+        "ingredient_name": "Hippeastrine",
+        "molecule_smile": "CN1CCC2=CC(C3C(C21)C4=CC5=C(C=C4C(=O)O3)OCO5)O",
+        "OB score": "30803-79-3",
+        "SymMap id": "SMIT06413",
+        "TCMSP id": "MOL004497"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034394&label=Ingredient": {
+        "ingredient_name": "mangiferin",
+        "molecule_smile": "C1=C2C(=CC(=C1O)O)OC3=C(C2=O)C(=C(C(=C3)O)C4C(C(C(C(O4)CO)O)O)O)O",
+        "Molecule weight": "4773-96-0",
+        "SymMap id": "SMIT01501",
+        "TCM-ID id": "2810"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044212&label=Ingredient": {
+        "ingredient_name": "smilagenin",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)O)C)C)C)OC1",
+        "SymMap id": "SMIT01619",
+        "TCMSP id": "MOL003894",
+        "PubChem id": "91439"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN000951&label=Ingredient": {
+        "ingredient_name": "12-O-Nicotinoylisolineolone",
+        "molecule_smile": "CC(=O)C1CCC2(C1(C(CC3C2(CC=C4C3(CCC(C4)O)C)O)OC(=O)C5=CN=CC=C5)C)O",
+        "SymMap id": "SMIT06414",
+        "TCMSP id": "MOL004498"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN010508&label=Ingredient": {
+        "ingredient_name": "4-hydroxy benzoic acid",
+        "molecule_smile": "C1=CC(=CC=C1C(=O)O)O",
+        "TCMID id": "37268"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046427&label=Ingredient": {
+        "ingredient_name": "Timosaponin0",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40137"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044218&label=Ingredient": {
+        "ingredient_name": "Smilagenone",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(=O)C6)C)C)C)OC1",
+        "OB score": "SMIT06421",
+        "TCMID id": "20012",
+        "PubChem id": "6708616"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030925&label=Ingredient": {
+        "ingredient_name": "Isomangiferolic acid",
+        "molecule_smile": "CC(CCC=C(C)C(=O)O)C1CCC2(C1(CCC34C2CCC5C3(C4)CCC(C5(C)C)O)C)C",
+        "OB score": "13878-92-7",
+        "SymMap id": "SMIT01228",
+        "TCMSP id": "MOL004499"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016060&label=Ingredient": {
+        "ingredient_name": "Anemarsaponin C",
+        "molecule_smile": "Not Available",
+        "SymMap id": "SMIT06446",
+        "TCMSP id": "MOL004539"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036636&label=Ingredient": {
+        "ingredient_name": "neoglucobrassicin",
+        "molecule_smile": "CON1C=C(C2=CC=CC=C21)CC(=NOS(=O)(=O)O)SC3C(C(C(C(O3)CO)O)O)O",
+        "SymMap id": "SMIT01531",
+        "TCMSP id": "MOL001795",
+        "PubChem id": "9576416"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036904&label=Ingredient": {
+        "ingredient_name": "nicotinamide",
+        "molecule_smile": "C1=CC(=CN=C1)C(=O)N",
+        "SymMap id": "SMIT16849",
+        "PubChem id": "936"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046461&label=Ingredient": {
+        "ingredient_name": "Timosaponin J",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40152"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046444&label=Ingredient": {
+        "ingredient_name": "Timosaponin B IV(C51)",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40151"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016067&label=Ingredient": {
+        "ingredient_name": "Anemarsaponin G_qt",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT06409"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046439&label=Ingredient": {
+        "ingredient_name": "Timosaponin BII",
+        "molecule_smile": "CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC1(CCC(C)COC8C(C(C(C(O8)CO)O)O)O)O",
+        "OB score": "136656-07-0",
+        "SymMap id": "SMIT06429",
+        "TCMSP id": "MOL004515"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044730&label=Ingredient": {
+        "ingredient_name": "stearic acid",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCC(=O)O",
+        "OB score": "1957/11/4",
+        "SymMap id": "SMIT00079",
+        "TCMSP id": "MOL000860",
+        "PubChem id": "5281"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046433&label=Ingredient": {
+        "ingredient_name": "timosaponin a- i, a- ii, a- iii, a- iv, b- i & b- ii",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT18407",
+        "TCMID id": "23654"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017574&label=Ingredient": {
+        "ingredient_name": "baohuoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2=C(OC3=C(C2=O)C(=CC(=C3CC=C(C)C)O)O)C4=CC=C(C=C4)OC)O)O)O",
+        "TCMID id": "33320"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046447&label=Ingredient": {
+        "ingredient_name": "Timosaponin B VI",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40135"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN018729&label=Ingredient": {
+        "ingredient_name": "(-)-Borneol",
+        "molecule_smile": "CC1(C2CCC1(C(C2)O)C)C",
+        "OB score": "95-92-1",
+        "SymMap id": "SMIT02887",
+        "TCMSP id": "MOL000244"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034501&label=Ingredient": {
+        "ingredient_name": "markogenin3-o-β-d-glucopyranosyl-(1→2)-β-d-galactopyranoside",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT16437",
+        "TCMID id": "13563"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046449&label=Ingredient": {
+        "ingredient_name": "TimosaponinC 1",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40144"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN047738&label=Ingredient": {
+        "ingredient_name": "vanillic acid",
+        "molecule_smile": "COC1=C(C=CC(=C1)C(=O)O)O",
+        "OB score": "121-34-6",
+        "SymMap id": "SMIT00015",
+        "TCMSP id": "MOL000114",
+        "PubChem id": "8468"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN015547&label=Ingredient": {
+        "ingredient_name": "alpha-humulene",
+        "molecule_smile": "CC1=CCC(C=CCC(=CCC1)C)(C)C",
+        "OB score": "6753-98-6",
+        "SymMap id": "SMIT00006",
+        "TCMSP id": "MOL000024",
+        "PubChem id": "5281520"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043200&label=Ingredient": {
+        "ingredient_name": "sarsasapogenin 3-o-4-rhamnosyl-sophoroside",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT18832",
+        "TCMID id": "25329"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN004214&label=Ingredient": {
+        "ingredient_name": "2',4',4-trihydroxychalcone",
+        "molecule_smile": "C1=CC(=CC=C1C=CC(=O)C2=C(C=C(C=C2)O)O)O",
+        "Molecule weight": "40159",
+        "PubChem id": "638278"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025041&label=Ingredient": {
+        "ingredient_name": "emodin",
+        "molecule_smile": "CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)O",
+        "OB score": "518-82-1",
+        "SymMap id": "SMIT00049",
+        "TCMSP id": "MOL000472",
+        "PubChem id": "3220"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046469&label=Ingredient": {
+        "ingredient_name": "Tingenone",
+        "molecule_smile": "CC1CC2C(CCC3(C2(CCC4(C3=CC=C5C4=CC(=O)C(=C5C)O)C)C)C)(CC1=O)C",
+        "OB score": "50802-21-6",
+        "SymMap id": "SMIT05337",
+        "TCMSP id": "MOL003223"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038787&label=Ingredient": {
+        "ingredient_name": "pantothenic acid",
+        "molecule_smile": "CC(C)(CO)C(C(=O)NCCC(=O)O)O",
+        "Molecule weight": "33493",
+        "PubChem id": "6613"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN018883&label=Ingredient": {
+        "ingredient_name": "broussonin a",
+        "molecule_smile": "COC1=CC(=C(C=C1)CCCC2=CC=C(C=C2)O)O",
+        "TCMID id": "2647",
+        "PubChem id": "5315502"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046457&label=Ingredient": {
+        "ingredient_name": "TimosaponinF(C50)",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40123"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031753&label=Ingredient": {
+        "ingredient_name": "kaempferol",
+        "molecule_smile": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O",
+        "OB score": "520-18-3",
+        "SymMap id": "SMIT00041",
+        "TCMSP id": "MOL000422",
+        "PubChem id": "5280863"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN020866&label=Ingredient": {
+        "ingredient_name": "cishinokiresinol",
+        "molecule_smile": "C=CC(C=CC1=CC=C(C=C1)O)C2=CC=C(C=C2)O",
+        "SymMap id": "SMIT15760",
+        "PubChem id": "5281830"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046442&label=Ingredient": {
+        "ingredient_name": "Timosaponin B III_qt",
+        "molecule_smile": "not found",
+        "OB score": "142759-74-8",
+        "SymMap id": "SMIT06428"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016039&label=Ingredient": {
+        "ingredient_name": "anemarans a",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT19586"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016040&label=Ingredient": {
+        "ingredient_name": "anemarans a, b, c, d",
+        "molecule_smile": "C(C=CCl)Cl",
+        "Molecule smile": "SMIT18742",
+        "TCMID id": "24962"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046446&label=Ingredient": {
+        "ingredient_name": "Timosaponin B V(C46)",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40134"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN009482&label=Ingredient": {
+        "ingredient_name": "3-pyridylcarbinol",
+        "molecule_smile": "C1=CC(=CN=C1)CO",
+        "Molecule weight": "40168",
+        "PubChem id": "7510"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044215&label=Ingredient": {
+        "ingredient_name": "Smilagenin-3-O[beta-D-glucopyranosyl-(1-2)]-beta-D-mannopyranoside",
+        "molecule_smile": "Not Available",
+        "OB score": "138831-68-2",
+        "SymMap id": "SMIT06419",
+        "TCMSP id": "MOL004505"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN048514&label=Ingredient": {
+        "ingredient_name": "Xuelianlacton e",
+        "molecule_smile": "CC1C2C(CC(=C)C3CCC(=C)C3C2OC1=O)O",
+        "OB score": "SMIT06431",
+        "TCMID id": "32239",
+        "TCM-ID id": "84"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044216&label=Ingredient": {
+        "ingredient_name": "Smilagenin-3-O[beta-D-glucopyranosyl-(1-2)]-beta-D-mannopyranoside_qt",
+        "molecule_smile": "not found",
+        "OB score": "138831-68-2",
+        "SymMap id": "SMIT06420"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN048497&label=Ingredient": {
+        "ingredient_name": "xilingsaponin b",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)O)OC8C(C(C(C(O8)CO)O)OC9C(C(C(C(O9)CO)O)O)O)O)C)C)C)OC1",
+        "Molecule smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5...",
+        "TCMID id": "22780"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016041&label=Ingredient": {
+        "ingredient_name": "anemarans b",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT19585"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016054&label=Ingredient": {
+        "ingredient_name": "Anemarrhenasaponin II",
+        "molecule_smile": "CC1C2C(C(C3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)O)OC1(CCC(C)C)O",
+        "CAS id": "163047-22-1",
+        "TCM-ID id": "6801"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016061&label=Ingredient": {
+        "ingredient_name": "Anemarsaponin C_qt",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT06447"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034498&label=Ingredient": {
+        "ingredient_name": "markogein",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CC(C(C6)O)O)C)C)C)OC1",
+        "TCMID id": "40108"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030298&label=Ingredient": {
+        "ingredient_name": "Irifl ophenone",
+        "molecule_smile": "C1=CC(=CC=C1C(=O)C2=C(C=C(C=C2O)O)O)O",
+        "TCMID id": "34042"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036463&label=Ingredient": {
+        "ingredient_name": "n-cis-feruloyltyramine",
+        "molecule_smile": "COC1=C(C=CC(=C1)C=CC(=O)NCCC2=CC=C(C=C2)O)O",
+        "TCMID id": "7788",
+        "PubChem id": "6440659"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046464&label=Ingredient": {
+        "ingredient_name": "TimosaponinN",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40136"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039130&label=Ingredient": {
+        "ingredient_name": "pentacosyl vinyl ester",
+        "molecule_smile": "Not Available",
+        "SymMap id": "SMIT01559",
+        "TCM-ID id": "1976"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN048758&label=Ingredient": {
+        "ingredient_name": "(Z)-3-(4-hydroxy-3-methoxy-phenyl)-N-[2-(4-hydroxyphenyl)ethyl]acrylamide",
+        "molecule_smile": "COC1=C(C=CC(=C1)C=CC(=O)NCCC2=CC=C(C=C2)O)O",
+        "OB score": "80510-09-4",
+        "SymMap id": "SMIT03077",
+        "PubChem id": "6440659"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024343&label=Ingredient": {
+        "ingredient_name": "D-Nicotine",
+        "molecule_smile": "CN1CCCC1C2=CN=CC=C2",
+        "OB score": "1596-94-7",
+        "SymMap id": "SMIT06417",
+        "PubChem id": "157672"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016049&label=Ingredient": {
+        "ingredient_name": "anemarrhenasaponin i",
+        "molecule_smile": "CC1C2C(C(C3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)O)OC1(CCC(C)C)O",
+        "Molecule weight": "SMIT14287",
+        "TCMID id": "1171",
+        "PubChem id": "101672279"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN026626&label=Ingredient": {
+        "ingredient_name": "foliamangiferosideA",
+        "molecule_smile": "COC1=C(C(=C(C(=C1)O)C(=O)C2=CC=C(C=C2)O)O)C3C(C(C(C(O3)CO)O)O)O",
+        "Molecule weight": "33109",
+        "PubChem id": "46206548"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031212&label=Ingredient": {
+        "ingredient_name": "isosakuranetin",
+        "molecule_smile": "COC1=CC=C(C=C1)C2CC(=O)C3=C(C=C(C=C3O2)O)O",
+        "Molecule weight": "11688",
+        "PubChem id": "160481"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016066&label=Ingredient": {
+        "ingredient_name": "Anemarsaponin G",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC=C6C5(CC(C(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)C)C)C)OC1",
+        "OB score": "SMIT06408",
+        "TCMID id": "1177",
+        "TCM-ID id": "6796"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034148&label=Ingredient": {
+        "ingredient_name": "macrostemonoside f",
+        "molecule_smile": "CC1=C(OC2C1C3(CCC4C(C3C2)CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)CCC(C)COC8C(C(C(C(O8)CO)O)O)O",
+        "OB score": "151215-11-1",
+        "SymMap id": "SMIT00708",
+        "TCMSP id": "MOL007641"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016052&label=Ingredient": {
+        "ingredient_name": "Anemarrhenasaponin-Ia",
+        "molecule_smile": "CC1C2C(C(C3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)O)OC1(CCC(C)C)OC",
+        "SymMap id": "SMIT06444",
+        "TCMSP id": "MOL004534"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034408&label=Ingredient": {
+        "ingredient_name": "manguferin",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT02241",
+        "TCMID id": "24683"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016059&label=Ingredient": {
+        "ingredient_name": "Anemarsaponin B_qt",
+        "molecule_smile": "not found",
+        "OB score": "139051-27-7",
+        "SymMap id": "SMIT06443"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046452&label=Ingredient": {
+        "ingredient_name": "Timosaponin D 1",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40130"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036687&label=Ingredient": {
+        "ingredient_name": "Neomangiferin",
+        "molecule_smile": "C1=C2C(=CC(=C1OC3C(C(C(C(O3)CO)O)O)O)O)OC4=C(C2=O)C(=C(C(=C4)O)C5C(C(C(C(O5)CO)O)O)O)O",
+        "OB score": "64809-67-2",
+        "SymMap id": "SMIT06437",
+        "TCMSP id": "MOL004526"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN028103&label=Ingredient": {
+        "ingredient_name": "Glycerite",
+        "molecule_smile": "not found",
+        "CAS id": "1401-55-4",
+        "TCMSP id": "MOL002304"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016056&label=Ingredient": {
+        "ingredient_name": "Anemarrhenasaponin-I_qt",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT06435"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038680&label=Ingredient": {
+        "ingredient_name": "palmitic acid",
+        "molecule_smile": "CCCCCCCCCCCCCCCC(=O)O",
+        "OB score": "67701-02-4",
+        "SymMap id": "SMIT00010",
+        "TCMSP id": "MOL000069",
+        "PubChem id": "985"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027678&label=Ingredient": {
+        "ingredient_name": "Ginkgoic acid",
+        "molecule_smile": "CCCCCCC=CCCCCCCCC1=C(C(=CC=C1)O)C(=O)O",
+        "OB score": "22910-60-7",
+        "SymMap id": "SMIT12006",
+        "PubChem id": "5281858"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027811&label=Ingredient": {
+        "ingredient_name": "gitogenin",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CC(C(C6)O)O)C)C)C)OC1",
+        "OB score": "6811-13-8",
+        "SymMap id": "SMIT06405",
+        "TCMSP id": "MOL004487"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035224&label=Ingredient": {
+        "ingredient_name": "Methylgallate",
+        "molecule_smile": "COC(=O)C1=CC(=C(C(=C1)O)O)O",
+        "OB score": "99-24-1",
+        "SymMap id": "SMIT04254",
+        "TCMSP id": "MOL001906",
+        "PubChem id": "7428"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN014792&label=Ingredient": {
+        "ingredient_name": "afzelin",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC=C(C=C4)O)O)O)O",
+        "SymMap id": "SMIT02074",
+        "TCMSP id": "MOL004362",
+        "PubChem id": "5316673"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN004748&label=Ingredient": {
+        "ingredient_name": "(25R,S)-5alpha-Spirostane-2alpha,3beta-diol 3-O-[O-beta-D-glucopyranosyl-(1-2)-O-beta-D-glucopyranosyl-(1-4)-beta-D-galactopyranoside]",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CC(C(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)O)OC9C(C(C(C(O9)CO)O)O)O)O)O)O)C)C)C)OC1",
+        "SymMap id": "SMIT06404",
+        "TCMSP id": "MOL004486"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036631&label=Ingredient": {
+        "ingredient_name": "neogitogenin",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CC(C(C6)O)O)C)C)C)OC1",
+        "OB score": "SMIT00207",
+        "TCMID id": "15389",
+        "TCM-ID id": "2370"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017128&label=Ingredient": {
+        "ingredient_name": "asperglaucide",
+        "molecule_smile": "CC(=O)OCC(CC1=CC=CC=C1)NC(=O)C(CC2=CC=CC=C2)NC(=O)C3=CC=CC=C3",
+        "OB score": "56121-42-7",
+        "SymMap id": "SMIT04053",
+        "TCMSP id": "MOL001677"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016042&label=Ingredient": {
+        "ingredient_name": "anemarans c",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT19584"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021813&label=Ingredient": {
+        "ingredient_name": "cthd0233276-21",
+        "molecule_smile": "CC1=C(OC2C1C3(CCC4C(C3C2)CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)CCC(C)COC8C(C(C(C(O8)CO)O)O)O",
+        "SymMap id": "SMIT14805"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016163&label=Ingredient": {
+        "ingredient_name": "Anhydroicaritin",
+        "molecule_smile": "CC(=CCC1=C2C(=C(C=C1O)O)C(=O)C(=C(O2)C3=CC=C(C=C3)OC)O)C",
+        "OB score": "118525-40-9",
+        "SymMap id": "SMIT06301",
+        "TCMSP id": "MOL004373"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034503&label=Ingredient": {
+        "ingredient_name": "Markosapogenin",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40120"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046463&label=Ingredient": {
+        "ingredient_name": "Timosaponin L",
+        "molecule_smile": "Not Available",
+        "TCMID id": "40139"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046434&label=Ingredient": {
+        "ingredient_name": "Timosaponin A II",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)O)OC8C(C(C(C(O8)CO)O)O)O)C)C)C)OC1",
+        "TCMID id": "40121"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN041316&label=Ingredient": {
+        "ingredient_name": "Purpureagitoside",
+        "molecule_smile": "CC1C2C(CC3C2(CCC4C3CCC5C4(CC(C(C5)OC6C(C(C(C(O6)CO)OC7C(C(C(C(O7)CO)O)OC8C(C(C(CO8)O)O)O)OC9C(C(C(C(O9)CO)O)O)O)O)O)O)C)C)OC1(CCC(C)COC1C(C(C(C(O1)CO)O)O)O)O",
+        "TCMID id": "40129"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029924&label=Ingredient": {
+        "ingredient_name": "Icariin I",
+        "molecule_smile": "CC(=CCC1=C(C=C(C2=C1OC(=C(C2=O)O)C3=CC=C(C=C3)OC)O)OC4C(C(C(C(O4)CO)O)O)O)C",
+        "OB score": "SMIT06439",
+        "TCMSP id": "MOL004528",
+        "PubChem id": "5745470"
+    }
+}
