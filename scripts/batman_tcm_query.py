@@ -44,11 +44,11 @@ def run_batman_tcm(herb_name):
         batman_tcm_results = get_target_proteins(pubchem_list)
 
         # ✅ API 결과 병합
-        for pubchem_id, targets in batman_tcm_results.items():
+        for pubchem_id, data in batman_tcm_results.items():
             if pubchem_id in ingredient_map:
-                ingredient_map[pubchem_id]["batman_tcm_results"] = targets  # ✅ 타겟 단백질 정보 업데이트
+                ingredient_map[pubchem_id]["batman_tcm_results"] = data  # ✅ 전체 결과 저장
 
-    # ✅ 결과 저장
+    # ✅ JSON 파일 저장
     final_results = list(ingredient_map.values())  # ✅ 모든 데이터를 리스트로 변환하여 저장
     save_to_json(final_results, output_file)
 

@@ -8,13 +8,13 @@ def get_target_proteins(pubchem_list):
     """BATMAN-TCM API를 이용해 여러 PubChem ID의 표적 단백질을 조회"""
     results = {}
 
-    # ✅ API에 맞는 요청 데이터 형식으로 변환
+    # ✅ API 요청 형식에 맞게 데이터 변환
     payload = {
         "content": [
             {
                 "clusterName": "PubChem_Target_Search",
-                "type": "compound",  
-                "list": pubchem_list  
+                "type": "compound",
+                "list": pubchem_list  # ✅ 여러 PubChem ID 한 번에 요청
             }
         ],
         "pvalue": 0.05,
@@ -28,14 +28,16 @@ def get_target_proteins(pubchem_list):
         if response.status_code == 200:
             data = response.json()
 
-            # ✅ API 응답이 리스트인 경우 처리
+            # ✅ API 응답이 리스트인지 확인
             if isinstance(data, list):
                 for compound in data:
                     pubchem_id = compound.get("cid", "")
-                    targets = compound.get("target", [])  # 표적 단백질 정보 가져오기
-                    results[pubchem_id] = targets
-
-                    print(f"✅ {pubchem_id}: {len(targets)}개 타겟 단백질 수집 완료")
+                    results[pubchem_id] = {
+                        "name": compound.get("name", ""),
+                        "cid": pubchem_id,
+                        "target": compound.get("target", [])  # ✅ 표적 단백질 정보
+                    }
+                    print(f"✅ {pubchem_id}: {len(results[pubchem_id]['target'])}개 타겟 단백질 수집 완료")
 
             else:
                 print(f"❌ 예상과 다른 응답 형식: {type(data)}")

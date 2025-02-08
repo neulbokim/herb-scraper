@@ -36,6 +36,7 @@ def filter_swissadme_data(herb_names):
                             "SMILES": item["swissadme_results"].get("SMILES", ""),
                             "Formula": item["swissadme_results"].get("Formula", ""),
                             "TPSA": item["swissadme_results"].get("TPSA", ""),
+                            "GI absorption": item["swissadme_results"].get("GI absorption", ""),
                             "Lipinski": item["swissadme_results"].get("Lipinski", ""),
                             "Ghose": item["swissadme_results"].get("Ghose", ""),
                             "Veber": item["swissadme_results"].get("Veber", ""),
