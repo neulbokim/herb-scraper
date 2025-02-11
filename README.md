@@ -54,26 +54,34 @@ python main.py
 ```
 ✅ 자동으로 실행되는 과정:
 
-HERB 크롤링 → 한약재별 활성 성분 데이터 수집
-SwissADME 크롤링 → 각 성분의 분자적 특성 정보 수집
-BATMAN-TCM API 호출 → 각 성분의 표적 단백질(Target Name) 조회
-데이터 통합 → 최종 데이터셋(final_dataset.csv) 생성
+1. HERB 크롤링 → 한약재별 성분 데이터 수집 (SMILES, ID 확보)
+2. SwissADME 크롤링 → 각 성분의 분자적 특성 정보 수집 및 필터링
+3. BATMAN-TCM, STITCH, Swiss Target Prediction API 호출 → 활성 성분의 타겟 단백질(Target Name) 조회
+4. 추가 데이터 수집 → TCMSP, NIKOM, 식약처 데이터 활용
+5. 데이터 통합 및 정리 → 최종 데이터셋(final_dataset.csv) 생성
 
 ---
 
 ## **📊 데이터 흐름**
-한약재 데이터를 크롤링하고, SwissADME와 BATMAN-TCM API를 이용하여 추가 정보를 수집한 후 **최종 데이터셋을 생성**하는 과정입니다.
+본 과정에서는 한약재 성분을 크롤링하고, SwissADME를 이용하여 필터링한 후, 다양한 API(BATMAN-TCM, STITCH, Swiss Target Prediction)를 통해 타겟 단백질 정보를 수집하여 **최종 데이터셋을 구축**합니다. 추가적으로 TCMSP, NIKOM, 식약처 데이터를 보완 자료로 활용하여 보다 신뢰성 높은 데이터를 확보합니다.
 
 ```mermaid
 graph TD;
-    A[HERB 크롤링] -->|활성 성분 & SMILES 수집| B[herb_ingredients.json]
-    B -->|SMILES 입력| C[SwissADME 크롤링]
-    C -->|분자적 특성 수집| D[swissadme_results.json]
-    D -->|필요한 속성 필터링| E[swissadme_filtered.json]
-    B -->|SMILES 입력| F[BATMAN-TCM API 호출]
-    F -->|표적 단백질 수집| G[batman_tcm_results.json]
-    E -->|통합| H[final_dataset.csv]
-    G -->|통합| H[final_dataset.csv]
+    A[HERB 크롤링] -->|성분 수집| B[SMILE, ID];
+    B --> C[SwissADME 크롤링];
+    C -->|분자적 특성 수집| D[필터링];
+    D -->|활성 성분 (PubChem ID)| E[BATMAN-TCM 크롤링];
+    D -->|활성 성분 (PubChem ID)| F[STITCH 크롤링];
+    D -->|활성 성분 (PubChem ID)| G[Swiss Target Prediction 크롤링];
+
+    E --> H[타겟 단백질 정보 수집];
+    F --> H;
+    G --> H;
+    H --> I[통합 및 분석];
+
+    D -.->|보충| J[TCMSP];
+    D -.->|보충| K[NIKOM];
+    D -.->|보충| L[식약처];
 ```
 
 ---
