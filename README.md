@@ -71,7 +71,7 @@ graph TD;
     B --> C[SwissADME 크롤링];
     C -->|분자적 특성 수집| D[필터링];
 
-    D --> E[활성성분(PubChemID 포함) 확보];
+    D --> E[활성성분 & PubChemID 확보];
 
     E --> F[BATMAN_TCM 크롤링];
     E --> G[STITCH 크롤링];
