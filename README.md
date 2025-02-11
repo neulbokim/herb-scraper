@@ -67,10 +67,10 @@ python main.py
 
 ```mermaid
 graph TD;
-    A[HERB 크롤링] -->|성분 수집| B[SMILE, ID];
+    A[HERB 크롤링] -->|성분 수집| B[SMILE 및 ID 확보];
     B --> C[SwissADME 크롤링];
     C -->|분자적 특성 수집| D[필터링];
-    D -->|활성 성분 (PubChem ID)| E[BATMAN-TCM 크롤링];
+    D -->|활성 성분 (PubChem ID)| E[BATMAN TCM 크롤링];
     D -->|활성 성분 (PubChem ID)| F[STITCH 크롤링];
     D -->|활성 성분 (PubChem ID)| G[Swiss Target Prediction 크롤링];
 
