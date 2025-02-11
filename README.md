@@ -67,12 +67,12 @@ python main.py
 
 ```mermaid
 graph TD;
-    A[HERB_크롤링] -->|성분 수집| B[SMILE_ID_확보];
+    A[HERB_크롤링] -->|성분_수집| B[SMILE_ID_확보];
     B --> C[SwissADME_크롤링];
     C -->|분자적_특성_수집| D[필터링];
-    D -->|활성_성분_(PubChem_ID)| E[BATMAN_TCM_크롤링];
-    D -->|활성_성분_(PubChem_ID)| F[STITCH_크롤링];
-    D -->|활성_성분_(PubChem_ID)| G[Swiss_Target_Prediction_크롤링];
+    D -->|활성_성분_PubChem_ID| E[BATMAN_TCM_크롤링];
+    D -->|활성_성분_PubChem_ID| F[STITCH_크롤링];
+    D -->|활성_성분_PubChem_ID| G[Swiss_Target_Prediction_크롤링];
 
     E --> H[타겟_단백질_정보_수집];
     F --> H;
