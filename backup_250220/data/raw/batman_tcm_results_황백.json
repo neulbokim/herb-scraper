@@ -1,0 +1,2613 @@
+[
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN015916&label=Ingredient",
+        "ingredient_name": "Amurensin",
+        "PubChem id": "5318156",
+        "batman_tcm_results": {
+            "name": "Amurensin",
+            "cid": "5318156",
+            "target": [
+                {
+                    "gene_id": "873",
+                    "gene_name": "CBR1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "8644",
+                    "gene_name": "AKR1C3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "196",
+                    "gene_name": "AHR",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN039428&label=Ingredient",
+        "ingredient_name": "phellavin",
+        "PubChem id": "5320517",
+        "batman_tcm_results": {
+            "name": "32507-67-8",
+            "cid": "5320517",
+            "target": [
+                {
+                    "gene_id": "9212",
+                    "gene_name": "AURKB",
+                    "score": "0.89"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN021430&label=Ingredient",
+        "ingredient_name": "coptisine",
+        "PubChem id": "72322",
+        "batman_tcm_results": {
+            "name": "Coptisine",
+            "cid": "72322",
+            "target": [
+                {
+                    "gene_id": "4318",
+                    "gene_name": "MMP9",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3620",
+                    "gene_name": "IDO1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "7076",
+                    "gene_name": "TIMP1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "114548",
+                    "gene_name": "NLRP3",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "4128",
+                    "gene_name": "MAOA",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1723",
+                    "gene_name": "DHODH",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5452",
+                    "gene_name": "POU2F2",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "834",
+                    "gene_name": "CASP1",
+                    "score": "known target in HIT,HERB"
+                },
+                {
+                    "gene_id": "5594",
+                    "gene_name": "MAPK1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "6580",
+                    "gene_name": "SLC22A1",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "332",
+                    "gene_name": "BIRC5",
+                    "score": "0.89"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN032183&label=Ingredient",
+        "ingredient_name": "kihadanin A",
+        "PubChem id": "180311",
+        "batman_tcm_results": {
+            "name": "Kihadanin A",
+            "cid": "180311",
+            "target": [
+                {
+                    "gene_id": "4306",
+                    "gene_name": "NR3C2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "476",
+                    "gene_name": "ATP1A1",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN037642&label=Ingredient",
+        "ingredient_name": "obacunone",
+        "PubChem id": "119041",
+        "batman_tcm_results": {
+            "name": "Obacunone",
+            "cid": "119041",
+            "target": [
+                {
+                    "gene_id": "151306",
+                    "gene_name": "GPBAR1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1576",
+                    "gene_name": "CYP3A4",
+                    "score": "known target in text mining"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN019986&label=Ingredient",
+        "ingredient_name": "Cavidine",
+        "PubChem id": "193148",
+        "batman_tcm_results": {
+            "name": "Cavidine",
+            "cid": "193148",
+            "target": [
+                {
+                    "gene_id": "1138",
+                    "gene_name": "CHRNA5",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1139",
+                    "gene_name": "CHRNA7",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "8973",
+                    "gene_name": "CHRNA6",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "57053",
+                    "gene_name": "CHRNA10",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1136",
+                    "gene_name": "CHRNA3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "55584",
+                    "gene_name": "CHRNA9",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1141",
+                    "gene_name": "CHRNB2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1142",
+                    "gene_name": "CHRNB3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "590",
+                    "gene_name": "BCHE",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "89832",
+                    "gene_name": "CHRFAM7A",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1131",
+                    "gene_name": "CHRM3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1813",
+                    "gene_name": "DRD2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1135",
+                    "gene_name": "CHRNA2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1134",
+                    "gene_name": "CHRNA1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1137",
+                    "gene_name": "CHRNA4",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3359",
+                    "gene_name": "HTR3A",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "6571",
+                    "gene_name": "SLC18A2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1129",
+                    "gene_name": "CHRM2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "43",
+                    "gene_name": "ACHE",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1143",
+                    "gene_name": "CHRNB4",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN019545&label=Ingredient",
+        "ingredient_name": "Candletoxin A",
+        "PubChem id": "N/A",
+        "batman_tcm_results": []
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN039451&label=Ingredient",
+        "ingredient_name": "Phellopterin",
+        "PubChem id": "98608",
+        "batman_tcm_results": {
+            "name": "Phellopterin",
+            "cid": "98608",
+            "target": [
+                {
+                    "gene_id": "4758",
+                    "gene_name": "NEU1",
+                    "score": "known target in text mining"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN044918&label=Ingredient",
+        "ingredient_name": "stigmasterol",
+        "PubChem id": "5280794",
+        "batman_tcm_results": {
+            "name": "STIGMASTEROL",
+            "cid": "5280794",
+            "target": [
+                {
+                    "gene_id": "8647",
+                    "gene_name": "ABCB11",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "351",
+                    "gene_name": "APP",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "7099",
+                    "gene_name": "TLR4",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "207",
+                    "gene_name": "AKT1",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "1244",
+                    "gene_name": "ABCC2",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "23621",
+                    "gene_name": "BACE1",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "10062",
+                    "gene_name": "NR1H3",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "7376",
+                    "gene_name": "NR1H2",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "9971",
+                    "gene_name": "NR1H4",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "64240",
+                    "gene_name": "ABCG5",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "64241",
+                    "gene_name": "ABCG8",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "26253",
+                    "gene_name": "CLEC4E",
+                    "score": "0.97"
+                },
+                {
+                    "gene_id": "6095",
+                    "gene_name": "RORA",
+                    "score": "0.97"
+                },
+                {
+                    "gene_id": "7421",
+                    "gene_name": "VDR",
+                    "score": "0.97"
+                },
+                {
+                    "gene_id": "9970",
+                    "gene_name": "NR1I3",
+                    "score": "0.97"
+                },
+                {
+                    "gene_id": "6646",
+                    "gene_name": "SOAT1",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "290",
+                    "gene_name": "ANPEP",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "29881",
+                    "gene_name": "NPC1L1",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "55879",
+                    "gene_name": "GABRQ",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2905",
+                    "gene_name": "GRIN2C",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2556",
+                    "gene_name": "GABRA3",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "6820",
+                    "gene_name": "SULT2B1",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2554",
+                    "gene_name": "GABRA1",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2562",
+                    "gene_name": "GABRB3",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2559",
+                    "gene_name": "GABRA6",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2560",
+                    "gene_name": "GABRB1",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "8856",
+                    "gene_name": "NR1I2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2561",
+                    "gene_name": "GABRB2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2565",
+                    "gene_name": "GABRG1",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2566",
+                    "gene_name": "GABRG2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "116443",
+                    "gene_name": "GRIN3A",
+                    "score": "0.89"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN047752&label=Ingredient",
+        "ingredient_name": "Vanillyl alcohol",
+        "PubChem id": "62348",
+        "batman_tcm_results": {
+            "name": "Vanillyl Alcohol",
+            "cid": "62348",
+            "target": [
+                {
+                    "gene_id": "7299",
+                    "gene_name": "TYR",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN038666&label=Ingredient",
+        "ingredient_name": "palmatine",
+        "PubChem id": "19009",
+        "batman_tcm_results": {
+            "name": "Palmatine",
+            "cid": "19009",
+            "target": [
+                {
+                    "gene_id": "1576",
+                    "gene_name": "CYP3A4",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "1571",
+                    "gene_name": "CYP2E1",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "7054",
+                    "gene_name": "TH",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "332",
+                    "gene_name": "BIRC5",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "5153",
+                    "gene_name": "PDE1B",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "5142",
+                    "gene_name": "PDE4B",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "10846",
+                    "gene_name": "PDE10A",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "5144",
+                    "gene_name": "PDE4D",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "8654",
+                    "gene_name": "PDE5A",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "5140",
+                    "gene_name": "PDE3B",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "5139",
+                    "gene_name": "PDE3A",
+                    "score": "0.82"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN026829&label=Ingredient",
+        "ingredient_name": "Fumarine",
+        "PubChem id": "4970",
+        "batman_tcm_results": {
+            "name": "Protopine",
+            "cid": "4970",
+            "target": [
+                {
+                    "gene_id": "596",
+                    "gene_name": "BCL2",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "1813",
+                    "gene_name": "DRD2",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "4170",
+                    "gene_name": "MCL1",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "983",
+                    "gene_name": "CDK1",
+                    "score": "known target in HERB"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN047748&label=Ingredient",
+        "ingredient_name": "Vanilloloside",
+        "PubChem id": "44577222",
+        "batman_tcm_results": {
+            "name": "Vanilloloside",
+            "cid": "44577222",
+            "target": [
+                {
+                    "gene_id": "2548",
+                    "gene_name": "GAA",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "7299",
+                    "gene_name": "TYR",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "5315",
+                    "gene_name": "PKM",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN021356&label=Ingredient",
+        "ingredient_name": "coniferin",
+        "PubChem id": "5280372",
+        "batman_tcm_results": {
+            "name": "Coniferin",
+            "cid": "5280372",
+            "target": [
+                {
+                    "gene_id": "5315",
+                    "gene_name": "PKM",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2548",
+                    "gene_name": "GAA",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "7299",
+                    "gene_name": "TYR",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN010875&label=Ingredient",
+        "ingredient_name": "(4R)-limonene 1beta,2beta-epoxide",
+        "PubChem id": "6857487",
+        "batman_tcm_results": []
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN017893&label=Ingredient",
+        "ingredient_name": "berberine",
+        "PubChem id": "2353",
+        "batman_tcm_results": {
+            "name": "Berberine",
+            "cid": "2353",
+            "target": [
+                {
+                    "gene_id": "6582",
+                    "gene_name": "SLC22A2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "836",
+                    "gene_name": "CASP3",
+                    "score": "known target in HIT,HERB"
+                },
+                {
+                    "gene_id": "7295",
+                    "gene_name": "TXN",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "3397",
+                    "gene_name": "ID1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "6581",
+                    "gene_name": "SLC22A3",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "2475",
+                    "gene_name": "MTOR",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5979",
+                    "gene_name": "RET",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "6256",
+                    "gene_name": "RXRA",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "7157",
+                    "gene_name": "TP53",
+                    "score": "known target in HIT,HERB"
+                },
+                {
+                    "gene_id": "1026",
+                    "gene_name": "CDKN1A",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "891",
+                    "gene_name": "CCNB1",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "1432",
+                    "gene_name": "MAPK14",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "8678",
+                    "gene_name": "BECN1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1499",
+                    "gene_name": "CTNNB1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "999",
+                    "gene_name": "CDH1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3551",
+                    "gene_name": "IKBKB",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "4790",
+                    "gene_name": "NFKB1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1789",
+                    "gene_name": "DNMT3B",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5452",
+                    "gene_name": "POU2F2",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "4322",
+                    "gene_name": "MMP13",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1401",
+                    "gene_name": "CRP",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "1786",
+                    "gene_name": "DNMT1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "6580",
+                    "gene_name": "SLC22A1",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "1536",
+                    "gene_name": "CYBB",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "23411",
+                    "gene_name": "SIRT1",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "91807",
+                    "gene_name": "MYLK3",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "2931",
+                    "gene_name": "GSK3A",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "207",
+                    "gene_name": "AKT1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5468",
+                    "gene_name": "PPARG",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1019",
+                    "gene_name": "CDK4",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "3309",
+                    "gene_name": "HSPA5",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "406991",
+                    "gene_name": "MIR21",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "6241",
+                    "gene_name": "RRM2",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "7430",
+                    "gene_name": "EZR",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "4312",
+                    "gene_name": "MMP1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "4170",
+                    "gene_name": "MCL1",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "7422",
+                    "gene_name": "VEGFA",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5444",
+                    "gene_name": "PON1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "983",
+                    "gene_name": "CDK1",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "3630",
+                    "gene_name": "INS",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "1571",
+                    "gene_name": "CYP2E1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5743",
+                    "gene_name": "PTGS2",
+                    "score": "known target in HIT,HERB"
+                },
+                {
+                    "gene_id": "4314",
+                    "gene_name": "MMP3",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "10059",
+                    "gene_name": "DNM1L",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "5524",
+                    "gene_name": "PPP2R4",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "8900",
+                    "gene_name": "CCNA1",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "949",
+                    "gene_name": "SCARB1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5563",
+                    "gene_name": "PRKAA2",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "1948",
+                    "gene_name": "EFNB2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "4318",
+                    "gene_name": "MMP9",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3146",
+                    "gene_name": "HMGB1",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "407050",
+                    "gene_name": "MIR93",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "4973",
+                    "gene_name": "OLR1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1573",
+                    "gene_name": "CYP2J2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "23621",
+                    "gene_name": "BACE1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5562",
+                    "gene_name": "PRKAA1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "6240",
+                    "gene_name": "RRM1",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "3978",
+                    "gene_name": "LIG1",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "23209",
+                    "gene_name": "MLC1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "6714",
+                    "gene_name": "SRC",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3725",
+                    "gene_name": "JUN",
+                    "score": "known target in HIT,HERB"
+                },
+                {
+                    "gene_id": "8600",
+                    "gene_name": "TNFSF11",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "7408",
+                    "gene_name": "VASP",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "7076",
+                    "gene_name": "TIMP1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5728",
+                    "gene_name": "PTEN",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3726",
+                    "gene_name": "JUNB",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "361",
+                    "gene_name": "AQP4",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "581",
+                    "gene_name": "BAX",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "6720",
+                    "gene_name": "SREBF1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "308",
+                    "gene_name": "ANXA5",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "3952",
+                    "gene_name": "LEP",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "6774",
+                    "gene_name": "STAT3",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "9370",
+                    "gene_name": "ADIPOQ",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "8398",
+                    "gene_name": "PLA2G6",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "7124",
+                    "gene_name": "TNF",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "1325",
+                    "gene_name": "CORT",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1565",
+                    "gene_name": "CYP2D6",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "139285",
+                    "gene_name": "AMER1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5465",
+                    "gene_name": "PPARA",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5747",
+                    "gene_name": "PTK2",
+                    "score": "known target in HIT,HERB"
+                },
+                {
+                    "gene_id": "2353",
+                    "gene_name": "FOS",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "1956",
+                    "gene_name": "EGFR",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3667",
+                    "gene_name": "IRS1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "442918",
+                    "gene_name": "MIR373",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5427",
+                    "gene_name": "POLE2",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "7015",
+                    "gene_name": "TERT",
+                    "score": "known target in HERB"
+                },
+                {
+                    "gene_id": "3091",
+                    "gene_name": "HIF1A",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "332",
+                    "gene_name": "BIRC5",
+                    "score": "known target in DrugBank"
+                },
+                {
+                    "gene_id": "3569",
+                    "gene_name": "IL6",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "6550",
+                    "gene_name": "SLC9A3",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "367",
+                    "gene_name": "AR",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "7442",
+                    "gene_name": "TRPV1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "43",
+                    "gene_name": "ACHE",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "4843",
+                    "gene_name": "NOS2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1649",
+                    "gene_name": "DDIT3",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "4780",
+                    "gene_name": "NFE2L2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "32",
+                    "gene_name": "ACACB",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "6733",
+                    "gene_name": "SRPK2",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "52",
+                    "gene_name": "ACP1",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "353",
+                    "gene_name": "APRT",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "4507",
+                    "gene_name": "MTAP",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "55825",
+                    "gene_name": "PECR",
+                    "score": "0.96"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN023936&label=Ingredient",
+        "ingredient_name": "dihydroniloticin",
+        "PubChem id": "73351981",
+        "batman_tcm_results": {
+            "name": "Dihydroniloticin",
+            "cid": "73351981",
+            "target": [
+                {
+                    "gene_id": "3351",
+                    "gene_name": "HTR1B",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "26253",
+                    "gene_name": "CLEC4E",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3358",
+                    "gene_name": "HTR2C",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "6095",
+                    "gene_name": "RORA",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1815",
+                    "gene_name": "DRD4",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1816",
+                    "gene_name": "DRD5",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3480",
+                    "gene_name": "IGF1R",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1814",
+                    "gene_name": "DRD3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1813",
+                    "gene_name": "DRD2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2353",
+                    "gene_name": "FOS",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "7421",
+                    "gene_name": "VDR",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3357",
+                    "gene_name": "HTR2B",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "367",
+                    "gene_name": "AR",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "9970",
+                    "gene_name": "NR1I3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2099",
+                    "gene_name": "ESR1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "4306",
+                    "gene_name": "NR3C2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3356",
+                    "gene_name": "HTR2A",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1812",
+                    "gene_name": "DRD1",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN044179&label=Ingredient",
+        "ingredient_name": "Skimmianin",
+        "PubChem id": "6760",
+        "batman_tcm_results": []
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN032181&label=Ingredient",
+        "ingredient_name": "Kihadalactone A",
+        "PubChem id": "374817",
+        "batman_tcm_results": []
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN034216&label=Ingredient",
+        "ingredient_name": "magnoflorine",
+        "PubChem id": "73337",
+        "batman_tcm_results": {
+            "name": "Magnoflorine",
+            "cid": "73337",
+            "target": [
+                {
+                    "gene_id": "3351",
+                    "gene_name": "HTR1B",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "152",
+                    "gene_name": "ADRA2C",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "1813",
+                    "gene_name": "DRD2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "3358",
+                    "gene_name": "HTR2C",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "1815",
+                    "gene_name": "DRD4",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "3352",
+                    "gene_name": "HTR1D",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "3350",
+                    "gene_name": "HTR1A",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "1816",
+                    "gene_name": "DRD5",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "3357",
+                    "gene_name": "HTR2B",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "1814",
+                    "gene_name": "DRD3",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "151",
+                    "gene_name": "ADRA2B",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "3356",
+                    "gene_name": "HTR2A",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "1812",
+                    "gene_name": "DRD1",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "150",
+                    "gene_name": "ADRA2A",
+                    "score": "0.89"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN029428&label=Ingredient",
+        "ingredient_name": "hispidol B",
+        "PubChem id": "13967183",
+        "batman_tcm_results": {
+            "name": "Hispidol B",
+            "cid": "13967183",
+            "target": [
+                {
+                    "gene_id": "26253",
+                    "gene_name": "CLEC4E",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "6095",
+                    "gene_name": "RORA",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "7421",
+                    "gene_name": "VDR",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "9970",
+                    "gene_name": "NR1I3",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2561",
+                    "gene_name": "GABRB2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2566",
+                    "gene_name": "GABRG2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2565",
+                    "gene_name": "GABRG1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "116443",
+                    "gene_name": "GRIN3A",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "55879",
+                    "gene_name": "GABRQ",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2905",
+                    "gene_name": "GRIN2C",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2568",
+                    "gene_name": "GABRP",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2556",
+                    "gene_name": "GABRA3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2903",
+                    "gene_name": "GRIN2A",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2558",
+                    "gene_name": "GABRA5",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "6820",
+                    "gene_name": "SULT2B1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "5241",
+                    "gene_name": "PGR",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "116444",
+                    "gene_name": "GRIN3B",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2567",
+                    "gene_name": "GABRG3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2564",
+                    "gene_name": "GABRE",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "10280",
+                    "gene_name": "SIGMAR1",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN031502&label=Ingredient",
+        "ingredient_name": "javanicin",
+        "PubChem id": "10149",
+        "batman_tcm_results": []
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN037208&label=Ingredient",
+        "ingredient_name": "nomilin",
+        "PubChem id": "137706495",
+        "batman_tcm_results": []
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN023700&label=Ingredient",
+        "ingredient_name": "Dictamine",
+        "PubChem id": "68085",
+        "batman_tcm_results": {
+            "name": "Dictamnine",
+            "cid": "68085",
+            "target": [
+                {
+                    "gene_id": "3091",
+                    "gene_name": "HIF1A",
+                    "score": "known target in HIT"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN042657&label=Ingredient",
+        "ingredient_name": "rutaecarpine",
+        "PubChem id": "65752",
+        "batman_tcm_results": {
+            "name": "Rutaecarpine",
+            "cid": "65752",
+            "target": [
+                {
+                    "gene_id": "4313",
+                    "gene_name": "MMP2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3565",
+                    "gene_name": "IL4",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1576",
+                    "gene_name": "CYP3A4",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "796",
+                    "gene_name": "CALCA",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "2697",
+                    "gene_name": "GJA1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5743",
+                    "gene_name": "PTGS2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1544",
+                    "gene_name": "CYP1A2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "4318",
+                    "gene_name": "MMP9",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "7124",
+                    "gene_name": "TNF",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "2556",
+                    "gene_name": "GABRA3",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3725",
+                    "gene_name": "JUN",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "4988",
+                    "gene_name": "OPRM1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "2677",
+                    "gene_name": "GGCX",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "367",
+                    "gene_name": "AR",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "1728",
+                    "gene_name": "NQO1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "554",
+                    "gene_name": "AVPR2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "552",
+                    "gene_name": "AVPR1A",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "5624",
+                    "gene_name": "PROC",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3350",
+                    "gene_name": "HTR1A",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "5742",
+                    "gene_name": "PTGS1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3360",
+                    "gene_name": "HTR4",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "154807",
+                    "gene_name": "VKORC1L1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "5241",
+                    "gene_name": "PGR",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "2147",
+                    "gene_name": "F2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "2158",
+                    "gene_name": "F9",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "4835",
+                    "gene_name": "NQO2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "2100",
+                    "gene_name": "ESR2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "79001",
+                    "gene_name": "VKORC1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "2555",
+                    "gene_name": "GABRA2",
+                    "score": "0.84"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN045252&label=Ingredient",
+        "ingredient_name": "Syrigin",
+        "PubChem id": "5316860",
+        "batman_tcm_results": {
+            "name": "Syringin",
+            "cid": "5316860",
+            "target": [
+                {
+                    "gene_id": "7189",
+                    "gene_name": "TRAF6",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3308",
+                    "gene_name": "HSPA4",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5315",
+                    "gene_name": "PKM",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2548",
+                    "gene_name": "GAA",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "7299",
+                    "gene_name": "TYR",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN037646&label=Ingredient",
+        "ingredient_name": "Obamegine",
+        "PubChem id": "10257912",
+        "batman_tcm_results": {
+            "name": "Krukovine",
+            "cid": "10257912",
+            "target": [
+                {
+                    "gene_id": "89832",
+                    "gene_name": "CHRFAM7A",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "1139",
+                    "gene_name": "CHRNA7",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "1135",
+                    "gene_name": "CHRNA2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "3359",
+                    "gene_name": "HTR3A",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "1129",
+                    "gene_name": "CHRM2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "43",
+                    "gene_name": "ACHE",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2100",
+                    "gene_name": "ESR2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "2099",
+                    "gene_name": "ESR1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "55584",
+                    "gene_name": "CHRNA9",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1141",
+                    "gene_name": "CHRNB2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1138",
+                    "gene_name": "CHRNA5",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "590",
+                    "gene_name": "BCHE",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1142",
+                    "gene_name": "CHRNB3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1131",
+                    "gene_name": "CHRM3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1813",
+                    "gene_name": "DRD2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "8973",
+                    "gene_name": "CHRNA6",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1134",
+                    "gene_name": "CHRNA1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1137",
+                    "gene_name": "CHRNA4",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "57053",
+                    "gene_name": "CHRNA10",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1136",
+                    "gene_name": "CHRNA3",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN032182&label=Ingredient",
+        "ingredient_name": "kihadalactone B",
+        "PubChem id": "374818",
+        "batman_tcm_results": {
+            "name": "Kihadalactone B",
+            "cid": "374818",
+            "target": [
+                {
+                    "gene_id": "1128",
+                    "gene_name": "CHRM1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "1132",
+                    "gene_name": "CHRM4",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "1129",
+                    "gene_name": "CHRM2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "1131",
+                    "gene_name": "CHRM3",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3683",
+                    "gene_name": "ITGAL",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "4306",
+                    "gene_name": "NR3C2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3066",
+                    "gene_name": "HDAC2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3156",
+                    "gene_name": "HMGCR",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN021357&label=Ingredient",
+        "ingredient_name": "Coniferol",
+        "PubChem id": "1549095",
+        "batman_tcm_results": {
+            "name": "CONIFERYL ALCOHOL",
+            "cid": "1549095",
+            "target": [
+                {
+                    "gene_id": "2564",
+                    "gene_name": "GABRE",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "5468",
+                    "gene_name": "PPARG",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2561",
+                    "gene_name": "GABRB2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3939",
+                    "gene_name": "LDHA",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2566",
+                    "gene_name": "GABRG2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2565",
+                    "gene_name": "GABRG1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2950",
+                    "gene_name": "GSTP1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "55879",
+                    "gene_name": "GABRQ",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "7421",
+                    "gene_name": "VDR",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2554",
+                    "gene_name": "GABRA1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2563",
+                    "gene_name": "GABRD",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "873",
+                    "gene_name": "CBR1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2562",
+                    "gene_name": "GABRB3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2559",
+                    "gene_name": "GABRA6",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2568",
+                    "gene_name": "GABRP",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2556",
+                    "gene_name": "GABRA3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2560",
+                    "gene_name": "GABRB1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2555",
+                    "gene_name": "GABRA2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2558",
+                    "gene_name": "GABRA5",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2557",
+                    "gene_name": "GABRA4",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN022782&label=Ingredient",
+        "ingredient_name": "Dauricine (8CI)",
+        "PubChem id": "73400",
+        "batman_tcm_results": {
+            "name": "Dauricine",
+            "cid": "73400",
+            "target": [
+                {
+                    "gene_id": "836",
+                    "gene_name": "CASP3",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "89832",
+                    "gene_name": "CHRFAM7A",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "1139",
+                    "gene_name": "CHRNA7",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "1135",
+                    "gene_name": "CHRNA2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "3359",
+                    "gene_name": "HTR3A",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "1129",
+                    "gene_name": "CHRM2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "43",
+                    "gene_name": "ACHE",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2100",
+                    "gene_name": "ESR2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "2099",
+                    "gene_name": "ESR1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3351",
+                    "gene_name": "HTR1B",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "55584",
+                    "gene_name": "CHRNA9",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3358",
+                    "gene_name": "HTR2C",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1141",
+                    "gene_name": "CHRNB2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1815",
+                    "gene_name": "DRD4",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3352",
+                    "gene_name": "HTR1D",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3350",
+                    "gene_name": "HTR1A",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1816",
+                    "gene_name": "DRD5",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1138",
+                    "gene_name": "CHRNA5",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "590",
+                    "gene_name": "BCHE",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1142",
+                    "gene_name": "CHRNB3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1814",
+                    "gene_name": "DRD3",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN018278&label=Ingredient",
+        "ingredient_name": "beta-sitosterol",
+        "PubChem id": "222284",
+        "batman_tcm_results": {
+            "name": "BETA-SITOSTEROL",
+            "cid": "222284",
+            "target": [
+                {
+                    "gene_id": "836",
+                    "gene_name": "CASP3",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5578",
+                    "gene_name": "PRKCA",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "842",
+                    "gene_name": "CASP9",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "4133",
+                    "gene_name": "MAP2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5563",
+                    "gene_name": "PRKAA2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "596",
+                    "gene_name": "BCL2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "841",
+                    "gene_name": "CASP8",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "581",
+                    "gene_name": "BAX",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "7040",
+                    "gene_name": "TGFB1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1906",
+                    "gene_name": "EDN1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "9970",
+                    "gene_name": "NR1I3",
+                    "score": "0.97"
+                },
+                {
+                    "gene_id": "26253",
+                    "gene_name": "CLEC4E",
+                    "score": "0.97"
+                },
+                {
+                    "gene_id": "6095",
+                    "gene_name": "RORA",
+                    "score": "0.97"
+                },
+                {
+                    "gene_id": "7421",
+                    "gene_name": "VDR",
+                    "score": "0.97"
+                },
+                {
+                    "gene_id": "55879",
+                    "gene_name": "GABRQ",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2556",
+                    "gene_name": "GABRA3",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2559",
+                    "gene_name": "GABRA6",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "8856",
+                    "gene_name": "NR1I2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2561",
+                    "gene_name": "GABRB2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2565",
+                    "gene_name": "GABRG1",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "116443",
+                    "gene_name": "GRIN3A",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2567",
+                    "gene_name": "GABRG3",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "10280",
+                    "gene_name": "SIGMAR1",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2100",
+                    "gene_name": "ESR2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2904",
+                    "gene_name": "GRIN2B",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2563",
+                    "gene_name": "GABRD",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "367",
+                    "gene_name": "AR",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2555",
+                    "gene_name": "GABRA2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2099",
+                    "gene_name": "ESR1",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2557",
+                    "gene_name": "GABRA4",
+                    "score": "0.89"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN029159&label=Ingredient",
+        "ingredient_name": "Hericenone H",
+        "PubChem id": "101777545",
+        "batman_tcm_results": {
+            "name": "1-[2-Methyl-5-Methoxy-7-[(Linoleoyloxy)Methyl]-8-Formyl-3,4-Dihydro-2H-1-Benzopyran-2-Yl]-4-Methyl-3-Pentene-2-One",
+            "cid": "101777545",
+            "target": [
+                {
+                    "gene_id": "1269",
+                    "gene_name": "CNR2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1268",
+                    "gene_name": "CNR1",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN033428&label=Ingredient",
+        "ingredient_name": "L-Limonen",
+        "PubChem id": "439250",
+        "batman_tcm_results": {
+            "name": "(-)-Limonene",
+            "cid": "439250",
+            "target": [
+                {
+                    "gene_id": "3156",
+                    "gene_name": "HMGCR",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3458",
+                    "gene_name": "IFNG",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3565",
+                    "gene_name": "IL4",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3747",
+                    "gene_name": "KCNC2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "125",
+                    "gene_name": "ADH1B",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3736",
+                    "gene_name": "KCNA1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3743",
+                    "gene_name": "KCNA7",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3741",
+                    "gene_name": "KCNA5",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3752",
+                    "gene_name": "KCND3",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3739",
+                    "gene_name": "KCNA4",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "2819",
+                    "gene_name": "GPD1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3738",
+                    "gene_name": "KCNA3",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "124",
+                    "gene_name": "ADH1A",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "126",
+                    "gene_name": "ADH1C",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "847",
+                    "gene_name": "CAT",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3750",
+                    "gene_name": "KCND1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3748",
+                    "gene_name": "KCNC3",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "5564",
+                    "gene_name": "PRKAB1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "7173",
+                    "gene_name": "TPO",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3744",
+                    "gene_name": "KCNA10",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3751",
+                    "gene_name": "KCND2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "9312",
+                    "gene_name": "KCNB2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "6035",
+                    "gene_name": "RNASE1",
+                    "score": "0.84"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN023084&label=Ingredient",
+        "ingredient_name": "Dehydrotanshinone II A",
+        "PubChem id": "128994",
+        "batman_tcm_results": []
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN042875&label=Ingredient",
+        "ingredient_name": "(S)-(+)-alpha-Phellandrene",
+        "PubChem id": "443160",
+        "batman_tcm_results": {
+            "name": "(+)-Alpha-Phellandrene",
+            "cid": "443160",
+            "target": [
+                {
+                    "gene_id": "3747",
+                    "gene_name": "KCNC2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "125",
+                    "gene_name": "ADH1B",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3736",
+                    "gene_name": "KCNA1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3743",
+                    "gene_name": "KCNA7",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3741",
+                    "gene_name": "KCNA5",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3752",
+                    "gene_name": "KCND3",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3739",
+                    "gene_name": "KCNA4",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "2819",
+                    "gene_name": "GPD1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3738",
+                    "gene_name": "KCNA3",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "124",
+                    "gene_name": "ADH1A",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "126",
+                    "gene_name": "ADH1C",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "847",
+                    "gene_name": "CAT",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3750",
+                    "gene_name": "KCND1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3748",
+                    "gene_name": "KCNC3",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "5564",
+                    "gene_name": "PRKAB1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "7173",
+                    "gene_name": "TPO",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3744",
+                    "gene_name": "KCNA10",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3751",
+                    "gene_name": "KCND2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "9312",
+                    "gene_name": "KCNB2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "6035",
+                    "gene_name": "RNASE1",
+                    "score": "0.84"
+                }
+            ]
+        }
+    },
+    {
+        "ingredient_url": "http://herb.ac.cn/Detail/?v=HBIN039014&label=Ingredient",
+        "ingredient_name": "PEA",
+        "PubChem id": "1001",
+        "batman_tcm_results": {
+            "name": "Phenethylamine",
+            "cid": "1001",
+            "target": [
+                {
+                    "gene_id": "1268",
+                    "gene_name": "CNR1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3356",
+                    "gene_name": "HTR2A",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1269",
+                    "gene_name": "CNR2",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5465",
+                    "gene_name": "PPARA",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1621",
+                    "gene_name": "DBH",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "151",
+                    "gene_name": "ADRA2B",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "148",
+                    "gene_name": "ADRA1A",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "6647",
+                    "gene_name": "SOD1",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "6531",
+                    "gene_name": "SLC6A3",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "9177",
+                    "gene_name": "HTR3B",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "153",
+                    "gene_name": "ADRB1",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "147",
+                    "gene_name": "ADRA1B",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "1816",
+                    "gene_name": "DRD5",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "1813",
+                    "gene_name": "DRD2",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "154",
+                    "gene_name": "ADRB2",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "5053",
+                    "gene_name": "PAH",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "6530",
+                    "gene_name": "SLC6A2",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "1812",
+                    "gene_name": "DRD1",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "6570",
+                    "gene_name": "SLC18A1",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "152",
+                    "gene_name": "ADRA2C",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "3363",
+                    "gene_name": "HTR7",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "1815",
+                    "gene_name": "DRD4",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "3350",
+                    "gene_name": "HTR1A",
+                    "score": "0.96"
+                },
+                {
+                    "gene_id": "1814",
+                    "gene_name": "DRD3",
+                    "score": "0.96"
+                }
+            ]
+        }
+    }
+]

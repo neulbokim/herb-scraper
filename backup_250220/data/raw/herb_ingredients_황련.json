@@ -1,0 +1,535 @@
+{
+    "http://herb.ac.cn/Detail/?v=HBIN034560&label=Ingredient": {
+        "ingredient_name": "matsutake alcohol",
+        "molecule_smile": "CCCCCC(C=C)O",
+        "SymMap id": "SMIT16442",
+        "PubChem id": "18827"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031499&label=Ingredient": {
+        "ingredient_name": "jatrorrhizine",
+        "molecule_smile": "COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC(=C(C=C4CC3)O)OC)OC",
+        "OB score": "3621-38-3",
+        "SymMap id": "SMIT00247",
+        "TCMSP id": "MOL006397",
+        "PubChem id": "72323"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN015124&label=Ingredient": {
+        "ingredient_name": "alginic acid",
+        "molecule_smile": "CC1C(C(C(C(O1)C(=O)O)OC2C(C(C(C(O2)C(=O)O)OC)O)O)O)O",
+        "OB score": "9005-32-7",
+        "SymMap id": "SMIT00304",
+        "TCMSP id": "MOL010579",
+        "PubChem id": "46705306"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021430&label=Ingredient": {
+        "ingredient_name": "coptisine",
+        "molecule_smile": "C1C[N+]2=C(C=C3C=CC4=C(C3=C2)OCO4)C5=CC6=C(C=C51)OCO6",
+        "OB score": "3486-66-6",
+        "SymMap id": "SMIT00107",
+        "TCMSP id": "MOL001458",
+        "PubChem id": "72322"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021540&label=Ingredient": {
+        "ingredient_name": "Corydaldine",
+        "molecule_smile": "COC1=C(C=C2C(=C1)CCNC2=O)OC",
+        "OB score": "493-49-2",
+        "SymMap id": "SMIT05060",
+        "PubChem id": "610097"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024448&label=Ingredient": {
+        "ingredient_name": "DPEC",
+        "molecule_smile": "C1=CC=C(C=C1)CCC2=CC(=O)C3=C(C=CC(=C3O2)O)O",
+        "OB score": "69809-24-1",
+        "SymMap id": "SMIT05059",
+        "PubChem id": "129670"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035298&label=Ingredient": {
+        "ingredient_name": "methyl linolenate",
+        "molecule_smile": "CCC=CCC=CCC=CCCCCCCCC(=O)OC",
+        "CAS id": "301-00-8",
+        "TCMID id": "24751",
+        "TCM-ID id": "2719"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037372&label=Ingredient": {
+        "ingredient_name": "Noroxyhydrastinine",
+        "molecule_smile": "C1CNC(=O)C2=CC3=C(C=C21)OCO3",
+        "OB score": "21796-14-5",
+        "SymMap id": "SMIT05062",
+        "TCMSP id": "MOL002900"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037642&label=Ingredient": {
+        "ingredient_name": "obacunone",
+        "molecule_smile": "CC1(C2CC(=O)C3(C(C2(C=CC(=O)O1)C)CCC4(C35C(O5)C(=O)OC4C6=COC=C6)C)C)C",
+        "OB score": "751-03-1",
+        "SymMap id": "SMIT00638",
+        "TCMSP id": "MOL006411",
+        "PubChem id": "119041"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN003893&label=Ingredient": {
+        "ingredient_name": "2,3,4-Trihydroxy-benzenepropanoic acid",
+        "molecule_smile": "C1=CC(=C(C(=C1CCC(=O)O)O)O)O",
+        "OB score": "SMIT01104",
+        "TCMID id": "32113"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038674&label=Ingredient": {
+        "ingredient_name": "Palmidin A",
+        "molecule_smile": "CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2C4C5=C(C(=CC=C5)O)C(=O)C6=C4C=C(C=C6O)CO)C=C(C=C3O)O",
+        "OB score": "SMIT03292",
+        "TCMID id": "16545",
+        "TCM-ID id": "2068"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN026465&label=Ingredient": {
+        "ingredient_name": "ferulic acid",
+        "molecule_smile": "COC1=C(C=CC(=C1)C=CC(=O)O)[O-]",
+        "CAS id": "1135-24-6",
+        "TCMID id": "23696",
+        "TCM-ID id": "4369"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029438&label=Ingredient": {
+        "ingredient_name": "histamine",
+        "molecule_smile": "C1=C(NC=N1)CCN",
+        "OB score": "51-45-6",
+        "SymMap id": "SMIT00108",
+        "TCMSP id": "MOL001464",
+        "PubChem id": "774"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037645&label=Ingredient": {
+        "ingredient_name": "obakunone",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT01772",
+        "TCMID id": "23494"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035396&label=Ingredient": {
+        "ingredient_name": "Methyl protocatechuate",
+        "molecule_smile": "COC(=O)C1=CC(=C(C=C1)O)O",
+        "OB score": "2150-43-8",
+        "SymMap id": "SMIT05562",
+        "PubChem id": "287064"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038666&label=Ingredient": {
+        "ingredient_name": "palmatine",
+        "molecule_smile": "COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC(=C(C=C4CC3)OC)OC)OC",
+        "OB score": "3486-67-7",
+        "SymMap id": "SMIT00076",
+        "TCMSP id": "MOL000785",
+        "PubChem id": "19009"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029771&label=Ingredient": {
+        "ingredient_name": "hydroxytyrosol",
+        "molecule_smile": "C1=CC(=C(C=C1CCO)O)O",
+        "OB score": "10597-60-1",
+        "SymMap id": "SMIT02807",
+        "TCMSP id": "MOL000141",
+        "PubChem id": "82755"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046110&label=Ingredient": {
+        "ingredient_name": "tetrandrine",
+        "molecule_smile": "CN1CCC2=CC(=C3C=C2C1CC4=CC=C(C=C4)OC5=C(C=CC(=C5)CC6C7=C(O3)C(=C(C=C7CCN6C)OC)OC)OC)OC",
+        "OB score": "518-34-3",
+        "SymMap id": "SMIT00150",
+        "TCMSP id": "MOL002343",
+        "PubChem id": "73078"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN041495&label=Ingredient": {
+        "ingredient_name": "quercetin",
+        "molecule_smile": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O",
+        "OB score": "117-39-5",
+        "SymMap id": "SMIT00013",
+        "TCMSP id": "MOL000098",
+        "PubChem id": "5280343"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN012667&label=Ingredient": {
+        "ingredient_name": "6-O-E-Feruloylajugol",
+        "molecule_smile": "CC1(CC(C2C1C(OC=C2)OC3C(C(C(C(O3)CO)O)O)O)OC(=O)C=CC4=CC(=C(C=C4)O)OC)O",
+        "SymMap id": "SMIT03304",
+        "TCMSP id": "MOL000778"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN007421&label=Ingredient": {
+        "ingredient_name": "3,4-Dihydroxyphenylethyl alcohol glucoside",
+        "molecule_smile": "C1=CC(=C(C=C1CCOC2C(C(C(C(O2)CO)O)O)O)O)O",
+        "OB score": "76873-99-9",
+        "SymMap id": "SMIT00926",
+        "TCMSP id": "MOL005198"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037644&label=Ingredient": {
+        "ingredient_name": "obakulactone",
+        "molecule_smile": "CC1(C2CC(=O)C3(C(C24COC(=O)CC4O1)CCC5(C36C(O6)C(=O)OC5C7=COC=C7)C)C)C",
+        "Molecule smile": "CC1(C2CC(=O)C3(C(C24COC(=O)CC4O1)CC...",
+        "TCMID id": "24353"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017893&label=Ingredient": {
+        "ingredient_name": "N/A",
+        "molecule_smile": "COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC5=C(C=C4CC3)OCO5)OC",
+        "OB score": "2086-83-1",
+        "SymMap id": "SMIT00104",
+        "TCMSP id": "MOL001454",
+        "PubChem id": "2353"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025897&label=Ingredient": {
+        "ingredient_name": "Ethyl caffeate",
+        "molecule_smile": "CCOC(=O)C=CC1=CC(=C(C=C1)O)O",
+        "OB score": "66648-50-8",
+        "SymMap id": "SMIT05063",
+        "TCMSP id": "MOL002902"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031340&label=Ingredient": {
+        "ingredient_name": "Isovanillin",
+        "molecule_smile": "COC1=C(C=C(C=C1)C=O)O",
+        "OB score": "621-59-0",
+        "SymMap id": "SMIT04220",
+        "TCMSP id": "MOL001867",
+        "PubChem id": "12127"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN026335&label=Ingredient": {
+        "ingredient_name": "Fagarine",
+        "molecule_smile": "COC1=CC=CC2=C1N=C3C(=C2OC)C=CO3",
+        "OB score": "524-15-2",
+        "SymMap id": "SMIT04864",
+        "TCM-ID id": "4402"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031501&label=Ingredient": {
+        "ingredient_name": "jatrorrizine",
+        "molecule_smile": "COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC(=C(C=C4CC3)O)OC)OC",
+        "OB score": "3621-38-3",
+        "SymMap id": "SMIT00358",
+        "PubChem id": "72323"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034219&label=Ingredient": {
+        "ingredient_name": "magnoflovine",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT18352",
+        "TCMID id": "23385"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034216&label=Ingredient": {
+        "ingredient_name": "magnoflorine",
+        "molecule_smile": "C[N+]1(CCC2=CC(=C(C3=C2C1CC4=C3C(=C(C=C4)OC)O)O)OC)C",
+        "OB score": "2141/9/5",
+        "SymMap id": "SMIT00074",
+        "TCMSP id": "MOL000764",
+        "PubChem id": "73337"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN008376&label=Ingredient": {
+        "ingredient_name": "3-Carboxy-4-hydroxy-phenoxy glucoside",
+        "molecule_smile": "C1=CC(=C(C=C1OC2C(C(C(C(O2)CO)O)O)O)C(=O)O)O",
+        "OB score": "SMIT00954",
+        "TCMID id": "3174",
+        "PubChem id": "10914066"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN041970&label=Ingredient": {
+        "ingredient_name": "(R)-Canadine",
+        "molecule_smile": "COC1=C(C2=C(CC3C4=CC5=C(C=C4CCN3C2)OCO5)C=C1)OC",
+        "OB score": "522-97-4",
+        "SymMap id": "SMIT05064",
+        "PubChem id": "443422"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN049253&label=Ingredient": {
+        "ingredient_name": "ω-hexadecenoicacid",
+        "molecule_smile": "Not Available",
+        "SymMap id": "SMIT15747"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021075&label=Ingredient": {
+        "ingredient_name": "clemastanin B_qt",
+        "molecule_smile": "not found",
+        "OB score": "112747-98-5",
+        "SymMap id": "SMIT04198"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031502&label=Ingredient": {
+        "ingredient_name": "javanicin",
+        "molecule_smile": "CC1=C(C(=C2C(=C1O)C(=O)C=C(C2=O)OC)O)CC(=O)C",
+        "SymMap id": "SMIT01471",
+        "TCMSP id": "MOL002329",
+        "PubChem id": "10149"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021292&label=Ingredient": {
+        "ingredient_name": "columbamine",
+        "molecule_smile": "COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC(=C(C=C4CC3)OC)O)OC",
+        "OB score": "3621-36-1",
+        "SymMap id": "SMIT00106",
+        "TCMSP id": "MOL001457",
+        "PubChem id": "72310"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038470&label=Ingredient": {
+        "ingredient_name": "Oxyacanthine",
+        "molecule_smile": "CN1CCC2=CC(=C(C3=C2C1CC4=CC=C(C=C4)OC5=C(C=CC(=C5)CC6C7=CC(=C(C=C7CCN6C)OC)O3)O)OC)OC",
+        "OB score": "548-40-3",
+        "SymMap id": "SMIT13719",
+        "TCMSP id": "MOL013012",
+        "PubChem id": "10031631"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037640&label=Ingredient": {
+        "ingredient_name": "Obacunoic acid",
+        "molecule_smile": "CC12CCC3C(C(CC(=O)C3(C14C(O4)C(=O)OC2C5=COC=C5)C)C(C)(C)O)(C)C=CC(=O)O",
+        "OB score": "751-29-1",
+        "SymMap id": "SMIT04846",
+        "TCMSP id": "MOL002637"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN026440&label=Ingredient": {
+        "ingredient_name": "FER",
+        "molecule_smile": "COC1=C(C=CC(=C1)C=CC(=O)O)O",
+        "OB score": "537-98-4",
+        "SymMap id": "SMIT02975",
+        "PubChem id": "445858"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037638&label=Ingredient": {
+        "ingredient_name": "obaculactone",
+        "molecule_smile": "CC1(C2CC(=O)C3(C(C24COC(=O)CC4O1)CCC5(C36C(O6)C(=O)OC5C7=COC=C7)C)C)C",
+        "SymMap id": "SMIT16955",
+        "TCM-ID id": "2179"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024823&label=Ingredient": {
+        "ingredient_name": "eckol",
+        "molecule_smile": "C1=C(C=C(C=C1O)OC2=C(C=C(C3=C2OC4=C(C=C(C=C4O3)O)O)O)O)O",
+        "OB score": "88798-74-7",
+        "SymMap id": "SMIT00788",
+        "TCMSP id": "MOL010616",
+        "PubChem id": "145937"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN028430&label=Ingredient": {
+        "ingredient_name": "groenlandicine",
+        "molecule_smile": "COC1=C(C=C2CC[N+]3=C(C2=C1)C=C4C=CC5=C(C4=C3)OCO5)O",
+        "OB score": "38691-95-1",
+        "SymMap id": "SMIT05061",
+        "TCMSP id": "MOL002898",
+        "PubChem id": "3084708"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN005448&label=Ingredient": {
+        "ingredient_name": "2-Carboxymethyl-3-prenyl-2,3-epoxy-1,4-naphthoquinone",
+        "molecule_smile": "Not Available",
+        "OB score": "SMIT00892",
+        "TCMID id": "30741"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN049052&label=Ingredient": {
+        "ingredient_name": "Zosimin",
+        "molecule_smile": "CC=C(C)C(=O)OC(C)(C)C1CC2=C(O1)C=CC3=C2OC(=O)C=C3",
+        "OB score": "5058-13-9",
+        "SymMap id": "SMIT05066",
+        "PubChem id": "6436246"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029382&label=Ingredient": {
+        "ingredient_name": "higenamine",
+        "molecule_smile": "C1CNC(C2=CC(=C(C=C21)O)O)CC3=CC=C(C=C3)O",
+        "CAS id": "5843-65-2",
+        "TCMID id": "23264",
+        "PubChem id": "114840"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN020363&label=Ingredient": {
+        "ingredient_name": "chlorogenic acid",
+        "molecule_smile": "CC=CC1=CC(=C(C=C1)O)O.CC1CC(CC(C1O)O)(C(=O)O)O",
+        "CAS id": "327-97-9",
+        "TCMID id": "23122",
+        "TCM-ID id": "5758"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021442&label=Ingredient": {
+        "ingredient_name": "Corchoroside A",
+        "molecule_smile": "CC1C(C(CC(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O",
+        "OB score": "SMIT05067",
+        "TCMID id": "4036",
+        "TCM-ID id": "22176"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029163&label=Ingredient": {
+        "ingredient_name": "Heriguard",
+        "molecule_smile": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O",
+        "OB score": "202650-88-2",
+        "SymMap id": "SMIT04288",
+        "PubChem id": "1794427"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037646&label=Ingredient": {
+        "ingredient_name": "Obamegine",
+        "molecule_smile": "CN1CCC2=CC(=C3C=C2C1CC4=CC=C(C=C4)OC5=C(C=CC(=C5)CC6C7=C(O3)C(=C(C=C7CCN6C)OC)O)O)OC",
+        "OB score": "479-37-8",
+        "SymMap id": "SMIT04847",
+        "TCMSP id": "MOL002639",
+        "PubChem id": "10257912"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024869&label=Ingredient": {
+        "ingredient_name": "(e,e)-2,4-octadienal",
+        "molecule_smile": "CCCC=CC=CC=O",
+        "Molecule weight": "SMIT16967",
+        "TCMID id": "15952"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN041337&label=Ingredient": {
+        "ingredient_name": "Pycnamine",
+        "molecule_smile": "CN1CCC2=CC(=C3C=C2C1CC4=CC=C(C=C4)OC5=C(C=CC(=C5)CC6C7=C(O3)C(=C(C=C7CCN6C)OC)OC)O)OC",
+        "OB score": "569-16-4",
+        "SymMap id": "SMIT08501",
+        "PubChem id": "442341"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN012668&label=Ingredient": {
+        "ingredient_name": "6-O-E-Feruloylajugol_qt",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT03305"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN020976&label=Ingredient": {
+        "ingredient_name": "citral",
+        "molecule_smile": "CC(=CCCC(=CC=O)C)C",
+        "OB score": "5392-40-5",
+        "SymMap id": "SMIT00018",
+        "TCMSP id": "MOL000124",
+        "PubChem id": "643779"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN022650&label=Ingredient": {
+        "ingredient_name": "danshensu",
+        "molecule_smile": "C1=CC(=C(C=C1CC(C(=O)O)O)O)O",
+        "OB score": "76822-21-4",
+        "SymMap id": "SMIT00680",
+        "TCMSP id": "MOL007134",
+        "PubChem id": "11600642"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN048396&label=Ingredient": {
+        "ingredient_name": "worenine",
+        "molecule_smile": "CC1=C2C3=CC4=C(C=C3CC[N+]2=CC5=CC6=C(C=C15)OCO6)OCO4",
+        "CAS id": "38763-29-0",
+        "TCMID id": "22716",
+        "TCM-ID id": "102"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017927&label=Ingredient": {
+        "ingredient_name": "Berlambine",
+        "molecule_smile": "COC1=C(C2=C(C=C1)C=C3C4=CC5=C(C=C4CCN3C2=O)OCO5)OC",
+        "OB score": "549-21-3",
+        "SymMap id": "SMIT05065",
+        "PubChem id": "11066"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039439&label=Ingredient": {
+        "ingredient_name": "phellodendrine",
+        "molecule_smile": "C[N+]12CCC3=CC(=C(C=C3C1CC4=CC(=C(C=C4C2)OC)O)O)OC",
+        "CAS id": "6873-13-8",
+        "TCMID id": "17051",
+        "TCM-ID id": "1823"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024325&label=Ingredient": {
+        "ingredient_name": "d-mannitol",
+        "molecule_smile": "C(C(C(C(C(CO)O)O)O)O)O",
+        "SymMap id": "SMIT16430",
+        "TCM-ID id": "10541"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025268&label=Ingredient": {
+        "ingredient_name": "epiberberine",
+        "molecule_smile": "COC1=C(C=C2C(=C1)CC[N+]3=C2C=C4C=CC5=C(C4=C3)OCO5)OC",
+        "OB score": "6873/9/2",
+        "SymMap id": "SMIT00171",
+        "TCMSP id": "MOL002897",
+        "PubChem id": "160876"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034220&label=Ingredient": {
+        "ingredient_name": "Magnograndiolide",
+        "molecule_smile": "CC1(CCC2C(C3C1CCC3(C)O)OC(=O)C2=C)O",
+        "OB score": "92618-98-9",
+        "SymMap id": "SMIT03177",
+        "TCMSP id": "MOL000622"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033162&label=Ingredient": {
+        "ingredient_name": "liensinine",
+        "molecule_smile": "CN1CCC2=CC(=C(C=C2C1CC3=CC=C(C=C3)O)OC4=C(C=CC(=C4)CC5C6=CC(=C(C=C6CCN5C)OC)OC)O)OC",
+        "CAS id": "2586-96-1",
+        "TCMID id": "12792",
+        "TCM-ID id": "2984"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN011337&label=Ingredient": {
+        "ingredient_name": "5,8-dihydroxy-2-(2-phenylethyl) chromone",
+        "molecule_smile": "C1=CC=C(C=C1)CCC2=CC(=O)C3=C(C=CC(=C3O2)O)O",
+        "SymMap id": "SMIT18993",
+        "PubChem id": "129670"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033253&label=Ingredient": {
+        "ingredient_name": "limonin",
+        "molecule_smile": "CC1(C2CC(=O)C3(C(C24COC(=O)CC4O1)CCC5(C36C(O6)C(=O)OC5C7=COC=C7)C)C)C",
+        "OB score": "1180-71-8",
+        "SymMap id": "SMIT00195",
+        "TCMSP id": "MOL003959",
+        "PubChem id": "179651"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036518&label=Ingredient": {
+        "ingredient_name": "neferine",
+        "molecule_smile": "CN1CCC2=CC(=C(C=C2C1CC3=CC=C(C=C3)OC)OC4=C(C=CC(=C4)CC5C6=CC(=C(C=C6CCN5C)OC)OC)O)OC",
+        "CAS id": "2292-16-2",
+        "TCMID id": "15313",
+        "PubChem id": "134693217"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN047738&label=Ingredient": {
+        "ingredient_name": "vanillic acid",
+        "molecule_smile": "COC1=C(C=CC(=C1)C(=O)O)O",
+        "OB score": "121-34-6",
+        "SymMap id": "SMIT00015",
+        "TCMSP id": "MOL000114",
+        "PubChem id": "8468"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027484&label=Ingredient": {
+        "ingredient_name": "GENOP",
+        "molecule_smile": "C1=CC(=C(C=C1O)C(=O)O)O",
+        "OB score": "490-79-9",
+        "SymMap id": "SMIT05301",
+        "PubChem id": "3469"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN032592&label=Ingredient": {
+        "ingredient_name": "laminine",
+        "molecule_smile": "C[N+](C)(C)CCCCC(C(=O)O)N",
+        "OB score": "2408-79-9",
+        "SymMap id": "SMIT00305",
+        "TCMSP id": "MOL010619",
+        "PubChem id": "159660"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN047080&label=Ingredient": {
+        "ingredient_name": "Trihydroxybufosterocholanic acid",
+        "molecule_smile": "CC(CCC(C)C(C)C(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C",
+        "OB score": "SMIT01009",
+        "TCMID id": "32114"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017897&label=Ingredient": {
+        "ingredient_name": "berberrubine",
+        "molecule_smile": "COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC5=C(C=C4CC3)OCO5)O",
+        "CAS id": "15401-69-1",
+        "TCMID id": "2304",
+        "TCM-ID id": "6345"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN020658&label=Ingredient": {
+        "ingredient_name": "Cinnamic acid, 3,4-dimethoxy- (8CI)",
+        "molecule_smile": "COC1=C(C=C(C=C1)C=CC(=O)O)OC",
+        "OB score": "2316-26-9",
+        "SymMap id": "SMIT06071",
+        "PubChem id": "1585026"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024651&label=Ingredient": {
+        "ingredient_name": "(e)-2-octenal",
+        "molecule_smile": "CCCCCC=CC=O",
+        "SymMap id": "SMIT16971",
+        "PubChem id": "5283324"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024867&label=Ingredient": {
+        "ingredient_name": "(e, e)-2,4-heptadienal",
+        "molecule_smile": "CCC=CC=CC=O",
+        "SymMap id": "SMIT15725",
+        "PubChem id": "5283321"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN032589&label=Ingredient": {
+        "ingredient_name": "laminarin",
+        "molecule_smile": "C(C1C(C(C(C(O1)O)O)OC2C(C(C(C(O2)CO)O)OC3C(C(C(C(O3)CO)O)O)O)O)O)O",
+        "SymMap id": "SMIT01667",
+        "TCM-ID id": "3081"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021295&label=Ingredient": {
+        "ingredient_name": "columbianadin",
+        "molecule_smile": "CC=C(C)C(=O)OC(C)(C)C1CC2=C(O1)C=CC3=C2OC(=O)C=C3",
+        "SymMap id": "SMIT14735",
+        "PubChem id": "6436246"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021443&label=Ingredient": {
+        "ingredient_name": "Corchoroside A_qt",
+        "molecule_smile": "not found",
+        "SymMap id": "SMIT05068"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038995&label=Ingredient": {
+        "ingredient_name": "p-coumaric acid",
+        "molecule_smile": "C1=CC(=CC=C1C=CC(=O)S)O",
+        "OB score": "7400-08-0",
+        "SymMap id": "SMIT00423",
+        "TCMSP id": "MOL000771",
+        "PubChem id": "448496"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035808&label=Ingredient": {
+        "ingredient_name": "Moupinamide",
+        "molecule_smile": "COC1=C(C=CC(=C1)C=CC(=O)NCCC2=CC=C(C=C2)O)O",
+        "OB score": "66648-43-9",
+        "SymMap id": "SMIT09893",
+        "TCMSP id": "MOL008647"
+    }
+}

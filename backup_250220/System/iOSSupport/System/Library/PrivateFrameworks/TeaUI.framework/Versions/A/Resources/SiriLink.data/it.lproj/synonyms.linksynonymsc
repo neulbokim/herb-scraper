@@ -1,0 +1,22 @@
+{
+  "synonyms" : {
+    "entities" : {
+
+    },
+    "enums" : {
+      "TeaUI.SplitViewAppEntity" : {
+        "cases" : {
+          "sidebar" : {
+            "canonical" : "sidebar",
+            "customTerms" : [
+
+            ],
+            "terms" : [
+              "sidebar"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

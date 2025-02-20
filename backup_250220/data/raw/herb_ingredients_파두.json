@@ -1,0 +1,662 @@
+{
+    "http://herb.ac.cn/Detail/?v=HBIN019688&label=Ingredient": {
+        "ingredient_name": "caprylic acid",
+        "molecule_smile": "CCCCCCCC(=O)O",
+        "OB score": "68937-74-6",
+        "SymMap id": "SMIT00027",
+        "TCMSP id": "MOL000303",
+        "PubChem id": "379"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN014933&label=Ingredient": {
+        "ingredient_name": "AIDS161753",
+        "molecule_smile": "CC1C(C2(C(C2(C)C)C3C1(C4C=C(C(=O)C4CC(=C3)CO)C)O)O)O",
+        "OB score": "37415-57-9",
+        "SymMap id": "SMIT04018",
+        "PubChem id": "500452"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039596&label=Ingredient": {
+        "ingredient_name": "phorbol-12-α-methylbutyrate-13-caprylenate",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT17198",
+        "TCMID id": "17175"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039781&label=Ingredient": {
+        "ingredient_name": "phytin",
+        "molecule_smile": "C1(C(C(C(C(C1OP(=O)([O-])[O-])OP(=O)([O-])[O-])OP(=O)([O-])[O-])OP(=O)([O-])[O-])OP(=O)([O-])[O-])OP(=O)([O-])[O-].[Mg+2].[Mg+2].[Mg+2].[Mg+2].[Mg+2].[Mg+2].[Ca].[Ca].[Ca].[Ca].[Ca].[Ca]",
+        "SymMap id": "SMIT01824",
+        "TCM-ID id": "1772"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN006470&label=Ingredient": {
+        "ingredient_name": "(2r,3s)-(+)-3',5-dihydroxy-4',7-dimethoxydihydroflavonol",
+        "molecule_smile": "COC1=C(C=C(C=C1)C2C(C(=O)C3=C(C=C(C=C3O2)OC)O)O)O",
+        "Molecule smile": "COC1=C(C=C(C=C1)C2C(C(=O)C3=C(C=C(C...",
+        "TCMID id": "25909"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039600&label=Ingredient": {
+        "ingredient_name": "phorbol-12-caprate-13-acetate",
+        "molecule_smile": "CCCCCCCCCC(=O)OC1C(C2(C(C=C(CC3(C2C=C(C3=O)C)O)CO)C4C1(C4(C)C)OC(=O)C)O)C",
+        "Molecule smile": "CCCCCCCCCC(=O)OC1C(C2(C(C=C(CC3(C2C...",
+        "TCMID id": "17171"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037213&label=Ingredient": {
+        "ingredient_name": "NON",
+        "molecule_smile": "CCCCCCCCCC(=O)O",
+        "OB score": "334-48-5",
+        "SymMap id": "SMIT04023",
+        "PubChem id": "2969"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037866&label=Ingredient": {
+        "ingredient_name": "officinalisin",
+        "molecule_smile": "Not Available",
+        "CAS id": "209170-24-1",
+        "TCMID id": "16004",
+        "TCM-ID id": "2140"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN000923&label=Ingredient": {
+        "ingredient_name": "12-o-acetylphorbol-13-tigliate",
+        "molecule_smile": "2-Butenoic acid, 2-methyl-, (1aR,1bS,4aR,7aS,7bS,8R,9R,9aS)-9-(acetyloxy)-1,1a,1b,4,4a,5,7a,7b,8,9-decahydro-4a,7b-dihydroxy-3-(hydroxymethyl)-1,1,6,8-tetramethyl-5-oxo-9aH-cyclopropa(3,4)benz(1,2-e)azulen-9a-yl ester, (2E)-(; 12-O-Acetylphorbol-13-tigliate; 250268-55-4; 2-Butenoic acid, 2-methyl-, (1aR,1bS,4aR,7aS,7bS,8R,9R,9aS)-9-(acetyloxy)-1,1a,1b,4,4a,5,7a,7b,8,9-decahydro-4a,7b-dihydroxy-3-(hydroxymethyl)-1,1,6,8-tetramethyl-5-oxo-9aH-cyclopropa[3,4]benz[1,2-e]azulen-9a-yl ester, (2E)- (",
+        "SymMap id": "SMIT14162",
+        "PubChem id": "6451045"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039595&label=Ingredient": {
+        "ingredient_name": "phorbol-12-α-methylbutyrate-13-caprate",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT17197",
+        "TCMID id": "17174"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017043&label=Ingredient": {
+        "ingredient_name": "ascorbicacid",
+        "molecule_smile": "C(C(C1C(=C(C(=O)O1)O)O)O)O",
+        "SymMap id": "SMIT14392",
+        "TCM-ID id": "20996",
+        "DrugBank id": "DB00126"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038026&label=Ingredient": {
+        "ingredient_name": "N/A",
+        "molecule_smile": "not found"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN007116&label=Ingredient": {
+        "ingredient_name": "3-(3,4-dihydroxyphenyl)-1-(5-hydroxy-2,2-dimethylchromen-6-yl)propan-1-one",
+        "molecule_smile": "CC1(C=CC2=C(O1)C=CC(=C2O)C(=O)CCC3=CC(=C(C=C3)O)O)C",
+        "OB score": "8001-56-7",
+        "SymMap id": "SMIT04013",
+        "PubChem id": "11473265"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035296&label=Ingredient": {
+        "ingredient_name": "methyl linoleate",
+        "molecule_smile": "CCC=CCC=CCC=CCCCCCCCC(=O)OC",
+        "CAS id": "112-63-0",
+        "TCMID id": "14546",
+        "TCM-ID id": "2720"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033339&label=Ingredient": {
+        "ingredient_name": "N/A",
+        "molecule_smile": "CCC=CCC=CCC=CCCCCCCCC(=O)O",
+        "OB score": "463-40-1",
+        "SymMap id": "SMIT00044",
+        "TCMSP id": "MOL000432",
+        "PubChem id": "5282822"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039599&label=Ingredient": {
+        "ingredient_name": "phorbol-12-butyrate-13-laurate",
+        "molecule_smile": "CCCCCCCCCCCC(=O)OC12C(C1(C)C)C3C=C(CC4(C(C3(C(C2OC(=O)CCC)C)O)C=C(C4=O)C)O)CO",
+        "SymMap id": "SMIT00472",
+        "TCMSP id": "MOL001636"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039605&label=Ingredient": {
+        "ingredient_name": "phorbol-12-tiglate-13-caprylenate",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT17202",
+        "TCMID id": "17179"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025622&label=Ingredient": {
+        "ingredient_name": "Erucic acid",
+        "molecule_smile": "CCCCCCCCC=CCCCCCCCCCCCC(=O)O",
+        "OB score": "112-86-7",
+        "SymMap id": "SMIT04016",
+        "TCMSP id": "MOL001631"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021743&label=Ingredient": {
+        "ingredient_name": "crotin i, ii",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT18648",
+        "TCMID id": "24545"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039580&label=Ingredient": {
+        "ingredient_name": "Phlorizin",
+        "molecule_smile": "C1=CC(=CC=C1CCC(=O)C2=C(C=C(C=C2OC3C(C(C(C(O3)CO)O)O)O)O)O)O",
+        "OB score": "112318-65-7",
+        "SymMap id": "SMIT04008",
+        "TCMSP id": "MOL001623"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039606&label=Ingredient": {
+        "ingredient_name": "phorbol 12-tiglate 13-decanonate",
+        "molecule_smile": "CCCCCCCCCC(=O)OC12C(C1(C)C)C3C=C(CC4(C(C3(C(C2OC(=O)C(=CC)C)C)O)C=C(C4=O)C)O)CO",
+        "Molecule smile": "CCCCCCCCCC(=O)OC12C(C1(C)C)C3C=C(CC...",
+        "TCMID id": "17180"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039577&label=Ingredient": {
+        "ingredient_name": "phloridzin",
+        "molecule_smile": "C1=CC(=CC=C1CCC(=O)C2=C(C=C(C=C2OC3C(C(C(C(O3)CO)O)O)O)O)O)O",
+        "SymMap id": "SMIT17191",
+        "TCM-ID id": "11040"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021754&label=Ingredient": {
+        "ingredient_name": "croton oil",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "8001-28-3",
+        "SymMap id": "SMIT02020",
+        "TCM-ID id": "5433"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016568&label=Ingredient": {
+        "ingredient_name": "Arachic acid",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCC(=O)O",
+        "OB score": "506-30-9",
+        "SymMap id": "SMIT02702",
+        "TCMSP id": "MOL000012"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039598&label=Ingredient": {
+        "ingredient_name": "phorbol-12-benzoate-13-benzoate",
+        "molecule_smile": "CC1C(C2(C(C2(C)C)C3C1(C4C=C(C(=O)C4(CC(=C3)CO)O)C)O)OC(=O)C5=CC=CC=C5)OC(=O)C6=CC=CC=C6",
+        "Molecule smile": "CC1C(C2(C(C2(C)C)C3C1(C4C=C(C(=O)C4...",
+        "TCMID id": "17169"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN000910&label=Ingredient": {
+        "ingredient_name": "12-o-(2-methylbutyryl)phorbol-13-dodecanoate",
+        "molecule_smile": "",
+        "Molecule smile": "CCCCCCCCCCCC(=O)OC12C(C1(C)C)C3C=C(...",
+        "TCMID id": "14194"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039593&label=Ingredient": {
+        "ingredient_name": "phorbol",
+        "molecule_smile": "4,9,12beta,13,20-pentahydroxytiglia-1,6-dien-3-one; 1,1a,1b,4,4a,7a,7b,8,9,9a-Decahydro-4a,7b,9,9a-tetrahydroxy-3-(hydroxymethyl)-1,1,6,8-tetramethyl-5H-cyclopropa(3,4)benz(1,2-e)azulen-5-one (1aR-(1aalpha,1bbeta,4abeta,7aalpha,7balpha,8alpha,9beta,9aalpha))-; 4beta,9alpha,12beta,13alpha,20-Pentahydroxytiglia-1,6-dien-3-one; 4beta,9alpha,1 2beta,13alpha,20-pentahydroxy-1,6-tigliadien-3-one; AIDS001981; 17673-25-5; 4beta,9alpha,12beta,13alpha,20-pentahydroxy-1,6-tigliadien-3-one; P8893_SIGMA; 4.b.-Phorbol; (4aR,7bR,8R,9R,9aR)-4a,7b,9,9a-tetrahydroxy-3-(hydroxymethyl)-1,1,6,8-tetramethyl-1,1a,1b,4,4a,7a,7b,8,9,9a-decahydro-5H-cyclopropa[3,4]benzo[1,2-e]azulen-5-one; [1aR-(1aalpha,1bbeta,4 abeta,7aalpha,7balpha,8alpha,9beta,9aalpha)]-1,1a,1b,4,4a,7a,7b,8,9,9a-decahydro-4a,7b,9,9a-tetrahydroxy-3-(hydroxymethyl)-1,1,6,8-tetramethyl-5H-cyclopropa(3,4)benz[1,2-e]azulen-5-one; CCRIS 694; SMP2_000151; 4-.beta.-Phorbol; 5H-Cyclopropa(3,4)benz(1,2-e)azulen-5-one, 1,1aalpha,1bbeta,4,4a,7aalpha,7b,8,9,9a-decahydro-4abeta,7balpha,9beta,9a alpha-tetrahydroxy-3-(hydroxymethyl)-1,1,6,8alpha-tetramethyl-, (+)-; 4beta-Phorbol; CHEBI:8116; AIDS-001981; (1aR,1bS,4aR,7aS,7bS,8R,9R,9aS)-4a,7b,9,9a-tetrahydroxy-3-(hydroxymethyl)-1,1,6,8-tetramethyl-1,1a,1b,4,4a,7a,7b,8,9,9a-decahydro-5H-cyclopropa[3,4]benzo[1,2-e]azulen-5-one; NSC 154778; HSDB 4328; 4-beta-Phorbol; 4,9,12beta,13,20-pentahydroxy-1,6-tigliadien-3-on; Phorbol; LMPR01040097; C09155; 5H-Cyclopropa(3,4)benz(1,2-e)azulen-5-one, 1,1a,1b,4,4",
+        "CAS id": "17673-25-5",
+        "TCMID id": "17167",
+        "TCM-ID id": "1794"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN001270&label=Ingredient": {
+        "ingredient_name": "13-o-acetylphorbol-20-linoleate",
+        "molecule_smile": "CCCCCC=CCC=CCCCCCCCC(=O)OCC1=CC2C3C(C3(C(C(C2(C4C=C(C(=O)C4(C1)O)C)O)C)O)OC(=O)C)(C)C",
+        "SymMap id": "SMIT14161",
+        "PubChem id": "6451043"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035695&label=Ingredient": {
+        "ingredient_name": "Monotropein",
+        "molecule_smile": "C1=CC(C2C1C(=COC2(O)OC3C(C(C(C(O3)CO)O)O)O)C(=O)O)(CO)O",
+        "OB score": "5945-50-6",
+        "SymMap id": "SMIT10670",
+        "TCMSP id": "MOL009553",
+        "PubChem id": "91798596"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044735&label=Ingredient": {
+        "ingredient_name": "stearin",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCCCC)OC(=O)CCCCCCCCCCCCCCCCC",
+        "SymMap id": "SMIT17783",
+        "PubChem id": "11146"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046410&label=Ingredient": {
+        "ingredient_name": "Tigloidine",
+        "molecule_smile": "CC=C(C)C(=O)OC1CC2CCC(C1)N2C",
+        "OB score": "495-83-0",
+        "SymMap id": "SMIT12413",
+        "TCMSP id": "MOL011532",
+        "PubChem id": "12444363"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN015553&label=Ingredient": {
+        "ingredient_name": "α-hydroxyanthraquinone",
+        "molecule_smile": "C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=CC=C3)O",
+        "SymMap id": "SMIT15808",
+        "PubChem id": "8512"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016570&label=Ingredient": {
+        "ingredient_name": "arachidic acid",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCC(=O)O",
+        "CAS id": "506-30-9",
+        "TCMID id": "25083",
+        "PubChem id": "10467"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021756&label=Ingredient": {
+        "ingredient_name": "croton resin",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT02219",
+        "TCMID id": "24631"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036159&label=Ingredient": {
+        "ingredient_name": "myristic acid",
+        "molecule_smile": "CCCCCCCCCCCCCC(=O)O",
+        "OB score": "45184-05-2",
+        "SymMap id": "SMIT00100",
+        "TCMSP id": "MOL001393",
+        "PubChem id": "11005"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN048047&label=Ingredient": {
+        "ingredient_name": "vitamin c",
+        "molecule_smile": "C(C(C1C(=C(C(=O)O1)O)O)O)O",
+        "OB score": "50-81-7",
+        "SymMap id": "SMIT00118",
+        "TCMSP id": "MOL001691",
+        "PubChem id": "54690394"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN001280&label=Ingredient": {
+        "ingredient_name": "13-o-tigloylphorbol-20-linoleate",
+        "molecule_smile": "CCCCCC=CCC=CCCCCCCCC(=O)OCC1=CC2C3C(C3(C(C(C2(C4C=C(C(=O)C4(C1)O)C)O)C)O)OC(=O)C(=CC)C)(C)C",
+        "SymMap id": "SMIT17944",
+        "PubChem id": "6451044"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038680&label=Ingredient": {
+        "ingredient_name": "palmitic acid",
+        "molecule_smile": "CCCCCCCCCCCCCCCC(=O)O",
+        "OB score": "67701-02-4",
+        "SymMap id": "SMIT00010",
+        "TCMSP id": "MOL000069",
+        "PubChem id": "985"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN011422&label=Ingredient": {
+        "ingredient_name": "5alpha-Hydroxy-2alpha-(alpha-methylbutyryl)-oxy-7beta,9alpha,10beta-triacetoxy-4(20),11-taxadiene",
+        "molecule_smile": "CCC(C)C(=O)OC1C2CCC(=C(C2(C)C)C(C(C3(C1C(=C)C(CC3OC(=O)C)O)C)OC(=O)C)OC(=O)C)C",
+        "OB score": "SMIT00866",
+        "TCMID id": "31229"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN040040&label=Ingredient": {
+        "ingredient_name": "pipecolic acid",
+        "molecule_smile": "C1CCNC(C1)C(=O)O",
+        "SymMap id": "SMIT02278",
+        "TCM-ID id": "1715"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039609&label=Ingredient": {
+        "ingredient_name": "phorbol-4-methoxy-12-myristate-13-acetate",
+        "molecule_smile": "CCCCCCCCCCCCCC(=O)OC1C(C2(C(C=C(CC3(C2C=C(C3=O)C)O)CO)C4C1(C4(C)C)OC(=O)C)O)C",
+        "Molecule smile": "CCCCCCCCCCCCCC(=O)OC1C(C2(C(C=C(CC3...",
+        "TCMID id": "17173"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039603&label=Ingredient": {
+        "ingredient_name": "phorbol-12-palmitate-13-acetate",
+        "molecule_smile": "CCCCCCCCCCCCCCCC(=O)OC1C(C2(C(C=C(CC3(C2C=C(C3=O)C)O)CO)C4C1(C4(C)C)OC(=O)C)O)C",
+        "Molecule smile": "CCCCCCCCCCCCCCCC(=O)OC1C(C2(C(C=C(C...",
+        "TCMID id": "17177"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039576&label=Ingredient": {
+        "ingredient_name": "Phloretol",
+        "molecule_smile": "Phloretin; EU-0101012; Dihydronaringenin; KBioGR_001803; 3-(4-Hydroxy-phenyl)-1-(2,4,6-trihydroxy-phenyl)-propan-1-one; CCRIS 7459; BCBcMAP01_000040; SDCCGMLS-0066637.P001; .beta.-(p-Hydroxyphenyl)phloropropiophenone; SMP1_000238; 79310_FLUKA; NCGC00094304-03; AIDS-052153; 2',4',6'-Trihydroxy-3-(p-hydroxyphenyl)propiophenone; Propiophenone, 2',4',6'-trihydroxy-3-(p-hydroxyphenyl)- (8CI); DivK1c_006429; KBioSS_001775; NSC 407292; CHEBI:17276; KBio3_002071; EINECS 200-488-7; KBio2_006911; P7912_SIGMA; AIDS052153; KBio1_001373; Spectrum3_001036; 2',4',6'-Trihydroxy-3-(4-Hydroxyphenyl)propiophenone; beta-(4-Hydroxyphenyl)-2,4,6-trihydroxypropiophenone; Spectrum5_001698; 3-(4-hydroxyphenyl)-1-(2,4,6-trihydroxyphenyl)-1-propanone; Lopac0_001012; Spectrum2_000681; Lopac-P-7912; NCGC00015840-01; beta-(p-Hydroxyphenyl)phloropropiophenone; SMR000326783; G50; 3-(4-Hydroxyphenyl)-1-(2,4,6-trihydroxyphenyl)propan-1-one; SPECTRUM300554; 2&#8242;,4&#8242;,6&#8242;-Trihydroxy-3-(4-hydroxyphenyl)propiophenone; beta-(p-Hydroxyphenyl)-2,4,6-trihydroxypropiophenone; MLS000728507; KBio2_004343; Propiophenone, 2',4',6'-trihydroxy-3-(p-hydroxyphenyl)-; Oprea1_824722; TNP00255; 60-82-2; SpecPlus_000333; NCGC00015840-02; 2&prime;,4&prime;,6&prime;-Trihydroxy-3-p-hydroxyphenylpropiophenone; ST057164; BSPBio_002851; KBio2_001775; NCGC00094304-02; C00774; ZINC00047553; SPBio_000801; Spectrum_001295; 1-Propanone, 3-(4-hydroxyphenyl)-1-(2,4,6-trihydroxyphenyl)-; Spectrum4_001172; NSC407292; .beta.-(p-Hydr",
+        "OB score": "60-82-2",
+        "SymMap id": "SMIT04009",
+        "PubChem id": "4788"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039612&label=Ingredient": {
+        "ingredient_name": "phorbol diester",
+        "molecule_smile": "CCCC(=O)OC1C(C2(C(C=C(CC3(C2C=C(C3=O)C)O)CO)C4C1(C4(C)C)OC(=O)CCC)O)C",
+        "Molecule smile": "CCCC(=O)OC1C(C2(C(C=C(CC3(C2C=C(C3=...",
+        "TCMID id": "24809"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016080&label=Ingredient": {
+        "ingredient_name": "anethole",
+        "molecule_smile": "CC=CC1=CC=C(C=C1)OC",
+        "OB score": "104-46-1",
+        "SymMap id": "SMIT00050",
+        "TCMSP id": "MOL000475",
+        "PubChem id": "637563"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN041903&label=Ingredient": {
+        "ingredient_name": "raffinose",
+        "molecule_smile": "Melitriose, Raffinose; alpha-D-Glucopyranoside, beta-D-fructofuranosyl O-alpha-D-galactopyranosyl (1 to 6)-; 6G-alpha-D-galactosylsucrose; alpha-D-galactopyranosyl-(1->6)-alpha-D-glucopyranosyl beta-D-fructofuranoside; Gossypose; alpha-D-glucopyranoside, beta-D-fructofuranosyl O-alpha-D-galactopyranosyl-(1->6)-; 17629-30-0; alpha-D-Galp-(1->6)-alpha-D-Glcp-(1<->2)-beta-D-Fruf; alpha-D-Glucopyranoside, beta-D-fructofuranosyl O-alpha-D-galactopyranosyl-(1>6)- (9CI); beta-D-Fructofuranosyl-O-alpha-D-galactopyranosyl-(1->6)-alpha-D-glucopyranoside; Raffinose; CHEBI:16634; 512-69-6; AIDS-014662; (2R,3R,4S,5S,6R)-2-[[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)-2-tetrahydrofuranyl]oxy]-6-[[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]oxymethyl]tetrahydropyran-3,4,5-triol; (2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-dimethylol-tetrahydrofuran-2-yl]oxy-6-[[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxymethyl]tetrahydropyran-3,4,5-triol; SCHEMBL16435154; O-alpha-D-Galactopyranosyl(1,6)-O-alpha-D-glucopyranosyl-(1,2)-beta-D-fructofuranoside; (2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)tetrahydrofuran-2-yl]oxy-6-[[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxymethyl]tetrahydropyran-3,4,5-triol; (2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-[[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]oxane-3,4,5-triol",
+        "OB score": "17629-30-0",
+        "SymMap id": "SMIT00078",
+        "TCMSP id": "MOL000841",
+        "PubChem id": "439242"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039756&label=Ingredient": {
+        "ingredient_name": "physcion",
+        "molecule_smile": "CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)OC",
+        "SymMap id": "SMIT01567",
+        "TCMSP id": "MOL000476",
+        "PubChem id": "10639"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN000921&label=Ingredient": {
+        "ingredient_name": "12-o-acetylphorbla-13-decanoate",
+        "molecule_smile": "Not Available",
+        "SymMap id": "SMIT14159"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039611&label=Ingredient": {
+        "ingredient_name": "Phorbol caprate, tiglate",
+        "molecule_smile": "CCCCCCCCCC(=O)OC12C(C1(C)C)C3C=C(CC4(C(C3(C(C2OC(=O)C(=CC)C)C)O)C=C(C4=O)C)O)CO",
+        "OB score": "59086-92-9",
+        "SymMap id": "SMIT04010",
+        "PubChem id": "5281391"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016273&label=Ingredient": {
+        "ingredient_name": "anthocyanidin",
+        "molecule_smile": "C1=CC=C(C=C1)C2=[O+]C3=CC=CC=C3C=C2.[O-]Cl(=O)(=O)=O",
+        "OB score": "84082-34-8",
+        "SymMap id": "SMIT00001",
+        "TCMSP id": "MOL000001"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024367&label=Ingredient": {
+        "ingredient_name": "dodecanal",
+        "molecule_smile": "CCCCCCCCCCCC=O",
+        "CAS id": "112-54-9",
+        "TCMID id": "23837",
+        "TCM-ID id": "4748"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN014934&label=Ingredient": {
+        "ingredient_name": "AIDS161963",
+        "molecule_smile": "CCCCCCCCCCCC(=O)OC12C(C1(C)C)C3C=C(CC4(C(C3(C(C2OC(=O)C)C)O)C=C(C4=O)C)O)CO",
+        "OB score": "SMIT04020",
+        "TCMSP id": "MOL001635"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039601&label=Ingredient": {
+        "ingredient_name": "phorbol-12-laurate-13-acetate",
+        "molecule_smile": "CCCCCCCCCCCC(=O)OC1C(C2(C(C=C(CC3(C2C=C(C3=O)C)O)CO)C4C1(C4(C)C)OC(=O)C)O)C",
+        "Molecule smile": "CCCCCCCCCCCC(=O)OC1C(C2(C(C=C(CC3(C...",
+        "TCMID id": "17172"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN018278&label=Ingredient": {
+        "ingredient_name": "beta-sitosterol",
+        "molecule_smile": "24.alpha.-Ethylcholesterol; alpha-Dihydrofucosterol; 83-46-5; MEGxp0_001710; SPBio_002950; 16-(5-ethyl-6-methyl-heptan-2-yl)-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; 16-(5-ethyl-6-methylheptan-2-yl)-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; 24beta-Ethylcholesterol; SKF 14463; Prestwick1_000985; (3S,8S,9S,10R,13R,14S,17R)-17-[(2R,5R)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; S1270_SIGMA; Angelicin (steroid); 5-Stigmasten-3beta-ol; Cinchol; ZINC04095717; A840577; Stigmasterol, 22,23-dihydro-; NSC49083; BSPBio_001049; Harzol; .beta.-Sitosterin; beta-Sitosterol; β-sitosterol; Prestwick0_000985; Prestwick3_000985; BPBio1_001155; .beta.Sitosterin; Prestwick2_000985; S9889_SIGMA; Cupreol; 24-Ethylcholest-5-en-3.beta.-ol; .alpha.-Dihydrofucosterol; SBB012603; (3S,8S,9S,10R,13R,14S,17R)-17-[(1R,4R)-4-ethyl-1,5-dimethylhexyl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; Rhamnol; AIDS-011900; (3S,8S,9S,10R,13R,14S,17R)-17-[(2R,5R)-5-ethyl-6-methyl-heptan-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; 47133_SUPELCO; (3beta)-Stigmast-5-en-3-ol; beta-sitosterol ; ACon1_000287; LMST01040129; β-sitos-terol; alpha.Dihydrofucosterol; SMP1_000274; NSC8096; Stigmast-5-en-3-ol, (3.beta.)-; (3S,8S,9S,10R,13R,14S,17R)-17-[(1R,4R)-",
+        "OB score": "83-46-5",
+        "SymMap id": "SMIT02553",
+        "TCMSP id": "MOL000358",
+        "PubChem id": "222284"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN032835&label=Ingredient": {
+        "ingredient_name": "lectins",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT02283",
+        "TCMID id": "24771"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036162&label=Ingredient": {
+        "ingredient_name": "myristicin",
+        "molecule_smile": "COC1=CC(=CC2=C1OCO2)CC=C",
+        "CAS id": "607-91-0",
+        "TCMID id": "15196",
+        "TCM-ID id": "2474"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039594&label=Ingredient": {
+        "ingredient_name": "phorbol-12-acetate-13-laurate",
+        "molecule_smile": "CCCCCCCCCCCC(=O)OC12C(C1(C)C)C3C=C(CC4(C(C3(C(C2OC(=O)C)C)O)C=C(C4=O)C)O)CO",
+        "Molecule smile": "CCCCCCCCCCCC(=O)OC12C(C1(C)C)C3C=C(...",
+        "TCMID id": "17168"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027159&label=Ingredient": {
+        "ingredient_name": "gamma-sitosterol",
+        "molecule_smile": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C",
+        "SymMap id": "SMIT19056",
+        "PubChem id": "457801"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021757&label=Ingredient": {
+        "ingredient_name": "Crotonside",
+        "molecule_smile": "C1=NC2=C(NC(=O)N=C2N1C3C(C(C(O3)CO)O)O)N",
+        "SymMap id": "SMIT04025",
+        "TCMSP id": "MOL001642"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN003161&label=Ingredient": {
+        "ingredient_name": "[(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] (E)-2-methylbut-2-enoate",
+        "molecule_smile": "not found",
+        "CAS id": "495-83-0",
+        "TCMSP id": "MOL001627"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039639&label=Ingredient": {
+        "ingredient_name": "Phrymarolin-II",
+        "molecule_smile": "CC(=O)OC12COC(C1COC2OC3=CC4=C(C=C3)OCO4)C5=CC6=C(C=C5OC)OCO6",
+        "OB score": "23720-86-7",
+        "SymMap id": "SMIT04011",
+        "TCMSP id": "MOL001626"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046409&label=Ingredient": {
+        "ingredient_name": "tiglic acid",
+        "molecule_smile": "CC=C(C)C(=O)O",
+        "SymMap id": "SMIT01945",
+        "TCMSP id": "MOL001639",
+        "PubChem id": "125468"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044158&label=Ingredient": {
+        "ingredient_name": "sitosterol",
+        "molecule_smile": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C",
+        "OB score": "83-46-5",
+        "SymMap id": "SMIT00399",
+        "TCMSP id": "MOL000359",
+        "PubChem id": "222284"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN005779&label=Ingredient": {
+        "ingredient_name": "2-Hydroxyanthraquinone",
+        "molecule_smile": "C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C=C(C=C3)O",
+        "OB score": "605-32-3",
+        "SymMap id": "SMIT01175",
+        "TCMSP id": "MOL009516"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039597&label=Ingredient": {
+        "ingredient_name": "phorbol-12-α-methylbutyrate-13-laurate",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT17199",
+        "TCMID id": "17176"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033346&label=Ingredient": {
+        "ingredient_name": "Linoleyl acetate",
+        "molecule_smile": "CCCCCC=CCC=CCCCCCCCCOC(=O)C",
+        "OB score": "5999-95-1",
+        "SymMap id": "SMIT04028",
+        "TCMSP id": "MOL001645"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029268&label=Ingredient": {
+        "ingredient_name": "hexadecanoic acid",
+        "molecule_smile": "CCCCCCCCCCCCCCCC(=O)O",
+        "SymMap id": "SMIT02275",
+        "TCM-ID id": "16017"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN032757&label=Ingredient": {
+        "ingredient_name": "lauricaldehyde",
+        "molecule_smile": "CCCCCCCCCCCC=O",
+        "SymMap id": "SMIT16255",
+        "PubChem id": "8194"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN032754&label=Ingredient": {
+        "ingredient_name": "lauric acid",
+        "molecule_smile": "CCCCCCCCCCCC(=O)O",
+        "OB score": "143-07-7",
+        "SymMap id": "SMIT00028",
+        "TCMSP id": "MOL000305",
+        "PubChem id": "3893"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039607&label=Ingredient": {
+        "ingredient_name": "phorbol-12-tiglate-13-laurate",
+        "molecule_smile": "CCCCCCCCCCCC(=O)OC12C(C1(C)C)C3C=C(CC4(C(C3(C(C2OC(=O)C(=CC)C)C)O)C=C(C4=O)C)O)CO",
+        "SymMap id": "SMIT00473",
+        "TCMSP id": "MOL001637"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN000922&label=Ingredient": {
+        "ingredient_name": "12-o-acetylphorbol-13-decanoate",
+        "molecule_smile": "CCCCCCCCCC(=O)OC12C(C1(C)C)C3C=C(CC4(C(C3(C(C2OC(=O)C)C)O)C=C(C4=O)C)O)CO",
+        "Molecule weight": "SMIT14160",
+        "TCMID id": "483"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033595&label=Ingredient": {
+        "ingredient_name": "l-pipecilic acid",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT02012",
+        "TCMID id": "24118"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044730&label=Ingredient": {
+        "ingredient_name": "stearic acid",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCC(=O)O",
+        "OB score": "1957/11/4",
+        "SymMap id": "SMIT00079",
+        "TCMSP id": "MOL000860",
+        "PubChem id": "5281"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039604&label=Ingredient": {
+        "ingredient_name": "phorbol-12-tiglate-13-butyrate",
+        "molecule_smile": "CCCC(=O)OC12C(C1(C)C)C3C=C(CC4(C(C3(C(C2OC(=O)C(=CC)C)C)O)C=C(C4=O)C)O)CO",
+        "Molecule smile": "CCCC(=O)OC12C(C1(C)C)C3C=C(CC4(C(C3...",
+        "TCMID id": "17178"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024357&label=Ingredient": {
+        "ingredient_name": "Docosanoate",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCCCC(=O)O",
+        "OB score": "16529-65-0",
+        "SymMap id": "SMIT03008",
+        "PubChem id": "8215"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021755&label=Ingredient": {
+        "ingredient_name": "crotonoside",
+        "molecule_smile": "Isoguanosine (7CI,8CI); Isoguanine, 9-beta-D-ribofuranosyl-; 9H-Purin-2-ol, 6-amino-9-beta-D-ribofuranosyl-; Crotonoside; Adenosine, 1,2-dihydro-2-oxo-; ZINC04082270; PDSP1_000998; 6-amino-9-[(2R,3S,4S,5S)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1H-purin-2-one; Isoguanosine (VAN) (8CI); 1,2-Dihydro-2-oxoadenosine; 1818-71-9; C08432; NSC 12161; AC1OFDZ3; Isoguanosine; STOCK1N-54578; ZINC4018123; 6-amino-9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-methylol-tetrahydrofuran-2-yl]-1H-purin-2-one; 6-amino-9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)tetrahydrofuran-2-yl]-1H-purin-2-one; 6-amino-9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1H-purin-2-one; 6-amino-9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)-2-tetrahydrofuranyl]-1H-purin-2-one; PDSP2_000982",
+        "SymMap id": "SMIT01353",
+        "TCMSP id": "MOL001630",
+        "PubChem id": "65085"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN001864&label=Ingredient": {
+        "ingredient_name": "1,6-Dihydroxy-2,4-dimethoxyanthraquinone",
+        "molecule_smile": "",
+        "OB score": "142878-33-9",
+        "SymMap id": "SMIT01207",
+        "PubChem id": "126726"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039784&label=Ingredient": {
+        "ingredient_name": "phytoagglutinin",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT01754",
+        "TCMID id": "23449"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039610&label=Ingredient": {
+        "ingredient_name": "Phorbol acetate, caprate",
+        "molecule_smile": "CCCCCCCCCC(=O)OC12C(C1(C)C)C3C=C(CC4(C(C3(C(C2OC(=O)C)C)O)C=C(C4=O)C)O)CO",
+        "OB score": "16561-28-7",
+        "SymMap id": "SMIT04019",
+        "PubChem id": "124027"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN000957&label=Ingredient": {
+        "ingredient_name": "12-o-tigloylphorbol-13-(2-methylbutyrate)",
+        "molecule_smile": "",
+        "SymMap id": "SMIT17945",
+        "PubChem id": "6451046"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017139&label=Ingredient": {
+        "ingredient_name": "Asperuloside tetraacetate",
+        "molecule_smile": "CC(=O)OCC1C(C(C(C(O1)OC2C3C4C(C=C3COC(=O)C)OC(=O)C4=CO2)OC(=O)C)OC(=O)C)OC(=O)C",
+        "OB score": "18842-95-0",
+        "SymMap id": "SMIT01105",
+        "TCMSP id": "MOL009541"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037879&label=Ingredient": {
+        "ingredient_name": "ohioensin a",
+        "molecule_smile": "C1C2C3C(C4=C(C=CC(=C4)O)C5=C3C(=C(C=C5O)O)C1=O)OC6=CC=CC=C26",
+        "SymMap id": "SMIT16976",
+        "PubChem id": "442531"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN002628&label=Ingredient": {
+        "ingredient_name": "1-Hydroxy-2-methylanthraquinone",
+        "molecule_smile": "CC1=C(C2=C(C=C1)C(=O)C3=CC=CC=C3C2=O)O",
+        "OB score": "6268/9/3",
+        "SymMap id": "SMIT01190",
+        "TCMSP id": "MOL006163",
+        "PubChem id": "160817"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021762&label=Ingredient": {
+        "ingredient_name": "Croweacin",
+        "molecule_smile": "COC1=C(C=CC2=C1OCO2)CC=C",
+        "OB score": "484-34-4",
+        "SymMap id": "SMIT04026",
+        "TCMSP id": "MOL001643",
+        "PubChem id": "5316141"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN003405&label=Ingredient": {
+        "ingredient_name": "20-Hexadecanoylingenol",
+        "molecule_smile": "CCCCCCCCCCCCCCCC(=O)OCC1=CC2C3C(C3(C)C)CC(C4(C2=O)C=C(C(C4(C1O)O)O)C)C",
+        "OB score": "SMIT01162",
+        "TCMID id": "9488"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035753&label=Ingredient": {
+        "ingredient_name": "Morindon",
+        "molecule_smile": "CC1=C(C2=C(C=C1)C(=O)C3=C(C2=O)C=CC(=C3O)O)O",
+        "OB score": "478-29-5",
+        "SymMap id": "SMIT05874",
+        "TCMSP id": "MOL003864"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021752&label=Ingredient": {
+        "ingredient_name": "crotonicacid",
+        "molecule_smile": "CC=CC(=O)O",
+        "SymMap id": "SMIT14800",
+        "PubChem id": "637090"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025965&label=Ingredient": {
+        "ingredient_name": "Ethylpalmitate",
+        "molecule_smile": "CCCCCCCCCCCCCCCC(=O)OCC",
+        "OB score": "628-97-7",
+        "SymMap id": "SMIT03457",
+        "TCMSP id": "MOL000971",
+        "PubChem id": "12366"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021189&label=Ingredient": {
+        "ingredient_name": "cocarcinogens",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT01942",
+        "TCMID id": "23920"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024930&label=Ingredient": {
+        "ingredient_name": "EIC",
+        "molecule_smile": "CCCCCC=CCC=CCCCCCCCC(=O)O",
+        "OB score": "2197-37-7",
+        "SymMap id": "SMIT02797",
+        "PubChem id": "5280450"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030786&label=Ingredient": {
+        "ingredient_name": "Isoguanine",
+        "molecule_smile": "C1=NC2=NC(=O)NC(=C2N1)N",
+        "OB score": "3373-53-3",
+        "SymMap id": "SMIT04017",
+        "TCMSP id": "MOL001632",
+        "PubChem id": "76900"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN005743&label=Ingredient": {
+        "ingredient_name": "2-hydroxy-3-hydroxymethyl anthraquinone",
+        "molecule_smile": "",
+        "SymMap id": "SMIT15854",
+        "TCM-ID id": "8620"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025950&label=Ingredient": {
+        "ingredient_name": "ETHYLMYRISTATE",
+        "molecule_smile": "CCCCCCCCCCCCCC(=O)OCC",
+        "OB score": "124-06-1",
+        "SymMap id": "SMIT03901",
+        "PubChem id": "31283"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035752&label=Ingredient": {
+        "ingredient_name": "Morindin",
+        "molecule_smile": "CC1=C(C2=C(C=C1)C(=O)C3=C(C2=O)C=CC(=C3O)OC4C(C(C(C(O4)COC5C(C(C(CO5)O)O)O)O)O)O)O",
+        "OB score": "60450-21-7",
+        "SymMap id": "SMIT03264",
+        "TCMSP id": "MOL000726"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN003340&label=Ingredient": {
+        "ingredient_name": "1-Tetradecene",
+        "molecule_smile": "CCCCCCCCCCCCC=C",
+        "OB score": "68855-58-3",
+        "SymMap id": "SMIT04007",
+        "TCMSP id": "MOL001622"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN000930&label=Ingredient": {
+        "ingredient_name": "12-o-decanoylphorbol-13-(2-methylbutyrate)",
+        "molecule_smile": "",
+        "SymMap id": "SMIT14929",
+        "PubChem id": "476547"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN001866&label=Ingredient": {
+        "ingredient_name": "1,6-Dihydroxy-2-methoxyanthraquinone",
+        "molecule_smile": "COC1=C(C2=C(C=C1)C(=O)C3=C(C2=O)C=CC(=C3)O)O",
+        "OB score": "142878-32-8",
+        "SymMap id": "SMIT00966",
+        "TCMSP id": "MOL009499"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017887&label=Ingredient": {
+        "ingredient_name": "BEO",
+        "molecule_smile": "CC=CC(=O)O",
+        "OB score": "15105-17-6",
+        "SymMap id": "SMIT04014",
+        "PubChem id": "637090"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044691&label=Ingredient": {
+        "ingredient_name": "stachyose",
+        "molecule_smile": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OCC3C(C(C(C(O3)OC4(C(C(C(O4)CO)O)O)CO)O)O)O)O)O)O)O)O)O)O.O",
+        "CAS id": "470-55-3",
+        "TCMID id": "20239",
+        "TCM-ID id": "790"
+    }
+}

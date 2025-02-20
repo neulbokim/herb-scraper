@@ -1,0 +1,689 @@
+[
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "2-(2-phenyl cyclohexyloxy)ethanol",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN003752&label=Ingredient",
+        "PubChem ID": "N/A",
+        "batman_tcm_results": []
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "elemicin",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN024976&label=Ingredient",
+        "PubChem ID": "10248",
+        "batman_tcm_results": {
+            "name": "Elemicin",
+            "cid": "10248",
+            "target": [
+                {
+                    "gene_id": "162514",
+                    "gene_name": "TRPV3",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2100",
+                    "gene_name": "ESR2",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "367",
+                    "gene_name": "AR",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "2099",
+                    "gene_name": "ESR1",
+                    "score": "0.89"
+                },
+                {
+                    "gene_id": "778",
+                    "gene_name": "CACNA1F",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "785",
+                    "gene_name": "CACNB4",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "775",
+                    "gene_name": "CACNA1C",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "779",
+                    "gene_name": "CACNA1S",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "1787",
+                    "gene_name": "TRDMT1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "784",
+                    "gene_name": "CACNB3",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3356",
+                    "gene_name": "HTR2A",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3358",
+                    "gene_name": "HTR2C",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "783",
+                    "gene_name": "CACNB2",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "776",
+                    "gene_name": "CACNA1D",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "5141",
+                    "gene_name": "PDE4A",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "773",
+                    "gene_name": "CACNA1A",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3360",
+                    "gene_name": "HTR4",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "782",
+                    "gene_name": "CACNB1",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3357",
+                    "gene_name": "HTR2B",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "1719",
+                    "gene_name": "DHFR",
+                    "score": "0.84"
+                }
+            ]
+        }
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "Wuweizisu C",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN048412&label=Ingredient",
+        "PubChem ID": "443027",
+        "batman_tcm_results": {
+            "name": "Schizandrin C",
+            "cid": "443027",
+            "target": [
+                {
+                    "gene_id": "332",
+                    "gene_name": "BIRC5",
+                    "score": "0.84"
+                }
+            ]
+        }
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "Gomisin H",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN028281&label=Ingredient",
+        "PubChem ID": "138112783",
+        "batman_tcm_results": []
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "(-)-gomisin k1",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN028283&label=Ingredient",
+        "PubChem ID": "5317805",
+        "batman_tcm_results": {
+            "name": "Gomisin K2, (+)-",
+            "cid": "5317805",
+            "target": [
+                {
+                    "gene_id": "7299",
+                    "gene_name": "TYR",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "213",
+                    "gene_name": "ALB",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3934",
+                    "gene_name": "LCN2",
+                    "score": "0.82"
+                },
+                {
+                    "gene_id": "4935",
+                    "gene_name": "GPR143",
+                    "score": "0.82"
+                },
+                {
+                    "gene_id": "7306",
+                    "gene_name": "TYRP1",
+                    "score": "0.82"
+                },
+                {
+                    "gene_id": "487",
+                    "gene_name": "ATP2A1",
+                    "score": "0.82"
+                }
+            ]
+        }
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "Longikaurin A",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN033504&label=Ingredient",
+        "PubChem ID": "102117144",
+        "batman_tcm_results": {
+            "name": "Longikaurin A",
+            "cid": "102117144",
+            "target": [
+                {
+                    "gene_id": "836",
+                    "gene_name": "CASP3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3290",
+                    "gene_name": "HSD11B1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "4790",
+                    "gene_name": "NFKB1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "596",
+                    "gene_name": "BCL2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "4791",
+                    "gene_name": "NFKB2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "7124",
+                    "gene_name": "TNF",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "81027",
+                    "gene_name": "TUBB1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "4023",
+                    "gene_name": "LPL",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "Gomisin R",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN028298&label=Ingredient",
+        "PubChem ID": "56660178",
+        "batman_tcm_results": []
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "pregomisin",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN040689&label=Ingredient",
+        "PubChem ID": "181796",
+        "batman_tcm_results": {
+            "name": "Pregomisin",
+            "cid": "181796",
+            "target": [
+                {
+                    "gene_id": "7299",
+                    "gene_name": "TYR",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "213",
+                    "gene_name": "ALB",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3934",
+                    "gene_name": "LCN2",
+                    "score": "0.82"
+                },
+                {
+                    "gene_id": "4935",
+                    "gene_name": "GPR143",
+                    "score": "0.82"
+                },
+                {
+                    "gene_id": "7306",
+                    "gene_name": "TYRP1",
+                    "score": "0.82"
+                },
+                {
+                    "gene_id": "487",
+                    "gene_name": "ATP2A1",
+                    "score": "0.82"
+                },
+                {
+                    "gene_id": "54822",
+                    "gene_name": "TRPM7",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "6462",
+                    "gene_name": "SHBG",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "240",
+                    "gene_name": "ALOX5",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "7052",
+                    "gene_name": "TGM2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "7150",
+                    "gene_name": "TOP1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2100",
+                    "gene_name": "ESR2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "162514",
+                    "gene_name": "TRPV3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "367",
+                    "gene_name": "AR",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2099",
+                    "gene_name": "ESR1",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "hexahydrocurcumin",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN029301&label=Ingredient",
+        "PubChem ID": "5318039",
+        "batman_tcm_results": {
+            "name": "Hexahydrocurcumin",
+            "cid": "5318039",
+            "target": [
+                {
+                    "gene_id": "5599",
+                    "gene_name": "MAPK8",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "207",
+                    "gene_name": "AKT1",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "2932",
+                    "gene_name": "GSK3B",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "5594",
+                    "gene_name": "MAPK1",
+                    "score": "known target in text mining"
+                },
+                {
+                    "gene_id": "54822",
+                    "gene_name": "TRPM7",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1588",
+                    "gene_name": "CYP19A1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1813",
+                    "gene_name": "DRD2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "6462",
+                    "gene_name": "SHBG",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2104",
+                    "gene_name": "ESRRG",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "3294",
+                    "gene_name": "HSD17B2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2100",
+                    "gene_name": "ESR2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "8678",
+                    "gene_name": "BECN1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1815",
+                    "gene_name": "DRD4",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "240",
+                    "gene_name": "ALOX5",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "5743",
+                    "gene_name": "PTGS2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "4508",
+                    "gene_name": "ATP6",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1816",
+                    "gene_name": "DRD5",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1137",
+                    "gene_name": "CHRNA4",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1814",
+                    "gene_name": "DRD3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "367",
+                    "gene_name": "AR",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "5742",
+                    "gene_name": "PTGS1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2852",
+                    "gene_name": "GPER1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2099",
+                    "gene_name": "ESR1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "8856",
+                    "gene_name": "NR1I2",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "schisandrol a",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN043330&label=Ingredient",
+        "PubChem ID": "11102092",
+        "batman_tcm_results": {
+            "name": "Schisandrol A",
+            "cid": "11102092",
+            "target": [
+                {
+                    "gene_id": "5243",
+                    "gene_name": "ABCB1",
+                    "score": "known target in text mining"
+                }
+            ]
+        }
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "psilostachyin",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN041102&label=Ingredient",
+        "PubChem ID": "71586746",
+        "batman_tcm_results": []
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "(+)-gomisin m2",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN028295&label=Ingredient",
+        "PubChem ID": "16728078",
+        "batman_tcm_results": []
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "(+)-gomisin k3",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN028286&label=Ingredient",
+        "PubChem ID": "73057",
+        "batman_tcm_results": {
+            "name": "Schisanhenol",
+            "cid": "73057",
+            "target": [
+                {
+                    "gene_id": "7299",
+                    "gene_name": "TYR",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "213",
+                    "gene_name": "ALB",
+                    "score": "0.84"
+                },
+                {
+                    "gene_id": "3934",
+                    "gene_name": "LCN2",
+                    "score": "0.82"
+                },
+                {
+                    "gene_id": "4935",
+                    "gene_name": "GPR143",
+                    "score": "0.82"
+                },
+                {
+                    "gene_id": "7306",
+                    "gene_name": "TYRP1",
+                    "score": "0.82"
+                },
+                {
+                    "gene_id": "487",
+                    "gene_name": "ATP2A1",
+                    "score": "0.82"
+                }
+            ]
+        }
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "schisandrol b",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN043331&label=Ingredient",
+        "PubChem ID": "3001662",
+        "batman_tcm_results": {
+            "name": "Besigomsin",
+            "cid": "3001662",
+            "target": [
+                {
+                    "gene_id": "7124",
+                    "gene_name": "TNF",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "1574",
+                    "gene_name": "CYP3A",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "2720",
+                    "gene_name": "GLB1",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3553",
+                    "gene_name": "IL1B",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "3569",
+                    "gene_name": "IL6",
+                    "score": "known target in HIT"
+                },
+                {
+                    "gene_id": "5243",
+                    "gene_name": "ABCB1",
+                    "score": "known target in HIT"
+                }
+            ]
+        }
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "(+-)-gomisin m1",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN028293&label=Ingredient",
+        "PubChem ID": "5321170",
+        "batman_tcm_results": []
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "epigomisin o",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN025360&label=Ingredient",
+        "PubChem ID": "5317081",
+        "batman_tcm_results": []
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "schisanhenol b",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN043336&label=Ingredient",
+        "PubChem ID": "128150",
+        "batman_tcm_results": []
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "3alpha-Tigloyloxytropane",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN007966&label=Ingredient",
+        "PubChem ID": "12444363",
+        "batman_tcm_results": {
+            "name": "Tropigline",
+            "cid": "12444363",
+            "target": [
+                {
+                    "gene_id": "1141",
+                    "gene_name": "CHRNB2",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1128",
+                    "gene_name": "CHRM1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "2741",
+                    "gene_name": "GLRA1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1131",
+                    "gene_name": "CHRM3",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "107",
+                    "gene_name": "ADCY1",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1132",
+                    "gene_name": "CHRM4",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1137",
+                    "gene_name": "CHRNA4",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1133",
+                    "gene_name": "CHRM5",
+                    "score": "0.8"
+                },
+                {
+                    "gene_id": "1129",
+                    "gene_name": "CHRM2",
+                    "score": "0.8"
+                }
+            ]
+        }
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "Gomisin S",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN028299&label=Ingredient",
+        "PubChem ID": "14213995",
+        "batman_tcm_results": []
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "Schisandrin",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN043326&label=Ingredient",
+        "PubChem ID": "3001664",
+        "batman_tcm_results": {
+            "name": "Schisandrin",
+            "cid": "3001664",
+            "target": [
+                {
+                    "gene_id": "1147",
+                    "gene_name": "CHUK",
+                    "score": "known target in HIT"
+                }
+            ]
+        }
+    },
+    {
+        "Herb": "오미자",
+        "Ingredient Name": "gomisin o",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN028297&label=Ingredient",
+        "PubChem ID": "5317808",
+        "batman_tcm_results": []
+    }
+]

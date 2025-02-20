@@ -1,0 +1,1327 @@
+[
+    {
+        "Herb": "지황",
+        "Ingredient Name": "acteoside",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN014630&label=Ingredient",
+        "PubChem ID": "5281800",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)O)CO)OCCC4=CC(=C(C=C4)O)O)O)O)O)O",
+        "SMILES": "OCC1OC(OCCc2ccc(c(c2)O)O)C(C(C1OC(=O)C=Cc1ccc(c(c1)O)O)OC1OC(C)C(C(C1O)O)O)O",
+        "Formula": "C29H36O15",
+        "TPSA": "245.29 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+        "Ghose": "No; 4 violations: MW>480, WLOGP<-0.4, MR>130, #atoms>70",
+        "Veber": "No; 2 violations: Rotors>10, TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 4 violations: MW>600, TPSA>150, H-acc>10, H-don>5",
+        "Bioavailability Score": "0.17",
+        "PAINS": "1 alert: catechol_A",
+        "Targets": [
+            {
+                "gene_id": "9020",
+                "gene_name": "MAP3K14",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "4843",
+                "gene_name": "NOS2",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "3383",
+                "gene_name": "ICAM1",
+                "score": "known target in HIT"
+            }
+        ]
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "Purpureaside C",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN041323&label=Ingredient",
+        "PubChem ID": "138106609",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)O)COC4C(C(C(C(O4)CO)O)O)O)OCCC5=CC(=C(C=C5)O)O)O)O)O)O",
+        "SMILES": "",
+        "Formula": "",
+        "TPSA": "Å²",
+        "GI absorption": "",
+        "Lipinski": "; violation",
+        "Ghose": "",
+        "Veber": "",
+        "Egan": "",
+        "Muegge": "",
+        "Bioavailability Score": "",
+        "PAINS": "0 alert",
+        "Targets": []
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "hydroferulic acid",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN029675&label=Ingredient",
+        "PubChem ID": "14340",
+        "molecule_smile": "COC1=C(C=CC(=C1)CCC(=O)O)O",
+        "SMILES": "COc1cc(CCC(=O)O)ccc1O",
+        "Formula": "C10H12O4",
+        "TPSA": "66.76 Å²",
+        "GI absorption": "High",
+        "Lipinski": "Yes; 0 violation",
+        "Ghose": "Yes",
+        "Veber": "Yes",
+        "Egan": "Yes",
+        "Muegge": "No; 1 violation: MW<200",
+        "Bioavailability Score": "0.85",
+        "PAINS": "0 alert",
+        "Targets": [
+            {
+                "gene_id": "51067",
+                "gene_name": "YARS2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "1815",
+                "gene_name": "DRD4",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "147",
+                "gene_name": "ADRA1B",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "1816",
+                "gene_name": "DRD5",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "1814",
+                "gene_name": "DRD3",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5742",
+                "gene_name": "PTGS1",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "8565",
+                "gene_name": "YARS",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "151",
+                "gene_name": "ADRA2B",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "148",
+                "gene_name": "ADRA1A",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "1644",
+                "gene_name": "DDC",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "150",
+                "gene_name": "ADRA2A",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "152",
+                "gene_name": "ADRA2C",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "6898",
+                "gene_name": "TAT",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "155",
+                "gene_name": "ADRB3",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "1813",
+                "gene_name": "DRD2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "154",
+                "gene_name": "ADRB2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "2100",
+                "gene_name": "ESR2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5743",
+                "gene_name": "PTGS2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "162514",
+                "gene_name": "TRPV3",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5053",
+                "gene_name": "PAH",
+                "score": "0.8"
+            }
+        ]
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "rehmapicrogenin",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN042029&label=Ingredient",
+        "PubChem ID": "15693864",
+        "molecule_smile": "CC1=C(C(CCC1O)(C)C)C(=O)O",
+        "SMILES": "OC1CCC(C(=C1C)C(=O)O)(C)C",
+        "Formula": "C10H16O3",
+        "TPSA": "57.53 Å²",
+        "GI absorption": "High",
+        "Lipinski": "Yes; 0 violation",
+        "Ghose": "Yes",
+        "Veber": "Yes",
+        "Egan": "Yes",
+        "Muegge": "No; 1 violation: MW<200",
+        "Bioavailability Score": "0.85",
+        "PAINS": "0 alert",
+        "Targets": [
+            {
+                "gene_id": "4306",
+                "gene_name": "NR3C2",
+                "score": "0.89"
+            },
+            {
+                "gene_id": "367",
+                "gene_name": "AR",
+                "score": "0.89"
+            },
+            {
+                "gene_id": "2099",
+                "gene_name": "ESR1",
+                "score": "0.89"
+            },
+            {
+                "gene_id": "11251",
+                "gene_name": "PTGDR2",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "5737",
+                "gene_name": "PTGFR",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "5729",
+                "gene_name": "PTGDR",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "3351",
+                "gene_name": "HTR1B",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5375",
+                "gene_name": "PMP2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "6462",
+                "gene_name": "SHBG",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "6256",
+                "gene_name": "RXRA",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5004",
+                "gene_name": "ORM1",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5732",
+                "gene_name": "PTGER2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "55879",
+                "gene_name": "GABRQ",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "2905",
+                "gene_name": "GRIN2C",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "3291",
+                "gene_name": "HSD11B2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "2556",
+                "gene_name": "GABRA3",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "6820",
+                "gene_name": "SULT2B1",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5241",
+                "gene_name": "PGR",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5468",
+                "gene_name": "PPARG",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5734",
+                "gene_name": "PTGER4",
+                "score": "0.8"
+            }
+        ]
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "deacyl-martynoside",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN022871&label=Ingredient",
+        "PubChem ID": "192240",
+        "molecule_smile": "CCOC1C(C(C(C(O1)CO)O)OC2C(C(C(C(O2)C)O)O)O)(C3=CC(=C(C=C3)OC)O)O",
+        "SMILES": "CCOC1OC(CO)C(C(C1(O)c1ccc(c(c1)O)OC)OC1OC(C)C(C(C1O)O)O)O",
+        "Formula": "C21H32O12",
+        "TPSA": "187.76 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "No; 2 violations: NorO>10, NHorOH>5",
+        "Ghose": "No; 1 violation: WLOGP<-0.4",
+        "Veber": "No; 1 violation: TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 3 violations: TPSA>150, H-acc>10, H-don>5",
+        "Bioavailability Score": "0.17",
+        "PAINS": "0 alert",
+        "Targets": [
+            {
+                "gene_id": "6524",
+                "gene_name": "SLC5A2",
+                "score": "0.8"
+            }
+        ]
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "Isomartynoside",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN030927&label=Ingredient",
+        "PubChem ID": "124222280",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2O)OCCC3=CC(=C(C=C3)OC)O)COC(=O)C=CC4=CC(=C(C=C4)O)OC)O)O)O)O",
+        "SMILES": "COc1ccc(cc1O)CCOC1OC(COC(=O)C=Cc2ccc(c(c2)OC)O)C(C(C1O)OC1OC(C)C(C(C1O)O)O)O",
+        "Formula": "C31H40O15",
+        "TPSA": "223.29 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+        "Ghose": "No; 4 violations: MW>480, WLOGP<-0.4, MR>130, #atoms>70",
+        "Veber": "No; 2 violations: Rotors>10, TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 4 violations: MW>600, TPSA>150, H-acc>10, H-don>5",
+        "Bioavailability Score": "0.17",
+        "PAINS": "0 alert",
+        "Targets": []
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "(7R, 8S, 7′R, 8′S)-4, 9, 4′, 9′-tetrahydroxy-3, 3′-dimethoxy-7, 7′-epoxylignan 9-O-β-D-glucopyranoside",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN013456&label=Ingredient",
+        "PubChem ID": "N/A",
+        "molecule_smile": "COC1=C(C=CC(=C1)C2C(C(C(O2)C3=CC(=C(C=C3)O)OC)COC4C(C(C(C(O4)CO)O)O)O)CO)O",
+        "SMILES": "OCC1C(OC(C1COC1OC(CO)C(C(C1O)O)O)c1ccc(c(c1)OC)O)c1ccc(c(c1)OC)O",
+        "Formula": "C26H34O12",
+        "TPSA": "187.76 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+        "Ghose": "No; 4 violations: MW>480, WLOGP<-0.4, MR>130, #atoms>70",
+        "Veber": "No; 1 violation: TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 3 violations: TPSA>150, H-acc>10, H-don>5",
+        "Bioavailability Score": "0.17",
+        "PAINS": "0 alert",
+        "Targets": []
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "catalpol",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN019909&label=Ingredient",
+        "PubChem ID": "138107792",
+        "molecule_smile": "C1=COC(C2C1C(C3C2(O3)CO)O)OC4C(C(C(C(O4)CO)O)O)O",
+        "SMILES": "OCC1OC(OC2OC=CC3C2C2(CO)OC2C3O)C(C(C1O)O)O",
+        "Formula": "C15H22O10",
+        "TPSA": "161.60 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "Yes; 1 violation: NHorOH>5",
+        "Ghose": "No; 1 violation: WLOGP<-0.4",
+        "Veber": "No; 1 violation: TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 3 violations: XLOGP3<-2, TPSA>150, H-don>5",
+        "Bioavailability Score": "0.55",
+        "PAINS": "0 alert",
+        "Targets": [
+            {
+                "gene_id": "5599",
+                "gene_name": "MAPK8",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5563",
+                "gene_name": "PRKAA2",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "23411",
+                "gene_name": "SIRT1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5564",
+                "gene_name": "PRKAB1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "406921",
+                "gene_name": "MIR132",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "207",
+                "gene_name": "AKT1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "2740",
+                "gene_name": "GLP1R",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "3309",
+                "gene_name": "HSPA5",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5562",
+                "gene_name": "PRKAA1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "3297",
+                "gene_name": "HSF1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "57626",
+                "gene_name": "KLHL1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "1244",
+                "gene_name": "ABCC2",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "1432",
+                "gene_name": "MAPK14",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5291",
+                "gene_name": "PIK3CB",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "7225",
+                "gene_name": "TRPC6",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "581",
+                "gene_name": "BAX",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5443",
+                "gene_name": "POMC",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "596",
+                "gene_name": "BCL2",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "22926",
+                "gene_name": "ATF6",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5293",
+                "gene_name": "PIK3CD",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "4217",
+                "gene_name": "MAP3K5",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5294",
+                "gene_name": "PIK3CG",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "50507",
+                "gene_name": "NOX4",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "1649",
+                "gene_name": "DDIT3",
+                "score": "known target in HERB"
+            }
+        ]
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "myobontioside A",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN036057&label=Ingredient",
+        "PubChem ID": "102025688",
+        "molecule_smile": "C1C(C2C=COC(C2C1(CCl)O)OC3C(C(C(C(O3)CO)O)O)O)O",
+        "SMILES": "OCC1OC(OC2OC=CC3C2C(O)(CCl)CC3O)C(C(C1O)O)O",
+        "Formula": "C15H23ClO9",
+        "TPSA": "149.07 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "Yes; 1 violation: NHorOH>5",
+        "Ghose": "No; 1 violation: WLOGP<-0.4",
+        "Veber": "No; 1 violation: TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 1 violation: H-don>5",
+        "Bioavailability Score": "0.55",
+        "PAINS": "0 alert",
+        "Targets": []
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "gamma-aminobutyric acid",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN027103&label=Ingredient",
+        "PubChem ID": "210329",
+        "molecule_smile": "C(CC(=O)O)CN.Cl",
+        "SMILES": "NCCCC(=O)O.Cl",
+        "Formula": "C4H10ClNO2",
+        "TPSA": "63.32 Å²",
+        "GI absorption": "High",
+        "Lipinski": "Yes; 0 violation",
+        "Ghose": "No; 3 violations: MW<160, MR<40, #atoms<20",
+        "Veber": "Yes",
+        "Egan": "Yes",
+        "Muegge": "No; 3 violations: MW<200, XLOGP3<-2, #C<5",
+        "Bioavailability Score": "0.55",
+        "PAINS": "0 alert",
+        "Targets": [
+            {
+                "gene_id": "2550",
+                "gene_name": "GABBR1",
+                "score": "0.89"
+            },
+            {
+                "gene_id": "2628",
+                "gene_name": "GATM",
+                "score": "0.89"
+            },
+            {
+                "gene_id": "9568",
+                "gene_name": "GABBR2",
+                "score": "0.89"
+            },
+            {
+                "gene_id": "9254",
+                "gene_name": "CACNA2D2",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "5327",
+                "gene_name": "PLAT",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "4018",
+                "gene_name": "LPA",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "3786",
+                "gene_name": "KCNQ3",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "56479",
+                "gene_name": "KCNQ5",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "774",
+                "gene_name": "CACNA1B",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "134",
+                "gene_name": "ADORA1",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "5340",
+                "gene_name": "PLG",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "781",
+                "gene_name": "CACNA2D1",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "153",
+                "gene_name": "ADRB1",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "6248",
+                "gene_name": "RSC1A1",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "221443",
+                "gene_name": "OARD1",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "2560",
+                "gene_name": "GABRB1",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "2593",
+                "gene_name": "GAMT",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "100",
+                "gene_name": "ADA",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "5045",
+                "gene_name": "FURIN",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "2898",
+                "gene_name": "GRIK2",
+                "score": "0.8"
+            }
+        ]
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "sec-hydroxyaegineticacid",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN043557&label=Ingredient",
+        "PubChem ID": "15693862",
+        "molecule_smile": "CC(=CC(=O)O)C=CC1(C(C(CCC1(C)O)O)(C)C)O",
+        "SMILES": "OC(=O)C=C(C=CC1(O)C(C)(O)CCC(C1(C)C)O)C",
+        "Formula": "C15H24O5",
+        "TPSA": "97.99 Å²",
+        "GI absorption": "High",
+        "Lipinski": "Yes; 0 violation",
+        "Ghose": "Yes",
+        "Veber": "Yes",
+        "Egan": "Yes",
+        "Muegge": "Yes",
+        "Bioavailability Score": "0.56",
+        "PAINS": "0 alert",
+        "Targets": [
+            {
+                "gene_id": "778",
+                "gene_name": "CACNA1F",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5673",
+                "gene_name": "PSG5",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "10368",
+                "gene_name": "CACNG3",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "6256",
+                "gene_name": "RXRA",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5166",
+                "gene_name": "PDK4",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "9254",
+                "gene_name": "CACNA2D2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "8912",
+                "gene_name": "CACNA1H",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "59285",
+                "gene_name": "CACNG6",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "785",
+                "gene_name": "CACNB4",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "55799",
+                "gene_name": "CACNA2D3",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "1592",
+                "gene_name": "CYP26A1",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "27306",
+                "gene_name": "HPGDS",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "3206",
+                "gene_name": "HOXA10",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "59283",
+                "gene_name": "CACNG8",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "29991",
+                "gene_name": "OBP2A",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "786",
+                "gene_name": "CACNG1",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "775",
+                "gene_name": "CACNA1C",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "783",
+                "gene_name": "CACNB2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "59284",
+                "gene_name": "CACNG7",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5918",
+                "gene_name": "RARRES1",
+                "score": "0.8"
+            }
+        ]
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "decaffeoylacteoside",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN022888&label=Ingredient",
+        "PubChem ID": "13889681",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2O)OCCC3=CC(=C(C=C3)O)O)CO)O)O)O)O",
+        "SMILES": "OCC1OC(OCCc2ccc(c(c2)O)O)C(C(C1O)OC1OC(C)C(C(C1O)O)O)O",
+        "Formula": "C20H30O12",
+        "TPSA": "198.76 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "No; 2 violations: NorO>10, NHorOH>5",
+        "Ghose": "No; 1 violation: WLOGP<-0.4",
+        "Veber": "No; 1 violation: TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 3 violations: TPSA>150, H-acc>10, H-don>5",
+        "Bioavailability Score": "0.17",
+        "PAINS": "1 alert: catechol_A",
+        "Targets": []
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "oxyrehmaionoside B",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN038512&label=Ingredient",
+        "PubChem ID": "102439369",
+        "molecule_smile": "CC(C=CC1(C(C(CCC1(C)OC2C(C(C(C(O2)CO)O)O)O)O)(C)C)O)O",
+        "SMILES": "OCC1OC(OC2(C)CCC(C(C2(O)C=CC(O)C)(C)C)O)C(C(C1O)O)O",
+        "Formula": "C19H34O9",
+        "TPSA": "160.07 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "Yes; 1 violation: NHorOH>5",
+        "Ghose": "No; 1 violation: WLOGP<-0.4",
+        "Veber": "No; 1 violation: TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 2 violations: TPSA>150, H-don>5",
+        "Bioavailability Score": "0.55",
+        "PAINS": "0 alert",
+        "Targets": [
+            {
+                "gene_id": "476",
+                "gene_name": "ATP1A1",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "477",
+                "gene_name": "ATP1A2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "478",
+                "gene_name": "ATP1A3",
+                "score": "0.8"
+            }
+        ]
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "salidroside",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN042854&label=Ingredient",
+        "PubChem ID": "159278",
+        "molecule_smile": "C1=CC(=CC=C1CCOC2C(C(C(C(O2)CO)O)O)O)O",
+        "SMILES": "OCC1OC(OCCc2ccc(cc2)O)C(C(C1O)O)O",
+        "Formula": "C14H20O7",
+        "TPSA": "119.61 Å²",
+        "GI absorption": "High",
+        "Lipinski": "Yes; 0 violation",
+        "Ghose": "No; 1 violation: WLOGP<-0.4",
+        "Veber": "Yes",
+        "Egan": "Yes",
+        "Muegge": "Yes",
+        "Bioavailability Score": "0.55",
+        "PAINS": "0 alert",
+        "Targets": [
+            {
+                "gene_id": "5564",
+                "gene_name": "PRKAB1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "2475",
+                "gene_name": "MTOR",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "598",
+                "gene_name": "BCL2L1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "3162",
+                "gene_name": "HMOX1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "4790",
+                "gene_name": "NFKB1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5290",
+                "gene_name": "PIK3CA",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "2538",
+                "gene_name": "G6PC",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5293",
+                "gene_name": "PIK3CD",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "4233",
+                "gene_name": "MET",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5970",
+                "gene_name": "RELA",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "23411",
+                "gene_name": "SIRT1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "142",
+                "gene_name": "PARP1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "207",
+                "gene_name": "AKT1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "842",
+                "gene_name": "CASP9",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "7422",
+                "gene_name": "VEGFA",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "2932",
+                "gene_name": "GSK3B",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "3082",
+                "gene_name": "HGF",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "4624",
+                "gene_name": "MYH6",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5594",
+                "gene_name": "MAPK1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "4137",
+                "gene_name": "MAPT",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5563",
+                "gene_name": "PRKAA2",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "4318",
+                "gene_name": "MMP9",
+                "score": "known target in HIT"
+            },
+            {
+                "gene_id": "8850",
+                "gene_name": "KAT2B",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5562",
+                "gene_name": "PRKAA1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "54205",
+                "gene_name": "CYCS",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "4313",
+                "gene_name": "MMP2",
+                "score": "known target in HIT"
+            },
+            {
+                "gene_id": "5105",
+                "gene_name": "PCK1",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "135",
+                "gene_name": "ADORA2A",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "581",
+                "gene_name": "BAX",
+                "score": "known target in HIT,HERB"
+            },
+            {
+                "gene_id": "596",
+                "gene_name": "BCL2",
+                "score": "known target in HIT,HERB"
+            },
+            {
+                "gene_id": "7124",
+                "gene_name": "TNF",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "2247",
+                "gene_name": "FGF2",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5291",
+                "gene_name": "PIK3CB",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5595",
+                "gene_name": "MAPK3",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "3091",
+                "gene_name": "HIF1A",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "3569",
+                "gene_name": "IL6",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "192111",
+                "gene_name": "PGAM5",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "5294",
+                "gene_name": "PIK3CG",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "1649",
+                "gene_name": "DDIT3",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "2548",
+                "gene_name": "GAA",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "7299",
+                "gene_name": "TYR",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "4935",
+                "gene_name": "GPR143",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "7306",
+                "gene_name": "TYRP1",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "7134",
+                "gene_name": "TNNC1",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "7036",
+                "gene_name": "TFR2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "360203",
+                "gene_name": "GLT6D1",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "3040",
+                "gene_name": "HBA2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "3958",
+                "gene_name": "LGALS3",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "7037",
+                "gene_name": "TFRC",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "3039",
+                "gene_name": "HBA1",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "51228",
+                "gene_name": "GLTP",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "2720",
+                "gene_name": "GLB1",
+                "score": "0.8"
+            }
+        ]
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "p-hydroxyphenylethyl alcohol",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN039706&label=Ingredient",
+        "PubChem ID": "10393",
+        "molecule_smile": "C1=CC(=CC=C1CCO)O",
+        "SMILES": "OCCc1ccc(cc1)O",
+        "Formula": "C8H10O2",
+        "TPSA": "40.46 Å²",
+        "GI absorption": "High",
+        "Lipinski": "Yes; 0 violation",
+        "Ghose": "No; 2 violations: MW<160, MR<40",
+        "Veber": "Yes",
+        "Egan": "Yes",
+        "Muegge": "No; 1 violation: MW<200",
+        "Bioavailability Score": "0.55",
+        "PAINS": "0 alert",
+        "Targets": [
+            {
+                "gene_id": "2475",
+                "gene_name": "MTOR",
+                "score": "known target in HIT"
+            },
+            {
+                "gene_id": "5562",
+                "gene_name": "PRKAA1",
+                "score": "known target in HIT"
+            },
+            {
+                "gene_id": "627",
+                "gene_name": "BDNF",
+                "score": "known target in HERB"
+            },
+            {
+                "gene_id": "4792",
+                "gene_name": "NFKBIA",
+                "score": "known target in HIT"
+            },
+            {
+                "gene_id": "8566",
+                "gene_name": "PDXK",
+                "score": "0.84"
+            },
+            {
+                "gene_id": "3612",
+                "gene_name": "IMPA1",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "55163",
+                "gene_name": "PNPO",
+                "score": "0.82"
+            },
+            {
+                "gene_id": "2561",
+                "gene_name": "GABRB2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "2566",
+                "gene_name": "GABRG2",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "2565",
+                "gene_name": "GABRG1",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "55879",
+                "gene_name": "GABRQ",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "1815",
+                "gene_name": "DRD4",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "3350",
+                "gene_name": "HTR1A",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "1621",
+                "gene_name": "DBH",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "1816",
+                "gene_name": "DRD5",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "2568",
+                "gene_name": "GABRP",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "1814",
+                "gene_name": "DRD3",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "2556",
+                "gene_name": "GABRA3",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "5742",
+                "gene_name": "PTGS1",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "6326",
+                "gene_name": "SCN2A",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "2558",
+                "gene_name": "GABRA5",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "2567",
+                "gene_name": "GABRG3",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "6647",
+                "gene_name": "SOD1",
+                "score": "0.8"
+            },
+            {
+                "gene_id": "1813",
+                "gene_name": "DRD2",
+                "score": "0.8"
+            }
+        ]
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "mussaenosidicacid",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN036032&label=Ingredient",
+        "PubChem ID": "21633105",
+        "molecule_smile": "CC1(CCC2C1C(OC=C2C(=O)O)OC3C(C(C(C(O3)CO)O)O)O)O",
+        "SMILES": "OCC1OC(OC2OC=C(C3C2C(C)(O)CC3)C(=O)O)C(C(C1O)O)O",
+        "Formula": "C16H24O10",
+        "TPSA": "166.14 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "Yes; 1 violation: NHorOH>5",
+        "Ghose": "No; 1 violation: WLOGP<-0.4",
+        "Veber": "No; 1 violation: TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 2 violations: TPSA>150, H-don>5",
+        "Bioavailability Score": "0.11",
+        "PAINS": "0 alert",
+        "Targets": []
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "genipingentiobioside",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN027448&label=Ingredient",
+        "PubChem ID": "3082301",
+        "molecule_smile": "COC(=O)C1=COC(C2C1CC=C2CO)OC3C(C(C(C(O3)COC4C(C(C(C(O4)CO)O)O)O)O)O)O",
+        "SMILES": "OCC1=CCC2C1C(OC=C2C(=O)OC)OC1OC(COC2OC(CO)C(C(C2O)O)O)C(C(C1O)O)O",
+        "Formula": "C23H34O15",
+        "TPSA": "234.29 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+        "Ghose": "No; 3 violations: MW>480, WLOGP<-0.4, #atoms>70",
+        "Veber": "No; 1 violation: TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 4 violations: XLOGP3<-2, TPSA>150, H-acc>10, H-don>5",
+        "Bioavailability Score": "0.11",
+        "PAINS": "0 alert",
+        "Targets": []
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "jioglutoside b",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN031542&label=Ingredient",
+        "PubChem ID": "138107975",
+        "molecule_smile": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3C4C(CCC4=C)C(=CO3)C(=O)OC)O)O)O)O)O)O",
+        "SMILES": "COC(=O)C1=COC(C2C1CCC2=C)OC1OC(COC2OC(C)C(C(C2O)O)O)C(C(C1O)O)O",
+        "Formula": "C23H34O13",
+        "TPSA": "193.83 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+        "Ghose": "No; 2 violations: MW>480, WLOGP<-0.4",
+        "Veber": "No; 1 violation: TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 4 violations: XLOGP3<-2, TPSA>150, H-acc>10, H-don>5",
+        "Bioavailability Score": "0.11",
+        "PAINS": "0 alert",
+        "Targets": []
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "genameside c",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN027437&label=Ingredient",
+        "PubChem ID": "11692460",
+        "molecule_smile": "COC(=O)C1=COC(C2C1CC=C2CO)OC3C(C(C(C(O3)CO)OC4C(C(C(C(O4)CO)O)O)O)O)O",
+        "SMILES": "OCC1OC(OC2OC=C(C3C2C(=CC3)CO)C(=O)OC)C(C(C1OC1OC(CO)C(C(C1O)O)O)O)O",
+        "Formula": "C23H34O15",
+        "TPSA": "234.29 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "No; 3 violations: MW>500, NorO>10, NHorOH>5",
+        "Ghose": "No; 3 violations: MW>480, WLOGP<-0.4, #atoms>70",
+        "Veber": "No; 1 violation: TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 4 violations: XLOGP3<-2, TPSA>150, H-acc>10, H-don>5",
+        "Bioavailability Score": "0.11",
+        "PAINS": "0 alert",
+        "Targets": []
+    },
+    {
+        "Herb": "지황",
+        "Ingredient Name": "gardoside methyl ester",
+        "Ingredient URL": "http://herb.ac.cn/Detail/?v=HBIN027377&label=Ingredient",
+        "PubChem ID": "51692952",
+        "molecule_smile": "COC(=O)C1=COC(C2C1CC(C2=C)O)OC3C(C(C(C(O3)CO)O)O)O",
+        "SMILES": "OCC1OC(OC2OC=C(C3C2C(=C)C(C3)O)C(=O)OC)C(C(C1O)O)O",
+        "Formula": "C17H24O10",
+        "TPSA": "155.14 Å²",
+        "GI absorption": "Low",
+        "Lipinski": "Yes; 0 violation",
+        "Ghose": "No; 1 violation: WLOGP<-0.4",
+        "Veber": "No; 1 violation: TPSA>140",
+        "Egan": "No; 1 violation: TPSA>131.6",
+        "Muegge": "No; 2 violations: XLOGP3<-2, TPSA>150",
+        "Bioavailability Score": "0.11",
+        "PAINS": "0 alert",
+        "Targets": []
+    }
+]

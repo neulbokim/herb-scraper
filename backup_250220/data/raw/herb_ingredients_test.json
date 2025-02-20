@@ -1,0 +1,40 @@
+{
+    "http://herb.ac.cn/Detail/?v=HBIN014630&label=Ingredient": {
+        "ingredient_name": "acteoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)O)CO)OCCC4=CC(=C(C=C4)O)O)O)O)O)O",
+        "OB score": "61276-17-3",
+        "SymMap id": "SMIT00176",
+        "TCMSP id": "MOL003333",
+        "PubChem id": "5281800"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN041323&label=Ingredient": {
+        "ingredient_name": "Purpureaside C",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)O)COC4C(C(C(C(O4)CO)O)O)O)OCCC5=CC(=C(C=C5)O)O)O)O)O)O",
+        "OB score": "82854-37-3",
+        "SymMap id": "SMIT05750",
+        "TCMSP id": "MOL003720",
+        "PubChem id": "138106609"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038674&label=Ingredient": {
+        "ingredient_name": "Palmidin A",
+        "molecule_smile": "CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2C4C5=C(C(=CC=C5)O)C(=O)C6=C4C=C(C=C6O)CO)C=C(C=C3O)O",
+        "OB score": "SMIT03292",
+        "TCMID id": "16545",
+        "TCM-ID id": "2068"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN026465&label=Ingredient": {
+        "ingredient_name": "ferulic acid",
+        "molecule_smile": "COC1=C(C=CC(=C1)C=CC(=O)O)[O-]",
+        "CAS id": "1135-24-6",
+        "TCMID id": "23696",
+        "TCM-ID id": "4369"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029438&label=Ingredient": {
+        "ingredient_name": "histamine",
+        "molecule_smile": "C1=C(NC=N1)CCN",
+        "OB score": "51-45-6",
+        "SymMap id": "SMIT00108",
+        "TCMSP id": "MOL001464",
+        "PubChem id": "774"
+    }
+}

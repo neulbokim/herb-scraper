@@ -1,0 +1,296 @@
+{
+    "http://herb.ac.cn/Detail/?v=HBIN040174&label=Ingredient": {
+        "ingredient_name": "plantainoside D",
+        "molecule_smile": "C1=CC(=C(C=C1CCOC2C(C(C(C(O2)COC(=O)C=CC3=CC(=C(C=C3)O)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O)O",
+        "OB score": "147331-98-4",
+        "SymMap id": "SMIT09180",
+        "TCMSP id": "MOL007814",
+        "PubChem id": "9986606"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017508&label=Ingredient": {
+        "ingredient_name": "baicalein",
+        "molecule_smile": "C1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C=C(C(=C3O)O)O",
+        "OB score": "491-67-8",
+        "SymMap id": "SMIT00164",
+        "TCMSP id": "MOL002714",
+        "PubChem id": "5281605"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN040168&label=Ingredient": {
+        "ingredient_name": "plantagoside",
+        "molecule_smile": "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC(=C(C(=C3)OC4C(C(C(C(O4)CO)O)O)O)O)O",
+        "Molecule weight": "17492",
+        "PubChem id": "174157"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030927&label=Ingredient": {
+        "ingredient_name": "Isomartynoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2O)OCCC3=CC(=C(C=C3)OC)O)COC(=O)C=CC4=CC(=C(C=C4)O)OC)O)O)O)O",
+        "OB score": "94410-22-7",
+        "SymMap id": "SMIT09164",
+        "TCMSP id": "MOL007792",
+        "PubChem id": "124222280"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN047624&label=Ingredient": {
+        "ingredient_name": "urushio iii",
+        "molecule_smile": "CCCC=CCC=CCCCCCCCC1=C(C(=CC=C1)O)O",
+        "Molecule smile": "SMIT19537",
+        "TCMID id": "32181"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044918&label=Ingredient": {
+        "ingredient_name": "stigmasterol",
+        "molecule_smile": "CCC(C=CC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C",
+        "SymMap id": "SMIT01630",
+        "TCMSP id": "MOL000449",
+        "PubChem id": "5280794"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN018278&label=Ingredient": {
+        "ingredient_name": "beta-sitosterol",
+        "molecule_smile": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C",
+        "OB score": "83-46-5",
+        "SymMap id": "SMIT02553",
+        "TCMSP id": "MOL000358",
+        "PubChem id": "222284"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN040170&label=Ingredient": {
+        "ingredient_name": "plantainoside A",
+        "molecule_smile": "C1=CC(=C(C=C1CCOC2C(C(C(C(O2)CO)O)OC(=O)C=CC3=CC(=C(C=C3)O)O)O)O)O",
+        "OB score": "SMIT05404",
+        "TCMID id": "17493",
+        "TCM-ID id": "1584"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044708&label=Ingredient": {
+        "ingredient_name": "staphidine",
+        "molecule_smile": "CC12CCCC34C1CCC56C3CC(CC5C4N(C2)C)C7(C6)CCC89C1C8C=C2C3=C(CCC2(C1)C9O7)C1(CC(C3)CN(C1)C)C",
+        "Molecule weight": "20246",
+        "PubChem id": "139031222"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN041917&label=Ingredient": {
+        "ingredient_name": "Ramalic acid",
+        "molecule_smile": "CC1=CC(=CC(=C1C(=O)O)O)OC(=O)C2=C(C(=C(C=C2C)OC)C)O",
+        "OB score": "500-37-8",
+        "SymMap id": "SMIT07154",
+        "TCMSP id": "MOL005382",
+        "PubChem id": "5320886"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027159&label=Ingredient": {
+        "ingredient_name": "gamma-sitosterol",
+        "molecule_smile": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C",
+        "SymMap id": "SMIT19056",
+        "PubChem id": "457801"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN014633&label=Ingredient": {
+        "ingredient_name": "acteroside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)O)CO)OCCC4=CC(=C(C=C4)O)O)O)O)O)O",
+        "SymMap id": "SMIT14176"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN040165&label=Ingredient": {
+        "ingredient_name": "Plantaginin",
+        "molecule_smile": "C1=CC(=CC=C1C2=CC(=O)C3=C(C(=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O)O",
+        "OB score": "26046-94-6",
+        "SymMap id": "SMIT09153",
+        "TCMSP id": "MOL007778",
+        "PubChem id": "5320623"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029047&label=Ingredient": {
+        "ingredient_name": "hentriacontane",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+        "SymMap id": "SMIT15714",
+        "TCM-ID id": "20080"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030380&label=Ingredient": {
+        "ingredient_name": "isoadiantone",
+        "molecule_smile": "CC(=O)C1CCC2(C1CCC3(C2CCC4C3(CCC5C4(CCCC5(C)C)C)C)C)C",
+        "Molecule weight": "11194",
+        "PubChem id": "3041569"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN047613&label=Ingredient": {
+        "ingredient_name": "ursolic acid",
+        "molecule_smile": "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1C)C)C(=O)[O-]",
+        "OB score": "77-52-1",
+        "SymMap id": "SMIT00055",
+        "TCMSP id": "MOL000511",
+        "PubChem id": "7163175"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN004385&label=Ingredient": {
+        "ingredient_name": "24-ethylcholesta-5,22-dien-3beta-ol palmitic acid ester",
+        "molecule_smile": "CCCCCCCCCCCCCCCC(=O)OC1CCC2(C3CCC4(C(C3CC=C2C1)CCC4C(C)C=CC(CC)C(C)C)C)C",
+        "Molecule smile": "CCCCCCCCCCCCCCCC(=O)OC1CCC2(C3CCC4(..."
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017343&label=Ingredient": {
+        "ingredient_name": "aucubin",
+        "molecule_smile": "C1=COC(C2C1C(C=C2CO)O)OC3C(C(C(C(O3)CO)O)O)O",
+        "CAS id": "479-98-1",
+        "TCMID id": "2004",
+        "TCM-ID id": "6476"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029509&label=Ingredient": {
+        "ingredient_name": "homoplataginin",
+        "molecule_smile": "COC1=C(C=C2C(=C1O)C(=O)C=C(O2)C3=CC=C(C=C3)O)OC4C(C(C(C(O4)CO)O)O)O",
+        "TCMID id": "9616"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037940&label=Ingredient": {
+        "ingredient_name": "oleanolic acid",
+        "molecule_smile": "CC1(CC2C(CCC3(C2=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C)C(C1)C(=O)O)C",
+        "OB score": "508-02-1",
+        "SymMap id": "SMIT00024",
+        "TCMSP id": "MOL000263",
+        "PubChem id": "49867939"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN040171&label=Ingredient": {
+        "ingredient_name": "plantainoside b",
+        "molecule_smile": "C1=CC(=C(C=C1CCOC2C(C(C(C(O2)CO)O)O)OC(=O)C=CC3=CC(=C(C=C3)O)O)O)O",
+        "Molecule weight": "136083-85-7",
+        "TCMID id": "17494",
+        "PubChem id": "9847922"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN045073&label=Ingredient": {
+        "ingredient_name": "sucrose",
+        "molecule_smile": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O",
+        "OB score": "25702-74-3",
+        "SymMap id": "SMIT00425",
+        "TCMSP id": "MOL000842"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030377&label=Ingredient": {
+        "ingredient_name": "isoacteoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2O)OCCC3=CC(=C(C=C3)O)O)COC(=O)C=CC4=CC(=C(C=C4)O)O)O)O)O)O",
+        "TCMID id": "11192",
+        "PubChem id": "6476333"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN014630&label=Ingredient": {
+        "ingredient_name": "acteoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)O)CO)OCCC4=CC(=C(C=C4)O)O)O)O)O)O",
+        "OB score": "61276-17-3",
+        "SymMap id": "SMIT00176",
+        "TCMSP id": "MOL003333",
+        "PubChem id": "5281800"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN040183&label=Ingredient": {
+        "ingredient_name": "planteose",
+        "molecule_smile": "C(C1C(C(C(C(O1)OCC2C(C(C(O2)(CO)OC3C(C(C(C(O3)CO)O)O)O)O)O)O)O)O)O",
+        "CAS id": "470-57-5",
+        "TCMID id": "17500",
+        "PubChem id": "440140"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033015&label=Ingredient": {
+        "ingredient_name": "leucosceptoside A",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)OC)CO)OCCC4=CC(=C(C=C4)O)O)O)O)O)O",
+        "OB score": "83529-62-8",
+        "SymMap id": "SMIT02810",
+        "TCMSP id": "MOL000145"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN004288&label=Ingredient": {
+        "ingredient_name": "24alpha-ethyl-5alpha-cholestan-3beta-ol",
+        "molecule_smile": "",
+        "OB score": "83-45-4",
+        "SymMap id": "SMIT09189",
+        "TCMSP id": "MOL007827"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN045092&label=Ingredient": {
+        "ingredient_name": "suffruticoside a",
+        "molecule_smile": "CC(=O)C1=C(C=C(C=C1)OC)OC2C(C(C(C(O2)COC3C(C(CO3)(COC(=O)C4=CC(=C(C(=C4)O)O)O)O)O)O)O)O",
+        "SymMap id": "SMIT17818",
+        "TCM-ID id": "716"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044939&label=Ingredient": {
+        "ingredient_name": "Stigmasterol-beta-D-glucoside",
+        "molecule_smile": "CCC(C=CC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)OC5C(C(C(C(O5)CO)O)O)O)C)C)C(C)C",
+        "SymMap id": "SMIT06149",
+        "TCMSP id": "MOL004187"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN028985&label=Ingredient": {
+        "ingredient_name": "Helminthosporin",
+        "molecule_smile": "CC1=CC2=C(C(=C1)O)C(=O)C3=C(C=CC(=C3C2=O)O)O",
+        "OB score": "518-80-9",
+        "SymMap id": "SMIT06873",
+        "TCMSP id": "MOL005055"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN040172&label=Ingredient": {
+        "ingredient_name": "Plantainoside C",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2O)OCCC3=CC(=C(C=C3)O)O)COC(=O)C=CC4=CC(=C(C=C4)OC)O)O)O)O)O",
+        "OB score": "SMIT09175",
+        "TCMID id": "17495",
+        "TCM-ID id": "1582"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN014684&label=Ingredient": {
+        "ingredient_name": "adenine",
+        "molecule_smile": "C1=NC2=NC=NC(=C2N1)N",
+        "OB score": "73-42-5",
+        "SymMap id": "SMIT00121",
+        "TCMSP id": "MOL001788",
+        "PubChem id": "190"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN013784&label=Ingredient": {
+        "ingredient_name": "8-hydroxyluteolin-8-β-d-glucopranoside",
+        "molecule_smile": "",
+        "Molecule smile": "COC1=CC(=C2C=C(NC2=C1)C(=O)CC3=CN=C...",
+        "TCMID id": "31211"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN007400&label=Ingredient": {
+        "ingredient_name": "3,4-Dihydroxy-beta-phenethyl-O-beta-D-glucopyranosyl-(1-3)-O-alpha-L-rhmnopyranosyl-(1-6)-4-O-caffeoyl-beta-D-glucopyranoside",
+        "molecule_smile": "Not Available",
+        "SymMap id": "SMIT09187",
+        "TCMSP id": "MOL007824"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN040169&label=Ingredient": {
+        "ingredient_name": "plantagoside a",
+        "molecule_smile": "C1=CC(=C(C=C1CCOC2C(C(C(C(O2)CO)O)OC(=O)C=CC3=CC(=C(C=C3)O)O)O)O)O",
+        "TCMID id": "31818"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN041321&label=Ingredient": {
+        "ingredient_name": "purpureaside a",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)O)COC4C(C(C(C(O4)CO)O)O)O)OCCC5=CC(=C(C=C5)O)O)O)O)O)O",
+        "TCMID id": "18205"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN041903&label=Ingredient": {
+        "ingredient_name": "raffinose",
+        "molecule_smile": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3(C(C(C(O3)CO)O)O)CO)O)O)O)O)O)O)O",
+        "OB score": "17629-30-0",
+        "SymMap id": "SMIT00078",
+        "TCMSP id": "MOL000841",
+        "PubChem id": "439242"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN028982&label=Ingredient": {
+        "ingredient_name": "hellicoside",
+        "molecule_smile": "C1=CC(=C(C=C1C=CC(=O)OC2C(OC(C(C2OC3C(C(C(C(O3)CO)O)O)O)O)OCC(C4=CC(=C(C=C4)O)O)O)CO)O)O",
+        "CAS id": "132278-04-7",
+        "TCMID id": "9330",
+        "PubChem id": "5281778"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN012453&label=Ingredient": {
+        "ingredient_name": "6-hydroxyluteolin",
+        "molecule_smile": "C1=CC(=C(C=C1C2=CC(=O)C3=C(O2)C=C(C(=C3O)O)O)O)O",
+        "TCMID id": "10350",
+        "PubChem id": "5281642"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029050&label=Ingredient": {
+        "ingredient_name": "Hentriacontanol-6",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCCCCCCCC(CCCCC)O",
+        "OB score": "SMIT06344",
+        "TCMID id": "9363",
+        "TCM-ID id": "22756"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN040176&label=Ingredient": {
+        "ingredient_name": "plantainoside e",
+        "molecule_smile": "Not Available",
+        "Molecule weight": "136083-88-0",
+        "TCMID id": "17497"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029510&label=Ingredient": {
+        "ingredient_name": "homopterocarpin",
+        "molecule_smile": "COC1=CC2=C(C=C1)C3COC4=C(C3O2)C=CC(=C4)OC",
+        "Molecule weight": "31115",
+        "PubChem id": "50989259"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044691&label=Ingredient": {
+        "ingredient_name": "stachyose",
+        "molecule_smile": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OCC3C(C(C(C(O3)OC4(C(C(C(O4)CO)O)O)CO)O)O)O)O)O)O)O)O)O)O.O",
+        "CAS id": "470-55-3",
+        "TCMID id": "20239",
+        "TCM-ID id": "790"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN040177&label=Ingredient": {
+        "ingredient_name": "plantainoside f",
+        "molecule_smile": "COC1=C(C=C(C=C1)CCOC2C(C(C(C(O2)COC(=O)C=CC3=CC(=C(C=C3)O)OC)O)OC4C(C(C(C(O4)CO)O)O)O)O)O",
+        "Molecule weight": "136029-89-5",
+        "TCMID id": "17498"
+    }
+}

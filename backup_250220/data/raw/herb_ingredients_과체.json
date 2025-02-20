@@ -1,0 +1,140 @@
+{
+    "http://herb.ac.cn/Detail/?v=HBIN044523&label=Ingredient": {
+        "ingredient_name": "spinasterol",
+        "molecule_smile": "CCC(C=CC(C)C1CCC2C1(CCC3C2=CCC4C3(CCC(C4)O)C)C)C(C)C",
+        "SymMap id": "SMIT02304",
+        "TCMSP id": "MOL004355",
+        "PubChem id": "5281331"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021847&label=Ingredient": {
+        "ingredient_name": "Cucurbitacin C",
+        "molecule_smile": "",
+        "OB score": "5988-76-1",
+        "SymMap id": "SMIT04677",
+        "TCMSP id": "MOL002443"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024964&label=Ingredient": {
+        "ingredient_name": "elaterin",
+        "molecule_smile": "CC(=O)OC(C)(C)C=CC(=O)C(C)(C1C(CC2(C1(CC(=O)C3(C2CC=C4C3C=C(C(=O)C4(C)C)O)C)C)C)O)O",
+        "SymMap id": "SMIT15230"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021850&label=Ingredient": {
+        "ingredient_name": "cucurbitacin e",
+        "molecule_smile": "CC(=O)OC(C)(C)C=CC(=O)C(C)(C1C(CC2(C1(CC(=O)C3(C2CC=C4C3C=C(C(=O)C4(C)C)O)C)C)C)O)O",
+        "SymMap id": "SMIT01356",
+        "TCMSP id": "MOL002444",
+        "PubChem id": "5353547"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024164&label=Ingredient": {
+        "ingredient_name": "diosgenin",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC=C6C5(CCC(C6)O)C)C)C)OC1",
+        "OB score": "512-04-9",
+        "SymMap id": "SMIT00060",
+        "TCMSP id": "MOL000546",
+        "PubChem id": "137704703"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021848&label=Ingredient": {
+        "ingredient_name": "Cucurbitacin D",
+        "molecule_smile": "CC1(C2=CCC3C4(CC(C(C4CC(=O)C3(C2CC(C1=O)O)C)C(C)(C(=O)C=CC(C)(C)O)O)O)C)C",
+        "OB score": "3877-86-9",
+        "SymMap id": "SMIT04680",
+        "TCMSP id": "MOL002447",
+        "PubChem id": "44387852"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031346&label=Ingredient": {
+        "ingredient_name": "N/A",
+        "molecule_smile": "C1=CC(=CC=C1C2=CC(=O)C3=C(O2)C=C(C(=C3O)C4C(C(C(C(O4)CO)O)O)O)O)O",
+        "OB score": "61838-34-4",
+        "SymMap id": "SMIT00495",
+        "TCMSP id": "MOL002322"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027753&label=Ingredient": {
+        "ingredient_name": "Ginsenoside-Rg3_qt",
+        "molecule_smile": "not found",
+        "CAS id": "14197-60-5",
+        "TCMSP id": "MOL005343"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021852&label=Ingredient": {
+        "ingredient_name": "Cucurbitacin F",
+        "molecule_smile": "CC1(C(C(CC2C1=CCC3C2(C(=O)CC4(C3(CC(C4C(C)(C(=O)C=CC(C)(C)O)O)O)C)C)C)O)O)C",
+        "OB score": "5939-57-1",
+        "SymMap id": "SMIT04679",
+        "TCMSP id": "MOL002445"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN020402&label=Ingredient": {
+        "ingredient_name": "Cholesteryl ferulate",
+        "molecule_smile": "CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)OC(=O)C=CC5=CC(=C(C=C5)O)OC)C)C",
+        "OB score": "SMIT01219",
+        "TCMID id": "3586",
+        "PubChem id": "22375086"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036380&label=Ingredient": {
+        "ingredient_name": "naringin",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(C(OC2OC3=CC(=C4C(=O)CC(OC4=C3)C5=CC=C(C=C5)O)O)CO)O)O)O)O)O",
+        "OB score": "10236-47-2",
+        "SymMap id": "SMIT00233",
+        "TCMSP id": "MOL005812",
+        "PubChem id": "442428"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024134&label=Ingredient": {
+        "ingredient_name": "dioscin",
+        "molecule_smile": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC=C6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)C)O)O)O)O)OC9C(C(C(C(O9)C)O)O)O)C)C)C)OC1",
+        "CAS id": "19057-60-4",
+        "TCMID id": "6436",
+        "TCM-ID id": "4842"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN020976&label=Ingredient": {
+        "ingredient_name": "citral",
+        "molecule_smile": "CC(=CCCC(=CC=O)C)C",
+        "OB score": "5392-40-5",
+        "SymMap id": "SMIT00018",
+        "TCMSP id": "MOL000124",
+        "PubChem id": "643779"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037171&label=Ingredient": {
+        "ingredient_name": "nobiletin",
+        "molecule_smile": "COC1=C(C=C(C=C1)C2=CC(=O)C3=C(O2)C(=C(C(=C3OC)OC)OC)OC)OC",
+        "OB score": "10236-47-2",
+        "SymMap id": "SMIT00234",
+        "TCMSP id": "MOL005828",
+        "PubChem id": "72344"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024123&label=Ingredient": {
+        "ingredient_name": "diosbulbine a",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT02239",
+        "TCMID id": "24678"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027751&label=Ingredient": {
+        "ingredient_name": "Ginsenoside Rg3",
+        "molecule_smile": "CC(=CCCC(C)(C1CCC2(C1C(CC3C2(CCC4C3(CCC(C4(C)C)OC5C(C(C(C(O5)CO)O)O)OC6C(C(C(C(O6)CO)O)O)O)C)C)O)C)O)C",
+        "OB score": "38243-03-7",
+        "SymMap id": "SMIT04681",
+        "TCMSP id": "MOL002448",
+        "PubChem id": "139600351"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024965&label=Ingredient": {
+        "ingredient_name": "Elatine",
+        "molecule_smile": "CCN1CC2(CCC(C34C2C(C5(C31)C6(CC(C7CC4C6C7OC)OC)OCO5)OC)OC)COC(=O)C8=CC=CC=C8N9C(=O)CC(C9=O)C",
+        "OB score": "26000-16-8",
+        "SymMap id": "SMIT04675",
+        "TCMSP id": "MOL002439",
+        "PubChem id": "129630501"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN021845&label=Ingredient": {
+        "ingredient_name": "cucurbitacin b",
+        "molecule_smile": "CC(=O)OC(C)(C)C=CC(=O)C(C)(C1C(CC2(C1(CC(=O)C3(C2CC=C4C3CC(C(=O)C4(C)C)O)C)C)C)O)O",
+        "OB score": "6199-67-3",
+        "SymMap id": "SMIT00503",
+        "TCMSP id": "MOL002440",
+        "PubChem id": "180751"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN020400&label=Ingredient": {
+        "ingredient_name": "cholesterol",
+        "molecule_smile": "CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C",
+        "OB score": "57-88-5",
+        "SymMap id": "SMIT00088",
+        "TCMSP id": "MOL000987",
+        "PubChem id": "5997"
+    }
+}

@@ -1,0 +1,96 @@
+{
+  "actions" : [
+    {
+      "absoluteName" : "action\/CloseSplitViewIntent",
+      "associatedTypes" : {
+        "Value" : {
+          "collectionType" : "scalar",
+          "isOptional" : false,
+          "type" : {
+            "linkEnum" : "enum\/SplitViewAppEntity"
+          }
+        }
+      },
+      "description" : "",
+      "fullyQualifiedName" : "TeaUI.CloseSplitViewIntent",
+      "name" : "CloseSplitViewIntent",
+      "parameters" : [
+        {
+          "absoluteName" : "action\/CloseSplitViewIntent.parameter\/target",
+          "label" : "target",
+          "supportedInputTypes" : [
+
+          ],
+          "typeInfo" : {
+            "collectionType" : "scalar",
+            "isOptional" : false,
+            "type" : {
+              "linkEnum" : "enum\/SplitViewAppEntity"
+            }
+          }
+        }
+      ],
+      "relatedPrebuiltActionName" : "AppIntents.CloseIntent",
+      "swiftMangledName" : "5TeaUI20CloseSplitViewIntentV",
+      "title" : ""
+    },
+    {
+      "absoluteName" : "action\/OpenSplitViewIntent",
+      "associatedTypes" : {
+        "Value" : {
+          "collectionType" : "scalar",
+          "isOptional" : false,
+          "type" : {
+            "linkEnum" : "enum\/SplitViewAppEntity"
+          }
+        }
+      },
+      "description" : "",
+      "fullyQualifiedName" : "TeaUI.OpenSplitViewIntent",
+      "name" : "OpenSplitViewIntent",
+      "parameters" : [
+        {
+          "absoluteName" : "action\/OpenSplitViewIntent.parameter\/target",
+          "label" : "target",
+          "supportedInputTypes" : [
+
+          ],
+          "typeInfo" : {
+            "collectionType" : "scalar",
+            "isOptional" : false,
+            "type" : {
+              "linkEnum" : "enum\/SplitViewAppEntity"
+            }
+          }
+        }
+      ],
+      "relatedPrebuiltActionName" : "AppIntents.OpenIntent",
+      "swiftMangledName" : "5TeaUI19OpenSplitViewIntentV",
+      "title" : ""
+    }
+  ],
+  "entities" : [
+
+  ],
+  "enums" : [
+    {
+      "absoluteName" : "enum\/SplitViewAppEntity",
+      "cases" : [
+        {
+          "absoluteName" : "enum\/SplitViewAppEntity.enumCase\/sidebar",
+          "keyPath" : "sidebar",
+          "name" : "sidebar",
+          "rawValue" : "sidebar"
+        }
+      ],
+      "fullyQualifiedName" : "TeaUI.SplitViewAppEntity",
+      "keyPath" : "",
+      "localeDataKey" : "TeaUI.SplitViewAppEntity",
+      "name" : "SplitViewAppEntity",
+      "swiftMangledName" : "5TeaUI18SplitViewAppEntityO"
+    }
+  ],
+  "queries" : [
+
+  ]
+}

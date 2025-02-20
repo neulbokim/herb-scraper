@@ -1,0 +1,438 @@
+﻿mol_id,mol_name,target_name,target_id,drugbank_id,mw,alogp,hdon,hacc,ob,caco2,bbb,dl,fasa,halflife
+MOL000118,(L)-alpha-Terpineol,Muscarinic acetylcholine receptor M3,16,51,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Muscarinic acetylcholine receptor M1,38,103,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Gamma-aminobutyric-acid receptor alpha-2 subunit,141,423,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Gamma-aminobutyric-acid receptor alpha-5 subunit,181,523,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Sodium-dependent noradrenaline transporter,186,540,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Gamma-aminobutyric-acid receptor alpha-3 subunit,200,580,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Muscarinic acetylcholine receptor M2,210,617,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Alpha-1B adrenergic receptor,216,632,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Sodium-dependent dopamine transporter,239,713,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Gamma-aminobutyric-acid receptor subunit alpha-6,3284,841,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Prostaglandin G/H synthase 1,6,20,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Sodium channel protein type 5 subunit alpha,70,220,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Coagulation factor Xa,79,239,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Prostaglandin G/H synthase 2,94,290,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,DNA topoisomerase II,287,817,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Heat shock protein HSP 90,444,1939,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Nuclear receptor coactivator 2,3276,6241,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Calcium-activated potassium channel subunit alpha 1,3727,610,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Cytochrome P450-cam,1143,2298,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Alpha-1A adrenergic receptor,191,556,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL000118,(L)-alpha-Terpineol,Ig gamma-1 chain C region,1201,4785,154.28,2.42,1,1,48.8,1.39,1.72,0.03,0.27,11.35
+MOL001677,asperglaucide,Thrombin,17,54,444.57,4.02,2,6,58.02,0.28,-0.22,0.52,0.42,6.88
+MOL001677,asperglaucide,Potassium voltage-gated channel subfamily H member 2,37,101,444.57,4.02,2,6,58.02,0.28,-0.22,0.52,0.42,6.88
+MOL001677,asperglaucide,Coagulation factor Xa,79,239,444.57,4.02,2,6,58.02,0.28,-0.22,0.52,0.42,6.88
+MOL001677,asperglaucide,Prostaglandin G/H synthase 2,94,290,444.57,4.02,2,6,58.02,0.28,-0.22,0.52,0.42,6.88
+MOL001677,asperglaucide,Trypsin-1,2928,3176,444.57,4.02,2,6,58.02,0.28,-0.22,0.52,0.42,6.88
+MOL000017,"beta-D-Glucopyranose, 1-thio-, 1-(1-methoxy-N-(sulfooxy)-1H-indole-3-ethanimidate)",Thrombin,17,54,478.55,-0.04,5,11,1.94,-1.28,-1.66,0.56,0.22,
+MOL000017,"beta-D-Glucopyranose, 1-thio-, 1-(1-methoxy-N-(sulfooxy)-1H-indole-3-ethanimidate)",Coagulation factor Xa,79,239,478.55,-0.04,5,11,1.94,-1.28,-1.66,0.56,0.22,
+MOL000017,"beta-D-Glucopyranose, 1-thio-, 1-(1-methoxy-N-(sulfooxy)-1H-indole-3-ethanimidate)",Carbonic anhydrase II,117,357,478.55,-0.04,5,11,1.94,-1.28,-1.66,0.56,0.22,
+MOL000017,"beta-D-Glucopyranose, 1-thio-, 1-(1-methoxy-N-(sulfooxy)-1H-indole-3-ethanimidate)",Androgen receptor,48,146,478.55,-0.04,5,11,1.94,-1.28,-1.66,0.56,0.22,
+MOL000172,Furol,Alcohol dehydrogenase 1B,726,444,96.09,0.99,0,2,34.35,1.08,1.51,0.01,0.20,4.53
+MOL000172,Furol,Alcohol dehydrogenase 1C,727,517,96.09,0.99,0,2,34.35,1.08,1.51,0.01,0.20,4.53
+MOL000172,Furol,Alcohol dehydrogenase 1A,729,251,96.09,0.99,0,2,34.35,1.08,1.51,0.01,0.20,4.53
+MOL000172,Furol,Lysozyme,1172,2300,96.09,0.99,0,2,34.35,1.08,1.51,0.01,0.20,4.53
+MOL000172,Furol,Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase,2262,2264,96.09,0.99,0,2,34.35,1.08,1.51,0.01,0.20,4.53
+MOL001906,Methylgallate,Prostaglandin G/H synthase 1,6,20,184.16,0.88,3,5,30.91,0.26,0.06,0.05,0.32,5.67
+MOL001906,Methylgallate,Prostaglandin G/H synthase 2,94,290,184.16,0.88,3,5,30.91,0.26,0.06,0.05,0.32,5.67
+MOL001906,Methylgallate,Alpha-2A adrenergic receptor,105,318,184.16,0.88,3,5,30.91,0.26,0.06,0.05,0.32,5.67
+MOL001906,Methylgallate,Amine oxidase [flavin-containing] B,565,3939,184.16,0.88,3,5,30.91,0.26,0.06,0.05,0.32,5.67
+MOL001906,Methylgallate,Glutamate receptor 2,3216,921,184.16,0.88,3,5,30.91,0.26,0.06,0.05,0.32,5.67
+MOL001944,Marmesin,Prostaglandin G/H synthase 1,6,20,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Thrombin,17,54,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Estrogen receptor,46,136,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Androgen receptor,48,146,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Prostaglandin G/H synthase 2,94,290,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Beta-2 adrenergic receptor,261,766,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Sodium-dependent serotonin transporter,290,824,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Dipeptidyl peptidase IV,332,952,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Cell division protein kinase 2,482,2240,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,mRNA of PKA Catalytic Subunit C-alpha,699,6263,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Muscarinic acetylcholine receptor M1,38,103,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Retinoic acid receptor RXR-alpha,158,459,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Muscarinic acetylcholine receptor M2,210,617,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Beta-lactamase,499,2478,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Proto-oncogene serine/threonine-protein kinase Pim-1,2966,2347,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,"mRNA of Protein-tyrosine phosphatase, non-receptor type 1",229,687,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,"Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit, gamma isoform",491,2404,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Leukotriene A-4 hydrolase,521,3060,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Heat shock protein HSP 90,444,1939,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001944,Marmesin,Serine/threonine-protein kinase Chk1,647,5790,246.28,2.03,1,4,50.28,0.52,0.07,0.18,0.30,-0.09
+MOL001986,β-sitosterol,Progesterone receptor,209,614,386.73,7.63,1,1,5.84,1.42,1.10,0.71,0.20,
+MOL001986,β-sitosterol,Nuclear receptor coactivator 2,3276,6241,386.73,7.63,1,1,5.84,1.42,1.10,0.71,0.20,
+MOL001986,β-sitosterol,Mineralocorticoid receptor,252,737,386.73,7.63,1,1,5.84,1.42,1.10,0.71,0.20,
+MOL000024,alpha-humulene,Prostaglandin G/H synthase 2,94,290,204.39,5.04,0,0,22.98,1.88,2.08,0.06,0.00,
+MOL000024,alpha-humulene,Sodium-dependent noradrenaline transporter,186,540,204.39,5.04,0,0,22.98,1.88,2.08,0.06,0.00,
+MOL000024,alpha-humulene,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,204.39,5.04,0,0,22.98,1.88,2.08,0.06,0.00,
+MOL000024,alpha-humulene,Nuclear receptor coactivator 2,3276,6241,204.39,5.04,0,0,22.98,1.88,2.08,0.06,0.00,
+MOL000024,alpha-humulene,"Renin, renal",99,298,204.39,5.04,0,0,22.98,1.88,2.08,0.06,0.00,
+MOL000024,alpha-humulene,Alcohol dehydrogenase 1B,726,444,204.39,5.04,0,0,22.98,1.88,2.08,0.06,0.00,
+MOL000024,alpha-humulene,Alcohol dehydrogenase 1C,727,517,204.39,5.04,0,0,22.98,1.88,2.08,0.06,0.00,
+MOL000024,alpha-humulene,Tumor necrosis factor,265,777,204.39,5.04,0,0,22.98,1.88,2.08,0.06,0.00,
+MOL000024,alpha-humulene,Interleukin-1 beta,418,1654,204.39,5.04,0,0,22.98,1.88,2.08,0.06,0.00,
+MOL000244,()-Borneol,Cytochrome P450-cam,1143,2298,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Gamma-aminobutyric-acid receptor alpha-2 subunit,141,423,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Gamma-aminobutyric-acid receptor alpha-5 subunit,181,523,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Gamma-aminobutyric-acid receptor alpha-3 subunit,200,580,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Muscarinic acetylcholine receptor M2,210,617,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Ig gamma-1 chain C region,1201,4785,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Gamma-aminobutyric-acid receptor subunit alpha-6,3284,841,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Prostaglandin G/H synthase 1,6,20,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Prostaglandin G/H synthase 2,94,290,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Sodium-dependent noradrenaline transporter,186,540,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Amine oxidase [flavin-containing] B,565,3939,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL000244,()-Borneol,Nuclear receptor coactivator 2,3276,6241,154.28,1.98,1,1,81.8,1.22,1.47,0.05,0.24,11.36
+MOL003223,Tingenone,Glucocorticoid receptor,308,871,420.64,4.61,1,3,12.04,0.67,0.03,0.8,0.33,
+MOL003773,Mangiferolic acid,N/A,N/A,N/A,442.75,6.47,2,3,36.16,0.66,-0.06,0.84,0.25,5.71
+MOL003883,Nyasol,Prostaglandin G/H synthase 1,6,20,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Muscarinic acetylcholine receptor M3,16,51,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Muscarinic acetylcholine receptor M1,38,103,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Estrogen receptor,46,136,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Prostaglandin G/H synthase 2,94,290,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Retinoic acid receptor RXR-alpha,158,459,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Alpha-2B adrenergic receptor,214,629,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Sodium-dependent dopamine transporter,239,713,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Beta-2 adrenergic receptor,261,766,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Sodium-dependent serotonin transporter,290,824,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Dipeptidyl peptidase IV,332,952,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Mitogen-activated protein kinase 14,402,1540,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Amine oxidase [flavin-containing] B,565,3939,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Serine/threonine-protein kinase Chk1,647,5790,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,mRNA of PKA Catalytic Subunit C-alpha,699,6263,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003883,Nyasol,Proto-oncogene serine/threonine-protein kinase Pim-1,2966,2347,252.33,4.06,2,2,3.37,1.31,0.66,0.13,0.45,
+MOL003892,Sarsapogenine,Glucocorticoid receptor,308,871,416.71,4.88,1,3,17.41,0.80,0.24,0.81,0.19,
+MOL003894,Smilagenin,Progesterone receptor,209,614,416.71,4.88,1,3,14.15,0.73,0.10,0.81,0.19,
+MOL003894,Smilagenin,Glucocorticoid receptor,308,871,416.71,4.88,1,3,14.15,0.73,0.10,0.81,0.19,
+MOL000421,nicotinic acid,Prostaglandin G/H synthase 1,6,20,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Prostaglandin G/H synthase 2,94,290,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Alcohol dehydrogenase 1B,726,444,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Alcohol dehydrogenase 1C,727,517,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Alcohol dehydrogenase 1A,729,251,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Lysozyme,1172,2300,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase,2262,2264,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Trypsin-3,3952,2886,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Apolipoprotein B-100,4031,N/A,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Lipoprotein lipase,83,266,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,"Nitric oxide synthase, endothelial",4395,N/A,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Peroxisome proliferator-activated receptor alpha,4420,N/A,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,"ATP synthase subunit beta, mitochondrial",2916,6343,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Haptoglobin,4245,N/A,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,"Pyruvate dehydrogenase protein X component, mitochondrial",4489,N/A,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,2-acylglycerol O-acyltransferase 2,3994,N/A,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000421,nicotinic acid,Peroxisome proliferator-activated receptor gamma coactivator 1-alpha,4423,N/A,123.12,0.28,1,3,47.65,0.34,0.21,0.02,0.00,11.98
+MOL000422,kaempferol,"Nitric oxide synthase, inducible",3,7,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Prostaglandin G/H synthase 1,6,20,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Androgen receptor,48,146,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Peroxisome proliferator activated receptor gamma,78,238,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Prostaglandin G/H synthase 2,94,290,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Heat shock protein HSP 90,444,1939,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,"Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit, gamma isoform",491,2404,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,mRNA of PKA Catalytic Subunit C-alpha,699,6263,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Nuclear receptor coactivator 2,3276,6241,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Dipeptidyl peptidase IV,332,952,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Trypsin-1,2928,3176,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Progesterone receptor,209,614,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Thrombin,17,54,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Muscarinic acetylcholine receptor M1,38,103,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,"Nitric-oxide synthase, endothelial",95,291,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Gamma-aminobutyric-acid receptor alpha-2 subunit,141,423,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Acetylcholinesterase,165,474,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Sodium-dependent noradrenaline transporter,186,540,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Muscarinic acetylcholine receptor M2,210,617,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Alpha-1B adrenergic receptor,216,632,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,DNA topoisomerase II,287,817,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Coagulation factor VII,123,369,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Calmodulin,3907,465,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Transcription factor p65,4565,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Inhibitor of nuclear factor kappa-B kinase subunit beta,4271,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,RAC-alpha serine/threonine-protein kinase,4490,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Apoptosis regulator Bcl-2,86,273,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Apoptosis regulator BAX,4033,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Tumor necrosis factor,265,777,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Transcription factor AP-1,414,1629,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Activator of 90 kDa heat shock protein ATPase homolog 1,4007,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Caspase-3,4087,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Mitogen-activated protein kinase 8,704,6292,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Xanthine dehydrogenase/oxidase,568,3947,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Interstitial collagenase,353,1167,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Signal transducer and activator of transcription 1-alpha/beta,4525,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Cell division control protein 2 homolog,431,1771,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Peroxisome proliferator-activated receptor gamma,4422,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Heme oxygenase 1,2132,3391,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Cytochrome P450 3A4,621,4512,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Cytochrome P450 1A2,724,4200,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Cytochrome P450 1A1,4149,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Intercellular adhesion molecule 1,4287,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,E-selectin,427,1756,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Vascular cell adhesion protein 1,440,1908,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Nuclear receptor subfamily 1 group I member 2,4403,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Cytochrome P450 1B1,4150,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Arachidonate 5-lipoxygenase,88,275,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Hyaluronan synthase 2,4262,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Glutathione S-transferase P,733,904,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Aryl hydrocarbon receptor,3204,6220,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,26S proteasome non-ATPase regulatory subunit 3,3993,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,"Solute carrier family 2, facilitated glucose transporter member 4",4535,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Nuclear receptor subfamily 1 group I member 3,4404,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Insulin receptor,11,36,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Type I iodothyronine deiodinase,4589,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Serine/threonine-protein phosphatase 2B catalytic subunit alpha isoform,3971,6746,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Peroxidase C1A,4418,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Glutathione S-transferase Mu 1,2952,896,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Glutathione S-transferase Mu 2,3688,2165,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Aldo-keto reductase family 1 member C3,222,650,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000422,kaempferol,Antileukoproteinase,4028,N/A,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL004362,Afzelin,Coagulation factor Xa,79,239,432.41,0.57,6,10,3.83,-0.77,-1.76,0.7,0.34,
+MOL004362,Afzelin,Prostaglandin G/H synthase 2,94,290,432.41,0.57,6,10,3.83,-0.77,-1.76,0.7,0.34,
+MOL004362,Afzelin,DNA topoisomerase II,287,817,432.41,0.57,6,10,3.83,-0.77,-1.76,0.7,0.34,
+MOL004362,Afzelin,Coagulation factor VII,123,369,432.41,0.57,6,10,3.83,-0.77,-1.76,0.7,0.34,
+MOL004373,Anhydroicaritin,"Nitric oxide synthase, inducible",3,7,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Prostaglandin G/H synthase 1,6,20,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Muscarinic acetylcholine receptor M3,16,51,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Thrombin,17,54,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Potassium voltage-gated channel subfamily H member 2,37,101,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Muscarinic acetylcholine receptor M1,38,103,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Estrogen receptor,46,136,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Androgen receptor,48,146,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Sodium channel protein type 5 subunit alpha,70,220,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Peroxisome proliferator activated receptor gamma,78,238,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Coagulation factor Xa,79,239,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Muscarinic acetylcholine receptor M5,87,274,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Prostaglandin G/H synthase 2,94,290,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,"Nitric-oxide synthase, endothelial",95,291,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Retinoic acid receptor RXR-alpha,158,459,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Acetylcholinesterase,165,474,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Alpha-1B adrenergic receptor,216,632,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Beta-2 adrenergic receptor,261,766,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Estrogen receptor beta,307,869,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Dipeptidyl peptidase IV,332,952,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Mitogen-activated protein kinase 14,402,1540,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Glycogen synthase kinase-3 beta,422,1721,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Heat shock protein HSP 90,444,1939,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Cell division protein kinase 2,482,2240,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Serine/threonine-protein kinase Chk1,647,5790,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Retinoic acid receptor RXR-beta,789,88,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Trypsin-1,2928,3176,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Proto-oncogene serine/threonine-protein kinase Pim-1,2966,2347,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Nuclear receptor coactivator 2,3276,6241,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Calmodulin,3907,465,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Coagulation factor VII,123,369,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Vascular endothelial growth factor receptor 2,139,407,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,DNA topoisomerase II,287,817,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Cyclin-A2,3025,6235,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Nuclear receptor coactivator 1,3279,6228,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Calcium-activated potassium channel subunit alpha 1,3727,610,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004373,Anhydroicaritin,Ig gamma-1 chain C region,1201,4785,368.41,3.88,3,6,45.41,0.72,0.01,0.44,0.00,15.01
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside","Nitric oxide synthase, inducible",3,7,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Thrombin,17,54,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Estrogen receptor,46,136,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Androgen receptor,48,146,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Peroxisome proliferator activated receptor gamma,78,238,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Coagulation factor Xa,79,239,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Prostaglandin G/H synthase 2,94,290,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Coagulation factor VII,123,369,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Vascular endothelial growth factor receptor 2,139,407,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",DNA topoisomerase II,287,817,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Dipeptidyl peptidase IV,332,952,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Mitogen-activated protein kinase 14,402,1540,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Glycogen synthase kinase-3 beta,422,1721,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Heat shock protein HSP 90,444,1939,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Cell division protein kinase 2,482,2240,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Trypsin-1,2928,3176,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Proto-oncogene serine/threonine-protein kinase Pim-1,2966,2347,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Cyclin-A2,3025,6235,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Nuclear receptor coactivator 2,3276,6241,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004398,"3,5,7-Trihydroxy-4'-methoxyl-8-prenylflavone-3-O-rhamnopyranoside",Calmodulin,3907,465,514.57,2.68,5,10,3.7,-0.55,-1.24,0.84,0.00,
+MOL004486,"(25R,S)-5alpha-Spirostane-2alpha,3beta-diol 3-O-[O-beta-D-glucopyranosyl-(1-2)-O-beta-D-glucopyranosyl-(1-4)-beta-D-galactopyranoside]",N/A,N/A,N/A,919.19,-1.32,11,19,5.44,-2.84,-3.74,0.03,0.20,
+MOL004487,gitogenin,Glucocorticoid receptor,308,871,432.71,3.92,2,4,16.13,0.40,-0.17,0.79,0.19,
+MOL004488,Anemarsaponin F,N/A,N/A,N/A,"1,051.32",-2.56,13,23,9.2,-4.02,-4.72,0.02,0.22,
+MOL004489,Anemarsaponin F_qt,Glucocorticoid receptor,308,871,432.71,3.92,2,4,60.06,0.43,-0.33,0.79,0.18,4.61
+MOL004490,Anemarsaponin G,N/A,N/A,N/A,"1,049.30",-2.81,13,23,9.71,-3.96,-4.93,0.02,0.21,
+MOL004491,Anemarsaponin G_qt,Mineralocorticoid receptor,252,737,430.69,3.67,2,4,16.88,0.23,-0.49,0.79,0.22,
+MOL004492,Chrysanthemaxanthin,N/A,N/A,N/A,584.96,8.24,2,3,38.72,0.51,-0.98,0.58,0.30,17.47
+MOL004493,PAU,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,219.27,-0.98,4,6,28.39,-0.86,-1.10,0.06,0.27,
+MOL004494,Desglucolanatigonin II,N/A,N/A,N/A,"1,035.32",-1.59,12,22,11.29,-3.20,-4.16,0.02,0.21,
+MOL004495,tigogenin,Glucocorticoid receptor,308,871,416.71,4.88,1,3,14.09,0.87,0.31,0.81,0.18,
+MOL011051,Ginkgoic acid,Sodium-dependent noradrenaline transporter,186,540,346.56,7.60,2,3,20.18,1.01,0.61,0.32,0.28,
+MOL011051,Ginkgoic acid,Beta-2 adrenergic receptor,261,766,346.56,7.60,2,3,20.18,1.01,0.61,0.32,0.28,
+MOL011051,Ginkgoic acid,Sodium-dependent dopamine transporter,239,713,346.56,7.60,2,3,20.18,1.01,0.61,0.32,0.28,
+MOL004497,Hippeastrine,Muscarinic acetylcholine receptor M3,16,51,315.35,1.17,1,6,51.65,0.02,-0.49,0.62,0.32,8.09
+MOL004497,Hippeastrine,Muscarinic acetylcholine receptor M1,38,103,315.35,1.17,1,6,51.65,0.02,-0.49,0.62,0.32,8.09
+MOL004497,Hippeastrine,Androgen receptor,48,146,315.35,1.17,1,6,51.65,0.02,-0.49,0.62,0.32,8.09
+MOL004497,Hippeastrine,Sodium channel protein type 5 subunit alpha,70,220,315.35,1.17,1,6,51.65,0.02,-0.49,0.62,0.32,8.09
+MOL004497,Hippeastrine,Delta-type opioid receptor,163,467,315.35,1.17,1,6,51.65,0.02,-0.49,0.62,0.32,8.09
+MOL004497,Hippeastrine,Alpha-1B adrenergic receptor,216,632,315.35,1.17,1,6,51.65,0.02,-0.49,0.62,0.32,8.09
+MOL004497,Hippeastrine,Mu-type opioid receptor,299,847,315.35,1.17,1,6,51.65,0.02,-0.49,0.62,0.32,8.09
+MOL004497,Hippeastrine,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,315.35,1.17,1,6,51.65,0.02,-0.49,0.62,0.32,8.09
+MOL004497,Hippeastrine,Heat shock protein HSP 90,444,1939,315.35,1.17,1,6,51.65,0.02,-0.49,0.62,0.32,8.09
+MOL004497,Hippeastrine,"Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit, gamma isoform",491,2404,315.35,1.17,1,6,51.65,0.02,-0.49,0.62,0.32,8.09
+MOL004497,Hippeastrine,"Neuronal acetylcholine receptor protein, alpha-7 chain",581,4095,315.35,1.17,1,6,51.65,0.02,-0.49,0.62,0.32,8.09
+MOL004498,12-O-Nicotinoylisolineolone,N/A,N/A,N/A,469.63,1.32,3,7,20.7,-0.54,-1.19,0.83,0.31,
+MOL004499,Isomangiferolic acid,N/A,N/A,N/A,442.75,6.47,2,3,18.66,0.56,-0.24,0.84,0.26,
+MOL004500,Markogenin-3-O-beta-D-glucopyranosyl-(1-2)-beta-D-galactopyranoside,N/A,N/A,N/A,743.00,0.59,8,14,26.61,-2.07,-2.94,0.09,0.21,
+MOL004501,Markogenin-3-O-beta-D-glucopyranosyl-(1-2)-beta-D-galactopyranoside_qt,Glucocorticoid receptor,308,871,432.71,3.92,2,4,17.55,0.17,-0.62,0.79,0.22,
+MOL004502,Monomethyl lithospermate,N/A,N/A,N/A,552.52,3.64,6,12,2.67,-0.92,-1.77,0.75,0.40,
+MOL004503,D-Nicotine,Prostaglandin G/H synthase 1,6,20,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Dopamine D1 receptor,7,23,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Muscarinic acetylcholine receptor M3,16,51,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Muscarinic acetylcholine receptor M1,38,103,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Beta-1 adrenergic receptor,63,193,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Alpha-2A adrenergic receptor,105,318,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Alpha-2C adrenergic receptor,126,378,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Muscarinic acetylcholine receptor M4,154,450,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,5-hydroxytryptamine 2A receptor,175,502,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Sodium-dependent noradrenaline transporter,186,540,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Alpha-1A adrenergic receptor,191,556,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Muscarinic acetylcholine receptor M2,210,617,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Alpha-1B adrenergic receptor,216,632,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Sodium-dependent dopamine transporter,239,713,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Beta-2 adrenergic receptor,261,766,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Neuronal acetylcholine receptor subunit alpha-2,284,813,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Sodium-dependent serotonin transporter,290,824,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004503,D-Nicotine,Amine oxidase [flavin-containing] B,565,3939,162.26,1.24,0,2,76.47,1.35,1.53,0.04,0.25,3.91
+MOL004504,Sarsasapogenin 3-O-4G-rhamnosylsophoroside,N/A,N/A,N/A,887.19,0.53,9,17,25.86,-2.29,-3.07,0.06,0.22,
+MOL004505,Smilagenin-3-O[beta-D-glucopyranosyl-(1-2)]-beta-D-mannopyranoside,N/A,N/A,N/A,741.03,1.39,7,13,7.51,-1.83,-2.42,0.09,0.21,
+MOL004506,Smilagenin-3-O[beta-D-glucopyranosyl-(1-2)]-beta-D-mannopyranoside_qt,Glucocorticoid receptor,308,871,416.71,4.88,1,3,17.33,0.86,0.32,0.81,0.18,
+MOL004507,Smilagenone,Glucocorticoid receptor,308,871,414.69,4.56,0,3,15.29,1.05,0.75,0.81,0.19,
+MOL004508,Spongesterol,Progesterone receptor,209,614,386.73,7.18,1,1,12.04,1.45,1.16,0.69,0.20,
+MOL004509,Timosaponin A III,N/A,N/A,N/A,741.03,1.39,7,13,41.6,-1.61,-2.36,0.09,0.21,9.93
+MOL004510,Timosaponin A III_qt,Glucocorticoid receptor,308,871,416.71,4.88,1,3,14.65,0.85,0.22,0.81,0.19,
+MOL004511,Timosaponin A-1,N/A,N/A,N/A,578.87,3.14,4,8,7.91,-0.46,-1.20,0.29,0.21,
+MOL004512,Timosaponin A-1_qt,Progesterone receptor,209,614,416.71,4.88,1,3,13.28,0.76,0.11,0.81,0.20,
+MOL004512,Timosaponin A-1_qt,Glucocorticoid receptor,308,871,416.71,4.88,1,3,13.28,0.76,0.11,0.81,0.20,
+MOL004513,Timosaponin B III,N/A,N/A,N/A,903.19,-0.47,11,18,3.11,-2.95,-4.15,0.04,0.20,
+MOL004514,Timosaponin B III_qt,Progesterone receptor,209,614,416.71,4.77,2,3,35.26,0.42,-0.47,0.87,0.20,4.32
+MOL004514,Timosaponin B III_qt,Glucocorticoid receptor,308,871,416.71,4.77,2,3,35.26,0.42,-0.47,0.87,0.20,4.32
+MOL004515,Timosaponin BII,N/A,N/A,N/A,921.21,-1.12,12,19,13.87,-3.35,-4.85,0.04,0.23,
+MOL004516,Timosaponin BII_qt,N/A,N/A,N/A,434.73,4.12,3,4,25.25,0.11,-0.65,0.86,0.19,
+MOL004517,Xuelianlacton e,Thrombin,17,54,248.35,2.04,1,3,34.58,0.72,0.60,0.16,0.30,4.30
+MOL004517,Xuelianlacton e,Gamma-aminobutyric-acid receptor alpha-2 subunit,141,423,248.35,2.04,1,3,34.58,0.72,0.60,0.16,0.30,4.30
+MOL004517,Xuelianlacton e,Acetylcholinesterase,165,474,248.35,2.04,1,3,34.58,0.72,0.60,0.16,0.30,4.30
+MOL004517,Xuelianlacton e,Gamma-aminobutyric-acid receptor alpha-5 subunit,181,523,248.35,2.04,1,3,34.58,0.72,0.60,0.16,0.30,4.30
+MOL004517,Xuelianlacton e,Gamma-aminobutyric-acid receptor alpha-3 subunit,200,580,248.35,2.04,1,3,34.58,0.72,0.60,0.16,0.30,4.30
+MOL004517,Xuelianlacton e,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,248.35,2.04,1,3,34.58,0.72,0.60,0.16,0.30,4.30
+MOL004517,Xuelianlacton e,Dipeptidyl peptidase IV,332,952,248.35,2.04,1,3,34.58,0.72,0.60,0.16,0.30,4.30
+MOL004517,Xuelianlacton e,"Neuronal acetylcholine receptor protein, alpha-7 chain",581,4095,248.35,2.04,1,3,34.58,0.72,0.60,0.16,0.30,4.30
+MOL004517,Xuelianlacton e,Glutamate receptor 2,3216,921,248.35,2.04,1,3,34.58,0.72,0.60,0.16,0.30,4.30
+MOL004517,Xuelianlacton e,Gamma-aminobutyric-acid receptor subunit alpha-6,3284,841,248.35,2.04,1,3,34.58,0.72,0.60,0.16,0.30,4.30
+MOL004518,4-O-beta-D-Glucopyranosyl methyl gallate,N/A,N/A,N/A,346.32,-1.02,6,10,17.36,-1.41,-1.95,0.28,0.28,
+MOL004519,markogenin,Mineralocorticoid receptor,252,737,432.71,3.92,2,4,12.9,0.27,-0.35,0.79,0.21,
+MOL004519,markogenin,Glucocorticoid receptor,308,871,432.71,3.92,2,4,12.9,0.27,-0.35,0.79,0.21,
+MOL004520,neogitogenin,Glucocorticoid receptor,308,871,432.71,3.92,2,4,17.72,0.19,-0.46,0.78,0.21,
+MOL004521,xilingsaponin A,N/A,N/A,N/A,741.03,1.39,7,13,39.04,-1.76,-2.59,0.09,0.20,9.45
+MOL000449,Stigmasterol,Progesterone receptor,209,614,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Mineralocorticoid receptor,252,737,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Nuclear receptor coactivator 2,3276,6241,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Alcohol dehydrogenase 1C,727,517,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Ig gamma-1 chain C region,1201,4785,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Retinoic acid receptor RXR-alpha,158,459,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Nuclear receptor coactivator 1,3279,6228,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Prostaglandin G/H synthase 1,6,20,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Prostaglandin G/H synthase 2,94,290,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Alpha-2A adrenergic receptor,105,318,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Sodium-dependent noradrenaline transporter,186,540,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Sodium-dependent dopamine transporter,239,713,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Beta-2 adrenergic receptor,261,766,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Aldose reductase,288,822,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Urokinase-type plasminogen activator,346,1074,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Leukotriene A-4 hydrolase,521,3060,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Amine oxidase [flavin-containing] B,565,3939,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Amine oxidase [flavin-containing] A,566,3941,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,mRNA of PKA Catalytic Subunit C-alpha,699,6263,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Chymotrypsinogen B,1696,6011,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M3,16,51,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M1,38,103,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Beta-1 adrenergic receptor,63,193,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Sodium channel protein type 5 subunit alpha,70,220,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,5-hydroxytryptamine 2A receptor,175,502,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Alpha-1A adrenergic receptor,191,556,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Gamma-aminobutyric-acid receptor alpha-3 subunit,200,580,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M2,210,617,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Alpha-1B adrenergic receptor,216,632,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL000449,Stigmasterol,"Neuronal acetylcholine receptor protein, alpha-7 chain",581,4095,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL004523,Anemarrhenasaponin-I,N/A,N/A,N/A,759.05,0.88,9,14,26.21,-2.44,-3.07,0.13,0.22,
+MOL004524,Anemarrhenasaponin-I_qt,N/A,N/A,N/A,434.73,4.38,3,4,11.1,0.21,-0.39,0.85,0.22,
+MOL004525,Chinoinin,"mRNA of Protein-tyrosine phosphatase, non-receptor type 1",229,687,422.37,-0.50,8,11,13.71,-1.74,-2.68,0.75,0.29,
+MOL004525,Chinoinin,DNA topoisomerase II,287,817,422.37,-0.50,8,11,13.71,-1.74,-2.68,0.75,0.29,
+MOL004526,Neomangiferin,DNA topoisomerase II,287,817,584.53,-2.40,11,16,2.68,-2.89,-3.97,0.71,0.24,
+MOL004527,Isomangiferin,"mRNA of Protein-tyrosine phosphatase, non-receptor type 1",229,687,422.37,-0.50,8,11,29.35,-1.74,-2.64,0.74,0.33,
+MOL004527,Isomangiferin,DNA topoisomerase II,287,817,422.37,-0.50,8,11,29.35,-1.74,-2.64,0.74,0.33,
+MOL004527,Isomangiferin,Prostaglandin G/H synthase 2,94,290,422.37,-0.50,8,11,29.35,-1.74,-2.64,0.74,0.33,
+MOL004528,Icariin I,DNA topoisomerase II,287,817,676.73,0.77,8,15,41.58,-2.06,-3.06,0.61,0.25,18.02
+MOL004529,Timosaponin A-III,N/A,N/A,N/A,741.03,1.39,7,13,17.74,-1.80,-2.66,0.09,0.20,
+MOL004530,Timosaponin A-III_qt,Glucocorticoid receptor,308,871,416.71,4.88,1,3,16.87,0.69,0.01,0.81,0.21,
+MOL004531,Anemarsaponin B,N/A,N/A,N/A,903.19,-0.47,11,18,17.85,-2.84,-3.97,0.04,0.22,
+MOL004532,Anemarsaponin B_qt,Progesterone receptor,209,614,416.71,4.77,2,3,9.8,0.48,-0.37,0.87,0.19,
+MOL004532,Anemarsaponin B_qt,Mineralocorticoid receptor,252,737,416.71,4.77,2,3,9.8,0.48,-0.37,0.87,0.19,
+MOL004532,Anemarsaponin B_qt,Glucocorticoid receptor,308,871,416.71,4.77,2,3,9.8,0.48,-0.37,0.87,0.19,
+MOL004534,Anemarrhenasaponin-Ia,N/A,N/A,N/A,773.08,1.29,8,14,33.08,-2.05,-2.74,0.12,0.21,8.37
+MOL004535,Anemarrhenasaponin-Ia_qt,N/A,N/A,N/A,448.76,4.79,2,4,11.15,0.49,-0.03,0.84,0.21,
+MOL004536,Glycerite,N/A,N/A,N/A,"1,699.30",8.19,25,45,7.41,-5.03,-6.69,0.03,0.45,
+MOL004537,Anemarsaponin B,N/A,N/A,N/A,903.19,-0.47,11,18,3.11,-3.33,-4.24,0.04,0.22,
+MOL004538,Anemarsaponin B_qt,Progesterone receptor,209,614,416.71,4.77,2,3,10.49,0.47,-0.17,0.87,0.19,
+MOL004538,Anemarsaponin B_qt,Nuclear receptor coactivator 2,3276,6241,416.71,4.77,2,3,10.49,0.47,-0.17,0.87,0.19,
+MOL004539,Anemarsaponin C,N/A,N/A,N/A,901.22,0.76,10,17,3.74,-2.94,-4.28,0.04,0.22,
+MOL004540,Anemarsaponin C_qt,Progesterone receptor,209,614,416.71,4.97,2,3,35.5,0.43,-0.46,0.87,0.20,3.98
+MOL004540,Anemarsaponin C_qt,Mineralocorticoid receptor,252,737,416.71,4.97,2,3,35.5,0.43,-0.46,0.87,0.20,3.98
+MOL004540,Anemarsaponin C_qt,Glucocorticoid receptor,308,871,416.71,4.97,2,3,35.5,0.43,-0.46,0.87,0.20,3.98
+MOL004541,Anemarsaponin E,N/A,N/A,N/A,935.24,-0.71,11,19,16.09,-2.90,-3.61,0.04,0.21,
+MOL004542,Anemarsaponin E_qt,N/A,N/A,N/A,448.76,4.53,2,4,30.67,0.34,-0.23,0.86,0.17,5.14
+MOL000483,(Z)-3-(4-hydroxy-3-methoxy-phenyl)-N-[2-(4-hydroxyphenyl)ethyl]acrylamide,Prostaglandin G/H synthase 1,6,20,313.38,2.86,3,5,118.35,0.51,-0.27,0.26,0.00,4.26
+MOL000483,(Z)-3-(4-hydroxy-3-methoxy-phenyl)-N-[2-(4-hydroxyphenyl)ethyl]acrylamide,Prostaglandin G/H synthase 2,94,290,313.38,2.86,3,5,118.35,0.51,-0.27,0.26,0.00,4.26
+MOL000483,(Z)-3-(4-hydroxy-3-methoxy-phenyl)-N-[2-(4-hydroxyphenyl)ethyl]acrylamide,"CGMP-inhibited 3',5'-cyclic phosphodiesterase A",172,485,313.38,2.86,3,5,118.35,0.51,-0.27,0.26,0.00,4.26
+MOL000483,(Z)-3-(4-hydroxy-3-methoxy-phenyl)-N-[2-(4-hydroxyphenyl)ethyl]acrylamide,Alpha-1B adrenergic receptor,216,632,313.38,2.86,3,5,118.35,0.51,-0.27,0.26,0.00,4.26
+MOL000483,(Z)-3-(4-hydroxy-3-methoxy-phenyl)-N-[2-(4-hydroxyphenyl)ethyl]acrylamide,Beta-2 adrenergic receptor,261,766,313.38,2.86,3,5,118.35,0.51,-0.27,0.26,0.00,4.26
+MOL000483,(Z)-3-(4-hydroxy-3-methoxy-phenyl)-N-[2-(4-hydroxyphenyl)ethyl]acrylamide,Heat shock protein HSP 90,444,1939,313.38,2.86,3,5,118.35,0.51,-0.27,0.26,0.00,4.26
+MOL000483,(Z)-3-(4-hydroxy-3-methoxy-phenyl)-N-[2-(4-hydroxyphenyl)ethyl]acrylamide,Leukotriene A-4 hydrolase,521,3060,313.38,2.86,3,5,118.35,0.51,-0.27,0.26,0.00,4.26
+MOL000483,(Z)-3-(4-hydroxy-3-methoxy-phenyl)-N-[2-(4-hydroxyphenyl)ethyl]acrylamide,Calmodulin,3907,465,313.38,2.86,3,5,118.35,0.51,-0.27,0.26,0.00,4.26
+MOL002003,(-)-Caryophyllene oxide,Muscarinic acetylcholine receptor M3,16,51,220.39,3.52,0,1,32.67,1.58,1.76,0.13,0.28,6.51
+MOL002003,(-)-Caryophyllene oxide,Thrombin,17,54,220.39,3.52,0,1,32.67,1.58,1.76,0.13,0.28,6.51
+MOL002003,(-)-Caryophyllene oxide,Muscarinic acetylcholine receptor M1,38,103,220.39,3.52,0,1,32.67,1.58,1.76,0.13,0.28,6.51
+MOL002003,(-)-Caryophyllene oxide,Prostaglandin G/H synthase 2,94,290,220.39,3.52,0,1,32.67,1.58,1.76,0.13,0.28,6.51
+MOL002003,(-)-Caryophyllene oxide,Acetylcholinesterase,165,474,220.39,3.52,0,1,32.67,1.58,1.76,0.13,0.28,6.51
+MOL002003,(-)-Caryophyllene oxide,Muscarinic acetylcholine receptor M2,210,617,220.39,3.52,0,1,32.67,1.58,1.76,0.13,0.28,6.51
+MOL002003,(-)-Caryophyllene oxide,Alpha-1B adrenergic receptor,216,632,220.39,3.52,0,1,32.67,1.58,1.76,0.13,0.28,6.51
+MOL002003,(-)-Caryophyllene oxide,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,220.39,3.52,0,1,32.67,1.58,1.76,0.13,0.28,6.51
+MOL002003,(-)-Caryophyllene oxide,Dipeptidyl peptidase IV,332,952,220.39,3.52,0,1,32.67,1.58,1.76,0.13,0.28,6.51
+MOL002003,(-)-Caryophyllene oxide,Gamma-aminobutyric-acid receptor subunit alpha-6,3284,841,220.39,3.52,0,1,32.67,1.58,1.76,0.13,0.28,6.51
+MOL000546,diosgenin,Progesterone receptor,209,614,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Mineralocorticoid receptor,252,737,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Transcription factor p65,4565,N/A,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,RAC-alpha serine/threonine-protein kinase,4490,N/A,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Vascular endothelial growth factor A,740,183,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Cyclin-dependent kinase inhibitor 1,4141,N/A,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Cellular tumor antigen p53,646,5788,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Prostaglandin G/H synthase 2,94,290,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Fatty acid synthase,374,1295,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Superoxide dismutase [Cu-Zn],597,4152,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Catalase,735,2230,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Hypoxia-inducible factor 1-alpha,4263,N/A,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Nuclear receptor subfamily 1 group I member 2,4403,N/A,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Cytosolic phospholipase A2,246,723,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Canalicular multispecific organic anion transporter 1,4079,N/A,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000546,diosgenin,Serine/threonine-protein kinase mTOR,595,4148,414.69,4.63,1,3,80.88,0.82,0.27,0.81,0.19,4.14
+MOL000631,coumaroyltyramine,Muscarinic acetylcholine receptor M1,38,103,283.35,2.88,3,4,112.9,0.60,-0.22,0.2,0.41,5.63
+MOL000631,coumaroyltyramine,Beta-1 adrenergic receptor,63,193,283.35,2.88,3,4,112.9,0.60,-0.22,0.2,0.41,5.63
+MOL000631,coumaroyltyramine,Prostaglandin G/H synthase 2,94,290,283.35,2.88,3,4,112.9,0.60,-0.22,0.2,0.41,5.63
+MOL000631,coumaroyltyramine,Beta-2 adrenergic receptor,261,766,283.35,2.88,3,4,112.9,0.60,-0.22,0.2,0.41,5.63
+MOL000631,coumaroyltyramine,Heat shock protein HSP 90,444,1939,283.35,2.88,3,4,112.9,0.60,-0.22,0.2,0.41,5.63
+MOL000631,coumaroyltyramine,Leukotriene A-4 hydrolase,521,3060,283.35,2.88,3,4,112.9,0.60,-0.22,0.2,0.41,5.63
+MOL000631,coumaroyltyramine,Amine oxidase [flavin-containing] B,565,3939,283.35,2.88,3,4,112.9,0.60,-0.22,0.2,0.41,5.63
+MOL000631,coumaroyltyramine,mRNA of PKA Catalytic Subunit C-alpha,699,6263,283.35,2.88,3,4,112.9,0.60,-0.22,0.2,0.41,5.63
+MOL000631,coumaroyltyramine,cAMP-dependent protein kinase inhibitor alpha,3586,6264,283.35,2.88,3,4,112.9,0.60,-0.22,0.2,0.41,5.63
+MOL000631,coumaroyltyramine,Prostaglandin G/H synthase 1,6,20,283.35,2.88,3,4,112.9,0.60,-0.22,0.2,0.41,5.63
+MOL000666,hexanal,Tumor necrosis factor,265,777,100.18,1.85,0,1,55.71,1.25,1.52,0.01,0.23,10.96
+MOL000666,hexanal,Transcription factor AP-1,414,1629,100.18,1.85,0,1,55.71,1.25,1.52,0.01,0.23,10.96
+MOL000666,hexanal,Tissue factor,466,2139,100.18,1.85,0,1,55.71,1.25,1.52,0.01,0.23,10.96
+MOL000666,hexanal,Mitogen-activated protein kinase 10,438,1836,100.18,1.85,0,1,55.71,1.25,1.52,0.01,0.23,10.96
+MOL000666,hexanal,Abl interactor 1,4004,N/A,100.18,1.85,0,1,55.71,1.25,1.52,0.01,0.23,10.96
+MOL000666,hexanal,Platelet glycoprotein 4,4433,N/A,100.18,1.85,0,1,55.71,1.25,1.52,0.01,0.23,10.96
+MOL000721,Nonadienal,Alcohol dehydrogenase 1B,726,444,138.23,2.75,0,1,19.03,1.38,1.56,0.02,0.33,
+MOL000721,Nonadienal,Alcohol dehydrogenase 1C,727,517,138.23,2.75,0,1,19.03,1.38,1.56,0.02,0.33,
+MOL000721,Nonadienal,Trypsin-3,3952,2886,138.23,2.75,0,1,19.03,1.38,1.56,0.02,0.33,

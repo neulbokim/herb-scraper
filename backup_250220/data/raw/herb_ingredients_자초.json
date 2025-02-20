@@ -1,0 +1,635 @@
+{
+    "http://herb.ac.cn/Detail/?v=HBIN025987&label=Ingredient": {
+        "ingredient_name": "ethyl stearate",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCC(=O)OC",
+        "CAS id": "111-61-5",
+        "TCMID id": "23557",
+        "TCM-ID id": "4476"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017982&label=Ingredient": {
+        "ingredient_name": "β,β-dimethylacrylalkannin",
+        "molecule_smile": "CC(=CC(C)(C)C(C1=CC(=C2C(=O)C=CC(=O)C2=C1O)O)OC(=O)C=C)C",
+        "SymMap id": "SMIT15152",
+        "TCM-ID id": "6331"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN014493&label=Ingredient": {
+        "ingredient_name": "acetylshikonin",
+        "molecule_smile": "CC(=CCC(C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O)OC(=O)C)C",
+        "OB score": "24502-78-1",
+        "SymMap id": "SMIT00273",
+        "TCMSP id": "MOL007716",
+        "PubChem id": "131674214"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN019301&label=Ingredient": {
+        "ingredient_name": "caffeic acid dimethyl ether",
+        "molecule_smile": "COC1=C(C=C(C=C1)C=CC(=O)O)OC",
+        "SymMap id": "SMIT18350",
+        "TCM-ID id": "6026"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016866&label=Ingredient": {
+        "ingredient_name": "arnebinone",
+        "molecule_smile": "CC(=C)C1CCC(C2=C1C(=O)C(=C(C2=O)OC)OC)(C)C=C",
+        "CAS id": "87255-09-2",
+        "TCMID id": "1747",
+        "TCM-ID id": "6635"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016863&label=Ingredient": {
+        "ingredient_name": "Arnebin 7",
+        "molecule_smile": "CC(=CCCC1=CC(=O)C2=C(C=CC(=C2C1=O)O)O)C",
+        "OB score": "43043-74-9",
+        "SymMap id": "SMIT09098",
+        "PubChem id": "98914"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN015178&label=Ingredient": {
+        "ingredient_name": "Alkannan",
+        "molecule_smile": "CC(C)CCCC1=CC(=O)C2=C(C=CC(=C2C1=O)O)O",
+        "OB score": "517-90-8",
+        "SymMap id": "SMIT09102",
+        "TCMSP id": "MOL007723"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043904&label=Ingredient": {
+        "ingredient_name": "shikonofuran C",
+        "molecule_smile": "CC(C)CC(=O)OC(CC=C(C)C)C1=COC(=C1)C2=C(C=CC(=C2)O)O",
+        "OB score": "85022-64-6",
+        "SymMap id": "SMIT09108",
+        "TCMSP id": "MOL007729",
+        "PubChem id": "5321288"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN014444&label=Ingredient": {
+        "ingredient_name": "acetylalkannin",
+        "molecule_smile": "CC(=CCC(C1=CC(=C2C(=O)C=CC(=O)C2=C1O)O)OC(=O)C)C",
+        "SymMap id": "SMIT14132",
+        "PubChem id": "137628887"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN002794&label=Ingredient": {
+        "ingredient_name": "1-methyl-acetylshikonin",
+        "molecule_smile": "CC(=CCC(C1=CC(=C2C(=O)C=CC(=O)C2=C1OC)O)OC(=O)C)C",
+        "Molecule smile": "CC(=CCC(C1=CC(=C2C(=O)C=CC(=O)C2=C1...",
+        "TCMID id": "14113"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031340&label=Ingredient": {
+        "ingredient_name": "Isovanillin",
+        "molecule_smile": "COC1=C(C=C(C=C1)C=O)O",
+        "OB score": "621-59-0",
+        "SymMap id": "SMIT04220",
+        "TCMSP id": "MOL001867",
+        "PubChem id": "12127"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037469&label=Ingredient": {
+        "ingredient_name": "np02140176-38-k",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT16950",
+        "TCMID id": "15841"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033410&label=Ingredient": {
+        "ingredient_name": "Lithospermic acid B",
+        "molecule_smile": "4-{(E)-2-[1-Carboxy-2-(3,4-dihydroxy-phenyl)-ethoxycarbonyl]-vinyl}-2-(3,4-dihydroxy-phenyl)-7-hydroxy-2,3-dihydro-benzofuran-3-carboxylic acid 2-carboxy-3-(3,4-dihydroxy-phenyl)-propyl ester; (2R)-2-[(2S,3S)-4-[(E)-3-[(1R)-1-(3,4-dihydroxybenzyl)-2-hydroxy-2-keto-ethoxy]-3-keto-prop-1-enyl]-2-(3,4-dihydroxyphenyl)-7-hydroxy-2,3-dihydrobenzofuran-3-carbonyl]oxy-3-(3,4-dihydroxyphenyl)propionic acid; AIDS-085661; lithospermic acid B; 83415-79-6; AIDS085661; 4-((E)-2-(1-Carboxy-2-(3,4-dihydroxy-phenyl)-ethoxycarbonyl)-vinyl)-2-(3,4-dihydroxy-phenyl)-7-hydroxy-2,3-dihydro-benzofuran-3-carboxylic acid 2-carboxy-3-(3,4-dihydroxy-phenyl)-propyl ester; AIDS-096006; (2R)-2-({(2E)-3-[(2S,3S)-3-{[(1R)-1-Carboxy-2-(3,4-dihydroxyphenyl)ethoxy]carbonyl}-2-(3,4-dihydroxyphenyl)-7-hydroxy-2,3-dihydro-1-benzofuran-4-yl]prop-2-enoyl}oxy)-3-(3,4-dihydroxyphenyl)propanoic acid; (2R)-3-(3,4-dihydroxyphenyl)-2-[(2S,3S)-2-(3,4-dihydroxyphenyl)-4-[(E)-3-[(2R)-3-(3,4-dihydroxyphenyl)-1-hydroxy-1-oxopropan-2-yl]oxy-3-oxoprop-1-enyl]-7-hydroxy2,3-dihydro-1-benzofuran-3-carbonyl]oxypropanoic acid; lithospermic acid b; (2R)-3-(3,4-dihydroxyphenyl)-2-[[(2S,3S)-2-(3,4-dihydroxyphenyl)-4-[(E)-3-[(1R)-1-[(3,4-dihydroxyphenyl)methyl]-2-hydroxy-2-oxoethoxy]-3-oxoprop-1-enyl]-7-hydroxy-2,3-dihydrobenzofuran-3-yl]-oxomethoxy]propanoic acid; AIDS096006; lithospermicacid b; (2R)-3-(3,4-dihydroxyphenyl)-2-[[(2S,3S)-2-(3,4-dihydroxyphenyl)-4-[(E)-3-[(2R)-3-(3,4-dihydroxyphenyl)-1-hydroxy-1-oxo-propan-2-yl]oxy-3-oxo",
+        "OB score": "83415-79-6",
+        "SymMap id": "SMIT08570",
+        "TCMSP id": "MOL007060",
+        "PubChem id": "6451084"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037471&label=Ingredient": {
+        "ingredient_name": "np02140176-40",
+        "molecule_smile": "C1=CC(=C(C=C1CC(C(=O)[O-])OC(=O)C2C(C3=CC(=C(C=C3C=C2C(=O)OC(CC4=CC(=C(C=C4)O)O)C(=O)[O-])O)O)C5=CC(=C(C=C5)O)O)O)O",
+        "SymMap id": "SMIT16952"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016150&label=Ingredient": {
+        "ingredient_name": "anhydroalkannin",
+        "molecule_smile": "CC(=CC=CC1=CC(=O)C2=C(C=CC(=C2C1=O)O)O)C",
+        "SymMap id": "SMIT14311",
+        "PubChem id": "101626182"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN023492&label=Ingredient": {
+        "ingredient_name": "Des-O-methyllasiodiplodin",
+        "molecule_smile": "C1CCCCOC(=O)C2=C(CCC1)C=C(C=C2O)O",
+        "OB score": "SMIT09114",
+        "TCMID id": "5257",
+        "PubChem id": "5316596"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN015182&label=Ingredient": {
+        "ingredient_name": "Alkannin beta,beta-dimethylacrylate",
+        "molecule_smile": "CC(=CCC(C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O)OC(=O)C=C(C)C)C",
+        "OB score": "5162/1/6",
+        "SymMap id": "SMIT09096",
+        "PubChem id": "32465"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037940&label=Ingredient": {
+        "ingredient_name": "oleanolic acid",
+        "molecule_smile": "CC1(CC2C(CCC3(C2=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C)C(C1)C(=O)O)C",
+        "OB score": "508-02-1",
+        "SymMap id": "SMIT00024",
+        "TCMSP id": "MOL000263",
+        "PubChem id": "49867939"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN012837&label=Ingredient": {
+        "ingredient_name": "(6Z,10E,14E,18E)-2,6,10,15,19,23-hexamethyltetracosa-2,6,10,14,18,22-hexaene",
+        "molecule_smile": "not found",
+        "OB score": "7683-64-9",
+        "SymMap id": "SMIT04627"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033412&label=Ingredient": {
+        "ingredient_name": "Lithospermidin B",
+        "molecule_smile": "CC(C)CC(=O)OC(C=CC(C)(C)O)C1=CC(=C2C(=O)C=CC(=O)C2=C1O)O",
+        "OB score": "SMIT09115",
+        "TCMID id": "12922",
+        "TCM-ID id": "2919"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037470&label=Ingredient": {
+        "ingredient_name": "np02140176-39-na",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT16951",
+        "TCMID id": "15842"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN003014&label=Ingredient": {
+        "ingredient_name": "",
+        "molecule_smile": "CCC(=O)OC(CC=C(C)C)C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O",
+        "OB score": "162283-70-7",
+        "SymMap id": "SMIT09095",
+        "PubChem id": "153984"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025930&label=Ingredient": {
+        "ingredient_name": "Ethyl icosanoate",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCC(=O)OCC",
+        "OB score": "18281-05-5",
+        "SymMap id": "SMIT03897",
+        "PubChem id": "29009"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031387&label=Ingredient": {
+        "ingredient_name": "Iva",
+        "molecule_smile": "CC(C)CC(=O)O",
+        "OB score": "92634-50-9",
+        "SymMap id": "SMIT04887",
+        "PubChem id": "10430"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016865&label=Ingredient": {
+        "ingredient_name": "arnebinol",
+        "molecule_smile": "CC1=CCC2=C(C=CC(=C2)OCC(=CCC1)C)O",
+        "CAS id": "87064-17-3",
+        "TCMID id": "1746",
+        "TCM-ID id": "6636"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046593&label=Ingredient": {
+        "ingredient_name": "Totarol",
+        "molecule_smile": "CC(C)C1=C(C=CC2=C1CCC3C2(CCCC3(C)C)C)O",
+        "OB score": "511-15-9",
+        "SymMap id": "SMIT09100",
+        "TCMSP id": "MOL007721"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017951&label=Ingredient": {
+        "ingredient_name": "beta-acetoxyisovalerylshikonin",
+        "molecule_smile": "CC(=CCC(C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O)OC(=O)CC(C)(C)OC(=O)C)C",
+        "SymMap id": "SMIT09117",
+        "PubChem id": "69295815"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030539&label=Ingredient": {
+        "ingredient_name": "Isobutyryl shikonin",
+        "molecule_smile": "CC(C)C(=O)OC(CC=C(C)C)C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O",
+        "OB score": "SMIT05661",
+        "TCMID id": "11297",
+        "TCM-ID id": "3510"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037473&label=Ingredient": {
+        "ingredient_name": "np02140176-42-k",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT16954",
+        "TCMID id": "15845"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN019298&label=Ingredient": {
+        "ingredient_name": "caffeic acid",
+        "molecule_smile": "C1=CC(=C(C=C1C=CC(=O)O)O)O",
+        "OB score": "331-39-5",
+        "SymMap id": "SMIT00021",
+        "TCMSP id": "MOL000223",
+        "PubChem id": "689043"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043905&label=Ingredient": {
+        "ingredient_name": "shikonofuran d",
+        "molecule_smile": "CC(C)C(=O)OC(CC=C(C)C)C1=COC(=C1)C2=C(C=CC(=C2)O)O",
+        "SymMap id": "SMIT17700",
+        "TCM-ID id": "985"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN028835&label=Ingredient": {
+        "ingredient_name": "Healip",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCCCCO",
+        "OB score": "30303-65-2",
+        "SymMap id": "SMIT03371",
+        "PubChem id": "12620"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024361&label=Ingredient": {
+        "ingredient_name": "Docosyl caffeate",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCCCCOC(=O)C=CC1=CC(=C(C=C1)O)O",
+        "OB score": "28593-92-2",
+        "SymMap id": "SMIT06760",
+        "TCMSP id": "MOL004921"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030442&label=Ingredient": {
+        "ingredient_name": "Isoarnebin 4",
+        "molecule_smile": "CC(=CCC(C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O)O)C",
+        "OB score": "517-88-4",
+        "SymMap id": "SMIT09101",
+        "PubChem id": "479503"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033170&label=Ingredient": {
+        "ingredient_name": "lignoceric acid",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCCCCCC(=O)O",
+        "OB score": "557-59-5",
+        "SymMap id": "SMIT00065",
+        "TCMSP id": "MOL000663",
+        "PubChem id": "11197"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044158&label=Ingredient": {
+        "ingredient_name": "sitosterol",
+        "molecule_smile": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C",
+        "OB score": "83-46-5",
+        "SymMap id": "SMIT00399",
+        "TCMSP id": "MOL000359",
+        "PubChem id": "222284"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024930&label=Ingredient": {
+        "ingredient_name": "EIC",
+        "molecule_smile": "CCCCCC=CCC=CCCCCCCCC(=O)O",
+        "OB score": "2197-37-7",
+        "SymMap id": "SMIT02797",
+        "PubChem id": "5280450"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043899&label=Ingredient": {
+        "ingredient_name": "shikonin",
+        "molecule_smile": "CC(=CCC(C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O)O)C",
+        "CAS id": "517-89-5",
+        "TCMID id": "19804",
+        "PubChem id": "479503"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025909&label=Ingredient": {
+        "ingredient_name": "ETHYL DOCOSANOATE",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCCCC(=O)OCC",
+        "OB score": "5908-87-2",
+        "SymMap id": "SMIT09105",
+        "PubChem id": "22199"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN015608&label=Ingredient": {
+        "ingredient_name": "α-methyl-n-butyrylshikonin",
+        "molecule_smile": "CCC(C)C(=O)OC(CC=C(C)C)C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O",
+        "Molecule smile": "CCC(C)C(=O)OC(CC=C(C)C)C1=CC(=O)C2=...",
+        "TCMID id": "14195"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN016861&label=Ingredient": {
+        "ingredient_name": "arnebifuranone",
+        "molecule_smile": "CC(=CCCC1=COC=C1)CC2=CC(=O)C(=C(C2=O)OC)OC",
+        "SymMap id": "SMIT14384",
+        "PubChem id": "6438590"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN015606&label=Ingredient": {
+        "ingredient_name": "alpha-methyl-n-butylshikonin",
+        "molecule_smile": "CCCCC1(C(C(=O)C2=C(C=CC(=C2C1=O)O)O)C)C(CC=C(C)C)O",
+        "SymMap id": "SMIT09116",
+        "PubChem id": "139246677"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035320&label=Ingredient": {
+        "ingredient_name": "Methyl nervonate",
+        "molecule_smile": "CCCCCCCCC=CCCCCCCCCCCCCCC(=O)OC",
+        "OB score": "2733-88-2",
+        "SymMap id": "SMIT09097",
+        "PubChem id": "5364841"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN006904&label=Ingredient": {
+        "ingredient_name": "3-(1,1-dimethyl allyl) herniarin",
+        "molecule_smile": "CC(C)(C=C)C1=CC2=C(C=C(C=C2)OC)OC1=O",
+        "SymMap id": "SMIT18984",
+        "PubChem id": "182622"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN044783&label=Ingredient": {
+        "ingredient_name": "Stenol",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCO",
+        "OB score": "68911-61-5",
+        "SymMap id": "SMIT06639",
+        "PubChem id": "8221"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN015181&label=Ingredient": {
+        "ingredient_name": "alkannin angelate",
+        "molecule_smile": "CC=C(C)C(=O)OC(CC=C(C)C)C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O",
+        "SymMap id": "SMIT14236"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033171&label=Ingredient": {
+        "ingredient_name": "Lignocerol",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCCCCCCO",
+        "OB score": "506-51-4",
+        "SymMap id": "SMIT07504",
+        "PubChem id": "10472"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN018159&label=Ingredient": {
+        "ingredient_name": "β-hydroxyisovalerylshikonin",
+        "molecule_smile": "CC(=CCC(C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O)OC(=O)CC(C)(C)O)C",
+        "SymMap id": "SMIT15866",
+        "TCM-ID id": "6278"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN023359&label=Ingredient": {
+        "ingredient_name": "deoxy-delta3,5-tigogenin",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT19162",
+        "TCMID id": "30867"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN019154&label=Ingredient": {
+        "ingredient_name": "Butyric acid, 3-hydroxy-3-methyl-",
+        "molecule_smile": "CC(C)(CC(=O)O)O",
+        "CAS id": "88221-74-3",
+        "TCMSP id": "MOL007733"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN011520&label=Ingredient": {
+        "ingredient_name": "5-[(E)-5-(3-furyl)-2-methyl-pent-2-enyl]-2,3-dimethoxy-p-benzoquinone",
+        "molecule_smile": "not found",
+        "CAS id": "94805-71-7",
+        "TCMSP id": "MOL007734"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN002708&label=Ingredient": {
+        "ingredient_name": "1-methoxyacetylshikonin",
+        "molecule_smile": "not found",
+        "OB score": "106265-27-4",
+        "SymMap id": "SMIT09094"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043693&label=Ingredient": {
+        "ingredient_name": "SENECIC ACID",
+        "molecule_smile": "CC(=CC(=O)O)C",
+        "OB score": "541-47-9",
+        "SymMap id": "SMIT09103",
+        "PubChem id": "10931"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033411&label=Ingredient": {
+        "ingredient_name": "lithospermidin A",
+        "molecule_smile": "CCC(C)C(=O)OC(C=CC(C)(C)O)C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O",
+        "OB score": "83415-78-5",
+        "SymMap id": "SMIT09107",
+        "TCMSP id": "MOL007728"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN000418&label=Ingredient": {
+        "ingredient_name": "11-eicosenoicacid",
+        "molecule_smile": "CCCCCCCCC=CCCCCCCCCCC(=O)O",
+        "SymMap id": "SMIT15227",
+        "PubChem id": "5282769"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN006390&label=Ingredient": {
+        "ingredient_name": "(2R)-3-oxo-2-phenylbutanenitrile",
+        "molecule_smile": "not found",
+        "CAS id": "4468-48-8",
+        "TCMSP id": "MOL007720"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038680&label=Ingredient": {
+        "ingredient_name": "palmitic acid",
+        "molecule_smile": "CCCCCCCCCCCCCCCC(=O)O",
+        "OB score": "67701-02-4",
+        "SymMap id": "SMIT00010",
+        "TCMSP id": "MOL000069",
+        "PubChem id": "985"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043906&label=Ingredient": {
+        "ingredient_name": "shikonofuran e",
+        "molecule_smile": "CC(=CCC(C1=COC(=C1)C2=C(C=CC(=C2)O)O)OC(=O)C=C(C)C)C",
+        "SymMap id": "SMIT17701",
+        "TCM-ID id": "984"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036064&label=Ingredient": {
+        "ingredient_name": "myoscorpine",
+        "molecule_smile": "",
+        "Molecule weight": "SMIT16793",
+        "TCMID id": "15137"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN011817&label=Ingredient": {
+        "ingredient_name": "5-Methylphthalide",
+        "molecule_smile": "CC1=CC2=C(C=C1)C(=O)OC2",
+        "OB score": "54120-64-8",
+        "SymMap id": "SMIT09104",
+        "PubChem id": "41013"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN042231&label=Ingredient": {
+        "ingredient_name": "rhizonone",
+        "molecule_smile": "",
+        "Molecule weight": "SMIT17461",
+        "TCMID id": "18765",
+        "PubChem id": "10800930"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN012449&label=Ingredient": {
+        "ingredient_name": "6-Hydroxykaempferol-7-O-glucoside",
+        "molecule_smile": "",
+        "SymMap id": "SMIT04945",
+        "TCMSP id": "MOL002756"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043902&label=Ingredient": {
+        "ingredient_name": "shikonofuran a",
+        "molecule_smile": "",
+        "SymMap id": "SMIT17697",
+        "TCM-ID id": "988"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029744&label=Ingredient": {
+        "ingredient_name": "hydroxymyoscorpine",
+        "molecule_smile": "",
+        "Molecule weight": "SMIT15893",
+        "TCMID id": "10534",
+        "PubChem id": "12308839"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046570&label=Ingredient": {
+        "ingredient_name": "Tormentic acid",
+        "molecule_smile": "",
+        "OB score": "13850-16-3",
+        "SymMap id": "SMIT07554",
+        "TCMSP id": "MOL005855",
+        "PubChem id": "471426"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038026&label=Ingredient": {
+        "ingredient_name": "oleic acid",
+        "molecule_smile": "CCCCCCCCC=CCCCCCCCC(=O)O",
+        "OB score": "112-80-1",
+        "SymMap id": "SMIT00066",
+        "TCMSP id": "MOL000675",
+        "PubChem id": "445639"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN007516&label=Ingredient": {
+        "ingredient_name": "3,4-teracrylshikonin",
+        "molecule_smile": "",
+        "SymMap id": "SMIT17862"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033449&label=Ingredient": {
+        "ingredient_name": "lobelanidine",
+        "molecule_smile": "CN1C(CCCC1CC(C2=CC=CC=C2)O)CC(C3=CC=CC=C3)O",
+        "OB score": "552-72-7",
+        "SymMap id": "SMIT00319",
+        "TCMSP id": "MOL012207",
+        "PubChem id": "442646"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046025&label=Ingredient": {
+        "ingredient_name": "tetracosyl caffeate",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCCCCCCOC(=O)C=CC1=CC(=C(C=C1)O)O",
+        "Molecule weight": "SMIT17884",
+        "TCMID id": "21023"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN045935&label=Ingredient": {
+        "ingredient_name": "terchebin",
+        "molecule_smile": "",
+        "CAS id": "20598-45-2",
+        "TCMID id": "25169",
+        "TCM-ID id": "572"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025947&label=Ingredient": {
+        "ingredient_name": "ETHYL MARGARATE",
+        "molecule_smile": "CCCCCCCCCCCCCCCCC(=O)OCC",
+        "OB score": "14010-23-2",
+        "SymMap id": "SMIT03898",
+        "PubChem id": "26397"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN023396&label=Ingredient": {
+        "ingredient_name": "deoxyshikonin",
+        "molecule_smile": "",
+        "SymMap id": "SMIT15006",
+        "TCM-ID id": "4991"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN003013&label=Ingredient": {
+        "ingredient_name": "",
+        "molecule_smile": "not found",
+        "CAS id": "52387-14-1",
+        "TCMSP id": "MOL003619"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037762&label=Ingredient": {
+        "ingredient_name": "octadecanyl caffeate",
+        "molecule_smile": "",
+        "Molecule smile": "CCCCCCCCCCCCCCCCCCOC(=O)C=CC1=CC(=C...",
+        "TCMID id": "15943"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037618&label=Ingredient": {
+        "ingredient_name": "o7-angeloylretronecine",
+        "molecule_smile": "CC=C(C)C(=O)OC1CCN2C1C(=CC2)CO",
+        "SymMap id": "SMIT14305"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043901&label=Ingredient": {
+        "ingredient_name": "shikonine",
+        "molecule_smile": "",
+        "SymMap id": "SMIT17696",
+        "PubChem id": "5208"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030227&label=Ingredient": {
+        "ingredient_name": "intermedine",
+        "molecule_smile": "",
+        "SymMap id": "SMIT15952",
+        "PubChem id": "114843"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037472&label=Ingredient": {
+        "ingredient_name": "np02140176-41-kna",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "SMIT16953",
+        "TCMID id": "15844"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN046007&label=Ingredient": {
+        "ingredient_name": "tert-o-methyl byakangelicin",
+        "molecule_smile": "CC(C)(C(COC1=C2C(=C(C3=C1OC(=O)C=C3)OC)C=CO2)O)OC",
+        "SymMap id": "SMIT16550",
+        "TCM-ID id": "557"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024945&label=Ingredient": {
+        "ingredient_name": "eicosanol",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCCO",
+        "CAS id": "629-96-9",
+        "TCMID id": "6721",
+        "TCM-ID id": "4668"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN015330&label=Ingredient": {
+        "ingredient_name": "α-acetoxyisovalerylalkannin",
+        "molecule_smile": "Not Available",
+        "SymMap id": "SMIT14127"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN003012&label=Ingredient": {
+        "ingredient_name": "",
+        "molecule_smile": "not found",
+        "OB score": "SMIT09118",
+        "TCMSP id": "MOL007739"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN037619&label=Ingredient": {
+        "ingredient_name": "o9-angeloylretronecine",
+        "molecule_smile": "CC=C(C)C(=O)OCC1=CCN2C1C(CC2)O",
+        "Molecule smile": "SMIT14306",
+        "TCMID id": "1234"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN003011&label=Ingredient": {
+        "ingredient_name": "",
+        "molecule_smile": "not found",
+        "OB score": "SMIT09119",
+        "TCMSP id": "MOL007740"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025986&label=Ingredient": {
+        "ingredient_name": "Ethyl senecioate",
+        "molecule_smile": "CCOC(=O)C=C(C)C",
+        "OB score": "638-10-8",
+        "SymMap id": "SMIT09106",
+        "PubChem id": "12516"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025989&label=Ingredient": {
+        "ingredient_name": "Ethyl tetracosanate",
+        "molecule_smile": "CCCCCCCCCCCCCCCCCCCCCCCC(=O)OCC",
+        "OB score": "24634-95-5",
+        "SymMap id": "SMIT03904",
+        "PubChem id": "141135"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN017983&label=Ingredient": {
+        "ingredient_name": "β,β-dimethylacrylshikonin",
+        "molecule_smile": "CC(=CCC(C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O)OC(=O)C=C(C)C)C",
+        "SymMap id": "SMIT15153",
+        "TCM-ID id": "6330"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030541&label=Ingredient": {
+        "ingredient_name": "isobyakangelicol",
+        "molecule_smile": "CC(C)C(=O)COC1=C2C(=C(C3=C1OC(=O)C=C3)OC)C=CO2",
+        "SymMap id": "SMIT16006",
+        "TCM-ID id": "24779"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043915&label=Ingredient": {
+        "ingredient_name": "Shinjulactone K",
+        "molecule_smile": "",
+        "OB score": "94451-22-6",
+        "SymMap id": "SMIT07927",
+        "TCMSP id": "MOL006281"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034389&label=Ingredient": {
+        "ingredient_name": "Mandenol",
+        "molecule_smile": "CCCCCC=CCC=CCCCCCCCC(=O)OCC",
+        "OB score": "544-35-4",
+        "SymMap id": "SMIT03899",
+        "PubChem id": "5282184"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN040845&label=Ingredient": {
+        "ingredient_name": "propionylshikonin",
+        "molecule_smile": "",
+        "SymMap id": "SMIT17328",
+        "TCM-ID id": "1634"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024951&label=Ingredient": {
+        "ingredient_name": "eicosyl caffeate",
+        "molecule_smile": "",
+        "SymMap id": "SMIT15228"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043903&label=Ingredient": {
+        "ingredient_name": "shikonofuran B",
+        "molecule_smile": "CCC(C)C(=O)OC(CC=C(C)C)C1=COC(=C1)C2=C(C=CC(=C2)O)O",
+        "OB score": "85022-65-7",
+        "SymMap id": "SMIT09109",
+        "TCMSP id": "MOL007730",
+        "PubChem id": "5321287"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN047613&label=Ingredient": {
+        "ingredient_name": "ursolic acid",
+        "molecule_smile": "",
+        "OB score": "77-52-1",
+        "SymMap id": "SMIT00055",
+        "TCMSP id": "MOL000511",
+        "PubChem id": "7163175"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031337&label=Ingredient": {
+        "ingredient_name": "isovalerylshikonin",
+        "molecule_smile": "",
+        "SymMap id": "SMIT16098",
+        "PubChem id": "479497"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN025963&label=Ingredient": {
+        "ingredient_name": "Ethyl oleate (NF)",
+        "molecule_smile": "CCCCCCCCC=CCCCCCCCC(=O)OCC",
+        "OB score": "111-62-6",
+        "SymMap id": "SMIT05051",
+        "PubChem id": "5363269"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "mappedActions" : {
+    "AppIntents.CloseIntent" : {
+      "allDefinedActions" : [
+        "action\/CloseSplitViewIntent"
+      ],
+      "defaultAction" : ""
+    },
+    "AppIntents.OpenIntent" : {
+      "allDefinedActions" : [
+        "action\/OpenSplitViewIntent"
+      ],
+      "defaultAction" : ""
+    }
+  }
+}
