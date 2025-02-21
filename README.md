@@ -83,6 +83,8 @@ pip install -r requirements.txt
 
 #### 🌿 **지황 (HERB 데이터)**
 ##### 📝 (1단계) 성분 URL 크롤링
+![HERB_page1](/screenshot/img_herb_1.png)
+![HERB_page2](/screenshot/img_herb_2.png)
 ```bash
 python scripts/herb_scraper.py
 ```
@@ -90,6 +92,7 @@ python scripts/herb_scraper.py
 - **출력 파일**: `data/herb/herb_ingredient_urls_지황.json`
 
 ##### 🧪 (2단계) 성분 상세 정보 크롤링
+![HERB_page3](/screenshot/img_herb_ingredient.png)
 ```bash
 python scripts/ingredient_scraper.py
 ```
@@ -99,6 +102,8 @@ python scripts/ingredient_scraper.py
 
 #### 🪴 **지황 제외 청열약(황금, 황련, 황백, 고삼, 지모, 지황, 치자) (TCMSP 데이터)**
 ##### 🌍 성분 및 타겟 크롤링
+![TCMSP_page1](/screenshot/img_tcmsp_ingredient.png)
+![TCMSP_page2](/screenshot/img_tcmsp_target.png)
 ```bash
 python scripts/tcmsp_scraper.py
 ```
