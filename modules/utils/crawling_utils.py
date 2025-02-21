@@ -4,7 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import requests
-from modules.utils import get_driver, setup_logger
+from .web_driver import get_driver
+from .logger import setup_logger
 from config.settings import API_TIMEOUT
 
 logger = setup_logger("crawling_utils")

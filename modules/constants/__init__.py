@@ -6,6 +6,9 @@ from .apis import (
     SWISSADME_URL,
     SWISSTARGET_URL,
     TCMSP_BASE_URL,
+    STRING_ID_API_URL,           
+    STRING_PPI_API_URL,         
+    COMPOUND_TARGET_API_URL,    
     API_TIMEOUTS,
     HEADERS
 )
@@ -17,6 +20,9 @@ __all__ = [
     "SWISSADME_URL",
     "SWISSTARGET_URL",
     "TCMSP_BASE_URL",
+    "STRING_ID_API_URL",         
+    "STRING_PPI_API_URL",        
+    "COMPOUND_TARGET_API_URL",
     "API_TIMEOUTS",
     "HEADERS",
 ]

@@ -3,20 +3,26 @@
 import pytest
 from modules.string_api import fetch_string_ids, fetch_ppi_data, fetch_compound_targets
 
-@pytest.mark.parametrize("gene_names", [["TP53", "EGFR", "TNF"]])
-def test_string_id_fetcher(gene_names):
+@pytest.fixture
+def sample_gene_names():
+    return ["TP53", "EGFR"]
+
+@pytest.fixture
+def sample_compounds():
+    return ["CCO", "CCC=O"]
+
+def test_fetch_string_ids(sample_gene_names):
     """✅ STRING ID 조회 테스트"""
-    result = fetch_string_ids(gene_names)
-    assert result and len(result) == len(gene_names), "❌ STRING ID 조회 실패"
+    result = fetch_string_ids(sample_gene_names)
+    assert result and len(result) == len(sample_gene_names), "❌ STRING ID 조회 실패"
 
-@pytest.mark.parametrize("string_ids", [["9606.ENSP00000269305", "9606.ENSP00000354587"]])
-def test_string_ppi_fetcher(string_ids):
-    """✅ STRING PPI 데이터 조회 테스트"""
+def test_fetch_ppi_data():
+    """✅ PPI 데이터 조회 테스트"""
+    string_ids = ["9606.ENSP00000269305", "9606.ENSP00000354587"]
     result = fetch_ppi_data(string_ids)
-    assert result and len(result) > 0, "❌ PPI 데이터 조회 실패"
+    assert result, "❌ PPI 데이터 조회 실패"
 
-@pytest.mark.parametrize("compounds", [["CCO", "CCC=O"]])
-def test_compound_target_fetcher(compounds):
-    """✅ 화합물-타겟 단백질 조회 테스트"""
-    result = fetch_compound_targets(compounds)
-    assert result and len(result) > 0, "❌ 화합물-타겟 조회 실패"
+def test_fetch_compound_targets(sample_compounds):
+    """✅ 화합물-타겟 단백질 매핑 테스트"""
+    result = fetch_compound_targets(sample_compounds)
+    assert result, "❌ 화합물-타겟 조회 실패"

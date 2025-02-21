@@ -1,47 +1,41 @@
 # tests/test_converters.py
 
 import pytest
-from modules.converters import to_csv, to_xlsx, to_json
-from modules.utils import load_from_json, load_csv
-import os
+from modules.converters import convert_to_csv, convert_to_xlsx, convert_to_json
+from modules.utils import save_to_json, load_csv
+from pathlib import Path
 
 @pytest.fixture
-def sample_data():
+def sample_ingredients():
     return [
-        {"herb": "황금", "ingredient": "baicalin"},
-        {"herb": "황련", "ingredient": "berberine"}
+        {"ingredient": "baicalin", "SMILES": "CCO"},
+        {"ingredient": "wogonin", "SMILES": "CCC=O"},
     ]
 
-def test_convert_to_csv(tmp_path, sample_data):
+def test_convert_to_csv(tmp_path, sample_ingredients):
     """✅ JSON → CSV 변환 테스트"""
-    json_path = tmp_path / "test_data.json"
-    csv_path = tmp_path / "test_data.csv"
+    input_file = tmp_path / "sample.json"
+    output_file = tmp_path / "sample.csv"
+    save_to_json(sample_ingredients, str(input_file))
 
-    to_json.convert(sample_data, str(json_path))
-    to_csv.convert_json_to_csv(str(json_path), str(csv_path))
+    convert_to_csv(str(input_file), str(output_file))
+    assert output_file.exists(), "❌ CSV 파일 생성 실패"
 
-    assert os.path.exists(csv_path), "❌ CSV 파일 생성 실패"
-
-
-def test_convert_to_xlsx(tmp_path, sample_data):
+def test_convert_to_xlsx(tmp_path, sample_ingredients):
     """✅ JSON → XLSX 변환 테스트"""
-    json_path = tmp_path / "test_data.json"
-    xlsx_path = tmp_path / "test_data.xlsx"
+    input_file = tmp_path / "sample.json"
+    output_file = tmp_path / "sample.xlsx"
+    save_to_json(sample_ingredients, str(input_file))
 
-    to_json.convert(sample_data, str(json_path))
-    to_xlsx.convert_json_to_xlsx(str(json_path), str(xlsx_path))
-
-    assert os.path.exists(xlsx_path), "❌ XLSX 파일 생성 실패"
-
+    convert_to_xlsx(str(input_file), str(output_file))
+    assert output_file.exists(), "❌ XLSX 파일 생성 실패"
 
 def test_convert_to_json(tmp_path):
     """✅ CSV → JSON 변환 테스트"""
-    csv_path = tmp_path / "test_data.csv"
-    json_path = tmp_path / "converted_data.json"
+    csv_content = "ingredient,SMILES\nbaicalin,CCO\nwogonin,CCC=O"
+    csv_file = tmp_path / "sample.csv"
+    csv_file.write_text(csv_content, encoding="utf-8")
 
-    sample_csv_content = "herb,ingredient\n황금,baicalin\n황련,berberine"
-    csv_path.write_text(sample_csv_content, encoding="utf-8")
-
-    to_json.convert_csv_to_json(str(csv_path), str(json_path))
-
-    assert os.path.exists(json_path), "❌ JSON 파일 생성 실패"
+    output_file = tmp_path / "converted.json"
+    convert_to_json(str(csv_file), str(output_file))
+    assert output_file.exists(), "❌ JSON 변환 실패"

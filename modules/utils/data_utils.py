@@ -1,5 +1,3 @@
-# modules/utils/data_utils.py
-
 import json
 import pandas as pd
 import os
@@ -31,6 +29,12 @@ def save_to_json(data: list, file_path: str):
         logger.error(f"❌ JSON 저장 실패: {file_path} | {e}")
 
 
+def save_data(data: list, file_name: str, subdir: str):
+    """💾 공통 데이터 저장 함수 (파일명 및 경로 지정)"""
+    file_path = os.path.join(subdir, file_name)
+    save_to_json(data, file_path)
+
+
 def load_csv(file_path: str):
     """📥 CSV 파일 로드"""
     try:
@@ -60,3 +64,13 @@ def save_to_excel(df: pd.DataFrame, file_path: str):
         logger.info(f"✅ Excel 저장 완료 → {file_path}")
     except Exception as e:
         logger.error(f"❌ Excel 저장 실패: {file_path} | {e}")
+
+
+def file_exists(file_path: str) -> bool:
+    """📂 파일 존재 여부 확인"""
+    exists = os.path.isfile(file_path)
+    if exists:
+        logger.info(f"✅ 파일 존재 확인: {file_path}")
+    else:
+        logger.warning(f"⚠️ 파일 없음: {file_path}")
+    return exists
