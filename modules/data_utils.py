@@ -39,6 +39,21 @@ def save_to_csv(data, filename, subdir=None, verbose=True):
 
     if verbose:
         print(f"📁 CSV 데이터 저장 완료: {save_path}")
+        
+def save_to_excel(data, filename, subdir=None, verbose=True):
+    """Excel 파일을 지정된 서브디렉토리에 저장 (기본: data/processed)"""
+    if subdir:
+        save_path = os.path.join(DATA_DIR, subdir, filename)
+    else:
+        save_path = os.path.join(PROCESSED_DIR, filename)  # 기본적으로 data/processed 사용
+
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)  # 디렉토리 생성
+    df = pd.DataFrame(data)
+    df.to_excel(save_path, index=False, engine="xlsxwriter")
+
+    if verbose:
+        print(f"📁 Excel 데이터 저장 완료: {save_path}")
+        
 
 def load_from_json(filename, subdir="raw", verbose=True):
     """JSON 파일 불러오기 (기본: data/raw 디렉토리)"""

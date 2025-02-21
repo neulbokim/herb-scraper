@@ -1,0 +1,323 @@
+{
+    "http://herb.ac.cn/Detail/?v=HBIN043557&label=Ingredient": {
+        "ingredient_name": "sec-hydroxyaegineticacid",
+        "molecule_smile": "CC(=CC(=O)O)C=CC1(C(C(CCC1(C)O)O)(C)C)O",
+        "SymMap id": "SMIT15802",
+        "PubChem id": "15693862"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN006320&label=Ingredient": {
+        "ingredient_name": "2-phenylethyl-O-β-D-xylopy-ranosyl-(1→6)-β-D-glucopyranoside",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "35202"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN011515&label=Ingredient": {
+        "ingredient_name": "5-deoxylamiol",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35172"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN039706&label=Ingredient": {
+        "ingredient_name": "p-hydroxyphenylethyl alcohol",
+        "molecule_smile": "C1=CC(=CC=C1CCO)O",
+        "Molecule weight": "35205",
+        "PubChem id": "10393"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN012714&label=Ingredient": {
+        "ingredient_name": "6-O-sec-hydroxyae ginetoyl ajugol",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "35185"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN033015&label=Ingredient": {
+        "ingredient_name": "leucosceptoside A",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)OC)CO)OCCC4=CC(=C(C=C4)O)O)O)O)O)O",
+        "OB score": "83529-62-8",
+        "SymMap id": "SMIT02810",
+        "TCMSP id": "MOL000145"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN042020&label=Ingredient": {
+        "ingredient_name": "Rehmaionoside C",
+        "molecule_smile": "CC(=O)C=CC1(C(CCCC1(C)OC2C(C(C(C(O2)CO)O)O)O)(C)C)O",
+        "OB score": "SMIT05755",
+        "TCMID id": "18580",
+        "TCM-ID id": "1344"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN014630&label=Ingredient": {
+        "ingredient_name": "acteoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)O)CO)OCCC4=CC(=C(C=C4)O)O)O)O)O)O",
+        "OB score": "61276-17-3",
+        "SymMap id": "SMIT00176",
+        "TCMSP id": "MOL003333",
+        "PubChem id": "5281800"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN042021&label=Ingredient": {
+        "ingredient_name": "rehmamegastigmane",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "38619"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN002718&label=Ingredient": {
+        "ingredient_name": "1-methyl-1, 2, 3, 4-tetrahydro-β-carboline-3-carboxylic acid",
+        "molecule_smile": "CC1C2=C(CC(N1)C(=O)O)C3=CC=CC=C3N2",
+        "TCMID id": "40645"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN042029&label=Ingredient": {
+        "ingredient_name": "rehmapicrogenin",
+        "molecule_smile": "CC1=C(C(CCC1O)(C)C)C(=O)O",
+        "Molecule weight": "SMIT17429",
+        "TCMID id": "18585",
+        "PubChem id": "15693864"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN014750&label=Ingredient": {
+        "ingredient_name": "aeginetic acid 5-O-β-D-quinovoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2(CCCC(C2(C=CC(=CC(=O)O)C)O)(C)C)C)O)O)O",
+        "TCMID id": "35195"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN022871&label=Ingredient": {
+        "ingredient_name": "deacyl-martynoside",
+        "molecule_smile": "CCOC1C(C(C(C(O1)CO)O)OC2C(C(C(C(O2)C)O)O)O)(C3=CC(=C(C=C3)OC)O)O",
+        "Molecule weight": "35176",
+        "PubChem id": "192240"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN026746&label=Ingredient": {
+        "ingredient_name": "frehmaglutin C",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35189"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027437&label=Ingredient": {
+        "ingredient_name": "genameside c",
+        "molecule_smile": "COC(=O)C1=COC(C2C1CC=C2CO)OC3C(C(C(C(O3)CO)OC4C(C(C(C(O4)CO)O)O)O)O)O",
+        "Molecule weight": "8267",
+        "PubChem id": "11692460"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN042030&label=Ingredient": {
+        "ingredient_name": "rehmapicrogenin A",
+        "molecule_smile": "CC1=C(C(CCC1O)(C)C)C(=O)O",
+        "TCMID id": "35194"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN026747&label=Ingredient": {
+        "ingredient_name": "frehmaglutin D",
+        "molecule_smile": "C1COC2C3C1C(C(C3(CO2)O)Cl)O",
+        "TCMID id": "35190"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027103&label=Ingredient": {
+        "ingredient_name": "gamma-aminobutyric acid",
+        "molecule_smile": "C(CC(=O)O)CN.Cl",
+        "OB score": "1956/12/2",
+        "SymMap id": "SMIT00035",
+        "TCMSP id": "MOL000388",
+        "PubChem id": "210329"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN029675&label=Ingredient": {
+        "ingredient_name": "hydroferulic acid",
+        "molecule_smile": "COC1=C(C=CC(=C1)CCC(=O)O)O",
+        "Molecule weight": "35204",
+        "PubChem id": "14340"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN022700&label=Ingredient": {
+        "ingredient_name": "darendoside B",
+        "molecule_smile": "CCOC1C(C(C(C(O1)CO)O)OC2C(C(C(C(O2)C)O)O)O)(C3=CC(=C(C=C3)OC)O)O",
+        "CAS id": "94410-28-3",
+        "TCMID id": "35203",
+        "PubChem id": "192240"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN019909&label=Ingredient": {
+        "ingredient_name": "catalpol",
+        "molecule_smile": "C1=COC(C2C1C(C3C2(O3)CO)O)OC4C(C(C(C(O4)CO)O)O)O",
+        "OB score": "2415-24-9",
+        "SymMap id": "SMIT00168",
+        "TCMSP id": "MOL002819",
+        "PubChem id": "138107792"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN030927&label=Ingredient": {
+        "ingredient_name": "Isomartynoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2O)OCCC3=CC(=C(C=C3)OC)O)COC(=O)C=CC4=CC(=C(C=C4)O)OC)O)O)O)O",
+        "OB score": "94410-22-7",
+        "SymMap id": "SMIT09164",
+        "TCMSP id": "MOL007792",
+        "PubChem id": "124222280"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN035681&label=Ingredient": {
+        "ingredient_name": "monomellittoside",
+        "molecule_smile": "C1=COC(C2C1(C(C=C2CO)O)O)OC3C(C(C(C(O3)CO)O)O)O",
+        "TCMID id": "35184"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031548&label=Ingredient": {
+        "ingredient_name": "jionoside b1",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)OC)COC4C(C(C(C(O4)CO)O)O)O)OCCC5=CC(=C(C=C5)OC)O)O)O)O)O",
+        "CAS id": "120406-37-3",
+        "TCM-ID id": "3276"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN038512&label=Ingredient": {
+        "ingredient_name": "oxyrehmaionoside B",
+        "molecule_smile": "CC(C=CC1(C(C(CCC1(C)OC2C(C(C(C(O2)CO)O)O)O)O)(C)C)O)O",
+        "Molecule weight": "35199",
+        "PubChem id": "102439369"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN041323&label=Ingredient": {
+        "ingredient_name": "Purpureaside C",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)O)COC4C(C(C(C(O4)CO)O)O)O)OCCC5=CC(=C(C=C5)O)O)O)O)O)O",
+        "OB score": "82854-37-3",
+        "SymMap id": "SMIT05750",
+        "TCMSP id": "MOL003720",
+        "PubChem id": "138106609"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN047079&label=Ingredient": {
+        "ingredient_name": "trihydroxy-bionone",
+        "molecule_smile": "CC(=O)C=CC1(C(C(CCC1(C)O)O)(C)C)O",
+        "TCMID id": "35197"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN013456&label=Ingredient": {
+        "ingredient_name": "(7R, 8S, 7′R, 8′S)-4, 9, 4′, 9′-tetrahydroxy-3, 3′-dimethoxy-7, 7′-epoxylignan 9-O-β-D-glucopyranoside",
+        "molecule_smile": "COC1=C(C=CC(=C1)C2C(C(C(O2)C3=CC(=C(C=C3)O)OC)COC4C(C(C(C(O4)CO)O)O)O)CO)O",
+        "TCMID id": "41613"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN011514&label=Ingredient": {
+        "ingredient_name": "5-deoxyantirrhinoside",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35171"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN023955&label=Ingredient": {
+        "ingredient_name": "dihydrophaseic acid 4-O-β-D-glucopy-ranoside",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35200"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN031542&label=Ingredient": {
+        "ingredient_name": "jioglutoside b",
+        "molecule_smile": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3C4C(CCC4=C)C(=CO3)C(=O)OC)O)O)O)O)O)O",
+        "Molecule weight": "124168-00-9",
+        "TCMID id": "11877",
+        "PubChem id": "138107975"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN012667&label=Ingredient": {
+        "ingredient_name": "6-O-E-Feruloylajugol",
+        "molecule_smile": "CC1(CC(C2C1C(OC=C2)OC3C(C(C(C(O3)CO)O)O)O)OC(=O)C=CC4=CC(=C(C=C4)O)OC)O",
+        "SymMap id": "SMIT03304",
+        "TCMSP id": "MOL000778"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN034521&label=Ingredient": {
+        "ingredient_name": "Martynoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2OC(=O)C=CC3=CC(=C(C=C3)O)OC)CO)OCCC4=CC(=C(C=C4)OC)O)O)O)O)O",
+        "OB score": "67884-12-2",
+        "SymMap id": "SMIT09170",
+        "TCMSP id": "MOL007800"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027377&label=Ingredient": {
+        "ingredient_name": "gardoside methyl ester",
+        "molecule_smile": "COC(=O)C1=COC(C2C1CC(C2=C)O)OC3C(C(C(C(O3)CO)O)O)O",
+        "Molecule weight": "35183",
+        "PubChem id": "51692952"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN045294&label=Ingredient": {
+        "ingredient_name": "syringic acid-4-O-α-L-rhamnopyranoside",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "39590"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN014748&label=Ingredient": {
+        "ingredient_name": "aeginetic acid",
+        "molecule_smile": "CC(=CC(=O)O)C=CC1(C(CCCC1(C)O)(C)C)O",
+        "OB score": "53537-92-1",
+        "SymMap id": "SMIT05721",
+        "TCMSP id": "MOL003689"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN043484&label=Ingredient": {
+        "ingredient_name": "sculponiside",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35201"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN009220&label=Ingredient": {
+        "ingredient_name": "3′-O-β-D-glucopyranosyl catalpol",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35186"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN026745&label=Ingredient": {
+        "ingredient_name": "frehmaglutin B",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35188"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN027448&label=Ingredient": {
+        "ingredient_name": "genipingentiobioside",
+        "molecule_smile": "COC(=O)C1=COC(C2C1CC=C2CO)OC3C(C(C(C(O3)COC4C(C(C(C(O4)CO)O)O)O)O)O)O",
+        "SymMap id": "SMIT15515",
+        "PubChem id": "3082301"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN042854&label=Ingredient": {
+        "ingredient_name": "salidroside",
+        "molecule_smile": "C1=CC(=CC=C1CCOC2C(C(C(C(O2)CO)O)O)O)O",
+        "OB score": "10338-51-9",
+        "SymMap id": "SMIT00172",
+        "TCMSP id": "MOL002929",
+        "PubChem id": "159278"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036057&label=Ingredient": {
+        "ingredient_name": "myobontioside A",
+        "molecule_smile": "C1C(C2C=COC(C2C1(CCl)O)OC3C(C(C(C(O3)CO)O)O)O)O",
+        "Molecule weight": "32403",
+        "PubChem id": "102025688"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN026748&label=Ingredient": {
+        "ingredient_name": "frehmaglutin E",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35191"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036032&label=Ingredient": {
+        "ingredient_name": "mussaenosidicacid",
+        "molecule_smile": "CC1(CCC2C1C(OC=C2C(=O)O)OC3C(C(C(C(O3)CO)O)O)O)O",
+        "SymMap id": "SMIT16790",
+        "PubChem id": "21633105"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN042016&label=Ingredient": {
+        "ingredient_name": "rehmaglutosides",
+        "molecule_smile": "CC(=CC(=O)OC1CC(C2C1C=COC2OC3C(C(C(C(O3)CO)O)O)O)(C)O)C=CC4(C(CCCC4(C)O)(C)C)O",
+        "TCMID id": "35181"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN011711&label=Ingredient": {
+        "ingredient_name": "5-hydroxymethyl-pyrrole-2-carbaldehyde",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35206"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN024009&label=Ingredient": {
+        "ingredient_name": "dihydroxy-β-ionone",
+        "molecule_smile": "CC(=O)C=CC1(C(CCCC1(C)O)(C)C)O",
+        "TCMID id": "35196"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN036724&label=Ingredient": {
+        "ingredient_name": "neo-rehmannioside",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35192"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN005889&label=Ingredient": {
+        "ingredient_name": "2-methoxy-4-methylphenyl-O-β-D-apiofuranosyl-(1 → 6)-β-D-glucopyranoside",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35178"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN026744&label=Ingredient": {
+        "ingredient_name": "frehmaglutin A",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35187"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN007398&label=Ingredient": {
+        "ingredient_name": "3, 4-dihydroxy-β-phenethyl-O-α-L-rhamnopyranosyl-(1 → 3)-O-β-D-galacopyranosyl-(1 → 6)-4-O-caffeoyl-β-D-glucopyranoside",
+        "molecule_smile": "Not Available",
+        "Molecule smile": "41612"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN012267&label=Ingredient": {
+        "ingredient_name": "6β-hydroxy-2-oxabicyclo [4.3.0] 8-9-nonen-1-one",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35174"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN001520&label=Ingredient": {
+        "ingredient_name": "1-(4-methy-2-furanyl)-2-(5-methyl-5-ethenyl-2-tetrahydrofuranyl)-propan-1-one",
+        "molecule_smile": "C15H20O3",
+        "Molecule smile": "35177"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN042171&label=Ingredient": {
+        "ingredient_name": "rhamnopyranosyl vanilloyl",
+        "molecule_smile": "Not Available",
+        "TCMID id": "35179"
+    },
+    "http://herb.ac.cn/Detail/?v=HBIN022888&label=Ingredient": {
+        "ingredient_name": "decaffeoylacteoside",
+        "molecule_smile": "CC1C(C(C(C(O1)OC2C(C(OC(C2O)OCCC3=CC(=C(C=C3)O)O)CO)O)O)O)O",
+        "OB score": "SMIT00390",
+        "TCMID id": "38298",
+        "PubChem id": "13889681"
+    }
+}
