@@ -3,13 +3,15 @@
 ---
 
 ## 📌 **프로젝트 개요**  
-HERB Scraper는 다양한 한약재 데이터를 자동으로 수집 및 처리하여 **SwissADME**, **BATMAN-TCM**, **TCMSP**, **STRING API** 등을 통해 활성 성분과 표적 단백질 정보를 종합하는 파이프라인 프로젝트입니다.  
+herb-scraper는 TCMSP (Traditional Chinese Medicine Systems Pharmacology) 데이터베이스에서 한약재 데이터를 자동으로 크롤링하고 전처리할 수 있는 Python 기반의 스크래퍼입니다. 연구자 및 개발자가 빠르게 데이터를 수집하고 필터링하여 네트워크 약리학 연구에 활용할 수 있도록 지원합니다.
 
-✅ **주요 기능:**  
-- 한약재 및 활성 성분 크롤링  
-- 타겟 단백질 및 상호작용 정보 수집  
-- 데이터 전처리 및 통합  
-- 최종 데이터셋 생성 (CSV, XLSX, JSON)  
+---
+
+## ✅ **주요 기능:**  
+1. **TCMSP 데이터 크롤링**: 지정된 한약재의 성분 및 타겟 정보를 수집합니다.
+2. **데이터 전처리(필터링)**: OB(경구이용률)와 DL(약물 유사성) 기준으로 성분과 타겟 데이터를 필터링합니다.
+3. **다양한 포맷 지원**: 크롤링 및 필터링된 데이터를 JSON, CSV, Excel 파일로 저장합니다.
+4. **사용자 친화적 설정**: config/settings.py에서 데이터 경로 및 필터링 임계값을 손쉽게 변경할 수 있습니다.
 
 ---
 
@@ -18,106 +20,24 @@ HERB Scraper는 다양한 한약재 데이터를 자동으로 수집 및 처리�
 herb-scraper/
 ├── README.md                          # ✅ 프로젝트 설명 문서
 ├── requirements.txt                   # ✅ Python 패키지 목록
-├── setup.py                           # ✅ 패키지 설정 파일
 ├── venv/                              # ✅ 가상환경 디렉토리
 │
 ├── config/                            # ⚙️ 설정 관련
-│   └── settings.py                    # 환경 설정 (경로, API URL, 타임아웃 등)
+│   └── settings.py                    # 환경 설정 (경로, 필터링 임계값 등)
 │
-├── modules/                           # 🧩 코드 모듈 (핵심 기능)
-│   ├── __init__.py
-│   ├── constants/                     # 📄 상수 및 전역 변수 관리
-│   │   ├── __init__.py
-│   │   ├── herbs.py                   # 약재 URL 및 목록
-│   │   └── apis.py                    # API URL 및 요청 설정
-│   ├── crawlers/                      # 🕷️ 크롤러 모듈
-│   │   ├── __init__.py
-│   │   ├── herb_crawler.py            # HERB 크롤러
-│   │   ├── swissadme_crawler.py       # SwissADME 크롤러
-│   │   ├── batman_tcm_crawler.py      # BATMAN-TCM 크롤러
-│   │   ├── swisstarget_crawler.py     # SwissTargetPrediction 크롤러
-│   │   └── tcmsp_crawler.py           # TCMSP 크롤러
-│   ├── converters/                    # 🔄 데이터 변환 모듈
-│   │   ├── __init__.py
-│   │   ├── to_csv.py                  # JSON → CSV 변환
-│   │   ├── to_xlsx.py                 # JSON → XLSX 변환
-│   │   └── to_json.py                 # CSV/XLSX → JSON 변환
-│   ├── preprocessors/                 # 🧹 데이터 전처리 모듈
-│   │   ├── __init__.py
-│   │   ├── filter_compounds.py        # 활성 성분 필터링
-│   │   ├── merge_herb_data.py         # 데이터 병합
-│   │   └── target_mapping.py          # 타겟 단백질 매핑
-│   ├── string_api/                    # 🧬 STRING API 모듈
-│   │   ├── __init__.py
-│   │   ├── string_id_fetcher.py       # STRING ID 매핑
-│   │   ├── string_ppi_fetcher.py      # PPI 데이터 수집
-│   │   └── compound_target_fetcher.py # 화합물 타겟 검색
-│   └── utils/                         # 🛠️ 유틸리티 함수
-│       ├── __init__.py
-│       ├── data_utils.py              # 데이터 저장/불러오기 함수
-│       ├── web_driver.py              # Selenium WebDriver 설정
-│       ├── logger.py                  # 로깅 유틸리티
-│       └── crawling_utils.py          # 크롤링 공통 함수
+├── modules/                           # 🧩 코드 모듈 (TCMSP 전용)
+│   ├── data_utils.py                  # 🌐 데이터 저장/불러오기
+│   ├── logger.py                      # 📝 로그 기록
+│   └── tcmsp_utils.py                 # 🌍 TCMSP 크롤링 모듈
+│
+├── preprocess/                        # 🧹 전처리 관련
+│   └── tcmsp_process.py               # 데이터 필터링
 │
 ├── scripts/                           # 🚀 실행 스크립트
-│   ├── __init__.py
-│   ├── crawlers/                      # 🕷️ 크롤링 실행
-│   │   ├── __init__.py
-│   │   ├── run_herb_crawler.py        # HERB 크롤링 실행
-│   │   ├── run_swissadme_crawler.py   # SwissADME 크롤링 실행
-│   │   ├── run_batman_tcm_crawler.py  # BATMAN-TCM 크롤링 실행
-│   │   ├── run_swisstarget_crawler.py # SwissTargetPrediction 크롤링 실행
-│   │   └── run_tcmsp_crawler.py       # TCMSP 크롤링 실행
-│   ├── converters/                    # 🔄 변환 실행
-│   │   ├── __init__.py
-│   │   ├── convert_to_csv.py
-│   │   ├── convert_to_xlsx.py
-│   │   └── convert_to_json.py
-│   ├── preprocess/                    # 🧹 전처리 실행
-│   │   ├── __init__.py
-│   │   ├── filter_active_compounds.py # 성분 필터링 실행
-│   │   └── merge_herb_data.py         # 데이터 병합 실행
-│   ├── string_api/                    # 🧬 STRING API 실행
-│   │   ├── __init__.py
-│   │   ├── run_string_id_fetcher.py
-│   │   ├── run_string_ppi_fetcher.py
-│   │   └── run_compound_target_fetcher.py
-│   └── main.py                        # 🌱 전체 파이프라인 실행
+│   └── tcmsp_scraper.py               # TCMSP 크롤링 실행 스크립트
 │
-├── data/                              # 📂 데이터 저장
-│   ├── raw/                           # 📥 원본 크롤링 및 API 데이터
-│   │   ├── herb/                      # HERB 데이터
-│   │   │   ├── ingredients/           # 성분 URL 및 상세 데이터
-│   │   │   └── pages/                 # 크롤링한 HTML 페이지 (선택적 저장)
-│   │   ├── swissadme/                 # SwissADME 원본 데이터
-│   │   │   ├── raw_results/           # 크롤링 결과
-│   │   │   └── logs/                  # 크롤링 로그
-│   │   ├── batman_tcm/                # BATMAN-TCM 데이터
-│   │   │   ├── raw_results/
-│   │   │   └── logs/
-│   │   ├── tcmsp/                     # TCMSP 데이터
-│   │   │   ├── raw_results/
-│   │   │   └── pages/
-│   │   └── string/                    # STRING API 데이터
-│   │       ├── id_map/
-│   │       ├── ppi_results/
-│   │       └── compound_targets/
-│   └── processed/                     # 📝 전처리 및 가공 데이터
-│       ├── filtered/                  # ✅ 필터링된 데이터
-│       ├── merged/                    # 🔗 통합 데이터
-│       └── final/                     # 📊 최종 결과
-│           ├── csv/
-│           ├── xlsx/
-│           └── json/
-│
-├── logs/                              # 🗒️ 로그 파일 저장
-└── tests/                             # 🧪 테스트 코드
-    ├── __init__.py
-    ├── test_crawlers.py
-    ├── test_converters.py
-    ├── test_preprocessors.py
-    ├── test_string_api.py
-    └── test_utils.py
+└── data/                              # 📂 데이터 저장
+    └── tcmsp/                         # 📥 TCMSP 데이터
 ```
 
 ---
@@ -125,44 +45,31 @@ herb-scraper/
 
 ```mermaid
 graph TD
-  A[시작] --> B[HERB 크롤링 - 성분 목록 추출]
-  B --> C[SwissADME 크롤링 - 성분 특성 수집]
-  C --> D[활성 성분 필터링 - TPSA 기준]
-  
-  %% 타겟 단백질 예측 경로 (독립적 경로)
-  D --> E1[BATMAN-TCM 타겟 예측]
-  D --> E2[SwissTargetPrediction 타겟 예측]
-  D --> E3[TCMSP 타겟 정보 수집]
+    A[herb-scraper/] --> B[README.md: 프로젝트 설명 문서]
+    A --> C[requirements.txt: Python 패키지 목록]
+    A --> D[venv/: 가상환경 디렉토리]
 
-  %% 타겟 통합 및 STRING API 경로
-  E1 --> F[타겟 단백질 통합]
-  E2 --> F
-  E3 --> F
+    A --> E[config/: 설정 관련]
+    E --> E1[settings.py: 경로 및 필터링 임계값 설정]
 
-  F --> G[STRING API - PPI 네트워크 수집]
-  G --> H[성분 타겟 매핑 및 통합]
+    A --> F[modules/: 코드 모듈 (TCMSP 전용)]
+    F --> F1[data_utils.py: 데이터 저장/불러오기 및 WebDriver 설정]
+    F --> F2[logger.py: 로그 기록 모듈]
+    F --> F3[tcmsp_utils.py: TCMSP 크롤링 모듈]
 
-  %% 최종 데이터 변환 및 완료
-  H --> I[최종 데이터셋 생성 및 변환]
-  I --> J[완료]
+    A --> G[preprocess/: 전처리 관련]
+    G --> G1[tcmsp_process.py: 데이터 필터링 및 저장]
+
+    A --> H[scripts/: 실행 스크립트]
+    H --> H1[tcmsp_scraper.py: TCMSP 크롤링 실행 스크립트]
+
+    A --> I[data/: 데이터 저장]
+    I --> I1[tcmsp/: TCMSP 원본 및 필터링 데이터]
 ```
 
-✅ 설명:
-1. HERB 크롤링: 한약재별 활성 성분 URL 수집
-2. SwissADME 크롤링: 성분의 약물유사성 및 물리화학적 특성 추출
-3. BATMAN-TCM API 호출: 표적 단백질 정보 조회
-4. SwissTargetPrediction 크롤링: 화합물 타겟 예측
-5. TCMSP 크롤링: 활성 성분 및 타겟 단백질 정보 확보
-6. 활성 성분 필터링: TPSA, GI 흡수율 등을 기준으로 필터링
-7. 데이터 병합 및 통합: 각 단계 데이터를 통합하여 완성도 높은 데이터셋 생성
-8. STRING ID 조회 및 PPI 데이터 수집: 단백질 상호작용 정보 추가
-9. 화합물-타겟 단백질 매핑: 최종 매핑 및 데이터 정리
-10. 데이터셋 변환: CSV, XLSX, JSON 포맷으로 최종 출력
+---
 
-
-
-
-## ⚙️ **실행 방법**
+## 🛠️ **설치 및 실행 방법**
 ### 1️⃣ 가상환경 설정
 ```bash
 python -m venv venv
@@ -171,89 +78,88 @@ venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 ```
 
-### 2️⃣ 전체 파이프라인 실행
+### 2️⃣ 크롤링 실행
 ```bash
-python scripts/main.py --crawl --preprocess --convert
+python scripts/tcmsp_scraper.py
 ```
+- **크롤링 대상 약재**: scripts/tcmsp_scraper.py 내부의 herbs 딕셔너리에서 수정할 수 있습니다.
+- **데이터 저장 경로**: 크롤링된 데이터는 data/tcmsp/에 JSON 및 CSV 형식으로 저장됩니다.
 
-✅ **자동 실행 과정:**
-1. HERB → 한약재별 활성 성분 크롤링  
-2. SwissADME → 성분의 분자적 특성 크롤링  
-3. BATMAN-TCM → 타겟 단백질 정보 수집
-4. TCMSP → 활성 성분 및 타겟 단백질 정보 수집  
-5. STRING API → 단백질 상호작용 정보 수집  
-6. 데이터 통합 및 최종 데이터셋 생성
+### 3️⃣ 크롤링 실행
+```bash
+python preprocess/tcmsp_process.py
+```
+- **필터링 기준**: config/settings.py에서 OB_THRESHOLD와 DL_THRESHOLD 값 조정 가능합니다.
+- **출력 결과**: 필터링된 데이터는 data/tcmsp/ 폴더에 JSON, CSV, Excel 파일로 저장됩니다.
 
-### 3️⃣ 개별 단계 실행 예시
-#### 크롤링만 실행
-```bash
-python scripts/main.py --crawl
-```
-#### 전처리만 실행
-```bash
-python scripts/main.py --preprocess
-```
-#### 데이터 변환만 실행
-```bash
-python scripts/main.py --convert
+
+---
+## ⚙️ 설정 설명 (`config/settings.py`)
+
+```markdown
+| 설정 변수              | 설명                             | 기본값    |
+|-----------------------|----------------------------------|---------|
+| `OB_THRESHOLD`        | OB(경구이용률) 필터링 임계값     | `30`    |
+| `DL_THRESHOLD`        | DL(약물 유사성) 필터링 임계값    | `0.18`  |
+| `HERB_GROUP_NAME`     | 데이터 그룹 이름                | `전체_약재` |
+| `RAW_DATA_PATH`       | 크롤링 원본 데이터 경로         | 자동 설정 |
+| `PROCESSED_EXCEL_PATH`| 필터링 데이터 Excel 저장 경로   | 자동 설정 |
 ```
 
 ---
 
-## 🛠️ **주요 모듈 설명**
-### 📄 `modules/constants/`
-- **herbs.py**: 한약재 목록 및 URL 관리
-- **apis.py**: API URL 및 요청 관련 상수 관리, 타임아웃 설정
+## 📊 출력 데이터 예시
 
-### 🕷️ `modules/crawlers/`
-- **herb_crawler.py**: HERB 성분 URL 및 데이터수집
-- **swissadme_crawler.py**: SwissADME 분석 성분 데이터 수집
-- **batman_tcm_crawler.py**: BATMAN-TCM 타겟 단백질 수집
-- **tcmsp_crawler.py**: TCMSP 활성 성분 및 타겟 단백질 수집
-- **swisstarget_crawler.py**: SwissTargetPrediction 타겟 단백질 수집
+### ✅ 크롤링된 원본 데이터 (`tcmsp_raw_results_전체_약재.json`)
 
-### 🔄 `modules/converters/`
-- **to_csv.py**: JSON → CSV 변환
-- **to_xlsx.py**: JSON → XLSX 변환
-- **to_json.py**: CSV/XLSX → JSON 변환
-
-### 🧹 `modules/preprocessors/`
-- **filter_compounds.py**: 활성 성분 TPSA 필터링
-- **merge_herb_data.py**: 다양한 데이터베이스의 데이터 병합
-- **target_mapping.py**: 성분-타겟 단백질 매핑
-
-### 🧬 `modules/string_api/`
-- **string_id_fetcher.py**: 유전자 이름으로 STRING ID 조회
-- **string_ppi_fetcher.py**: 단백질 상호작용 네트워크 조회
-- **compound_target_fetcher.py**: 화합물-타겟 데이터 조회
-
-### 🛠️ `modules/utils/`
-- **data_utils.py**: 데이터 저장 및 로드
-- **web_driver.py**: Selenium 설정
-- **logger.py**: 로그 기록 설정
-- **crawling_utils.py**: 크롤링 공통 함수
+```json
+{
+  "황금": {
+    "ingredients": [
+      {
+        "mol_id": "MOL000173",
+        "mol_name": "baicalin",
+        "ob": 41.15,
+        "dl": 0.75,
+        "mol_url": "https://tcmsp-e.com/..."
+      }
+    ],
+    "targets": [
+      {
+        "mol_id": "MOL000173",
+        "target_name": "EGFR",
+        "drugbank_id": "DB00001"
+      }
+    ]
+  }
+}
+```
 
 ---
 
-## 🧪 **테스트 실행 방법**
-```bash
-pytest tests/
+### ✅ 필터링된 데이터 (`tcmsp_filtered_targets_전체_약재.xlsx`)
+
+```markdown
+| mol_id     | mol_name | ob    | dl    | target_name | drugbank_id |
+|------------|----------|-------|-------|-------------|-------------|
+| MOL000173  | baicalin | 41.15 | 0.75  | EGFR        | DB00001     |
 ```
-✅ 테스트 범위:
-- 크롤러 기능 검증
-- 데이터 변환 검증 (JSON, CSV, XLSX)
-- 전처리 기능 검증 (필터링, 병합)
-- STRING API 통신 테스트
-  
+
 ---
-## 📦 **패키지 설치 및 CLI 사용**
-### 1️⃣ 패키지 설치
-```bash
-pytest install .
-```
-### 2️⃣ CLI 실행
-```bash
-herb-scraper --crawl --preprocess --convert
+
+## 🧩 주요 코드 설명
+
+```markdown
+### 📁 `modules/`
+- **`data_utils.py`**: 데이터 저장/불러오기 및 Selenium WebDriver 설정.
+- **`logger.py`**: 일관된 로그 출력 지원.
+- **`tcmsp_utils.py`**: 성분 및 타겟 크롤링 로직 포함.
+
+### 📁 `preprocess/`
+- **`tcmsp_process.py`**: 크롤링된 데이터를 OB, DL 기준으로 필터링 및 파일 저장.
+
+### 📁 `scripts/`
+- **`tcmsp_scraper.py`**: 크롤링을 시작하는 메인 실행 스크립트.
 ```
 
 ---
@@ -266,6 +172,6 @@ MIT License
 ---
 
 ## 👩‍💻 **개발자 정보**
-프로젝트 담당:  
+프로젝트 담당: 서강대학교 국어국문학과 김현서  
 📧 이메일: neulbokim@sogang.ac.kr  
 🌍 GitHub: github.com/neulbokim

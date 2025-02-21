@@ -1,35 +1,28 @@
-# 📁 프로젝트 경로 설정
+# config/settings.py
+
+import os
+
+# 📂 기본 경로 설정
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# 📂 데이터 경로 설정
+# 📁 데이터 디렉토리
 DATA_DIR = os.path.join(BASE_DIR, "data")
-RAW_DIR = os.path.join(DATA_DIR, "raw")
-PROCESSED_DIR = os.path.join(DATA_DIR, "processed")
-FINAL_DIR = os.path.join(PROCESSED_DIR, "final")
+TCMSP_DIR = os.path.join(DATA_DIR, "tcmsp")
 
-# 📥 RAW 데이터 세부 경로
-TCMSP_RAW_DIR = os.path.join(RAW_DIR, "tcmsp", "raw_results")
+# 📝 파일명 및 그룹 이름
+HERB_GROUP_NAME = "전체_약재"
 
-# 📝 PROCESSED 데이터 경로
-FILTERED_DIR = os.path.join(PROCESSED_DIR, "filtered")
-MERGED_DIR = os.path.join(PROCESSED_DIR, "merged")
+# 🔗 TCMSP BASE URL
+#TCMSP_BASE_URL = "https://tcmsp-e.com/tcmspsearch.php"
 
-# 📊 최종 데이터 저장 경로
-FINAL_CSV_DIR = os.path.join(FINAL_DIR, "csv")
-FINAL_XLSX_DIR = os.path.join(FINAL_DIR, "xlsx")
-FINAL_JSON_DIR = os.path.join(FINAL_DIR, "json")
+# ⚙️ 필터링 임계값
+OB_THRESHOLD = 30
+DL_THRESHOLD = 0.18
 
-# 🌍 크롤링 및 API 옵션
-SELENIUM_TIMEOUT = 10
-API_TIMEOUT = 10
-REQUEST_DELAY = 1
+# 🗒️ 데이터 경로
+RAW_DATA_FILE = f"tcmsp_raw_results_{HERB_GROUP_NAME}.json"
+PROCESSED_EXCEL_FILE = f"tcmsp_filtered_targets_{HERB_GROUP_NAME}.xlsx"
 
-# 🗒️ 파일명 규칙 (일관성 확보)
-DEFAULT_TCMSP_RESULT_FILE = "tcmsp_results_{herb_name}.json"
-DEFAULT_TCMSP_TARGET_FILE = "tcmsp_targets_{herb_name}.json"
-
-# ✅ 파일명 설정 (사용자가 원하는 이름으로 재정의 가능)
-FILENAME_RULES = {
-    "tcmsp_results": DEFAULT_TCMSP_RESULT_FILE,
-    "tcmsp_targets": DEFAULT_TCMSP_TARGET_FILE
-}
+# ✅ 데이터 저장 경로
+RAW_DATA_PATH = os.path.join(TCMSP_DIR, RAW_DATA_FILE)
+PROCESSED_EXCEL_PATH = os.path.join(TCMSP_DIR, PROCESSED_EXCEL_FILE)

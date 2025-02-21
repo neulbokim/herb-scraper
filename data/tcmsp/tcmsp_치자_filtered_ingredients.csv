@@ -1,0 +1,16 @@
+﻿mol_id,mol_name,mol_url,mw,alogp,hdon,hacc,ob,caco2,bbb,dl,fasa,halflife
+MOL001406,crocetin,https://tcmsp-e.com/molecule.php?qn=1406,328.44,4.58,2,4,35.3,0.54,-0.83,0.26,0.43,2.03
+MOL001663,"(4aS,6aR,6aS,6bR,8aR,10R,12aR,14bS)-10-hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",https://tcmsp-e.com/molecule.php?qn=1663,456.78,6.42,2,3,32.03,0.61,0.39,0.76,0.22,4.34
+MOL001941,Ammidin,https://tcmsp-e.com/molecule.php?qn=1941,270.30,3.65,0,4,34.55,1.13,0.92,0.22,0.28,-1.35
+MOL004561,Sudan III,https://tcmsp-e.com/molecule.php?qn=4561,352.42,7.21,1,5,84.07,0.42,0.10,0.59,0.46,8.99
+MOL000098,quercetin,https://tcmsp-e.com/molecule.php?qn=98,302.25,1.50,5,7,46.43,0.05,-0.77,0.28,0.38,14.40
+MOL000358,beta-sitosterol,https://tcmsp-e.com/molecule.php?qn=358,414.79,8.08,1,1,36.91,1.32,0.99,0.75,0.23,5.36
+MOL000422,kaempferol,https://tcmsp-e.com/molecule.php?qn=422,286.25,1.77,4,6,41.88,0.26,-0.55,0.24,0.00,14.74
+MOL000449,Stigmasterol,https://tcmsp-e.com/molecule.php?qn=449,412.77,7.64,1,1,43.83,1.44,1.00,0.76,0.22,5.57
+MOL001494,Mandenol,https://tcmsp-e.com/molecule.php?qn=1494,308.56,6.99,0,2,42.0,1.46,1.14,0.19,0.25,5.39
+MOL001506,Supraene,https://tcmsp-e.com/molecule.php?qn=1506,410.80,11.33,0,0,33.55,2.08,1.73,0.42,0.27,2.72
+MOL001942,isoimperatorin,https://tcmsp-e.com/molecule.php?qn=1942,270.30,3.65,0,4,45.46,0.97,0.66,0.23,0.27,-1.44
+MOL002883,Ethyl oleate (NF),https://tcmsp-e.com/molecule.php?qn=2883,310.58,7.44,0,2,32.4,1.40,1.10,0.19,0.19,4.85
+MOL003095,"5-hydroxy-7-methoxy-2-(3,4,5-trimethoxyphenyl)chromone",https://tcmsp-e.com/molecule.php?qn=3095,358.37,2.80,1,7,51.96,0.88,-0.21,0.41,0.17,15.98
+MOL007245,3-Methylkempferol,https://tcmsp-e.com/molecule.php?qn=7245,300.28,1.84,3,6,60.16,0.37,-0.49,0.26,0.36,16.36
+MOL009038,GBGB,https://tcmsp-e.com/molecule.php?qn=9038,550.57,-4.00,8,15,45.58,-3.29,-5.43,0.83,0.26,10.25
