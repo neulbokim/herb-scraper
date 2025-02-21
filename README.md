@@ -50,27 +50,23 @@ herb-scraper/
     └── tcmsp/                         # 📥 기타 약재 TCMSP 데이터
 ```
 
+
 ---
 ## 🗺️ **📊 파이프라인 흐름도**
 ```mermaid
 graph TD
-    subgraph 지황 (HERB 데이터)
+    subgraph HERB_데이터_수집
         A[herb_scraper.py: 지황 성분 URL 수집] --> B[herb_ingredient_urls_지황.json 저장]
         B --> C[ingredient_scraper.py: 지황 성분 상세 크롤링]
-        C --> D[JSON, CSV, XLSX로 저장 (data/herb/)]
+        C --> D[data/herb/ 내 JSON, CSV, XLSX 저장]
     end
 
-    subgraph 기타 약재 (TCMSP 데이터)
-        E[tcmsp_scraper.py: 기타 한약재 성분 및 타겟 크롤링] --> F[JSON, CSV 저장 (data/tcmsp/)]
-    end
-
-    subgraph 전처리 및 분석
-        D --> G[tcmsp_process.py: 데이터 필터링]
-        F --> G
-        G --> H[필터링된 Excel 데이터 생성 (data/tcmsp/)]
+    subgraph TCMSP_데이터_수집_및_전처리
+        E[tcmsp_scraper.py: 기타 한약재 성분 및 타겟 크롤링] --> F[data/tcmsp/ 내 JSON, CSV 저장]
+        F --> G[tcmsp_process.py: OB/DL 기준 데이터 전처리 및 필터링]
+        G --> H[data/tcmsp/ 내 필터링된 Excel 데이터 저장]
     end
 ```
-
 
 ---
 
