@@ -96,7 +96,6 @@ python scripts/ingredient_scraper.py
 - **설명**: 수집한 URL을 기반으로 각 성분의 상세 정보를 크롤링합니다.
 - **출력 파일**: `data/herb/herb_ingredients_지황.json`, `.csv`, `.xlsx`
 
----
 
 #### 🪴 **지황 제외 청열약(황금, 황련, 황백, 고삼, 지모, 지황, 치자) (TCMSP 데이터)**
 ##### 🌍 성분 및 타겟 크롤링
@@ -106,7 +105,6 @@ python scripts/tcmsp_scraper.py
 - **설명**: TCMSP 데이터베이스에서 지황을 제외한 청열약의 성분 및 타겟 정보를 크롤링합니다.
 - **출력 파일**: `data/tcmsp/` 폴더 내 JSON 및 CSV 파일
 
----
 
 ### 3️⃣ 데이터 전처리 및 필터링
 ```bash
@@ -156,8 +154,6 @@ python preprocess/tcmsp_process.py
 }
 ```
 
----
-
 ### ✅ **지황 제외 청열약 (TCMSP) 데이터 예시**
 #### 1️⃣ **성분 및 타겟 크롤링 결과** (`tcmsp_raw_results_전체_약재.json`)
 ```json
@@ -189,11 +185,10 @@ python preprocess/tcmsp_process.py
 |------------|----------|-------|-------|-------------|-------------|
 | MOL000173  | baicalin | 41.15 | 0.75  | EGFR        | DB00001     |
 ```
-
 ---
 
 ## 🧩 **주요 코드 설명**
-```markdown
+
 ### 📁 `modules/`
 - **`data_utils.py`**: 데이터 저장/불러오기 및 WebDriver 설정.
 - **`herb_utils.py`**: HERB 데이터 크롤링 모듈 (지황 전용).
@@ -207,7 +202,7 @@ python preprocess/tcmsp_process.py
 
 ### 📁 `preprocess/`
 - **`tcmsp_process.py`**: 데이터 전처리 및 필터링.
-```
+
 
 ---
 
