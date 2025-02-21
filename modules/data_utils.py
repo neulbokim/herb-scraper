@@ -89,3 +89,24 @@ def get_driver():
     driver.execute_cdp_cmd("Network.enable", {})
 
     return driver
+
+def safe_get_url(driver, url, max_retries=3):
+    """
+    ✅ 안전하게 URL 로드 (로딩 실패 시 driver 재시작)
+    """
+    retries = 0
+    while retries < max_retries:
+        try:
+            driver.get(url)
+            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+            print(f"✅ URL 로드 성공: {url}")
+            return driver
+        except Exception as e:
+            retries += 1
+            print(f"⚠️ URL 로드 실패 ({retries}/{max_retries}): {e}")
+            driver.quit()
+            print("🔄 ChromeDriver 재시작 중...")
+            time.sleep(2)
+            driver = get_driver()
+    print(f"❌ {url} 최대 재시도 실패 - 크롤링 건너뜀")
+    return None

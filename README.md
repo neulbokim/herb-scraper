@@ -7,14 +7,14 @@
 
 ✅ **데이터 수집 흐름:**  
 - **지황:** HERB 데이터베이스를 통해 `herb_scraper.py` → `ingredient_scraper.py`로 크롤링합니다.  
-- **기타 약재:** TCMSP 데이터베이스를 통해 `tcmsp_scraper.py`로 크롤링합니다.  
+- **지황 제외 청열약:** TCMSP 데이터베이스를 통해 `tcmsp_scraper.py`로 크롤링합니다.  
 
 이 프로젝트는 연구자 및 개발자가 빠르게 데이터를 수집하고 필터링하여 네트워크 약리학 연구에 활용할 수 있도록 지원합니다.
 
 ---
 
 ## ✅ **주요 기능:**  
-1. **HERB & TCMSP 데이터 크롤링**: 지황 및 기타 한약재의 성분과 타겟 정보를 수집합니다.  
+1. **HERB & TCMSP 데이터 크롤링**: 지황 및 기타 청열약의 성분과 타겟 정보를 수집합니다.  
 2. **데이터 전처리(필터링)**: OB(경구이용률)와 DL(약물 유사성) 기준으로 성분과 타겟 데이터를 필터링합니다.  
 3. **다양한 포맷 지원**: 크롤링 및 필터링된 데이터를 JSON, CSV, Excel 파일로 저장합니다.  
 4. **사용자 친화적 설정**: `config/settings.py`에서 데이터 경로 및 필터링 임계값을 손쉽게 변경할 수 있습니다.  
@@ -33,8 +33,8 @@ herb-scraper/
 │
 ├── modules/                           # 🧩 코드 모듈
 │   ├── data_utils.py                  # 🌐 데이터 저장/불러오기 및 WebDriver 설정
-│   ├── logger.py                      # 📝 로그 기록 모듈
 │   ├── herb_utils.py                  # 🌱 HERB 데이터 크롤링 모듈
+│   ├── logger.py                      # 📝 로그 기록 모듈
 │   └── tcmsp_utils.py                 # 🌍 TCMSP 데이터 크롤링 모듈
 │
 ├── preprocess/                        # 🧹 전처리 관련
@@ -62,7 +62,7 @@ graph TD
     end
 
     subgraph TCMSP_데이터_수집_및_전처리
-        E[tcmsp_scraper.py: 기타 한약재 성분 및 타겟 크롤링] --> F[data/tcmsp/ 내 JSON, CSV 저장]
+        E[tcmsp_scraper.py: 지황 제외 청열약 성분 및 타겟 크롤링] --> F[data/tcmsp/ 내 JSON, CSV 저장]
         F --> G[tcmsp_process.py: OB/DL 기준 데이터 전처리 및 필터링]
         G --> H[data/tcmsp/ 내 필터링된 Excel 데이터 저장]
     end
@@ -98,7 +98,7 @@ python scripts/ingredient_scraper.py
 
 ---
 
-#### 🪴 **기타 청열약(황금, 황련, 황백, 고삼, 지모, 지황, 치자) (TCMSP 데이터)**
+#### 🪴 **지황 제외 청열약(황금, 황련, 황백, 고삼, 지모, 지황, 치자) (TCMSP 데이터)**
 ##### 🌍 성분 및 타겟 크롤링
 ```bash
 python scripts/tcmsp_scraper.py
@@ -158,7 +158,7 @@ python preprocess/tcmsp_process.py
 
 ---
 
-### ✅ **기타 약재 (TCMSP) 데이터 예시**
+### ✅ **지황 제외 청열약 (TCMSP) 데이터 예시**
 #### 1️⃣ **성분 및 타겟 크롤링 결과** (`tcmsp_raw_results_전체_약재.json`)
 ```json
 {
@@ -196,14 +196,14 @@ python preprocess/tcmsp_process.py
 ```markdown
 ### 📁 `modules/`
 - **`data_utils.py`**: 데이터 저장/불러오기 및 WebDriver 설정.
-- **`logger.py`**: 로그 기록 모듈.
 - **`herb_utils.py`**: HERB 데이터 크롤링 모듈 (지황 전용).
-- **`tcmsp_utils.py`**: TCMSP 데이터 크롤링 모듈 (기타 약재 전용).
+- **`logger.py`**: 로그 기록 모듈.
+- **`tcmsp_utils.py`**: TCMSP 데이터 크롤링 모듈 (지황 제외 청열약 전용).
 
 ### 📁 `scripts/`
 - **`herb_scraper.py`**: 지황 성분 URL 크롤링.
 - **`ingredient_scraper.py`**: 지황 성분 상세 크롤링 및 데이터 저장.
-- **`tcmsp_scraper.py`**: 기타 한약재 크롤링.
+- **`tcmsp_scraper.py`**: 지황 제외 청열약 크롤링.
 
 ### 📁 `preprocess/`
 - **`tcmsp_process.py`**: 데이터 전처리 및 필터링.
